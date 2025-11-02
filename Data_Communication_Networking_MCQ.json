@@ -1,0 +1,606 @@
+{
+  "title": "Data Communication and Networking - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Module 1: Lesson 5",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What are the basic elements of a communication system?",
+      "options": [
+        "Conductor only",
+        "Transmitter only",
+        "Channel & Receiver only",
+        "Transmitter, Channel & Receiver"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The basic elements of a communication system are: Transmitter (converts information to suitable form), Channel (physical medium for transmission), and Receiver (receives the transmitted information)."
+    },
+    {
+      "id": 2,
+      "question": "In which transmission mode can data be sent only in one direction?",
+      "options": [
+        "Simplex",
+        "Half Duplex",
+        "Full Duplex",
+        "Multiplex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Simplex transmission mode, data can be sent only in one direction (uni-directional). The receiver can only receive data but cannot communicate back to the sender."
+    },
+    {
+      "id": 3,
+      "question": "Which transmission mode allows data to be sent in both directions but not simultaneously?",
+      "options": [
+        "Simplex",
+        "Half Duplex",
+        "Full Duplex",
+        "Unidirectional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Half Duplex allows data transmission in both directions, but the sender can either receive or send data at a particular time, not both simultaneously."
+    },
+    {
+      "id": 4,
+      "question": "In Full Duplex mode, what is possible?",
+      "options": [
+        "Only sending data",
+        "Only receiving data",
+        "Sending and receiving data simultaneously",
+        "No data transmission"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Full Duplex is a bi-directional mode where data can be sent in both directions simultaneously. Both sending and receiving can happen at the same time."
+    },
+    {
+      "id": 5,
+      "question": "What characterizes analog transmission?",
+      "options": [
+        "Discrete states only",
+        "Continuous signal that changes continuously",
+        "Only binary values",
+        "No signal variation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In analog transmission, information changes continuously and can take on many different values. It uses a continuous signal to transmit voice, data, image or other information."
+    },
+    {
+      "id": 6,
+      "question": "How is digital transmission characterized?",
+      "options": [
+        "Continuous signals",
+        "Discrete states (0s and 1s)",
+        "Analog waves",
+        "Variable frequencies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Digital transmission is characterized by discrete states. The transmission signal is not continuous but discrete, represented as a series of 0s and 1s."
+    },
+    {
+      "id": 7,
+      "question": "What does E-M Spectrum stand for?",
+      "options": [
+        "Electronic-Magnetic Spectrum",
+        "Electromagnetic Spectrum",
+        "Electron-Modulation Spectrum",
+        "Energy-Mass Spectrum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E-M Spectrum stands for Electromagnetic Spectrum, which is the range of all possible frequencies of electromagnetic radiation."
+    },
+    {
+      "id": 8,
+      "question": "What is the bandwidth capacity of Narrowband?",
+      "options": [
+        "Up to 64Kbps",
+        "Up to 128Kbps",
+        "Up to 256Kbps",
+        "Up to 512Kbps"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Narrowband can accommodate up to 64Kbps, also known as DS-0 (Digital Signal level 0) channel, which is the fundamental increment on which digital networks were built."
+    },
+    {
+      "id": 9,
+      "question": "What is Wideband in terms of bandwidth?",
+      "options": [
+        "Less than 64Kbps",
+        "Exactly 64Kbps",
+        "More than 64Kbps",
+        "Less than 32Kbps"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wideband is a transmission medium or channel that has a wider bandwidth than the voice channel, i.e., more than 64Kbps."
+    },
+    {
+      "id": 10,
+      "question": "What is the minimum speed for Broadband?",
+      "options": [
+        "1Mbps",
+        "2Mbps",
+        "4Mbps",
+        "10Mbps"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Technically speaking, broadband has been defined as being anything over 2Mbps. It refers to any type of transmission technique that carries several data channels over a common wire."
+    },
+    {
+      "id": 11,
+      "question": "Which guided transmission media consists of two insulated copper wires twisted together?",
+      "options": [
+        "Coaxial Cable",
+        "Twisted Pair",
+        "Optical Fiber",
+        "Ethernet Cable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A twisted pair consists of two insulated copper wires, typically about 1 mm thickness, twisted together in a helical shape. These are commonly used in local telephone communication."
+    },
+    {
+      "id": 12,
+      "question": "Which transmission media consists of a stiff copper wire as the core?",
+      "options": [
+        "Twisted Pair",
+        "Coaxial Cable",
+        "Optical Fiber",
+        "Radio Waves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coaxial cable consists of a stiff copper wire as the core, surrounded by an insulating material. Higher data rates over longer distances can be achieved with coaxial cable."
+    },
+    {
+      "id": 13,
+      "question": "What material is used in the core of optical fiber?",
+      "options": [
+        "Copper",
+        "Aluminum",
+        "Glass or plastic",
+        "Steel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each optical fiber has an inner core of glass or plastic that conducts light. It is a flexible transparent fiber made using silica glass."
+    },
+    {
+      "id": 14,
+      "question": "Which transmission media has the slowest transmission speed?",
+      "options": [
+        "Twisted pair wire",
+        "Coaxial cable",
+        "Fiber optic cable",
+        "Microwaves"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Twisted pair wire has the slowest transmission speed among the options listed. Fiber optic cable offers the highest speeds."
+    },
+    {
+      "id": 15,
+      "question": "What is a characteristic of microwave transmission?",
+      "options": [
+        "Waves travel in all directions",
+        "Waves travel in straight lines",
+        "Waves travel underground",
+        "Waves travel through water only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In microwave transmission, the waves travel in straight lines. The transmitting and receiving antennas must be accurately aligned with each other."
+    },
+    {
+      "id": 16,
+      "question": "Which type of transmission is omni-directional?",
+      "options": [
+        "Microwave",
+        "Radio Waves",
+        "Infrared",
+        "Fiber Optic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Radio waves can be broadcasted in all directions from the source (Omni-directional), so transmitter and receiver do not have to be carefully aligned physically."
+    },
+    {
+      "id": 17,
+      "question": "Where are infrared waves commonly used?",
+      "options": [
+        "Long-range satellite communication",
+        "Short-range communication like TV remotes",
+        "Underground cables",
+        "Submarine cables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Infrared waves are widely used for short-range communication. The remote controls used on television, VCRs and stereos use infrared communication."
+    },
+    {
+      "id": 18,
+      "question": "What is Bluetooth classified as?",
+      "options": [
+        "LAN technology",
+        "WAN technology",
+        "WPAN technology",
+        "MAN technology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bluetooth is a WPAN (Wireless Personal Area Network) technology with low power, short range, and medium transmission speed characteristics."
+    },
+    {
+      "id": 19,
+      "question": "What is the typical range of Bluetooth?",
+      "options": [
+        "10 meters",
+        "50 meters",
+        "100 meters",
+        "500 meters"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bluetooth has short range characteristics, typically around 10 meters, and is designed for low power consumption with medium transmission speeds."
+    },
+    {
+      "id": 20,
+      "question": "What type of network is Wi-Fi?",
+      "options": [
+        "WAN",
+        "LAN",
+        "MAN",
+        "PAN"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wi-Fi is a Local Area Network (LAN) technology. It offers a 100 meter range with high transmission rates similar to high-speed modems."
+    },
+    {
+      "id": 21,
+      "question": "What is a computer network?",
+      "options": [
+        "A single computer with multiple monitors",
+        "Group of interconnected computers that exchange and share information",
+        "A network cable",
+        "An operating system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A computer network is a group of computers which are interconnected to exchange and share information and resources."
+    },
+    {
+      "id": 22,
+      "question": "What does a modem do?",
+      "options": [
+        "Only converts digital to analog",
+        "Only converts analog to digital",
+        "Converts digital to analog and analog to digital",
+        "Stores data"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A modem works in two ways: modulation (converting digital data to analog) and demodulation (converting analog to digital). It provides connectivity with the internet."
+    },
+    {
+      "id": 23,
+      "question": "What does RJ45 stand for?",
+      "options": [
+        "Router Jack 45",
+        "Registered Jack 45",
+        "Remote Jack 45",
+        "Rapid Jack 45"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RJ stands for 'Registered Jack' since it is a standardized network interface. The '45' refers to the number of the interface standard. It's commonly used for Ethernet networking."
+    },
+    {
+      "id": 24,
+      "question": "What is another name for an Ethernet card?",
+      "options": [
+        "Graphics card",
+        "Sound card",
+        "Network Interface Card (NIC)",
+        "Memory card"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethernet cards are also known as Network Interface Cards (NICs). These adapters support the Ethernet standard for high-speed network connections via cables."
+    },
+    {
+      "id": 25,
+      "question": "What is the primary function of a router?",
+      "options": [
+        "Store data",
+        "Forward packets from one logical network to another",
+        "Print documents",
+        "Scan for viruses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Routers are networking devices used to extend or segment networks by forwarding data packets from one logical network to another. They connect at gateways where two or more networks meet."
+    },
+    {
+      "id": 26,
+      "question": "What is the main limitation of a hub?",
+      "options": [
+        "Too expensive",
+        "Broadcasts all network data across each connection",
+        "Too small",
+        "Cannot connect computers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A hub has no routing intelligence and broadcasts all network data across each connection, which can be a security risk and cause bottlenecks. It increases chances for collision."
+    },
+    {
+      "id": 27,
+      "question": "What advantage does a switch have over a hub?",
+      "options": [
+        "It's cheaper",
+        "It's smaller",
+        "It sends data only to the addressed computer",
+        "It uses less power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A switch can 'learn' where particular addresses are and repeat incoming data frames only to the addressed computer, making the network more efficient than a hub."
+    },
+    {
+      "id": 28,
+      "question": "What must a switch be able to read from each frame?",
+      "options": [
+        "IP address",
+        "MAC address",
+        "Email address",
+        "URL"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A switch must be able to read the MAC address of each frame it receives. This information allows switches to send data only to the correct destination."
+    },
+    {
+      "id": 29,
+      "question": "What is a gateway used for?",
+      "options": [
+        "Connecting networks using the same protocol",
+        "Connecting networks using different protocols",
+        "Printing documents",
+        "Storing files"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A network gateway is used to connect networks using different base protocols. It can be implemented in software, hardware, or both, and operates at the network layer."
+    },
+    {
+      "id": 30,
+      "question": "What is a bridge used for?",
+      "options": [
+        "To connect different networks",
+        "To separate two or more network segments within one logical network",
+        "To print documents",
+        "To store data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A bridge separates two or more network segments within one logical network (e.g., a single IP-subnet). It examines data packets and decides whether to pass them to the other segment."
+    },
+    {
+      "id": 31,
+      "question": "What is the geographical area covered by a LAN?",
+      "options": [
+        "Entire country",
+        "Entire city",
+        "Small area like a building or group of buildings",
+        "Multiple continents"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Local Area Network (LAN) is confined to a small geographical area, like in a building or group of buildings."
+    },
+    {
+      "id": 32,
+      "question": "What is a characteristic of LAN data transfer rate?",
+      "options": [
+        "Very slow",
+        "Moderate",
+        "Very high, even faster than telephone lines",
+        "Same as telephone lines"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The data transfer rate of LAN is very high, even faster than data transmitted through telephone lines."
+    },
+    {
+      "id": 33,
+      "question": "What does MAN stand for?",
+      "options": [
+        "Multiple Area Network",
+        "Metropolitan Area Network",
+        "Managed Area Network",
+        "Mobile Area Network"
+      ],
+      "correctAnswer": 1,
+      "explanation": "MAN stands for Metropolitan Area Network, which is basically spread throughout a city, college campus or a small region."
+    },
+    {
+      "id": 34,
+      "question": "Which type of network typically uses public telephone lines and lease lines?",
+      "options": [
+        "LAN",
+        "MAN",
+        "WAN",
+        "PAN"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wide Area Network (WAN) uses public network telephone lines and lease lines. It covers a comparatively large geographic area, even spanning entire countries or the world."
+    },
+    {
+      "id": 35,
+      "question": "What is the best known example of a public WAN?",
+      "options": [
+        "Intranet",
+        "Bluetooth",
+        "Internet",
+        "Wi-Fi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Internet is the best known example of a public WAN (Wide Area Network). WANs provide network to LANs and MANs."
+    },
+    {
+      "id": 36,
+      "question": "What communication medium do WANs typically use?",
+      "options": [
+        "Twisted pair",
+        "Coaxial cable",
+        "Optic fiber",
+        "Bluetooth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wide Area Networks use optic fiber as their communication medium for high-speed, long-distance data transmission."
+    },
+    {
+      "id": 37,
+      "question": "In Bus topology, how are computers connected?",
+      "options": [
+        "In a circle",
+        "By a single length of cable with terminators at each end",
+        "To a central hub",
+        "In a mesh pattern"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Bus topology, all computers are connected by a single length of cable with a terminator at each end. It's the simplest and most widely used LAN design."
+    },
+    {
+      "id": 38,
+      "question": "What is a disadvantage of Bus topology?",
+      "options": [
+        "Very expensive",
+        "If main cable fails, entire network fails",
+        "Requires many cables",
+        "Cannot connect more than 2 computers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Bus topology, if the main cable fails, the entire network fails. It's also slower with many devices and only one computer can send a message at a time."
+    },
+    {
+      "id": 39,
+      "question": "In Star topology, what do computers connect to?",
+      "options": [
+        "Each other directly",
+        "A central hub",
+        "A single cable",
+        "Multiple cables in a circle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Star topology, each computer communicates with a central hub that re-sends the message. Every node has a dedicated connection to the central hub."
+    },
+    {
+      "id": 40,
+      "question": "What happens if the host computer fails in Star topology?",
+      "options": [
+        "Nothing, network continues",
+        "Only one computer is affected",
+        "The entire network gets affected",
+        "Only half the network fails"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If the host computer (central hub) fails in Star topology, the entire network gets affected. This is a major disadvantage despite its ease of setup."
+    },
+    {
+      "id": 41,
+      "question": "What access method does Token Ring use?",
+      "options": [
+        "Random access",
+        "Token passing",
+        "Direct access",
+        "Sequential access"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Token Ring uses token passing as the access method to prevent collision of data between computers. The token ring protocol was developed by IBM."
+    },
+    {
+      "id": 42,
+      "question": "In Ring topology, how is each node connected?",
+      "options": [
+        "To a central hub",
+        "To all other nodes",
+        "Physically to only two adjacent nodes",
+        "To one node only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Ring topology, each node is physically connected to only two other nodes. Workstations are connected in a circle forming a logical ring."
+    },
+    {
+      "id": 43,
+      "question": "What is Tree topology also known as?",
+      "options": [
+        "Star topology",
+        "Hierarchical topology",
+        "Mesh topology",
+        "Bus topology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tree topology is also known as Hierarchical topology. It uses two or more star networks connected together and divides the network into multiple levels."
+    },
+    {
+      "id": 44,
+      "question": "Which topology connects each node to at least two other nodes?",
+      "options": [
+        "Star",
+        "Bus",
+        "Mesh",
+        "Ring"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Mesh topology, each node connects to at least two other nodes. It can be full mesh (every node connected to all others) or partial mesh."
+    },
+    {
+      "id": 45,
+      "question": "What does FTP stand for?",
+      "options": [
+        "Fast Transfer Protocol",
+        "File Transfer Protocol",
+        "Folder Transfer Protocol",
+        "First Transfer Protocol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "FTP stands for File Transfer Protocol. It is the most widely used protocol for file transfer over the network using TCP/IP for communication."
+    },
+    {
+      "id": 46,
+      "question": "What does HTTP stand for?",
+      "options": [
+        "High Text Transfer Protocol",
+        "Hypertext Transfer Protocol",
+        "Hyperlink Text Transfer Protocol",
+        "Home Text Transfer Protocol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HTTP stands for Hypertext Transfer Protocol. It works on client-server model and is used to transfer hypertext over the World Wide Web."
+    },
+    {
+      "id": 47,
+      "question": "What is a virus in computer terminology?",
+      "options": [
+        "A hardware component",
+        "A program written to enter and damage/alter files/data",
+        "An antivirus software",
+        "A network protocol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A virus is a program written to enter your computer and damage/alter your files/data. Viruses can also replicate themselves and spread."
+    },
+    {
+      "id": 48,
+      "question": "What is spam?",
+      "options": [
+        "A type of virus",
+        "Electronic junk mail - unwanted commercial advertisements",
+        "A network topology",
+        "A hardware device"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spam is electronic junk mail - unwanted commercial advertisements sent to users. Spamming is a method of flooding the Internet with copies of the same message."
+    },
+    {
+      "id": 49,
+      "question": "What is a firewall?",
+      "options": [
+        "A physical wall",
+        "Hardware device or software to examine and control network communications",
+        "A type of virus",
+        "A network cable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A firewall is a hardware device or software application installed on the borderline of secured network to examine and control incoming and outgoing network communications, providing protection from outside attacks."
+    },
+    {
+      "id": 50,
+      "question": "What is the purpose of antivirus software?",
+      "options": [
+        "To create viruses",
+        "To prevent unwanted and potentially malicious files from entering network",
+        "To slow down the computer",
+        "To delete all files"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Antivirus software refers to a group of features designed to prevent unwanted and potentially malicious files from entering your network. It checks for virus signatures and grayware."
+    }
+  ]
+}

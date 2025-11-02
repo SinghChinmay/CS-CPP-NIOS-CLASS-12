@@ -1,0 +1,606 @@
+{
+  "title": "Communications on Internet - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Module 1: Lesson 6",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is Internet?",
+      "options": [
+        "A single computer",
+        "Network of networks connecting millions of computers globally",
+        "A software application",
+        "An operating system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Internet is a vast communication network which connects thousands and millions of computers across the globe. It is called network of networks because it is made up of thousands of smaller networks."
+    },
+    {
+      "id": 2,
+      "question": "What is needed to connect to the Internet?",
+      "options": [
+        "Only a computer",
+        "Only a modem",
+        "Web browser, modem, telephone connection, and ISP connection",
+        "Only an ISP connection"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To connect to Internet, we need: (i) A web browser installed on our computer, (ii) A modem, (iii) A telephone connection, and (iv) A connection from an Internet Service Provider (ISP)."
+    },
+    {
+      "id": 3,
+      "question": "What does ARPANET stand for?",
+      "options": [
+        "Advanced Research Projects Agency Network",
+        "American Research Projects Agency Network",
+        "Advanced Remote Projects Agency Network",
+        "Automated Research Projects Agency Network"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ARPANET stands for Advanced Research Projects Agency Network. It was created by the Department of Defence in USA to protect government communication systems."
+    },
+    {
+      "id": 4,
+      "question": "Who created ARPANET?",
+      "options": [
+        "Microsoft",
+        "Department of Defence in USA",
+        "Google",
+        "IBM"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Department of Defence in USA created ARPANET to protect government communication systems in the event of a military strike."
+    },
+    {
+      "id": 5,
+      "question": "What are the rules to communicate on Internet called?",
+      "options": [
+        "Guidelines",
+        "Protocols",
+        "Instructions",
+        "Commands"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Internet uses certain rules called protocols which allow sharing of resources among various users on the network."
+    },
+    {
+      "id": 6,
+      "question": "What is a webpage?",
+      "options": [
+        "A printed page",
+        "A document that can be viewed in a web browser",
+        "A book",
+        "A magazine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The document that can be viewed in the web browser is known as the web page."
+    },
+    {
+      "id": 7,
+      "question": "What is a website?",
+      "options": [
+        "A single web page",
+        "Collection of web pages interlinked through hyperlinks",
+        "A search engine",
+        "A browser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The collection of web pages interlinked with each other through hyperlinks is known as website. The first page of a website is known as the home page."
+    },
+    {
+      "id": 8,
+      "question": "What is the first page of a website called?",
+      "options": [
+        "Index page",
+        "Start page",
+        "Home page",
+        "Main page"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The first page of a website is known as the home page."
+    },
+    {
+      "id": 9,
+      "question": "What does WWW stand for?",
+      "options": [
+        "World Wide Web",
+        "World Wide Window",
+        "Wireless Wide Web",
+        "Western Wide Web"
+      ],
+      "correctAnswer": 0,
+      "explanation": "WWW stands for World Wide Web, which is a system of Internet servers that support documents formatted using HTML."
+    },
+    {
+      "id": 10,
+      "question": "What is a web browser?",
+      "options": [
+        "A hardware device",
+        "Free software application to view web pages and online content",
+        "A network cable",
+        "An operating system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A web browser is a free software application that is used to view web pages, graphics and almost any other online content. It helps us to navigate through the World Wide Web."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT a web browser?",
+      "options": [
+        "Internet Explorer",
+        "Google Chrome",
+        "Microsoft Word",
+        "Firefox"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Microsoft Word is a word processing application, not a web browser. Common browsers include Internet Explorer, Firefox, Google Chrome, Netscape Navigator and Safari."
+    },
+    {
+      "id": 12,
+      "question": "What is a web server?",
+      "options": [
+        "A computer that stores websites",
+        "Server on WWW that responds to requests made by web browsers",
+        "A search engine",
+        "A modem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A web server is the server on the World Wide Web that responds to the request made by the web browsers."
+    },
+    {
+      "id": 13,
+      "question": "What does URL stand for?",
+      "options": [
+        "Universal Resource Locator",
+        "Uniform Resource Locator",
+        "Unique Resource Locator",
+        "United Resource Locator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "URL stands for Uniform Resource Locator. It specifies the unique address assigned to each web resource (webpage, video, image, song etc.)."
+    },
+    {
+      "id": 14,
+      "question": "In the URL format 'type://address/path', what does 'type' specify?",
+      "options": [
+        "The file name",
+        "The type of server or protocol",
+        "The user name",
+        "The password"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a URL, 'type' specifies the type of server or protocol, 'address' specifies the name/address of the server, and 'path' specifies the location of file on the server."
+    },
+    {
+      "id": 15,
+      "question": "What does the domain name '.com' indicate?",
+      "options": [
+        "Educational organizations",
+        "Commercial firms/companies/organizations",
+        "Government organizations",
+        "Military bodies"
+      ],
+      "correctAnswer": 1,
+      "explanation": ".com domain name is used for commercial firms/companies/organizations."
+    },
+    {
+      "id": 16,
+      "question": "What does the domain name '.edu' indicate?",
+      "options": [
+        "Commercial organizations",
+        "Educational organizations",
+        "Government organizations",
+        "Network organizations"
+      ],
+      "correctAnswer": 1,
+      "explanation": ".edu domain name is used for educational organizations."
+    },
+    {
+      "id": 17,
+      "question": "What does IP stand for in IP address?",
+      "options": [
+        "Internet Provider",
+        "Internet Protocol",
+        "Internal Protocol",
+        "International Protocol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IP stands for Internet Protocol. Every computer on the network has a unique IP address for identification and tracking purposes."
+    },
+    {
+      "id": 18,
+      "question": "How many parts does an IP address typically have?",
+      "options": [
+        "Two parts",
+        "Three parts",
+        "Four or eight parts",
+        "Ten parts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An IP address is a four-part or eight-part electronic serial number with each part separated by dots (.) or colons (:). For example, '212.30.0.220'."
+    },
+    {
+      "id": 19,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Text Markup Language",
+        "Hyperlink Text Markup Language",
+        "Home Text Markup Language"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HTML stands for Hyper Text Markup Language, which defines how web pages are formatted and displayed in the web browser."
+    },
+    {
+      "id": 20,
+      "question": "What is HTML?",
+      "options": [
+        "A programming language",
+        "A markup language that uses tags to define page layout",
+        "A word processor",
+        "A database"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HTML is a markup language that specifies the web page layout and hyperlinks through special layout commands called tags. It is neither a programming language nor a word processor."
+    },
+    {
+      "id": 21,
+      "question": "What does XML stand for?",
+      "options": [
+        "Extra Markup Language",
+        "Extensible Markup Language",
+        "External Markup Language",
+        "Executable Markup Language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "XML stands for Extensible Markup Language, which is used to display content in a structured, human-readable and machine-readable format."
+    },
+    {
+      "id": 22,
+      "question": "What is the main difference between HTML and XML?",
+      "options": [
+        "HTML defines display, XML assigns meaning to elements",
+        "They are the same",
+        "XML is older than HTML",
+        "HTML is more powerful"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HTML defines how elements are displayed and printed while XML assigns meaning to the elements. HTML uses predefined tags while XML requires developers to define most tags."
+    },
+    {
+      "id": 23,
+      "question": "What does ISP stand for?",
+      "options": [
+        "Internet Service Protocol",
+        "Internet Service Provider",
+        "Internal Service Provider",
+        "International Service Provider"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ISP stands for Internet Service Provider. It is a private company or government agency that offers services like viewing web pages, emailing, hosting websites, etc."
+    },
+    {
+      "id": 24,
+      "question": "Which of the following is an example of an ISP?",
+      "options": [
+        "Microsoft Word",
+        "Airtel",
+        "Windows",
+        "Google Chrome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Airtel is an Internet Service Provider (ISP). Other examples include MTNL and TataDocomo."
+    },
+    {
+      "id": 25,
+      "question": "What does TCP/IP stand for?",
+      "options": [
+        "Transfer Control Protocol/Internet Protocol",
+        "Transmission Control Protocol/Internet Protocol",
+        "Total Control Protocol/Internet Protocol",
+        "Technical Control Protocol/Internet Protocol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is the basic protocol suite of the Internet."
+    },
+    {
+      "id": 26,
+      "question": "What does the TCP part of TCP/IP do?",
+      "options": [
+        "Assigns IP addresses",
+        "Breaks message into packets and reassembles them",
+        "Provides internet connection",
+        "Creates web pages"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The TCP part handles the message by breaking it into small units called packets, transmitting them, and reassembling them at the receiver. It also retransmits lost data."
+    },
+    {
+      "id": 27,
+      "question": "What does the IP part of TCP/IP do?",
+      "options": [
+        "Breaks messages into packets",
+        "Assigns unique IP addresses and ensures data reaches correct destination",
+        "Creates web pages",
+        "Stores data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The IP part assigns a unique IP address to each recipient and ensures that data is transmitted to the correct destination."
+    },
+    {
+      "id": 28,
+      "question": "What does FTP stand for?",
+      "options": [
+        "Fast Transfer Protocol",
+        "File Transfer Protocol",
+        "First Transfer Protocol",
+        "Folder Transfer Protocol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "FTP stands for File Transfer Protocol. It defines the set of rules to transfer any type of file on a TCP/IP based network."
+    },
+    {
+      "id": 29,
+      "question": "What does HTTP stand for?",
+      "options": [
+        "Hyper Text Transfer Protocol",
+        "High Text Transfer Protocol",
+        "Home Text Transfer Protocol",
+        "Hyperlink Text Transfer Protocol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HTTP stands for Hyper Text Transfer Protocol. It is the set of rules used to transfer hypertext on World Wide Web."
+    },
+    {
+      "id": 30,
+      "question": "What does HTTPS provide that HTTP doesn't?",
+      "options": [
+        "Faster speed",
+        "Encryption layer to secure personal information and passwords",
+        "Better graphics",
+        "More storage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HTTPS (Hyper Text Transfer Protocol Secured) adds a special layer of encryption to hide user's personal information and passwords. It's used by ecommerce sites for secure transactions."
+    },
+    {
+      "id": 31,
+      "question": "What is Email?",
+      "options": [
+        "Electronic magazine",
+        "Messages sent electronically via Internet",
+        "A web browser",
+        "A network device"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Email or Electronic mail refers to the messages sent electronically via Internet. These messages travel through multiple channels to reach their destination."
+    },
+    {
+      "id": 32,
+      "question": "What is Instant Messaging (IM)?",
+      "options": [
+        "Delayed messaging",
+        "Internet service allowing instantaneous communication",
+        "Email service",
+        "A web browser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Instant Messaging (IM) is an Internet service that allows us to communicate with people instantaneously, generally through text-based messaging, though voice chat is also popular."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is an Instant Messaging service?",
+      "options": [
+        "Microsoft Word",
+        "Skype",
+        "Windows",
+        "HTML"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Skype is an Instant Messaging service. Other examples include Yahoo Messenger, Hike Messenger, and Google Talk."
+    },
+    {
+      "id": 34,
+      "question": "What is a chat room?",
+      "options": [
+        "A physical room",
+        "Online web service where two or more users send messages in real time",
+        "A type of email",
+        "A web browser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A chat room is an online web service in which two or more users can send messages to each other in real time, engaging in text, voice or video-based live discussions."
+    },
+    {
+      "id": 35,
+      "question": "What is a newsgroup?",
+      "options": [
+        "A news website",
+        "Public forum where users exchange information about a particular topic",
+        "A television channel",
+        "A newspaper"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A newsgroup is like a public forum where multiple users continuously exchange information about a particular topic. Messages are posted on a bulletin board."
+    },
+    {
+      "id": 36,
+      "question": "What does the word 'blog' come from?",
+      "options": [
+        "Web Log",
+        "Best Log",
+        "Big Log",
+        "Binary Log"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The word 'blog' was coined by Peter Merholz in 1999 and comes from 'Web Log.' It's a website containing online personal journal with comments and reflections."
+    },
+    {
+      "id": 37,
+      "question": "What is blogging?",
+      "options": [
+        "Reading blogs",
+        "Process of authoring or editing a blog",
+        "Deleting blogs",
+        "Sharing blogs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The process of authoring or editing a blog is called blogging. Each individual article posted is known as a blog post."
+    },
+    {
+      "id": 38,
+      "question": "What are blogs created and edited by multiple users called?",
+      "options": [
+        "Single Author Blogs",
+        "Multi Author Blogs (MABs)",
+        "Group Blogs",
+        "Team Blogs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blogs which are created and edited by multiple users are known as Multi Author Blogs (MABs)."
+    },
+    {
+      "id": 39,
+      "question": "What is microblogging?",
+      "options": [
+        "Writing very long posts",
+        "Type of blogging with only short messages",
+        "Blogging about microorganisms",
+        "Blogging on small devices"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Microblogging is the type of blogging in which only short messages are posted. Twitter is a commonly used website for microblogging."
+    },
+    {
+      "id": 40,
+      "question": "What is Twitter also known as?",
+      "options": [
+        "Email of the Internet",
+        "SMS of the Internet",
+        "Letter of the Internet",
+        "Call of the Internet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Twitter is known as 'SMS of the Internet' because users can send and receive maximum of 140 characters in a text message called tweets."
+    },
+    {
+      "id": 41,
+      "question": "Who created Twitter?",
+      "options": [
+        "Bill Gates",
+        "Mark Zuckerberg",
+        "Jack Dorsey",
+        "Steve Jobs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Twitter was created in 2006 by Jack Dorsey. It's a microblogging platform where messages are called tweets."
+    },
+    {
+      "id": 42,
+      "question": "What is Video Conferencing?",
+      "options": [
+        "Watching videos online",
+        "Technology allowing communication via simultaneous two-way audio and video",
+        "Recording videos",
+        "Editing videos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Video Conferencing (VC) is technology that allows communication between two or more people at different locations by simultaneous two-way audio and video or text transmissions."
+    },
+    {
+      "id": 43,
+      "question": "What are the three main types of video conferencing?",
+      "options": [
+        "Fast, Medium, Slow",
+        "Point to Point, Multipoint, Streaming",
+        "Audio, Video, Text",
+        "Local, Regional, Global"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The three main types of video conferencing technologies are: Point to Point (direct connection between two locations), Multipoint (virtual conference room), and Streaming (via web browser or mobile)."
+    },
+    {
+      "id": 44,
+      "question": "What is social networking?",
+      "options": [
+        "Meeting people in person",
+        "Internet service allowing people to build social relations online",
+        "A type of email",
+        "A web browser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Social networking is an Internet service that allows people to build social relations on the net, sharing common interests or having real-life connections to form online communities."
+    },
+    {
+      "id": 45,
+      "question": "Which is the most commonly used social networking website?",
+      "options": [
+        "Twitter",
+        "LinkedIn",
+        "Facebook",
+        "Myspace"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Facebook is the most commonly used social networking site today with over one billion active users."
+    },
+    {
+      "id": 46,
+      "question": "Who founded Facebook?",
+      "options": [
+        "Bill Gates",
+        "Mark Zuckerberg",
+        "Jack Dorsey",
+        "Steve Jobs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Facebook was founded by Mark Zuckerberg on 4th February, 2004. Initially it was restricted to Harvard University students but now allows anyone over 13 years old."
+    },
+    {
+      "id": 47,
+      "question": "What is a cookie in web terminology?",
+      "options": [
+        "A snack",
+        "Message given to web browser by web server, stored in text file",
+        "A virus",
+        "A type of browser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cookie is the message given to the web browser by a web server. The message is stored in a text file and sent back to the server each time the browser requests a page."
+    },
+    {
+      "id": 48,
+      "question": "Can cookies spread viruses?",
+      "options": [
+        "Yes, they always spread viruses",
+        "No, they cannot access hard drive or spread viruses",
+        "Sometimes they can",
+        "Only on Windows"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cookies cannot access the hard drive of our computer, so they are not capable of spreading viruses. They are neither plug-ins nor malicious programs."
+    },
+    {
+      "id": 49,
+      "question": "What does 'cloud' signify in Cloud Computing?",
+      "options": [
+        "Weather",
+        "Internet",
+        "Sky",
+        "Storage device"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Cloud computing, the word 'cloud' signifies Internet. Cloud computing means Internet-based computing where services are delivered through Internet."
+    },
+    {
+      "id": 50,
+      "question": "What does Cloud Computing rely on?",
+      "options": [
+        "Storing everything locally",
+        "Sharing resources rather than storing on local servers or devices",
+        "Using only desktop computers",
+        "Installing many applications"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cloud computing relies on sharing resources (such as data and applications) rather than storing them on local servers or personal devices. Services are delivered via Internet."
+    }
+  ]
+}

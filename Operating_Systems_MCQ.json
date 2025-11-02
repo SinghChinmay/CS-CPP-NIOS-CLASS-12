@@ -1,0 +1,582 @@
+{
+  "title": "Operating Systems - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Module 1: Lesson 4",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is an Operating System?",
+      "options": [
+        "Collection of programs that manages hardware resources",
+        "System service provider to the application programs",
+        "Link to interface the hardware and application programs",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An Operating System performs all three functions: it manages hardware resources, provides services to application programs, and acts as an interface between hardware and application programs."
+    },
+    {
+      "id": 2,
+      "question": "What is a process in operating system terminology?",
+      "options": [
+        "Program in high-level language kept on disk",
+        "A program in execution",
+        "Contents of main memory",
+        "A job in secondary memory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A process is a program that is in an execution state. For example, MS-Word being run by a user on a personal computer is a process."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is NOT a function of an operating system?",
+      "options": [
+        "Process Management",
+        "Memory Management",
+        "Compiling Programs",
+        "File and Disk Management"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Compiling programs is the job of a compiler, not the operating system. The OS manages processes, memory, files, disks, and I/O devices."
+    },
+    {
+      "id": 4,
+      "question": "What does Process Management in an OS involve?",
+      "options": [
+        "Only creating new processes",
+        "Only deleting processes",
+        "Creation, deletion, and scheduling of processes",
+        "Only scheduling processes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The operating system is responsible for creation, deletion, and scheduling of various processes that are being executed at any point of time."
+    },
+    {
+      "id": 5,
+      "question": "What does Memory Management in OS track?",
+      "options": [
+        "Only free memory locations",
+        "Only assigned memory locations",
+        "Every memory location, whether assigned or free",
+        "Only the size of memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The OS keeps track of every memory location, that is either assigned to some process or is free. It also checks how much memory should be assigned to each process."
+    },
+    {
+      "id": 6,
+      "question": "What is required for OS to interact with hardware devices?",
+      "options": [
+        "Application software",
+        "Device driver software",
+        "Utility software",
+        "Antivirus software"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The operating system requires device driver software to interact with a particular hardware device and perform I/O operations."
+    },
+    {
+      "id": 7,
+      "question": "What is a file in operating system terminology?",
+      "options": [
+        "Only a text document",
+        "A sequence of bits, bytes, lines or records",
+        "Only executable programs",
+        "Only image files"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In general, a file is a sequence of bits, bytes, lines or records. It can contain programs, data, text, images, or any other type of information."
+    },
+    {
+      "id": 8,
+      "question": "Which user interface allows users to interact by typing commands?",
+      "options": [
+        "Graphical User Interface (GUI)",
+        "Command Line Interface (CLI)",
+        "Menu Driven Interface",
+        "Touch Interface"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Text User Interface (TUI) or Command Line Interface (CLI) allows users to interact with an operating system by typing commands in a terminal or console window."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is an example of a CLI-based operating system?",
+      "options": [
+        "Windows 10",
+        "Macintosh",
+        "DOS",
+        "Linux GUI"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DOS (Disk Operating System) and UNIX are examples of command line based operating systems where users type commands to perform tasks."
+    },
+    {
+      "id": 10,
+      "question": "What does GUI stand for?",
+      "options": [
+        "Graphical User Instruction",
+        "General User Interface",
+        "Graphical User Interface",
+        "Generic Utility Interface"
+      ],
+      "correctAnswer": 2,
+      "explanation": "GUI stands for Graphical User Interface. It uses graphics, along with keyboard and mouse, to provide an easy-to-use interface."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT a feature of GUI?",
+      "options": [
+        "Pull-down menus",
+        "Iconic images",
+        "Command memorization requirement",
+        "Scrollbars and buttons"
+      ],
+      "correctAnswer": 2,
+      "explanation": "GUI eliminates the need to memorize commands. It provides visual elements like menus, icons, buttons, and scrollbars for easy interaction."
+    },
+    {
+      "id": 12,
+      "question": "Which operating system is designed by Microsoft?",
+      "options": [
+        "Linux",
+        "UNIX",
+        "Windows",
+        "Solaris"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Windows is an operating system designed by Microsoft. It is the most popular OS for home PCs."
+    },
+    {
+      "id": 13,
+      "question": "What was the most recent version of Windows mentioned in the text (as of the content)?",
+      "options": [
+        "Windows Vista (2007)",
+        "Windows 7 (2009)",
+        "Windows 8 (2012)",
+        "Windows 10 (2015)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Windows 10, released in 2015, is mentioned as the most recent version in the text, followed by Windows 8 (2012), Windows 7 (2009), and Windows Vista (2007)."
+    },
+    {
+      "id": 14,
+      "question": "What does 'open source' mean in the context of operating systems?",
+      "options": [
+        "The OS is free to download only",
+        "The source code is freely available for modification",
+        "The OS has an open interface",
+        "The OS supports all hardware"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Open source refers to program code which is freely available and its source code is available to developers or users for modification."
+    },
+    {
+      "id": 15,
+      "question": "Which operating system is an example of open source?",
+      "options": [
+        "Windows",
+        "Mac OS",
+        "Linux",
+        "iOS"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Linux is an open-source operating system. Its source code is freely available and can be modified by developers and users."
+    },
+    {
+      "id": 16,
+      "question": "What are the three main components of Linux operating system?",
+      "options": [
+        "Kernel, System library, System utility",
+        "GUI, CLI, Kernel",
+        "Hardware, Software, Firmware",
+        "Memory, Processor, Storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Linux has three main components: Kernel (core part), System library (special functions to access Kernel features), and System utility (for specialized tasks)."
+    },
+    {
+      "id": 17,
+      "question": "What are the two GUIs typically provided by Linux?",
+      "options": [
+        "Windows and Mac",
+        "KDE and Gnome",
+        "Unity and Cinnamon",
+        "Metro and Aero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Linux typically provides two GUIs: KDE and Gnome. Different Linux distributions may offer these or other desktop environments."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a Linux distribution?",
+      "options": [
+        "Windows Server",
+        "Ubuntu",
+        "Solaris",
+        "iOS"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ubuntu is a Linux distribution. Other distributions mentioned include Red Hat, SuSE, and Xandros."
+    },
+    {
+      "id": 19,
+      "question": "When was UNIX operating system developed?",
+      "options": [
+        "1950s",
+        "1960s",
+        "1970s",
+        "1980s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "UNIX is an operating system developed in the 1960s. It is a stable, multi-user, multi-tasking system."
+    },
+    {
+      "id": 20,
+      "question": "Which are popular versions of UNIX?",
+      "options": [
+        "Windows and Linux",
+        "Sun Solaris and MacOS X",
+        "Android and iOS",
+        "Ubuntu and Fedora"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The most popular versions of UNIX are Sun Solaris and MacOS X, as mentioned in the text."
+    },
+    {
+      "id": 21,
+      "question": "What type of machines can UNIX be installed on?",
+      "options": [
+        "Only personal computers",
+        "Only mainframe computers",
+        "Mainframes, supercomputers, and microcomputers",
+        "Only mobile devices"
+      ],
+      "correctAnswer": 2,
+      "explanation": "UNIX is a flexible operating system that can be installed on many different types of machines including mainframe computers, supercomputers, and microcomputers."
+    },
+    {
+      "id": 22,
+      "question": "Which operating system runs on Apple iPhone?",
+      "options": [
+        "Android",
+        "Windows Phone",
+        "iOS",
+        "Symbian"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Apple iOS is a multi-touch, multi-tasking operating system that runs on Apple iPhone, iPad, and iPod."
+    },
+    {
+      "id": 23,
+      "question": "Which feature of iOS allows users to enlarge images by touching the screen?",
+      "options": [
+        "Single-touch",
+        "Multi-touch",
+        "Voice control",
+        "Gesture control"
+      ],
+      "correctAnswer": 1,
+      "explanation": "iOS is a multi-touch operating system that gives response on user's touch, allowing them to tap to open programs or swipe fingers to change pages, and enlarge images."
+    },
+    {
+      "id": 24,
+      "question": "What is the app store for iOS called?",
+      "options": [
+        "Google Play",
+        "App Store",
+        "Windows Store",
+        "iTunes Store"
+      ],
+      "correctAnswer": 1,
+      "explanation": "iOS devices can download millions of apps from the App Store on any Apple device running iOS."
+    },
+    {
+      "id": 25,
+      "question": "Which company owns the Android operating system?",
+      "options": [
+        "Apple",
+        "Microsoft",
+        "Google",
+        "Samsung"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Android is an open source mobile operating system owned by Google."
+    },
+    {
+      "id": 26,
+      "question": "What is a key characteristic of Android as an operating system?",
+      "options": [
+        "It is closed source",
+        "It is open source",
+        "It only works on Google phones",
+        "It has no app market"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Android is open source, meaning its source code is available and can be viewed, altered, and shared. This makes it fully customizable."
+    },
+    {
+      "id": 27,
+      "question": "When was Windows Phone platform released?",
+      "options": [
+        "Early 2008",
+        "Mid 2009",
+        "Late 2010",
+        "Early 2012"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Microsoft released its Windows platform for mobile phones in late 2010."
+    },
+    {
+      "id": 28,
+      "question": "What is the distinctive feature of Windows Phone interface?",
+      "options": [
+        "Icon-based interface",
+        "Tile-based interface",
+        "List-based interface",
+        "Grid-based interface"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Windows phone is recognizable from its tile-based interface with square/rectangular shaped selectable icons that can be customized."
+    },
+    {
+      "id": 29,
+      "question": "What are 'hubs' in Windows Phone?",
+      "options": [
+        "Network connection points",
+        "Aggregator feature that groups similar content together",
+        "App stores",
+        "Charging stations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hubs are an aggregator feature in Windows Phone that automatically groups content like photos, music from various applications together in one place."
+    },
+    {
+      "id": 30,
+      "question": "What is multiprogramming?",
+      "options": [
+        "Running one program at a time",
+        "Ability to execute more than one program on a single processor",
+        "Programming in multiple languages",
+        "Using multiple processors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiprogramming is the ability of an operating system to execute more than one program on a single processor machine with multiple programs residing in main memory."
+    },
+    {
+      "id": 31,
+      "question": "What is multitasking?",
+      "options": [
+        "Running multiple computers simultaneously",
+        "Ability to execute more than one task simultaneously on a single processor",
+        "Using multiple keyboards",
+        "Multiple users on one system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multitasking is the ability of an OS to execute more than one task simultaneously on a single processor. The CPU switches between tasks so quickly it appears simultaneous."
+    },
+    {
+      "id": 32,
+      "question": "What is a multiuser operating system?",
+      "options": [
+        "OS that allows one user with multiple accounts",
+        "OS that allows multiple users on different computers to access a single system",
+        "OS with multiple interfaces",
+        "OS that supports multiple languages"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A multiuser operating system allows multiple users on different computers or terminals to access a single system with one OS on it."
+    },
+    {
+      "id": 33,
+      "question": "In process scheduling, why does each process get limited CPU time?",
+      "options": [
+        "To save electricity",
+        "To maximize CPU utilization and allow multiple processes to run",
+        "To prevent overheating",
+        "To reduce errors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each process is allowed limited CPU time (fraction of a second) to maximize CPU utilization and allow multiple processes to run through quick CPU switching."
+    },
+    {
+      "id": 34,
+      "question": "Why does OS fragment large files into smaller pieces?",
+      "options": [
+        "To corrupt the file",
+        "To save space on the disk",
+        "Because large files may not be stored in contiguous locations",
+        "To make files smaller"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A large file may or may not be stored in a contiguous location on a physical disk drive. If the file is large, it is fragmented into smaller pieces, and the OS tracks each piece's location."
+    },
+    {
+      "id": 35,
+      "question": "Which OS follows hierarchical structure to store files and folders?",
+      "options": [
+        "Only Windows",
+        "Only UNIX",
+        "DOS, Windows, Macintosh and Unix",
+        "Only DOS"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Operating systems like DOS, Windows, Macintosh and Unix follow the hierarchical structure to store files and folders."
+    },
+    {
+      "id": 36,
+      "question": "What is the main difference between GUI and CLI in terms of ease of use?",
+      "options": [
+        "CLI is easier for new users",
+        "GUI is easier as it uses icons and menus",
+        "Both are equally easy",
+        "CLI is more visual"
+      ],
+      "correctAnswer": 1,
+      "explanation": "GUI is very easy to interact with the computer using icons, menus, and buttons. New users find CLI difficult as it requires memorization of commands."
+    },
+    {
+      "id": 37,
+      "question": "Which interface requires fewer system resources?",
+      "options": [
+        "GUI",
+        "CLI",
+        "Both require same resources",
+        "Touch interface"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Very few computer resources are needed when CLI is running. GUI requires a lot of system resources as drivers for video, mouse and other devices need to be loaded."
+    },
+    {
+      "id": 38,
+      "question": "Which provides more control over the operating system and file system?",
+      "options": [
+        "GUI",
+        "CLI",
+        "Both provide equal control",
+        "Neither provides control"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Users using CLI get much more control over the operating system and the file system. Advanced level tasks can be performed only through commands."
+    },
+    {
+      "id": 39,
+      "question": "What comes with iOS for internet access?",
+      "options": [
+        "Chrome browser",
+        "Safari browser",
+        "Firefox browser",
+        "Edge browser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Apple iOS comes with the Safari web browser for internet access, iTunes for music, and Mail app for emails."
+    },
+    {
+      "id": 40,
+      "question": "What does OS do with peripheral devices?",
+      "options": [
+        "Ignores them",
+        "Controls and manages them",
+        "Deletes their data",
+        "Replicates them"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The operating system controls peripheral devices such as disk drives and printers, managing input/output operations."
+    },
+    {
+      "id": 41,
+      "question": "What is the role of OS in resource allocation?",
+      "options": [
+        "It prevents resource allocation",
+        "It controls allocation of resources like memory, processors, devices",
+        "It only allocates memory",
+        "It only manages processors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An operating system controls the allocation of resources like memory, processors, devices, and information among various programs."
+    },
+    {
+      "id": 42,
+      "question": "Which web browser comes with Windows Phone?",
+      "options": [
+        "Chrome",
+        "Safari",
+        "Internet Explorer",
+        "Firefox"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Windows OS comes with Internet Explorer for web access and Microsoft Exchange for secure corporate emails access."
+    },
+    {
+      "id": 43,
+      "question": "What are apps in smartphone context?",
+      "options": [
+        "Hardware components",
+        "Software programs developed for smartphones for specific functions",
+        "Operating systems",
+        "Network protocols"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Apps (applications) are software programs developed for smartphones that can perform specific functions, available through app stores."
+    },
+    {
+      "id": 44,
+      "question": "Which OS has better built-in security features compared to Windows?",
+      "options": [
+        "DOS",
+        "Android",
+        "UNIX",
+        "Windows Phone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "UNIX has better built-in security and permissions features than Windows."
+    },
+    {
+      "id": 45,
+      "question": "What ensures that different programs and users don't interfere with each other?",
+      "options": [
+        "Hardware",
+        "Operating System",
+        "Applications",
+        "User behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The operating system makes sure that different programs and multi-users do not interfere with each other through proper resource management and process control."
+    },
+    {
+      "id": 46,
+      "question": "Which of the following is true about Windows OS?",
+      "options": [
+        "It is command-line based only",
+        "It doesn't support multiprogramming",
+        "It is GUI-based and supports multitasking",
+        "It cannot connect to internet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Windows is a GUI-based operating system that supports multiprogramming and multitasking, allowing several programs to be opened at the same time."
+    },
+    {
+      "id": 47,
+      "question": "Which smartphone OS has millions of mostly free apps?",
+      "options": [
+        "iOS",
+        "Windows Phone",
+        "Android",
+        "Symbian"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Android market has millions of apps, most of which are totally free, due to its open source nature and fewer licensing restrictions."
+    },
+    {
+      "id": 48,
+      "question": "What is the core part of Linux responsible for major activities?",
+      "options": [
+        "System library",
+        "System utility",
+        "Kernel",
+        "GUI"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Kernel is the core part of Linux and is responsible for major activities of the operating system."
+    }
+  ]
+}

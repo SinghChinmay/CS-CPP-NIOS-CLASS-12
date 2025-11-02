@@ -1,0 +1,546 @@
+{
+  "title": "Inheritance Extending Classes - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is inheritance in C++?",
+      "options": [
+        "A process of creating functions",
+        "A process of deriving a new class from an existing class",
+        "A process of deleting classes",
+        "A process of creating objects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inheritance is a process of deriving a new class from an existing (base) class. The new class is referred to as derived class and the existing class is called as base class."
+    },
+    {
+      "id": 2,
+      "question": "The new class in inheritance is called:",
+      "options": [
+        "Base class",
+        "Parent class",
+        "Derived class",
+        "Super class"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In inheritance, the new class is referred to as derived class. The existing class is called as base class."
+    },
+    {
+      "id": 3,
+      "question": "The existing class in inheritance is called:",
+      "options": [
+        "Derived class",
+        "Child class",
+        "Base class",
+        "Sub class"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In inheritance, the existing class is called as base class. The new class derived from it is called derived class."
+    },
+    {
+      "id": 4,
+      "question": "What is the most important advantage of inheritance?",
+      "options": [
+        "Faster execution",
+        "Code reusability",
+        "Less memory usage",
+        "Better graphics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The most important advantage of inheritance is code reusability. Once a base class is written and debugged, it can be used in various situations without having to redefine it or rewrite it."
+    },
+    {
+      "id": 5,
+      "question": "A derived class with only one base class is called:",
+      "options": [
+        "Multiple inheritance",
+        "Single inheritance",
+        "Multilevel inheritance",
+        "Hierarchical inheritance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Single inheritance: A derived class with only one base class is called as single inheritance."
+    },
+    {
+      "id": 6,
+      "question": "A derived class with several base classes is called:",
+      "options": [
+        "Single inheritance",
+        "Multiple inheritance",
+        "Multilevel inheritance",
+        "Hierarchical inheritance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiple inheritance: A derived class with several base classes is called as multiple inheritance."
+    },
+    {
+      "id": 7,
+      "question": "The mechanism of deriving a class from another derived class is called:",
+      "options": [
+        "Single inheritance",
+        "Multiple inheritance",
+        "Multilevel inheritance",
+        "Hierarchical inheritance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multilevel inheritance: The mechanism of deriving a class from another derived class is called as multilevel inheritance."
+    },
+    {
+      "id": 8,
+      "question": "When one class may be inherited by more than one class, this process is known as:",
+      "options": [
+        "Single inheritance",
+        "Multiple inheritance",
+        "Multilevel inheritance",
+        "Hierarchical inheritance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hierarchical inheritance: One class may be inherited by more than one class. This process is known as hierarchical inheritance."
+    },
+    {
+      "id": 9,
+      "question": "A combination of two or more types of inheritance is called:",
+      "options": [
+        "Single inheritance",
+        "Multiple inheritance",
+        "Multilevel inheritance",
+        "Hybrid inheritance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hybrid inheritance: It is a combination of two or more types of inheritance."
+    },
+    {
+      "id": 10,
+      "question": "How many types of inheritance are there?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are five types of inheritance: single inheritance, multiple inheritance, multilevel inheritance, hierarchical inheritance, and hybrid inheritance."
+    },
+    {
+      "id": 11,
+      "question": "Which symbol indicates that a derived class is derived from a base class?",
+      "options": [
+        "Semicolon (;)",
+        "Colon (:)",
+        "Comma (,)",
+        "Arrow (->)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The colon indicates that the derived_class is derived (inherits some property) from base_class in the syntax: class derived_class : visibility_mode base_class"
+    },
+    {
+      "id": 12,
+      "question": "If no visibility mode is specified in inheritance, the default mode is:",
+      "options": [
+        "Public",
+        "Private",
+        "Protected",
+        "Global"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If no visibility mode is specified, then by default the visibility mode is considered as private."
+    },
+    {
+      "id": 13,
+      "question": "How many visibility modes are there in inheritance?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Visibility modes can be public, private or protected. There are three visibility modes in inheritance."
+    },
+    {
+      "id": 14,
+      "question": "Which data of base class cannot be inherited?",
+      "options": [
+        "Public data",
+        "Protected data",
+        "Private data",
+        "All data can be inherited"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The private data of base class cannot be inherited. However, the derived class has access privilege only to the non-private members of the base class."
+    },
+    {
+      "id": 15,
+      "question": "In public inheritance, public members of base class become:",
+      "options": [
+        "Private members of derived class",
+        "Public members of derived class",
+        "Protected members of derived class",
+        "They are not inherited"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If inheritance is done in public mode, public members of the base class become the public members of derived class."
+    },
+    {
+      "id": 16,
+      "question": "In public inheritance, protected members of base class become:",
+      "options": [
+        "Private members of derived class",
+        "Public members of derived class",
+        "Protected members of derived class",
+        "They are not inherited"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If inheritance is done in public mode, protected members of base class become the protected members of derived class."
+    },
+    {
+      "id": 17,
+      "question": "In private inheritance, public and protected members of base class become:",
+      "options": [
+        "Public members of derived class",
+        "Protected members of derived class",
+        "Private members of derived class",
+        "They are not inherited"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If inheritance is done in a private mode, public and protected members of base class become the private members of derived class."
+    },
+    {
+      "id": 18,
+      "question": "In protected inheritance, public and protected members of base class become:",
+      "options": [
+        "Public members of derived class",
+        "Private members of derived class",
+        "Protected members of derived class",
+        "They are not inherited"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If inheritance is done in a protected mode, public and protected members of base class become the protected members of derived class."
+    },
+    {
+      "id": 19,
+      "question": "What is an abstract class?",
+      "options": [
+        "A class used to create many objects",
+        "A class that is not used to create objects",
+        "A class with only abstract functions",
+        "A class with no members"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An abstract class is one that is not used to create objects. An abstract class is designed only to act as a base class (to be inherited by other classes)."
+    },
+    {
+      "id": 20,
+      "question": "The purpose of an abstract class is to:",
+      "options": [
+        "Create objects directly",
+        "Act as a base class to be inherited by other classes",
+        "Store data permanently",
+        "Handle input/output operations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An abstract class is designed only to act as a base class (to be inherited by other classes). It is a design concept in program development and provides a base upon which other classes may be built."
+    },
+    {
+      "id": 21,
+      "question": "What problem does virtual base class solve?",
+      "options": [
+        "Memory allocation issues",
+        "Compilation errors",
+        "Duplicate inheritance of members from common base class",
+        "Slow execution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Virtual base classes are used for preventing multiple 'instances' of a given class appearing in an inheritance. It avoids duplication of inherited members due to multiple paths."
+    },
+    {
+      "id": 22,
+      "question": "When would you encounter ambiguity in inheritance?",
+      "options": [
+        "In single inheritance",
+        "When a class inherits from multiple base classes having a common base class",
+        "In protected inheritance",
+        "When using constructors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When a child class inherits from multiple base classes that themselves have a common base class, the child would have duplicate sets of members inherited from the common base class, introducing ambiguity."
+    },
+    {
+      "id": 23,
+      "question": "How do you declare a virtual base class?",
+      "options": [
+        "class derived : base",
+        "class derived : virtual base",
+        "class derived : virtual public base",
+        "class derived : public virtual base"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Virtual base class is declared as 'class derived : virtual public base'. You can write either 'virtual public' or 'public virtual'."
+    },
+    {
+      "id": 24,
+      "question": "In the syntax for multiple inheritance, base classes are separated by:",
+      "options": [
+        "Semicolon (;)",
+        "Colon (:)",
+        "Comma (,)",
+        "Arrow (->)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In multiple inheritance, the names of all the base classes follow colon (:) and are separated by comma. Syntax: class derived_classname : mode baseclass1, mode baseclass2"
+    },
+    {
+      "id": 25,
+      "question": "Which inheritance allows you to combine features of multiple base classes?",
+      "options": [
+        "Single inheritance",
+        "Multiple inheritance",
+        "Multilevel inheritance",
+        "Hierarchical inheritance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiple inheritance allows you to combine the features of multiple base classes."
+    },
+    {
+      "id": 26,
+      "question": "A member declared as protected is accessible by:",
+      "options": [
+        "Any function in the program",
+        "Only the same class functions",
+        "Member functions of the class and its derived classes",
+        "All objects in the program"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A member declared as protected is accessible by the member functions of the class and its derived classes. It cannot be accessed by the member functions other than these classes."
+    },
+    {
+      "id": 27,
+      "question": "The difference between private and protected sections is that:",
+      "options": [
+        "There is no difference",
+        "Protected can be inherited but private cannot",
+        "Private can be inherited but protected cannot",
+        "Both can be inherited equally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The difference between private and protected section is that data present in protected section can be inherited. Otherwise both sections cannot be accessed by the object of the class."
+    },
+    {
+      "id": 28,
+      "question": "Public derivation does what to access specifiers?",
+      "options": [
+        "Changes all to public",
+        "Changes all to private",
+        "Does not change the access specifiers for inherited members",
+        "Changes all to protected"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The public derivation does not change the access specifiers for inherited members in the derived class."
+    },
+    {
+      "id": 29,
+      "question": "What is the transitive nature of inheritance?",
+      "options": [
+        "Inheritance cannot be passed further",
+        "Inheritance can be passed on further",
+        "Inheritance works in reverse",
+        "Inheritance stops at one level"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One of the major reasons for inheritance is the transitive nature of inheritance, i.e., it can be passed on further."
+    },
+    {
+      "id": 30,
+      "question": "Inheritance ensures closeness with:",
+      "options": [
+        "Computer hardware",
+        "Programming syntax",
+        "Real world model",
+        "Memory management"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One major reason for inheritance is the capability to express the inheritance relationship which ensures the closeness with the real world model."
+    },
+    {
+      "id": 31,
+      "question": "Which type of inheritance has a diamond-shaped structure?",
+      "options": [
+        "Single inheritance",
+        "Multiple inheritance",
+        "Multilevel inheritance",
+        "Hybrid inheritance with virtual base class scenario"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The diamond problem occurs in hybrid inheritance where a child class inherits from multiple classes that share a common base class, creating a diamond-shaped inheritance structure."
+    },
+    {
+      "id": 32,
+      "question": "What does 'class marks : public student' indicate?",
+      "options": [
+        "marks is a base class",
+        "student is a derived class",
+        "marks is derived from student using public inheritance",
+        "marks and student are unrelated"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In 'class marks : public student', marks is the derived class and student is the base class. The visibility mode public indicates that student is a public base class."
+    },
+    {
+      "id": 33,
+      "question": "In inheritance, derived class can access which members of base class directly?",
+      "options": [
+        "All members",
+        "Only public members",
+        "Only non-private members",
+        "Only protected members"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When we say that members of a class are inheritable, it means that the derived class can access them directly. However, the derived class has access privilege only to the non-private members of the base class."
+    },
+    {
+      "id": 34,
+      "question": "Although private members cannot be accessed directly by derived class, objects of derived class can access them through:",
+      "options": [
+        "Direct access",
+        "Friend functions",
+        "Non-private inherited members",
+        "Global functions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Although the private members of the base class cannot be accessed directly, yet the objects of derived class are able to access them through the non-private inherited members."
+    },
+    {
+      "id": 35,
+      "question": "What is another name for the common base class in virtual inheritance?",
+      "options": [
+        "Direct base class",
+        "Indirect base class",
+        "Virtual base class",
+        "Abstract base class"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In virtual inheritance scenario, the common base class (like 'school') is sometimes referred to as indirect base class."
+    },
+    {
+      "id": 36,
+      "question": "What is the correct syntax for protected inheritance?",
+      "options": [
+        "class derived : protected base",
+        "class derived protected : base",
+        "protected class derived : base",
+        "class protected derived : base"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct syntax for protected inheritance is 'class derived : protected base' where protected is the visibility mode."
+    },
+    {
+      "id": 37,
+      "question": "When members of a class are inheritable, it means:",
+      "options": [
+        "All classes can access them",
+        "The derived class can access them directly",
+        "They are automatically public",
+        "They are stored separately"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When we say that members of a class are inheritable, it means that the derived class can access them directly."
+    },
+    {
+      "id": 38,
+      "question": "Inheritance helps in:",
+      "options": [
+        "Saving time, money and efforts",
+        "Increasing program size",
+        "Making programs complex",
+        "Reducing functionality"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reusing the existing code through inheritance saves time, money and efforts of writing the code again."
+    },
+    {
+      "id": 39,
+      "question": "What can you do without redefining the old class in inheritance?",
+      "options": [
+        "Nothing new",
+        "Add new properties and redefine inherited member functions",
+        "Only create objects",
+        "Only delete functions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Without redefining the old class, you can add new properties to desired class and redefine an inherited class member function."
+    },
+    {
+      "id": 40,
+      "question": "Which statement about virtual base class is correct?",
+      "options": [
+        "It increases memory usage",
+        "Only one copy of the virtual base class will be inherited",
+        "It makes programs slower",
+        "It is not useful"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When a common base class is made virtual, only one copy of the virtual base class will be inherited, avoiding duplication and ambiguity."
+    },
+    {
+      "id": 41,
+      "question": "The general form of defining a derived class includes:",
+      "options": [
+        "Only class name",
+        "Class name and base class",
+        "Class name, visibility mode, and base class",
+        "Only visibility mode"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The general form of defining a derived class is: class derived_class : visibility_mode base_class { // members of derived class };"
+    },
+    {
+      "id": 42,
+      "question": "In inheritance visibility table, what happens to private members of base class?",
+      "options": [
+        "They become public",
+        "They become protected",
+        "They are not inherited",
+        "They become private in derived class"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to the inheritance visibility table, private members of base class are 'not inherited' regardless of the inheritance mode."
+    },
+    {
+      "id": 43,
+      "question": "What is the key concept behind inheritance?",
+      "options": [
+        "Creating new functionality",
+        "Code reusability",
+        "Memory optimization",
+        "Speed improvement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inheritance is one of the important concepts of object-oriented language, and the key advantage is code reusability - the idea that new class can use some of the features of old class (base class)."
+    },
+    {
+      "id": 44,
+      "question": "Which inheritance type is specifically mentioned as allowing feature combination?",
+      "options": [
+        "Single inheritance",
+        "Multiple inheritance",
+        "Multilevel inheritance",
+        "Hierarchical inheritance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiple inheritance allows you to combine the features of multiple base classes, as explicitly mentioned in the text."
+    },
+    {
+      "id": 45,
+      "question": "What does the colon (:) separate in inheritance syntax?",
+      "options": [
+        "Class members",
+        "Derived class name from base class specification",
+        "Public and private sections",
+        "Function parameters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The colon (:) separates the derived class name from the base class specification. The base class(es) name(s) follow(s) the colon in inheritance syntax."
+    }
+  ]
+}

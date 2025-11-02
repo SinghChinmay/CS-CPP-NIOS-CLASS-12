@@ -1,0 +1,546 @@
+{
+  "title": "Pointers - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 20",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a pointer?",
+      "options": [
+        "A variable that stores data values",
+        "A variable that represents the location of a data item",
+        "A function that points to data",
+        "A data type in C++"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A pointer is a variable that represents the location (rather than the value) of a data item such as a variable or an array element."
+    },
+    {
+      "id": 2,
+      "question": "The variable which holds the address is called:",
+      "options": [
+        "Address variable",
+        "Location variable",
+        "Pointer variable",
+        "Reference variable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The variable which holds the address is called pointer variable. For example, int *ptr means that ptr is a pointer variable."
+    },
+    {
+      "id": 3,
+      "question": "What does the operator & represent?",
+      "options": [
+        "Value operator",
+        "Address operator",
+        "Pointer operator",
+        "Reference operator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The & operator is called address operator. If variable A has a value 5, then &A holds the address of memory cell A."
+    },
+    {
+      "id": 4,
+      "question": "What does *ptr represent?",
+      "options": [
+        "Address of ptr",
+        "Declaration of pointer",
+        "Value stored in memory cell pointed to by ptr",
+        "Size of ptr"
+      ],
+      "correctAnswer": 2,
+      "explanation": "*ptr is used for the value stored in a memory cell pointed to by the pointer ptr. It is called de-referencing the pointer."
+    },
+    {
+      "id": 5,
+      "question": "The process of using *ptr to get the value is called:",
+      "options": [
+        "Referencing the pointer",
+        "De-referencing the pointer",
+        "Addressing the pointer",
+        "Pointing the value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "*ptr is used for the value stored in a memory cell pointed to by the pointer ptr. It is called de-referencing the pointer."
+    },
+    {
+      "id": 6,
+      "question": "What does 'void *ptr;' mean?",
+      "options": [
+        "ptr points to nothing",
+        "ptr is not a valid pointer",
+        "ptr can point to any data type",
+        "ptr points to void functions only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "void *ptr; means that ptr can point to any data type."
+    },
+    {
+      "id": 7,
+      "question": "The name of an array itself is:",
+      "options": [
+        "A variable",
+        "A pointer which holds the address of zero location",
+        "An integer",
+        "A function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The name of the array A itself is a pointer which holds the address of zero location (&A[0]). It is a constant in a program, its value cannot be changed."
+    },
+    {
+      "id": 8,
+      "question": "What does A[i] equivalent to in pointer notation?",
+      "options": [
+        "A + i",
+        "*(A + i)",
+        "*A + i",
+        "A * i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A[i] is equivalent to *(A + i) in pointer notation. The *(A+i) will print the data stored at that location."
+    },
+    {
+      "id": 9,
+      "question": "If A is an array and i=2, what does A+i represent?",
+      "options": [
+        "Value at index 2",
+        "Address two locations away from zero location",
+        "Sum of A and 2",
+        "Address of A plus 2 bytes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When i is 2, A + i is two locations away from the zero location. The *(A+i) will print the data stored at that location."
+    },
+    {
+      "id": 10,
+      "question": "What is the difference between char stu1[] and char *stu2?",
+      "options": [
+        "No difference",
+        "stu1 is a pointer constant, stu2 is a pointer variable",
+        "stu1 is variable, stu2 is constant",
+        "Both are same type of pointers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "stu1 is a pointer which holds the address of zero location (&stu1[0]) and is a constant in a program. stu2 is a character pointer variable that can be modified."
+    },
+    {
+      "id": 11,
+      "question": "Why is stu1++ a wrong statement for char stu1[]?",
+      "options": [
+        "Wrong syntax",
+        "stu1 is a pointer constant, its value cannot be changed",
+        "stu1 is not a pointer",
+        "++ operator doesn't work on arrays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "stu1++ is a wrong statement because stu1 is a pointer which holds the address of zero location (&stu1[0]). It is a constant in a program, so its value cannot be changed."
+    },
+    {
+      "id": 12,
+      "question": "What happens when you do stu2++ on char *stu2?",
+      "options": [
+        "Compilation error",
+        "No change",
+        "Increments the address stored in stu2 by 1",
+        "Increments the value at stu2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "stu2++ will increment the value of stu2 by 1. Now stu2 will point to the next character location."
+    },
+    {
+      "id": 13,
+      "question": "How do you declare a pointer to a structure?",
+      "options": [
+        "struct student ptr;",
+        "student *ptr;",
+        "student ptr*;",
+        "student &ptr;"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To declare a pointer to a structure, use the syntax: student *ptr; where student is the structure name and ptr is the pointer variable."
+    },
+    {
+      "id": 14,
+      "question": "Which operator is used to access structure members through a pointer?",
+      "options": [
+        "Dot operator (.)",
+        "Arrow operator (->)",
+        "Scope resolution operator (::)",
+        "Address operator (&)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The arrow operator (->) is used to access structure members through a pointer. For example: ptr->name; ptr->rn;"
+    },
+    {
+      "id": 15,
+      "question": "What is an alternative way to write ptr->name?",
+      "options": [
+        "ptr.name",
+        "(*ptr).name",
+        "*ptr.name",
+        "ptr::name"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Another way of referring to structure data members through pointer is (*ptr).name; (*ptr).rn; instead of ptr->name; ptr->rn;"
+    },
+    {
+      "id": 16,
+      "question": "Object pointers are useful in:",
+      "options": [
+        "Creating objects at compile time",
+        "Creating objects at run time",
+        "Deleting objects",
+        "Copying objects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Object pointers are useful in creating objects at run time. Object pointers can be used to access the public members of an object."
+    },
+    {
+      "id": 17,
+      "question": "Object pointers can be used to access:",
+      "options": [
+        "All members of an object",
+        "Private members only",
+        "Public members of an object",
+        "Protected members only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Object pointers can be used to access the public members of an object."
+    },
+    {
+      "id": 18,
+      "question": "How do you access a member function using object pointer?",
+      "options": [
+        "ptr.getdata()",
+        "ptr->getdata()",
+        "ptr::getdata()",
+        "ptr&getdata()"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using arrow operator and object pointer: ptr->getdata(); Another way is (*ptr).getdata();"
+    },
+    {
+      "id": 19,
+      "question": "What is 'this' pointer?",
+      "options": [
+        "A regular pointer variable",
+        "A keyword that represents the object that invokes a member function",
+        "A pointer to the class",
+        "A pointer to member functions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C++ uses a unique keyword called 'this' to represent the object that invokes a member function. This is a pointer that points to the object for which this function was called."
+    },
+    {
+      "id": 20,
+      "question": "When getdata() is called through object A, 'this' has:",
+      "options": [
+        "Address of getdata function",
+        "Address of object A",
+        "Address of the class",
+        "No specific address"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When a getdata() function is called through object A, 'this' has the address of object A. Similarly, when called through object B, 'this' has the address of object B."
+    },
+    {
+      "id": 21,
+      "question": "Which statement correctly declares an integer pointer?",
+      "options": [
+        "int ptr*;",
+        "int *ptr;",
+        "*int ptr;",
+        "ptr *int;"
+      ],
+      "correctAnswer": 1,
+      "explanation": "int *ptr; correctly declares ptr as a pointer to an integer. This means ptr can hold the address of an integer variable."
+    },
+    {
+      "id": 22,
+      "question": "What does dereferencing operator (*) do?",
+      "options": [
+        "Gets the address of a variable",
+        "Gets the value at the address stored in pointer",
+        "Declares a pointer",
+        "Multiplies two numbers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dereferencing operator (*) is a unary operator that gets the value stored at the address contained in the pointer. It is different from the multiplication operator (*) which needs two operands."
+    },
+    {
+      "id": 23,
+      "question": "Dereferencing operator (*) is different from multiplication operator (*) because:",
+      "options": [
+        "They are the same",
+        "Dereferencing is unary, multiplication needs two operands",
+        "Dereferencing works only on integers",
+        "Multiplication works only on pointers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dereferencing operator (*) is a unary operator. It is different from the multiplication operator (*) which needs two operands."
+    },
+    {
+      "id": 24,
+      "question": "What is stored in a pointer variable?",
+      "options": [
+        "The value of another variable",
+        "The name of another variable",
+        "The address of another variable",
+        "The type of another variable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A pointer variable stores the address of another variable."
+    },
+    {
+      "id": 25,
+      "question": "If A is an integer variable, what gives its address?",
+      "options": [
+        "*A",
+        "&A",
+        "A&",
+        "A*"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If A is an integer variable then &A gives its address. The & operator is the address operator."
+    },
+    {
+      "id": 26,
+      "question": "To declare t_age pointer to integer, you should write:",
+      "options": [
+        "int t_age*;",
+        "int *t_age;",
+        "*int t_age;",
+        "t_age *int;"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To declare t_age pointer to integer, we should write int *t_age; This declares t_age as a pointer to an integer."
+    },
+    {
+      "id": 27,
+      "question": "If ptr is a pointer to an integer variable, the number stored in it is given by:",
+      "options": [
+        "ptr",
+        "*ptr",
+        "&ptr",
+        "ptr*"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If ptr is a pointer to an integer variable, the number stored in the memory location it points to is given by *ptr."
+    },
+    {
+      "id": 28,
+      "question": "A pointer is:",
+      "options": [
+        "The address of a variable",
+        "An indication of the variable to be accessed next",
+        "A variable for string addresses",
+        "The data type of address variable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A pointer is the address of a variable. It represents the location rather than the value of a data item."
+    },
+    {
+      "id": 29,
+      "question": "The expression int* can be said to:",
+      "options": [
+        "Be a pointer pointing to variable int",
+        "Refer to contents of int",
+        "Be a pointer to an int type value",
+        "Declare an integer variable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The expression int* can be said to be a pointer to an int type value."
+    },
+    {
+      "id": 30,
+      "question": "Pointers are used frequently in C++ because:",
+      "options": [
+        "They are easy to understand",
+        "They have a number of useful applications",
+        "They use less memory",
+        "They are faster than variables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pointers are used frequently in C++, as they have a number of useful applications. They save processing time and are more powerful."
+    },
+    {
+      "id": 31,
+      "question": "What saves processing time in C++ programming?",
+      "options": [
+        "Using more variables",
+        "Using pointers",
+        "Using more functions",
+        "Using larger arrays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pointers are more powerful and are used extensively in C++ programming language. They save the processing time."
+    },
+    {
+      "id": 32,
+      "question": "Pointer programming is concerned with:",
+      "options": [
+        "Direct value stored",
+        "The address, not with the direct value stored",
+        "Variable names",
+        "Data types"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pointer is a variable which holds the address of another variable. So, programming is concerned with the address, not with the direct value stored."
+    },
+    {
+      "id": 33,
+      "question": "What does cout << &A; display?",
+      "options": [
+        "Value of A",
+        "Name of variable A",
+        "Address of memory cell A",
+        "Size of variable A"
+      ],
+      "correctAnswer": 2,
+      "explanation": "cout << &A; displays the address of memory cell A. The & operator gives the address of the variable."
+    },
+    {
+      "id": 34,
+      "question": "In the example with 'work as a pointer', what does stu2++ result in?",
+      "options": [
+        "'work as a pointer'",
+        "'ork as a pointer'",
+        "'rk as a pointer'",
+        "Error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "stu2++ will increment the value of stu2 by 1. Now stu2 will have only the value of 'ork as a pointer' as it now points to the second character."
+    },
+    {
+      "id": 35,
+      "question": "Array name as a pointer is:",
+      "options": [
+        "A variable pointer",
+        "A constant pointer",
+        "A dynamic pointer",
+        "Not a pointer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The name of the array A itself is a pointer which holds the address of zero location (&A[0]). It is a constant in a program, its value cannot be changed."
+    },
+    {
+      "id": 36,
+      "question": "What type of pointer is stu2 in 'char *stu2 = \"work as a pointer\"'?",
+      "options": [
+        "Constant pointer",
+        "Character pointer variable",
+        "Integer pointer",
+        "Void pointer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "stu2 is a character pointer variable for a string 'work as a pointer'. Unlike array names, pointer variables can be modified."
+    },
+    {
+      "id": 37,
+      "question": "Both dot operator and arrow operator can be used with:",
+      "options": [
+        "Arrays only",
+        "Structures only",
+        "Objects and structures",
+        "Functions only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both dot operator (.) and arrow operator (->) can be used with objects and structures. Dot operator is used with direct access, arrow operator with pointer access."
+    },
+    {
+      "id": 38,
+      "question": "'this' pointer points to:",
+      "options": [
+        "The class definition",
+        "The member function",
+        "The object that is currently used to invoke a function",
+        "The constructor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'this' pointer points to the object that is currently used to invoke a function."
+    },
+    {
+      "id": 39,
+      "question": "What makes pointers more powerful in C++?",
+      "options": [
+        "They use more memory",
+        "They are used extensively and save processing time",
+        "They are easier to understand",
+        "They work only with integers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pointers are more powerful and are used extensively in C++ programming language. They save the processing time."
+    },
+    {
+      "id": 40,
+      "question": "Which is correct about array and pointer relationship?",
+      "options": [
+        "Arrays and pointers are unrelated",
+        "Array name is a constant pointer to first element",
+        "Array elements cannot be accessed via pointers",
+        "Pointers cannot point to arrays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The name of the array A itself is a pointer which holds the address of zero location (&A[0]). It is a constant in a program."
+    },
+    {
+      "id": 41,
+      "question": "What is the correct way to access object members using pointer?",
+      "options": [
+        "ptr.marks = 90; and ptr->marks = 90;",
+        "ptr->marks = 90; and (*ptr).marks = 90;",
+        "Only ptr->marks = 90;",
+        "Only (*ptr).marks = 90;"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using object pointer, you can access members in two ways: ptr->marks = 90; (arrow operator) and (*ptr).marks = 90; (dereferencing then dot operator)."
+    },
+    {
+      "id": 42,
+      "question": "For object st and pointer ptr, which uses dot operator?",
+      "options": [
+        "ptr->getdata()",
+        "st.getdata()",
+        "(*ptr)->getdata()",
+        "this->getdata()"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using dot operator with object: st.getdata(); The dot operator is used for direct object access, while arrow operator is used for pointer access."
+    },
+    {
+      "id": 43,
+      "question": "The advantage of using 'this' pointer is:",
+      "options": [
+        "Faster execution",
+        "Represents the specific object invoking the member function",
+        "Uses less memory",
+        "Simplifies syntax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'this' pointer represents the object that invokes a member function, allowing the function to know which specific object's data it should work with."
+    },
+    {
+      "id": 44,
+      "question": "What can you do with pointers that you can't do with regular variables?",
+      "options": [
+        "Store larger values",
+        "Access memory locations indirectly and enable dynamic memory management",
+        "Perform faster calculations",
+        "Use less memory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pointers allow indirect access to memory locations and enable dynamic memory management, creating objects at runtime, and accessing elements through address manipulation."
+    },
+    {
+      "id": 45,
+      "question": "Why are pointers considered powerful in C++ programming?",
+      "options": [
+        "They are easier to learn",
+        "They provide flexible memory access and enable efficient programming techniques",
+        "They use less code",
+        "They prevent errors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pointers are powerful because they provide flexible memory access, enable dynamic memory allocation, allow efficient array and string manipulation, and support advanced programming techniques like linked data structures."
+    }
+  ]
+}

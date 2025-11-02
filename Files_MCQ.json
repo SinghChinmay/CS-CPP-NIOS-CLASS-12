@@ -1,0 +1,546 @@
+{
+  "title": "Files - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 21",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a file?",
+      "options": [
+        "A program",
+        "A collection of logically related records",
+        "A variable",
+        "A function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A file is a collection of logically related records. It is used to store data on hard disk or other storage devices."
+    },
+    {
+      "id": 2,
+      "question": "How many types of data communication does a program usually require?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A program usually requires two types of data communication: (i) writing data on datafile, (ii) reading data from datafile."
+    },
+    {
+      "id": 3,
+      "question": "The data flow from keyboard to memory and from memory to storage device is called:",
+      "options": [
+        "Input stream",
+        "Output stream",
+        "File stream",
+        "Data stream"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The data flow from keyboard → memory → hard disk/storage device is called output stream where stream is the flow of data."
+    },
+    {
+      "id": 4,
+      "question": "Which header file is required for output stream?",
+      "options": [
+        "iostream.h",
+        "ofstream.h",
+        "ifstream.h",
+        "fstream.h"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Output stream requires an ofstream.h header file."
+    },
+    {
+      "id": 5,
+      "question": "The data flow from storage device to memory and from memory to output device is called:",
+      "options": [
+        "Output stream",
+        "Input stream",
+        "File stream",
+        "Data stream"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The data flow from datafile → memory → output device (screen) is called input stream."
+    },
+    {
+      "id": 6,
+      "question": "Which header file is required for input stream?",
+      "options": [
+        "iostream.h",
+        "ofstream.h",
+        "ifstream.h",
+        "fstream.h"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Input stream requires ifstream.h header file."
+    },
+    {
+      "id": 7,
+      "question": "If both input stream and output stream are used in the same program, which header file is required?",
+      "options": [
+        "iostream.h",
+        "ofstream.h",
+        "ifstream.h",
+        "fstream.h"
+      ],
+      "correctAnswer": 3,
+      "explanation": "If both input stream and output stream are used in the same program then header file fstream.h is required."
+    },
+    {
+      "id": 8,
+      "question": "If fstream.h is included in the program, do you need to include iostream.h explicitly?",
+      "options": [
+        "Yes, it's mandatory",
+        "No, there is no need",
+        "Sometimes",
+        "Only for input operations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If header file fstream.h is included in the program, there is no need to include iostream.h explicitly."
+    },
+    {
+      "id": 9,
+      "question": "What must be done before reading data from or writing data to a datafile?",
+      "options": [
+        "Declare variables",
+        "Open the file",
+        "Include header files",
+        "Create objects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "File has to be opened, before reading data from datafile or writing data on the datafile."
+    },
+    {
+      "id": 10,
+      "question": "How many ways can a file be opened?",
+      "options": [
+        "One way",
+        "Two ways",
+        "Three ways",
+        "Four ways"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A file can be opened in two ways: (i) using constructor function of a class, (ii) using the member function open() of the class."
+    },
+    {
+      "id": 11,
+      "question": "Which statement opens a file in output mode using constructor?",
+      "options": [
+        "ifstream outfile(\"STU.DAT\");",
+        "ofstream outfile(\"STU.DAT\");",
+        "fstream outfile(\"STU.DAT\");",
+        "iostream outfile(\"STU.DAT\");"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The statement ofstream outfile(\"STU.DAT\"); opens the file STU.DAT in output mode, i.e., for writing data on the file."
+    },
+    {
+      "id": 12,
+      "question": "Which statement opens a file in input mode using constructor?",
+      "options": [
+        "ofstream infile(\"STU.DAT\");",
+        "ifstream infile(\"STU.DAT\");",
+        "fstream infile(\"STU.DAT\");",
+        "iostream infile(\"STU.DAT\");"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The statement ifstream infile(\"STU.DAT\"); opens the file \"STU.DAT\" in input mode, i.e., for reading purpose."
+    },
+    {
+      "id": 13,
+      "question": "What is ofstream?",
+      "options": [
+        "A variable",
+        "A class available in the compiler file",
+        "A function",
+        "A data type"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ofstream is a class available in the compiler file. outfile is any user defined object of this class."
+    },
+    {
+      "id": 14,
+      "question": "Which operator is used for writing data to a file?",
+      "options": [
+        ">>",
+        "<<",
+        "->",
+        "::"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The statements outfile << \"TOTAL MARKS\" << \"\\n\"; and outfile << total << \"\\n\"; are used for writing data on the file."
+    },
+    {
+      "id": 15,
+      "question": "Which operator is used for reading data from a file?",
+      "options": [
+        "<<",
+        ">>",
+        "->",
+        "::"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The statements infile >> string; and infile >> number; read the data from the data file."
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of newline character when writing to files?",
+      "options": [
+        "To separate words",
+        "To move the pointer to the next line",
+        "To close the file",
+        "To save the file"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The newline character is used for moving the pointer to the next line when writing data to files."
+    },
+    {
+      "id": 17,
+      "question": "The function open() can be used to:",
+      "options": [
+        "Open only one file",
+        "Open multiple files that use the same stream object",
+        "Close files",
+        "Read files only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The function open() can be used to open multiple files that use the same stream object."
+    },
+    {
+      "id": 18,
+      "question": "What is the general format of open() function with access mode?",
+      "options": [
+        "stream_object.open(filename);",
+        "stream_object.open(\"filename\", access mode);",
+        "open(stream_object, filename);",
+        "filename.open(stream_object);"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The general format is: stream_object.open(\"filename\", access mode); The second argument specifies the mode in which the file is opened."
+    },
+    {
+      "id": 19,
+      "question": "What is the default mode for ifstream functions?",
+      "options": [
+        "ios::out",
+        "ios::in",
+        "ios::app",
+        "ios::binary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The default mode for ifstream functions is ios::in."
+    },
+    {
+      "id": 20,
+      "question": "What is the default mode for ofstream functions?",
+      "options": [
+        "ios::in",
+        "ios::out",
+        "ios::app",
+        "ios::binary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The default mode for ofstream functions is ios::out."
+    },
+    {
+      "id": 21,
+      "question": "What does ios::app mode do?",
+      "options": [
+        "Opens file in input mode",
+        "Opens file in output mode with pointer at end, allows adding records",
+        "Opens file in binary mode",
+        "Creates a new file"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ios::app opens the file in output mode. The file pointer is at the end of file and it can add a record."
+    },
+    {
+      "id": 22,
+      "question": "What does ios::ate mode do?",
+      "options": [
+        "Opens file at beginning",
+        "The file pointer is at the end of file and allows to add data or modify existing data anywhere",
+        "Opens file in read-only mode",
+        "Deletes file content"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ios::ate - The file pointer is at the end of the file and it allows to add data or to modify the existing data anywhere in the file."
+    },
+    {
+      "id": 23,
+      "question": "What does ios::trunc mode do?",
+      "options": [
+        "Truncates filename",
+        "Deletes the contents of the file if exist",
+        "Creates backup",
+        "Appends to file"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ios::trunc deletes the contents of the file if exist."
+    },
+    {
+      "id": 24,
+      "question": "What does ios::nocreate mode do?",
+      "options": [
+        "Always creates new file",
+        "If file is already present, it opens the file otherwise open fails",
+        "Never opens any file",
+        "Creates file if not present"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ios::nocreate - If file is already present, it opens the file otherwise open fails."
+    },
+    {
+      "id": 25,
+      "question": "What does ios::noreplace mode do?",
+      "options": [
+        "Always replaces file content",
+        "If file is not present, it opens the file otherwise open statement fails",
+        "Never opens existing files",
+        "Replaces file if present"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ios::noreplace - If file is not present, it opens the file otherwise open statement fails."
+    },
+    {
+      "id": 26,
+      "question": "What does ios::out mode do to existing file content?",
+      "options": [
+        "Preserves existing content",
+        "Erases the content of the file",
+        "Appends to existing content",
+        "Creates backup of content"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ios::out opens the file in output mode. If it already has data, the output mode erases the content of the file."
+    },
+    {
+      "id": 27,
+      "question": "How can you combine multiple file mode parameters?",
+      "options": [
+        "Using comma operator",
+        "Using bitwise OR operator (|)",
+        "Using AND operator",
+        "Using semicolon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mode can combine two or more parameters using bitwise OR operator. Example: outfile.open(\"ABC.DAT\", ios::in | ios::out | ios::binary);"
+    },
+    {
+      "id": 28,
+      "question": "How many parameters do write() and read() functions have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The functions write() and read() have two parameters: address of the variable, size of the variable."
+    },
+    {
+      "id": 29,
+      "question": "The address of variable in read() and write() functions must be cast to:",
+      "options": [
+        "int*",
+        "char*",
+        "void*",
+        "float*"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The address of the variable must be cast to the type char*. Example: infile.read((char*) & v, sizeof v);"
+    },
+    {
+      "id": 30,
+      "question": "What is the general format for read() function?",
+      "options": [
+        "infile.read(v, sizeof v);",
+        "infile.read((char*) & v, sizeof v);",
+        "infile.read(&v, sizeof(char));",
+        "read(infile, v);"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The general format is: infile.read((char*) & v, sizeof v); where v is the variable."
+    },
+    {
+      "id": 31,
+      "question": "How many pointers are associated with a file?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "File has two associated pointers called input pointer (or get pointer) and output pointer (or put pointer)."
+    },
+    {
+      "id": 32,
+      "question": "What does seekg() function do?",
+      "options": [
+        "Moves put pointer",
+        "Moves get pointer to a specified location",
+        "Reads data",
+        "Writes data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "seekg() moves get pointer to a specified location."
+    },
+    {
+      "id": 33,
+      "question": "What does seekp() function do?",
+      "options": [
+        "Moves get pointer",
+        "Moves the put pointer to a specified location",
+        "Reads data",
+        "Writes data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "seekp() moves the put pointer to a specified location."
+    },
+    {
+      "id": 34,
+      "question": "What does ios::beg represent?",
+      "options": [
+        "End of file",
+        "Beginning of the file",
+        "Current position",
+        "Middle of file"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ios::beg means beginning of the file."
+    },
+    {
+      "id": 35,
+      "question": "What does ios::cur represent?",
+      "options": [
+        "Beginning of file",
+        "Current position of the pointer",
+        "End of file",
+        "File size"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ios::cur means current position of the pointer."
+    },
+    {
+      "id": 36,
+      "question": "What does ios::end represent?",
+      "options": [
+        "Beginning of file",
+        "Current position",
+        "End of the file",
+        "File creation time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ios::end means end of the file."
+    },
+    {
+      "id": 37,
+      "question": "What does infile.seekg(0, ios::beg); do?",
+      "options": [
+        "Moves pointer to end",
+        "Moves the pointer to the beginning of the file",
+        "Moves pointer 100 bytes forward",
+        "Closes the file"
+      ],
+      "correctAnswer": 1,
+      "explanation": "infile.seekg(0, ios::beg); moves the pointer to the beginning of the file. In this case, the refposition ios::beg is optional."
+    },
+    {
+      "id": 38,
+      "question": "What does infile.seekg(100, ios::cur); do?",
+      "options": [
+        "Moves pointer to beginning",
+        "Moves the pointer 100 bytes forward from the current position",
+        "Moves pointer to end",
+        "Moves pointer 100 bytes backward"
+      ],
+      "correctAnswer": 1,
+      "explanation": "infile.seekg(100, ios::cur); moves the pointer 100 bytes forward from the current position."
+    },
+    {
+      "id": 39,
+      "question": "What does infile.seekg(-200, ios::end); do?",
+      "options": [
+        "Moves pointer to beginning",
+        "Moves pointer 200 bytes forward from end",
+        "Moves the pointer 200 bytes backward from the end of the file",
+        "Moves pointer to current position"
+      ],
+      "correctAnswer": 2,
+      "explanation": "infile.seekg(-200, ios::end); moves the pointer 200 bytes backward from the end of the file."
+    },
+    {
+      "id": 40,
+      "question": "What does tellg() function do?",
+      "options": [
+        "Tells file size",
+        "Gives the position of get pointer in terms of number of bytes",
+        "Tells file name",
+        "Gives file creation date"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tellg() function gives the position of get pointer in terms of number of bytes."
+    },
+    {
+      "id": 41,
+      "question": "What does tellp() function do?",
+      "options": [
+        "Tells file permissions",
+        "Gives the position of put pointer in terms of bytes",
+        "Tells file path",
+        "Gives file modification date"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Similarly, tellp() function gives the position of put pointer in terms of bytes."
+    },
+    {
+      "id": 42,
+      "question": "What is the general format for closing a file?",
+      "options": [
+        "close(stream_object);",
+        "stream_object.close();",
+        "file.close(stream_object);",
+        "close_file(stream_object);"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The general format for closing a file is stream_object.close();"
+    },
+    {
+      "id": 43,
+      "question": "When should a file be closed?",
+      "options": [
+        "Before opening",
+        "At the end if it is opened either through constructor or open() function",
+        "In the middle of program",
+        "Never"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The file should be closed at the end if it is opened either through constructor or open() function."
+    },
+    {
+      "id": 44,
+      "question": "In the example, what does file.clear() do?",
+      "options": [
+        "Deletes file content",
+        "To make the end of file mark false",
+        "Clears screen",
+        "Clears variables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "file.clear(); is used to make the end of file mark false, allowing further operations on the file."
+    },
+    {
+      "id": 45,
+      "question": "File operations covered in the lesson include:",
+      "options": [
+        "Only reading files",
+        "Only writing files",
+        "Create, display, add new record, and modify existing record",
+        "Only deleting files"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lesson covers file operations including: Create a data file, Display a data file, Adding a new record, and Modify the existing record."
+    }
+  ]
+}

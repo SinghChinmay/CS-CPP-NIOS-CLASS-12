@@ -1,0 +1,546 @@
+{
+  "title": "Classes and Objects with Constructors/Destructors - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 18",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a class in C++?",
+      "options": [
+        "A way to bind data and its associated functions together",
+        "A type of variable",
+        "A header file",
+        "A loop structure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A class is a way to bind the data and its associated functions together. It allows data functions to be hidden, if necessary from external use."
+    },
+    {
+      "id": 2,
+      "question": "By default, the members of a class are:",
+      "options": [
+        "Public",
+        "Private",
+        "Protected",
+        "Global"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By default, the members of a class are private. The use of keyword private is optional. If the labels are missing, members are private by default."
+    },
+    {
+      "id": 3,
+      "question": "What is an object?",
+      "options": [
+        "A function",
+        "An instance of a class",
+        "A data type",
+        "A variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An object is an instance of a class and it can be created by using class name."
+    },
+    {
+      "id": 4,
+      "question": "Which operator is used to access class members through an object?",
+      "options": [
+        "Arrow operator (->)",
+        "Scope resolution operator (::)",
+        "Dot operator (.)",
+        "Assignment operator (=)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The dot operator is called the class member access operator. Through object, data member and member function present in public can be accessed using dot operator."
+    },
+    {
+      "id": 5,
+      "question": "The scope resolution operator is represented by:",
+      "options": [
+        "::",
+        "->",
+        ".",
+        "<<"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The operator '::' is known as scope resolution operator and is used to associate member functions to their corresponding class when defined outside the class."
+    },
+    {
+      "id": 6,
+      "question": "Variables declared inside a class are called:",
+      "options": [
+        "Member functions",
+        "Data members",
+        "Global variables",
+        "Local variables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The variables declared inside the class are called as data members. The functions are known as member functions."
+    },
+    {
+      "id": 7,
+      "question": "Which visibility mode allows inheritance but restricts direct access by objects?",
+      "options": [
+        "Public",
+        "Private",
+        "Protected",
+        "Global"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The private and protected modes are exactly the same except that protected can be inherited but private mode cannot be inherited."
+    },
+    {
+      "id": 8,
+      "question": "What is nesting of member functions?",
+      "options": [
+        "Defining functions outside the class",
+        "Calling a member function inside another member function of the same class",
+        "Creating multiple classes",
+        "Using inheritance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A member function can be called by using its name inside another member function of the same class. This is known as nesting of member functions."
+    },
+    {
+      "id": 9,
+      "question": "What is a constructor?",
+      "options": [
+        "A regular member function",
+        "A special member function that initializes objects automatically",
+        "A destructor",
+        "A data member"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A constructor is a special member function that initializes the objects of its class automatically when it is created. It is special because its name is the same as the class name."
+    },
+    {
+      "id": 10,
+      "question": "A constructor has the same name as:",
+      "options": [
+        "The object",
+        "The class",
+        "The member function",
+        "The data member"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A constructor is special because its name is the same as the class name. It is invoked automatically whenever an object is created."
+    },
+    {
+      "id": 11,
+      "question": "Does a constructor have a return type?",
+      "options": [
+        "Yes, it returns int",
+        "Yes, it returns void",
+        "No, it does not have any return data type",
+        "Yes, it returns the class type"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Constructor does not have any return data type, not even void. Constructor should be declared in the public section and it cannot return any values."
+    },
+    {
+      "id": 12,
+      "question": "A constructor that accepts no parameter is called:",
+      "options": [
+        "Parameterized constructor",
+        "Copy constructor",
+        "Default constructor",
+        "Virtual constructor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A constructor that accepts no parameter is called default constructor. If no such constructor is defined, then the compiler supplies a default constructor."
+    },
+    {
+      "id": 13,
+      "question": "Constructors that can take arguments are called:",
+      "options": [
+        "Default constructors",
+        "Parameterized constructors",
+        "Copy constructors",
+        "Virtual constructors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The constructors that can take arguments are called parameterized constructors."
+    },
+    {
+      "id": 14,
+      "question": "Which statement correctly creates an object using parameterized constructor?",
+      "options": [
+        "student S1;",
+        "student S1(1, 70);",
+        "student S1[];",
+        "student S1 = new student;"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the object is created with parameterized constructor, we must supply arguments. The statement 'student S1(1, 70);' is the shorter and commonly used method."
+    },
+    {
+      "id": 15,
+      "question": "What is a copy constructor?",
+      "options": [
+        "A constructor that takes no parameters",
+        "A constructor that takes multiple parameters",
+        "A constructor that takes a reference to an object of the same class",
+        "A constructor that copies files"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A copy constructor takes a reference to an object of the same class as itself as an argument. It is used to initialize an object from another object of the same class."
+    },
+    {
+      "id": 16,
+      "question": "The process of initialization through a copy constructor is known as:",
+      "options": [
+        "Copy assignment",
+        "Copy initialization",
+        "Object copying",
+        "Reference copying"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The process of initialization through a copy constructor is known as copy initialization. For example: student S2(S1); or student S2 = S1;"
+    },
+    {
+      "id": 17,
+      "question": "What is a destructor?",
+      "options": [
+        "A constructor with parameters",
+        "A member function used to destroy objects created by a constructor",
+        "A data member",
+        "A friend function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Destructor is used to destroy the objects that have been created by a constructor. The destructor is a member function whose name is the same as the class name but is preceded by a tilde."
+    },
+    {
+      "id": 18,
+      "question": "A destructor is preceded by which symbol?",
+      "options": [
+        "@",
+        "~",
+        "#",
+        "&"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The destructor is a member function whose name is the same as the class name but is preceded by a tilde (~). For example: ~student();"
+    },
+    {
+      "id": 19,
+      "question": "How many destructors can a class have?",
+      "options": [
+        "Multiple destructors",
+        "Only one destructor",
+        "No destructors",
+        "Two destructors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A class can have any number of constructors but only one destructor at a time."
+    },
+    {
+      "id": 20,
+      "question": "Does a destructor take any arguments?",
+      "options": [
+        "Yes, it takes one argument",
+        "Yes, it takes multiple arguments",
+        "No, it never takes any argument",
+        "Sometimes it takes arguments"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Destructor never takes any argument nor does it return any value. It will be invoked by the compiler upon exit from the program to clean the storage."
+    },
+    {
+      "id": 21,
+      "question": "When is a destructor automatically invoked?",
+      "options": [
+        "When an object is created",
+        "When a constructor is called",
+        "Upon exit from the program or function or block",
+        "When a member function is called"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Destructor will be invoked by the compiler upon exit from the program (or function or block) to clean the storage."
+    },
+    {
+      "id": 22,
+      "question": "Where should a constructor be declared?",
+      "options": [
+        "In private section",
+        "In public section",
+        "In protected section",
+        "Outside the class"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Constructor should be declared in the public section. It does not have any return data type hence it cannot return any values."
+    },
+    {
+      "id": 23,
+      "question": "What happens if no constructor is defined in a class?",
+      "options": [
+        "Compilation error occurs",
+        "The compiler supplies a default constructor",
+        "Objects cannot be created",
+        "The class becomes invalid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If no constructor is defined, then the compiler supplies a default constructor. In that case, it is called nothing-to-do constructor."
+    },
+    {
+      "id": 24,
+      "question": "In constructor with default arguments, where should default values be placed?",
+      "options": [
+        "On the left side",
+        "On the right side",
+        "In the middle",
+        "Anywhere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In constructor with default arguments, all default values should be on the right side. For example: student(int rn, int total = 0);"
+    },
+    {
+      "id": 25,
+      "question": "When both default constructor and constructor with default argument exist, what happens?",
+      "options": [
+        "No problem occurs",
+        "It causes ambiguity",
+        "Only default constructor works",
+        "Only parameterized constructor works"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When both forms are used in a class (default constructor and constructor with one default argument), it causes ambiguity for a statement such as 'student si;'"
+    },
+    {
+      "id": 26,
+      "question": "How are member functions stored in memory?",
+      "options": [
+        "Separately for each object",
+        "Created and placed only once, shared by all objects",
+        "Not stored in memory",
+        "In the constructor only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The member functions are created and placed in the memory space only once when they are defined in class specification. All the objects belonging to that class use the same member functions."
+    },
+    {
+      "id": 27,
+      "question": "How is memory allocated for member variables?",
+      "options": [
+        "Shared among all objects",
+        "Allocated separately for each object",
+        "Not allocated at all",
+        "Allocated only once"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Space for member variable is allocated separately for each object because member variable holds different value for different objects."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following creates an array of objects?",
+      "options": [
+        "emp e[10];",
+        "emp *e[10];",
+        "emp e(10);",
+        "emp[10] e;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The statement 'emp e[10];' creates an array of 10 objects, namely e[0], e[1], ..., e[9]."
+    },
+    {
+      "id": 29,
+      "question": "What does the statement 'S2 = S1;' do when S1 and S2 are objects?",
+      "options": [
+        "Invokes copy constructor",
+        "Assigns the value of S1 to S2, member by member",
+        "Creates a new object",
+        "Calls the destructor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The statement 'S2 = S1;' does not invoke the copy constructor. However, it simply assigns the value of S1 to S2, member by member."
+    },
+    {
+      "id": 30,
+      "question": "Which statement invokes the copy constructor?",
+      "options": [
+        "student S2 = S1;",
+        "S2 = S1;",
+        "student S2; S2 = S1;",
+        "student S2(S1);"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The statement 'student S2(S1);' uses copy constructor and initializes an object S2 from another object S1. Another form is 'student S2 = S1;' during declaration."
+    },
+    {
+      "id": 31,
+      "question": "What is the purpose of declaring a destructor?",
+      "options": [
+        "To create objects",
+        "To initialize objects",
+        "To release memory space for future use",
+        "To call member functions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It is a good practice to declare destructor in a program because it releases memory space for future use."
+    },
+    {
+      "id": 32,
+      "question": "The keywords public, private and protected are called:",
+      "options": [
+        "Data types",
+        "Visibility modes or access specifiers",
+        "Member functions",
+        "Constructors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The keywords public, private and protected are called as visibility modes/access specifiers."
+    },
+    {
+      "id": 33,
+      "question": "Which members can be accessed from outside the class?",
+      "options": [
+        "Private members",
+        "Protected members",
+        "Public members",
+        "All members"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The data member and member functions present in public mode can be accessed within the class and also by other class of same program."
+    },
+    {
+      "id": 34,
+      "question": "When a member function is defined inside a class, it is considered:",
+      "options": [
+        "Inline by default",
+        "Outline by default",
+        "Virtual by default",
+        "Static by default"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When a member function is defined inside a class, it is considered to be inline by default. If a member function is very small then it should be defined inside the class."
+    },
+    {
+      "id": 35,
+      "question": "What is the correct syntax for accessing array element in an array of objects?",
+      "options": [
+        "e[i].getdata()",
+        "e.i.getdata()",
+        "e->i.getdata()",
+        "e::i.getdata()"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The statement 'e[i].getdata()' will get the data of the ith element of the array e, where e is an array of objects."
+    },
+    {
+      "id": 36,
+      "question": "A class specification has how many parts?",
+      "options": [
+        "One part",
+        "Two parts",
+        "Three parts",
+        "Four parts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A class specification has two parts: (i) Class declaration and (ii) Class function definitions."
+    },
+    {
+      "id": 37,
+      "question": "What terminates the class body?",
+      "options": [
+        "Curly brace",
+        "Semicolon after closing brace",
+        "Colon",
+        "Comma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The body of the class is enclosed between braces and terminated by semicolon."
+    },
+    {
+      "id": 38,
+      "question": "Which of the following can access private and protected members?",
+      "options": [
+        "Objects of the class",
+        "Member functions in public mode",
+        "Functions outside the class",
+        "Global functions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The data member and member functions present in private and protected mode can be accessed by the member function in public mode."
+    },
+    {
+      "id": 39,
+      "question": "The two methods to call parameterized constructor are:",
+      "options": [
+        "Explicit and implicit calling",
+        "Direct and indirect calling",
+        "Static and dynamic calling",
+        "Public and private calling"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the object is created, we must supply arguments to the constructor function. This can be done in two ways: by calling the function explicitly and by calling the function implicitly."
+    },
+    {
+      "id": 40,
+      "question": "What happens when actual parameter is provided in constructor with default arguments?",
+      "options": [
+        "Default parameter takes priority",
+        "Actual parameter takes priority over default parameter",
+        "Both parameters are used",
+        "Compilation error occurs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When both actual and default parameters are provided, actual parameter takes the priority over default parameter. For example, in student S2(3, 75), 3 is assigned to rn and 75 to total."
+    },
+    {
+      "id": 41,
+      "question": "Which statement correctly defines a member function outside the class?",
+      "options": [
+        "void getdata() { }",
+        "void student::getdata() { }",
+        "student.getdata() { }",
+        "student->getdata() { }"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When defining a member function outside the class, the scope resolution operator :: is used. The format is: return_type class_name::function_name"
+    },
+    {
+      "id": 42,
+      "question": "What type of functions are collectively called members?",
+      "options": [
+        "Only data members",
+        "Only member functions",
+        "Both variables and functions declared in class",
+        "Only constructors and destructors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The class body contains the declaration of variables and functions. These are collectively called members. The variables are called data members and functions are called member functions."
+    },
+    {
+      "id": 43,
+      "question": "In object-oriented programming, emphasis is on:",
+      "options": [
+        "Function rather than data",
+        "Data rather than function",
+        "Both equally",
+        "Neither data nor function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In object oriented programming, the emphasis is on data rather than function. Class is a way that binds the data & function together."
+    },
+    {
+      "id": 44,
+      "question": "When is a constructor automatically invoked?",
+      "options": [
+        "When a member function is called",
+        "When an object is created",
+        "When the program ends",
+        "When a destructor is called"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A constructor is invoked automatically whenever an object is created. It is called constructor because it constructs the values of data members of the class."
+    },
+    {
+      "id": 45,
+      "question": "What does 'nothing-to-do constructor' refer to?",
+      "options": [
+        "A constructor with no code",
+        "A compiler-supplied default constructor when no constructor is defined",
+        "A constructor with only comments",
+        "A parameterized constructor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If no constructor is defined, then the compiler supplies a default constructor. In that case, it is called nothing-to-do constructor."
+    }
+  ]
+}

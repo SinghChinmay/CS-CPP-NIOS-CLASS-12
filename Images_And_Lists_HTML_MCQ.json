@@ -1,0 +1,582 @@
+{
+  "title": "Inserting Images and Lists in Web Pages - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 25",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which image file format is best for photographs with lots of colors?",
+      "options": [
+        "GIF",
+        "JPG",
+        "PNG",
+        "BMP"
+      ],
+      "correctAnswer": 1,
+      "explanation": "JPG file format is the best option for images with lots of colors such as photographs. Their file size is also small and can be further reduced."
+    },
+    {
+      "id": 2,
+      "question": "Which image file format is best for images with few colors like logos?",
+      "options": [
+        "JPG",
+        "GIF",
+        "PNG",
+        "TIFF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "GIF file format is the best option for images with a few colors such as logos, pencil drawings, etc. Many small animations are also available as GIF files."
+    },
+    {
+      "id": 3,
+      "question": "Which image file format is best for images with transparency effects?",
+      "options": [
+        "JPG",
+        "GIF",
+        "PNG",
+        "BMP"
+      ],
+      "correctAnswer": 2,
+      "explanation": "PNG file format is the best option for images with transparency effects. PNG also supports lossless reduction in file size."
+    },
+    {
+      "id": 4,
+      "question": "Which tag is used to insert an image in a web page?",
+      "options": [
+        "<IMAGE>",
+        "<IMG>",
+        "<PIC>",
+        "<PICTURE>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<IMG> tag is used to insert an image in a web page. It is an empty element that doesn't require a closing tag."
+    },
+    {
+      "id": 5,
+      "question": "Which attribute of <IMG> tag is mandatory?",
+      "options": [
+        "HEIGHT",
+        "WIDTH",
+        "SRC",
+        "ALT"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SRC attribute is mandatory for <IMG> tag. It specifies the URL (location + filename) of the image to be inserted."
+    },
+    {
+      "id": 6,
+      "question": "The SRC attribute of <IMG> tag specifies:",
+      "options": [
+        "Image size",
+        "Image alignment",
+        "Image location and filename",
+        "Image border"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SRC attribute specifies the URL (Location + FileName) of the image. If image is in same folder as web page, only filename is needed."
+    },
+    {
+      "id": 7,
+      "question": "HEIGHT and WIDTH attributes of <IMG> tag specify values in:",
+      "options": [
+        "Inches",
+        "Centimeters",
+        "Pixels",
+        "Points"
+      ],
+      "correctAnswer": 2,
+      "explanation": "HEIGHT and WIDTH attributes specify the display size of the image in pixels. If not specified, image displays in original size."
+    },
+    {
+      "id": 8,
+      "question": "BORDER attribute of <IMG> tag specifies:",
+      "options": [
+        "Border color",
+        "Border style",
+        "Border width in pixels",
+        "Border pattern"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BORDER attribute specifies the width/thickness of the image border in pixels. If not specified, image displays without border."
+    },
+    {
+      "id": 9,
+      "question": "ALT attribute of <IMG> tag is used to:",
+      "options": [
+        "Set image alignment",
+        "Specify alternate text if image cannot be displayed",
+        "Set image size",
+        "Change image color"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ALT attribute specifies alternate text to be displayed if the image is not available or cannot be displayed, helping users understand what should be there."
+    },
+    {
+      "id": 10,
+      "question": "ALIGN=\"LEFT\" in <IMG> tag will:",
+      "options": [
+        "Place image at left edge and wrap text around right side",
+        "Align image to left margin only",
+        "Center the image",
+        "Make image float"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ALIGN=\"LEFT\" places the image at the left-most possible space and wraps other content around the right-hand side of the image."
+    },
+    {
+      "id": 11,
+      "question": "ALIGN=\"TOP\" in <IMG> tag will:",
+      "options": [
+        "Place image at top of page",
+        "Align top of image with top of current line",
+        "Move image above text",
+        "Center image vertically"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ALIGN=\"TOP\" aligns the top of the image with the top of the current line of text."
+    },
+    {
+      "id": 12,
+      "question": "How many types of lists can be created in HTML?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HTML provides three types of lists: Unordered (bulleted) lists, Ordered (numbered) lists, and Definition lists."
+    },
+    {
+      "id": 13,
+      "question": "Which tag is used to create an unordered list?",
+      "options": [
+        "<OL>",
+        "<UL>",
+        "<DL>",
+        "<LIST>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<UL> tag is used to create an unordered (bulleted) list. Items are added using <LI> tags."
+    },
+    {
+      "id": 14,
+      "question": "Which tag is used to create an ordered list?",
+      "options": [
+        "<UL>",
+        "<OL>",
+        "<DL>",
+        "<LIST>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<OL> tag is used to create an ordered (numbered) list where elements are given sequence numbers."
+    },
+    {
+      "id": 15,
+      "question": "Which tag is used to insert items in ordered and unordered lists?",
+      "options": [
+        "<ITEM>",
+        "<LI>",
+        "<LIST>",
+        "<ENTRY>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<LI> tag is used to insert items in both ordered and unordered lists. Each <LI> represents one list item."
+    },
+    {
+      "id": 16,
+      "question": "In an unordered list, the default bullet type is:",
+      "options": [
+        "Square",
+        "Circle",
+        "Disc",
+        "Diamond"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The default bullet type in unordered lists is DISC (filled circle). This can be changed using TYPE attribute."
+    },
+    {
+      "id": 17,
+      "question": "TYPE=\"SQUARE\" in <UL> tag will create bullets shaped like:",
+      "options": [
+        "○ (empty circle)",
+        "● (filled circle)",
+        "■ (filled square)",
+        "♦ (diamond)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TYPE=\"SQUARE\" creates filled square (■) bullets in unordered lists."
+    },
+    {
+      "id": 18,
+      "question": "In an ordered list, the default numbering type is:",
+      "options": [
+        "A, B, C...",
+        "I, II, III...",
+        "1, 2, 3...",
+        "i, ii, iii..."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The default numbering type in ordered lists is 1, 2, 3... (Arabic numerals). This can be changed using TYPE attribute."
+    },
+    {
+      "id": 19,
+      "question": "TYPE=\"I\" in <OL> tag will create numbering like:",
+      "options": [
+        "1, 2, 3...",
+        "A, B, C...",
+        "I, II, III...",
+        "i, ii, iii..."
+      ],
+      "correctAnswer": 2,
+      "explanation": "TYPE=\"I\" creates uppercase Roman numerals (I, II, III, IV, V...) for ordered list numbering."
+    },
+    {
+      "id": 20,
+      "question": "START attribute of <OL> tag is used to:",
+      "options": [
+        "Set the bullet type",
+        "Set the starting number",
+        "Set the list alignment",
+        "Set the list color"
+      ],
+      "correctAnswer": 1,
+      "explanation": "START attribute specifies the starting number for ordered lists. For example, START=4 will begin numbering from 4."
+    },
+    {
+      "id": 21,
+      "question": "Which tag is used to create a definition list?",
+      "options": [
+        "<UL>",
+        "<OL>",
+        "<DL>",
+        "<DEF>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<DL> tag is used to create definition lists, which contain terms and their definitions."
+    },
+    {
+      "id": 22,
+      "question": "In a definition list, terms to be defined are specified using:",
+      "options": [
+        "<DD>",
+        "<DT>",
+        "<TERM>",
+        "<DEF>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<DT> tag is used to specify terms to be defined in a definition list."
+    },
+    {
+      "id": 23,
+      "question": "In a definition list, definitions are specified using:",
+      "options": [
+        "<DT>",
+        "<DD>",
+        "<DEF>",
+        "<DESC>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<DD> tag is used to specify the definitions/descriptions corresponding to terms in a definition list."
+    },
+    {
+      "id": 24,
+      "question": "Lists can be nested in HTML:",
+      "options": [
+        "Only up to 2 levels",
+        "Only up to 3 levels",
+        "Up to any level",
+        "Cannot be nested"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In HTML, lists can be nested into one another up to any level. Any type of list can be nested within any other type."
+    },
+    {
+      "id": 25,
+      "question": "In nested lists, which statement is true?",
+      "options": [
+        "Only same types can be nested",
+        "Only ordered lists can contain unordered lists",
+        "Any type of list can be nested in any other type",
+        "Definition lists cannot be nested"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Any type of list (ordered, unordered, definition) can be nested within any other type of list in HTML."
+    },
+    {
+      "id": 26,
+      "question": "What happens if WIDTH and HEIGHT are not specified in <IMG> tag?",
+      "options": [
+        "Image won't display",
+        "Image displays in original size",
+        "Image displays at 100x100 pixels",
+        "Browser shows error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If HEIGHT and WIDTH attributes are not specified, the image will be displayed in its original size."
+    },
+    {
+      "id": 27,
+      "question": "If an image file is not found, what typically appears?",
+      "options": [
+        "Blank space",
+        "Error message",
+        "Cross symbol or broken image icon",
+        "Default image"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When an image cannot be found or displayed, browsers typically show a cross symbol or broken image icon in place of the image."
+    },
+    {
+      "id": 28,
+      "question": "ALIGN=\"MIDDLE\" in <IMG> tag will:",
+      "options": [
+        "Center the image on page",
+        "Align middle of image with baseline of current line",
+        "Place image in middle of text",
+        "Vertically center the image"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ALIGN=\"MIDDLE\" aligns the middle of the image with the baseline of the current line of text."
+    },
+    {
+      "id": 29,
+      "question": "In the path \"images\\photo.jpg\", the image is located in:",
+      "options": [
+        "Root directory",
+        "Same folder as web page",
+        "Subfolder called 'images'",
+        "Different drive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The path \"images\\photo.jpg\" indicates the image file is in a subfolder named 'images' within the current directory."
+    },
+    {
+      "id": 30,
+      "question": "TYPE=\"a\" in <OL> tag creates numbering like:",
+      "options": [
+        "A, B, C...",
+        "a, b, c...",
+        "1, 2, 3...",
+        "I, II, III..."
+      ],
+      "correctAnswer": 1,
+      "explanation": "TYPE=\"a\" creates lowercase alphabetic numbering (a, b, c, d...) in ordered lists."
+    },
+    {
+      "id": 31,
+      "question": "If you want to start an ordered list from number 5, you would use:",
+      "options": [
+        "BEGIN=5",
+        "START=5",
+        "FROM=5",
+        "NUMBER=5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "START=5 attribute in <OL> tag will begin the ordered list numbering from 5 instead of 1."
+    },
+    {
+      "id": 32,
+      "question": "The START attribute takes what type of value?",
+      "options": [
+        "Text values only",
+        "Integer values only",
+        "Roman numerals only",
+        "Alphabetic characters only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "START attribute takes integer values only, regardless of the TYPE attribute setting (numbers, letters, or Roman numerals)."
+    },
+    {
+      "id": 33,
+      "question": "TYPE=\"CIRCLE\" in <UL> tag creates:",
+      "options": [
+        "● (filled circle)",
+        "○ (empty circle)",
+        "■ (filled square)",
+        "□ (empty square)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TYPE=\"CIRCLE\" creates empty circle (○) bullets in unordered lists."
+    },
+    {
+      "id": 34,
+      "question": "Images and lists can be combined in HTML:",
+      "options": [
+        "Never",
+        "Only in unordered lists",
+        "Only in ordered lists",
+        "In any type of list"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Images can be inserted within any type of list (ordered, unordered, or definition) along with text content."
+    },
+    {
+      "id": 35,
+      "question": "For best web page performance, image file sizes should be:",
+      "options": [
+        "As large as possible",
+        "Always over 1MB",
+        "Optimized to be small",
+        "Size doesn't matter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For best web page performance and faster loading, image file sizes should be optimized to be as small as possible while maintaining acceptable quality."
+    },
+    {
+      "id": 36,
+      "question": "Which image format supports animations?",
+      "options": [
+        "JPG",
+        "PNG",
+        "GIF",
+        "BMP"
+      ],
+      "correctAnswer": 2,
+      "explanation": "GIF format supports animations. Many small animations are available in GIF format for web pages."
+    },
+    {
+      "id": 37,
+      "question": "ALIGN=\"RIGHT\" in <IMG> tag will:",
+      "options": [
+        "Place image at right edge only",
+        "Place image at right edge and wrap content around left side",
+        "Center align the image",
+        "Right-justify the image"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ALIGN=\"RIGHT\" places the image to the right-most possible space in the window and wraps content around the left side."
+    },
+    {
+      "id": 38,
+      "question": "The <IMG> tag is:",
+      "options": [
+        "A container element",
+        "An empty element",
+        "A formatting element",
+        "A structural element"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<IMG> is an empty element that doesn't have a corresponding closing tag. It stands alone."
+    },
+    {
+      "id": 39,
+      "question": "In nested lists, proper tag closing order is:",
+      "options": [
+        "First opened, first closed",
+        "Last opened, first closed",
+        "Random order",
+        "All at once"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In nested lists, tags should be closed in reverse order - the last tag opened should be the first tag closed."
+    },
+    {
+      "id": 40,
+      "question": "Definition lists are most suitable for:",
+      "options": [
+        "Shopping lists",
+        "Navigation menus",
+        "Glossaries and dictionaries",
+        "Photo galleries"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Definition lists are most suitable for glossaries, dictionaries, and any content where terms need to be defined or explained."
+    },
+    {
+      "id": 41,
+      "question": "When an image is larger than specified HEIGHT and WIDTH:",
+      "options": [
+        "Image won't display",
+        "Image gets cropped",
+        "Image gets resized to fit",
+        "Original size is maintained"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When HEIGHT and WIDTH are specified, the image gets resized (scaled) to fit those dimensions, regardless of original size."
+    },
+    {
+      "id": 42,
+      "question": "ALIGN=\"BOTTOM\" in <IMG> tag will:",
+      "options": [
+        "Place image at bottom of page",
+        "Align bottom of image with baseline of current line",
+        "Move image below text",
+        "Bottom-align the image"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ALIGN=\"BOTTOM\" aligns the bottom of the image with the baseline of the current line of text."
+    },
+    {
+      "id": 43,
+      "question": "Which is NOT a valid value for TYPE attribute in <UL> tag?",
+      "options": [
+        "DISC",
+        "CIRCLE",
+        "SQUARE",
+        "TRIANGLE"
+      ],
+      "correctAnswer": 3,
+      "explanation": "TRIANGLE is not a valid value for TYPE attribute in <UL>. Valid values are DISC, CIRCLE, and SQUARE only."
+    },
+    {
+      "id": 44,
+      "question": "A complete image tag with all basic attributes would look like:",
+      "options": [
+        "<IMG SRC=\"photo.jpg\">",
+        "<IMG SRC=\"photo.jpg\" ALT=\"Description\">",
+        "<IMG SRC=\"photo.jpg\" HEIGHT=150 WIDTH=200 ALT=\"Description\">",
+        "<IMG FILE=\"photo.jpg\">"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A complete image tag includes SRC (mandatory), HEIGHT, WIDTH for sizing, and ALT for accessibility and fallback text."
+    },
+    {
+      "id": 45,
+      "question": "Lists are commonly used in web pages for:",
+      "options": [
+        "Navigation menus only",
+        "Content organization only",
+        "Bullet points only",
+        "Navigation, content organization, and structured information"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lists are versatile and commonly used for navigation menus, organizing content, creating bullet points, and presenting structured information."
+    },
+    {
+      "id": 46,
+      "question": "The best way to judge image suitability for web pages is:",
+      "options": [
+        "File size only",
+        "File format only",
+        "Visual preview and testing",
+        "File name only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The best way to judge image suitability is through visual preview and testing in browsers, as mentioned in the lesson - 'your eyes' are the best judge."
+    },
+    {
+      "id": 47,
+      "question": "Images should be previewed before:",
+      "options": [
+        "Editing",
+        "Publishing/uploading to Internet",
+        "Saving",
+        "Naming"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It's always better to preview web pages (including images) before publishing or uploading them to the Internet to ensure they display correctly."
+    },
+    {
+      "id": 48,
+      "question": "In a nested ordered list within an unordered list, the inner list will have:",
+      "options": [
+        "Bullets",
+        "Numbers",
+        "Both bullets and numbers",
+        "No markers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When an ordered list is nested within an unordered list, the inner ordered list will still have numbers (or whatever TYPE is specified for OL)."
+    }
+  ]
+}

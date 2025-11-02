@@ -1,0 +1,582 @@
+{
+  "title": "Database Management Systems - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 23",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a database?",
+      "options": [
+        "A computer program",
+        "An organized collection of data",
+        "A type of software",
+        "A hardware component"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A database is an organized collection of data. Examples include telephone directory, student records, employee data, etc."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a problem with manual databases?",
+      "options": [
+        "High speed processing",
+        "Data redundancy",
+        "Easy data sharing",
+        "Automatic backup"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Manual databases suffer from problems like redundancy (multiple copies of same data), inconsistency, loss of integrity, and data insecurity."
+    },
+    {
+      "id": 3,
+      "question": "What does DBMS stand for?",
+      "options": [
+        "Database Management Service",
+        "Data Base Management System",
+        "Digital Base Management System",
+        "Database Monitoring System"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DBMS stands for Database Management System - a software that allows us to manage computerized databases."
+    },
+    {
+      "id": 4,
+      "question": "RDBMS is based on which model?",
+      "options": [
+        "Hierarchical model",
+        "Network model",
+        "Relational model",
+        "Object-oriented model"
+      ],
+      "correctAnswer": 2,
+      "explanation": "RDBMS (Relational Database Management System) is based on the relational model introduced by E.F. Codd."
+    },
+    {
+      "id": 5,
+      "question": "In a relational database, data is organized in:",
+      "options": [
+        "Files and folders",
+        "Trees and branches",
+        "Two-dimensional tables",
+        "Linear lists"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a relational database, data is organized in two-dimensional tables (also called relations) consisting of rows and columns."
+    },
+    {
+      "id": 6,
+      "question": "What is another name for a row in a database table?",
+      "options": [
+        "Field",
+        "Attribute",
+        "Tuple",
+        "Domain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A row in a database table is also called a tuple or record. It contains data corresponding to an entity."
+    },
+    {
+      "id": 7,
+      "question": "What is another name for a column in a database table?",
+      "options": [
+        "Tuple",
+        "Record",
+        "Attribute",
+        "Relation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A column in a database table is also called an attribute or field. The number of attributes in a relation is called its degree."
+    },
+    {
+      "id": 8,
+      "question": "The number of tuples in a relation is called:",
+      "options": [
+        "Degree",
+        "Cardinality",
+        "Domain",
+        "Schema"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The number of tuples (rows) in a relation is called the cardinality of the relation."
+    },
+    {
+      "id": 9,
+      "question": "What is a domain in database terminology?",
+      "options": [
+        "A table name",
+        "A pool of values from which a column draws its actual values",
+        "A type of key",
+        "A database schema"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A domain is a pool of values from which a column draws its actual values. For example, domain of RollNumber may be integers from 1 to 50."
+    },
+    {
+      "id": 10,
+      "question": "Which key is used to uniquely identify each row in a table?",
+      "options": [
+        "Foreign key",
+        "Candidate key",
+        "Primary key",
+        "Alternate key"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A primary key is the group of one or more columns used to uniquely identify each row of a relation. A table cannot have more than one primary key."
+    },
+    {
+      "id": 11,
+      "question": "How many primary keys can a table have?",
+      "options": [
+        "One",
+        "Two",
+        "Multiple",
+        "Unlimited"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A table cannot have more than one primary key. It can have only one primary key to uniquely identify each row."
+    },
+    {
+      "id": 12,
+      "question": "What is a candidate key?",
+      "options": [
+        "The primary key of a table",
+        "A field that can be used as a primary key",
+        "A foreign key reference",
+        "An alternate key"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A candidate key is a field or combination of fields which can be used as a primary key of a relation. A table may have multiple candidate keys."
+    },
+    {
+      "id": 13,
+      "question": "What are alternate keys?",
+      "options": [
+        "Primary keys of other tables",
+        "Candidate keys that are not chosen as primary key",
+        "Foreign keys",
+        "Secondary indexes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When a table has multiple candidate keys, one becomes the primary key and all remaining candidate keys are called alternate keys."
+    },
+    {
+      "id": 14,
+      "question": "What is a foreign key used for?",
+      "options": [
+        "To uniquely identify rows",
+        "To set relationship between tables",
+        "To store large data",
+        "To create indexes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A foreign key is a group of one or more columns in a table which is used to set relationship of this table with some other table."
+    },
+    {
+      "id": 15,
+      "question": "What is normalization?",
+      "options": [
+        "Process of combining all data into one table",
+        "Process of analyzing data and breaking it into separate tables",
+        "Process of deleting redundant data",
+        "Process of creating indexes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Normalization is the process of analyzing the data to be represented and breaking it down into separate tables in accordance with relational structure principles."
+    },
+    {
+      "id": 16,
+      "question": "Which data model provides a bird's eye view of the database?",
+      "options": [
+        "Physical data model",
+        "Logical data model",
+        "Conceptual data model",
+        "Relational data model"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Conceptual Data Model provides a bird's eye view of the database. It identifies various entities and highest-level relationships among them."
+    },
+    {
+      "id": 17,
+      "question": "In which data model are attributes of entities described in detail?",
+      "options": [
+        "Conceptual data model",
+        "Logical data model",
+        "Physical data model",
+        "Entity data model"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In logical data model, we describe the attributes of entities in as much detail as possible. Normalization also occurs at this level."
+    },
+    {
+      "id": 18,
+      "question": "Which data model represents the actual implementation?",
+      "options": [
+        "Conceptual data model",
+        "Logical data model",
+        "Physical data model",
+        "Abstract data model"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Physical data model represents the actual implementation of the Logical Data Model, showing table structures, column data types, constraints, etc."
+    },
+    {
+      "id": 19,
+      "question": "MySQL is an example of:",
+      "options": [
+        "Operating system",
+        "Programming language",
+        "RDBMS software",
+        "Web browser"
+      ],
+      "correctAnswer": 2,
+      "explanation": "MySQL is an open source RDBMS (Relational Database Management System) software, available free of cost."
+    },
+    {
+      "id": 20,
+      "question": "What does SQL stand for?",
+      "options": [
+        "System Query Language",
+        "Structured Query Language",
+        "Simple Query Language",
+        "Standard Query Language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SQL stands for Structured Query Language - a language specifically oriented around relational databases."
+    },
+    {
+      "id": 21,
+      "question": "SQL is a:",
+      "options": [
+        "Procedural language",
+        "Non-procedural language",
+        "Object-oriented language",
+        "Assembly language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SQL is a non-procedural language that requires us to specify what is to be done as opposed to how to do it."
+    },
+    {
+      "id": 22,
+      "question": "Which SQL command class is used to create tables?",
+      "options": [
+        "DML",
+        "DCL",
+        "DDL",
+        "DQL"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DDL (Data Definition Language) consists of commands that create, modify, and remove objects (tables, indexes, views) in the database."
+    },
+    {
+      "id": 23,
+      "question": "Which SQL command class is used to retrieve data?",
+      "options": [
+        "DDL",
+        "DML",
+        "DCL",
+        "DQL"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DML (Data Manipulation Language) consists of commands used to retrieve, manipulate and update data present in tables."
+    },
+    {
+      "id": 24,
+      "question": "DCL stands for:",
+      "options": [
+        "Data Control Language",
+        "Data Create Language",
+        "Database Control Language",
+        "Data Command Language"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DCL stands for Data Control Language - it consists of commands that determine whether a user is permitted to perform a particular action."
+    },
+    {
+      "id": 25,
+      "question": "SQL is:",
+      "options": [
+        "Case-sensitive",
+        "Case-insensitive",
+        "Partially case-sensitive",
+        "Context-dependent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SQL is a case-insensitive language. Commands can be entered using uppercase, lowercase, or a combination of both."
+    },
+    {
+      "id": 26,
+      "question": "Each SQL command is terminated by:",
+      "options": [
+        "Period (.)",
+        "Comma (,)",
+        "Semicolon (;)",
+        "Colon (:)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each command in SQL is terminated by a semicolon (;). A statement may spread into multiple lines but terminates only when a semicolon appears."
+    },
+    {
+      "id": 27,
+      "question": "Which command is used to create a database in MySQL?",
+      "options": [
+        "CREATE DB",
+        "CREATE DATABASE",
+        "NEW DATABASE",
+        "MAKE DATABASE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The CREATE DATABASE command is used to create a database in MySQL. Syntax: CREATE DATABASE <DatabaseName>;"
+    },
+    {
+      "id": 28,
+      "question": "Which command is used to select a database to work with?",
+      "options": [
+        "SELECT DATABASE",
+        "OPEN DATABASE",
+        "USE",
+        "CONNECT"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The USE command is used to make a database active and switch from one database to another. Syntax: USE <DatabaseName>;"
+    },
+    {
+      "id": 29,
+      "question": "Which data type is used for storing integer values in MySQL?",
+      "options": [
+        "CHAR",
+        "VARCHAR",
+        "INT",
+        "DECIMAL"
+      ],
+      "correctAnswer": 2,
+      "explanation": "INT or INTEGER data type is used for storing integer values in the range -2147483648 to 2147483647."
+    },
+    {
+      "id": 30,
+      "question": "CHAR(5) means:",
+      "options": [
+        "Variable length column with maximum 5 characters",
+        "Fixed length column with exactly 5 characters",
+        "Numeric column with 5 digits",
+        "Date column"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CHAR(5) specifies a fixed length column which can store exactly 5 characters. CHAR is used for fixed length strings."
+    },
+    {
+      "id": 31,
+      "question": "Which data type is suitable for storing fractional values?",
+      "options": [
+        "INT",
+        "CHAR",
+        "DECIMAL",
+        "DATE"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DECIMAL(m,d) data type is used for storing numerical values with fractional parts, where m is total digits and d is decimal places."
+    },
+    {
+      "id": 32,
+      "question": "NOT NULL constraint means:",
+      "options": [
+        "Column can have blank values",
+        "Column cannot have blank values",
+        "Column must be unique",
+        "Column is a primary key"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NOT NULL constraint specifies that the column cannot have blank/null values. It must contain some data."
+    },
+    {
+      "id": 33,
+      "question": "Which command is used to view table structure?",
+      "options": [
+        "SHOW TABLE",
+        "VIEW TABLE",
+        "DESCRIBE",
+        "DISPLAY"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DESCRIBE or DESC command is used to view the structure of a table, showing field names, data types, null constraints, etc."
+    },
+    {
+      "id": 34,
+      "question": "Which command is used to insert data into a table?",
+      "options": [
+        "ADD INTO",
+        "INSERT INTO",
+        "PUT INTO",
+        "ENTER INTO"
+      ],
+      "correctAnswer": 1,
+      "explanation": "INSERT INTO command is used to insert data into a table. Syntax: INSERT INTO <TableName> VALUES (value1, value2, ...);"
+    },
+    {
+      "id": 35,
+      "question": "In INSERT statement, character values must be enclosed in:",
+      "options": [
+        "Square brackets",
+        "Parentheses",
+        "Quotation marks",
+        "Curly braces"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Character (CHAR, VARCHAR) and date values must be placed within quotation marks (single or double). Numeric values are not quoted."
+    },
+    {
+      "id": 36,
+      "question": "Which command is used to retrieve all data from a table?",
+      "options": [
+        "GET * FROM table",
+        "SELECT * FROM table",
+        "SHOW * FROM table",
+        "FETCH * FROM table"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SELECT * FROM <tablename> command is used to retrieve all data from a table. The * symbol represents all columns."
+    },
+    {
+      "id": 37,
+      "question": "To retrieve specific columns from a table, you use:",
+      "options": [
+        "SELECT column1, column2 FROM table",
+        "GET column1, column2 FROM table",
+        "SHOW column1, column2 FROM table",
+        "FETCH column1, column2 FROM table"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To retrieve specific columns, specify column names instead of * in SELECT statement: SELECT column1, column2 FROM table;"
+    },
+    {
+      "id": 38,
+      "question": "WHERE clause is used to:",
+      "options": [
+        "Sort data",
+        "Group data",
+        "Filter data based on conditions",
+        "Join tables"
+      ],
+      "correctAnswer": 2,
+      "explanation": "WHERE clause is used to filter data based on specified conditions, allowing retrieval of only rows that meet certain criteria."
+    },
+    {
+      "id": 39,
+      "question": "To combine multiple conditions in WHERE clause, you use:",
+      "options": [
+        "AND, OR",
+        "PLUS, MINUS",
+        "WITH, WITHOUT",
+        "IF, THEN"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiple conditions in WHERE clause are combined using AND (both conditions must be true) or OR (either condition can be true) operators."
+    },
+    {
+      "id": 40,
+      "question": "DISTINCT keyword is used to:",
+      "options": [
+        "Sort data",
+        "Eliminate duplicate values",
+        "Count records",
+        "Group data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DISTINCT keyword is used to eliminate duplicate values and extract only unique values from specified columns."
+    },
+    {
+      "id": 41,
+      "question": "ORDER BY clause is used to:",
+      "options": [
+        "Filter data",
+        "Group data",
+        "Sort data",
+        "Join tables"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ORDER BY clause is used to sort the output based on any column in ascending (default) or descending (DESC) order."
+    },
+    {
+      "id": 42,
+      "question": "ALTER TABLE command is used to:",
+      "options": [
+        "Create a new table",
+        "Delete a table",
+        "Modify table structure",
+        "Insert data"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ALTER TABLE command is used to modify the structure of an existing table - add columns, drop columns, or modify column definitions."
+    },
+    {
+      "id": 43,
+      "question": "Which command is used to update existing data?",
+      "options": [
+        "MODIFY",
+        "CHANGE",
+        "UPDATE",
+        "ALTER"
+      ],
+      "correctAnswer": 2,
+      "explanation": "UPDATE command is used to modify existing data values in a table. It can update all rows or selected rows using WHERE clause."
+    },
+    {
+      "id": 44,
+      "question": "DELETE command is used to:",
+      "options": [
+        "Remove table structure",
+        "Remove rows from table",
+        "Remove database",
+        "Remove columns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DELETE command is used to remove rows from a table. It can delete all rows or selected rows based on WHERE clause conditions."
+    },
+    {
+      "id": 45,
+      "question": "DROP TABLE command:",
+      "options": [
+        "Removes all data but keeps structure",
+        "Removes table structure from memory",
+        "Removes specific columns",
+        "Removes specific rows"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DROP TABLE command removes the complete table structure from memory, including all data and the table definition."
+    },
+    {
+      "id": 46,
+      "question": "Which of the following is NOT a benefit of computerized databases?",
+      "options": [
+        "Redundancy is controlled",
+        "Data can be shared",
+        "Security restrictions can be applied",
+        "Manual data entry is faster"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Manual data entry is not a benefit of computerized databases. Benefits include controlled redundancy, data sharing, security, and maintained integrity."
+    },
+    {
+      "id": 47,
+      "question": "In logical data model, which of the following is NOT specified?",
+      "options": [
+        "All entities and relationships",
+        "All attributes for each entity",
+        "Primary keys",
+        "Column data types"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Column data types are specified in physical data model, not logical data model. Logical model specifies entities, attributes, keys, and relationships."
+    },
+    {
+      "id": 48,
+      "question": "What is the main purpose of normalization?",
+      "options": [
+        "To increase data redundancy",
+        "To structure data and reduce redundancy",
+        "To slow down data retrieval",
+        "To make queries complex"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main purpose of normalization is to structure data, permit simple data retrieval, simplify maintenance, and reduce the need for restructuring when new requirements arise."
+    }
+  ]
+}

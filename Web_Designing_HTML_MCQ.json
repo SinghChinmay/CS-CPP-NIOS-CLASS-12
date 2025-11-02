@@ -1,0 +1,582 @@
+{
+  "title": "Web Designing Using HTML - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 24",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Hyper Transfer Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HTML stands for Hyper Text Markup Language. It is the basic language used to create web pages."
+    },
+    {
+      "id": 2,
+      "question": "HTML documents are saved with which file extension?",
+      "options": [
+        ".txt",
+        ".doc",
+        ".html or .htm",
+        ".web"
+      ],
+      "correctAnswer": 2,
+      "explanation": "HTML documents must be saved with the extension .html or .htm to be recognized and opened properly by web browsers."
+    },
+    {
+      "id": 3,
+      "question": "A tag in HTML is enclosed within:",
+      "options": [
+        "Square brackets [ ]",
+        "Curly brackets { }",
+        "Angular brackets < >",
+        "Parentheses ( )"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A tag in HTML is a special word enclosed within angular brackets (< and >) which conveys messages to the browser about structure or formatting."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an example of a structural tag?",
+      "options": [
+        "<B>",
+        "<HTML>",
+        "<HR>",
+        "<IMG>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<HTML> is a structural tag that defines the basic structure of the web page. <B>, <HR>, and <IMG> are formatting tags."
+    },
+    {
+      "id": 5,
+      "question": "A closing tag in HTML always starts with:",
+      "options": [
+        "# symbol",
+        "/ symbol",
+        "* symbol",
+        "& symbol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A closing tag in HTML always starts with a forward slash (/). For example, </HTML>, </BODY>, </P>."
+    },
+    {
+      "id": 6,
+      "question": "What is a container element in HTML?",
+      "options": [
+        "A tag without a closing tag",
+        "A tag that contains only text",
+        "An element from opening tag to corresponding closing tag",
+        "A tag that contains images"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A container element is the portion of HTML document from the opening tag up to the corresponding closing tag, like <HTML>...</HTML>."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is an empty element?",
+      "options": [
+        "<HTML>",
+        "<BODY>",
+        "<BR>",
+        "<P>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<BR> is an empty element that doesn't need a corresponding closing tag. It stands alone and creates a line break."
+    },
+    {
+      "id": 8,
+      "question": "The general structure of an HTML document contains which two main elements?",
+      "options": [
+        "Title and Body",
+        "Head and Body",
+        "Header and Footer",
+        "Start and End"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Every HTML document contains two main elements: Head element (optional, contains document information) and Body element (contains displayable content)."
+    },
+    {
+      "id": 9,
+      "question": "The HEAD element contains:",
+      "options": [
+        "Information to be displayed in browser window",
+        "Images and text",
+        "Information about the document not displayed in browser",
+        "Navigation links"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The HEAD element contains information about the document (like title, meta tags) that is not displayed in the browser window."
+    },
+    {
+      "id": 10,
+      "question": "The BODY element contains:",
+      "options": [
+        "Document metadata",
+        "Information to be displayed in browser window",
+        "CSS styles only",
+        "JavaScript code only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The BODY element contains all the information that is to be displayed in the browser window - text, images, links, etc."
+    },
+    {
+      "id": 11,
+      "question": "Which tag is used to start a new paragraph?",
+      "options": [
+        "<BR>",
+        "<P>",
+        "<LINE>",
+        "<PARA>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<P> tag is used to start a new paragraph. It leaves a blank line before starting the new paragraph."
+    },
+    {
+      "id": 12,
+      "question": "What is the difference between <P> and <BR> tags?",
+      "options": [
+        "No difference",
+        "<P> leaves blank line, <BR> doesn't",
+        "<BR> leaves blank line, <P> doesn't",
+        "Both leave blank lines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<P> leaves a blank line before starting a new paragraph, whereas <BR> just creates a line break without leaving a blank line."
+    },
+    {
+      "id": 13,
+      "question": "Which tag is used to make text bold?",
+      "options": [
+        "<BOLD>",
+        "<B>",
+        "<STRONG>",
+        "<THICK>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<B> tag is used to make text bold. The text to be bolded is enclosed between <B> and </B> tags."
+    },
+    {
+      "id": 14,
+      "question": "Which tag is used to underline text?",
+      "options": [
+        "<U>",
+        "<UNDER>",
+        "<LINE>",
+        "<UNDERLINE>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<U> tag is used to underline text. The text to be underlined is enclosed between <U> and </U> tags."
+    },
+    {
+      "id": 15,
+      "question": "Which tag is used to italicize text?",
+      "options": [
+        "<ITALIC>",
+        "<I>",
+        "<SLANT>",
+        "<EM>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<I> tag is used to italicize text. The text to be italicized is enclosed between <I> and </I> tags."
+    },
+    {
+      "id": 16,
+      "question": "Which tag is used to center align text?",
+      "options": [
+        "<CENTER>",
+        "<ALIGN>",
+        "<MIDDLE>",
+        "<CENTRE>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<CENTER> tag is used to center align any part of the text. The text is enclosed between <CENTER> and </CENTER> tags."
+    },
+    {
+      "id": 17,
+      "question": "The <BLOCKQUOTE> tag is used to:",
+      "options": [
+        "Create quotes",
+        "Indent text from both sides",
+        "Make text bold",
+        "Add borders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<BLOCKQUOTE> tag is used to indent text (usually quotations) from both sides - left and right."
+    },
+    {
+      "id": 18,
+      "question": "Which tag is used to set specific font properties?",
+      "options": [
+        "<TEXT>",
+        "<FONT>",
+        "<STYLE>",
+        "<FORMAT>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<FONT> tag is used to set specific font properties like face, color, and size for any part of the text."
+    },
+    {
+      "id": 19,
+      "question": "Multiple tags can be applied to the same text. This concept is called:",
+      "options": [
+        "Tag combination",
+        "Tag multiplication",
+        "Nesting of tags",
+        "Tag inheritance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Applying multiple tags to the same part of text is called nesting of tags. For example: <B><U>Bold and Underlined</U></B>."
+    },
+    {
+      "id": 20,
+      "question": "Which attribute of <P> tag is used to change paragraph alignment?",
+      "options": [
+        "POSITION",
+        "ALIGN",
+        "DIRECTION",
+        "LAYOUT"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ALIGN attribute of <P> tag is used to change paragraph alignment. Values can be LEFT, RIGHT, CENTER, or JUSTIFY."
+    },
+    {
+      "id": 21,
+      "question": "Which attribute of <FONT> tag specifies the font name?",
+      "options": [
+        "NAME",
+        "TYPE",
+        "FACE",
+        "FONT"
+      ],
+      "correctAnswer": 2,
+      "explanation": "FACE attribute of <FONT> tag specifies the font name/family to be used. Example: <FONT FACE=\"Arial\">."
+    },
+    {
+      "id": 22,
+      "question": "The SIZE attribute of <FONT> tag accepts values from:",
+      "options": [
+        "1 to 5",
+        "1 to 7",
+        "1 to 10",
+        "1 to 12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SIZE attribute of <FONT> tag accepts integer values from 1 to 7, where 1 is smallest and 7 is largest font size."
+    },
+    {
+      "id": 23,
+      "question": "Color values in HTML can be specified as:",
+      "options": [
+        "Color names only",
+        "#RRGGBB codes only",
+        "Both color names and #RRGGBB codes",
+        "Numbers only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Color values in HTML can be specified as valid color names (like RED, BLUE) or as #RRGGBB hexadecimal codes (like #FF0000 for red)."
+    },
+    {
+      "id": 24,
+      "question": "If an attribute value contains multiple words, it must be:",
+      "options": [
+        "Separated by commas",
+        "Enclosed in double quotes",
+        "Written in capital letters",
+        "Connected with hyphens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If an attribute value contains multiple words, it must be enclosed within double quotes. Single words may or may not use quotes."
+    },
+    {
+      "id": 25,
+      "question": "Which heading tag gives the largest heading?",
+      "options": [
+        "<H1>",
+        "<H6>",
+        "<H0>",
+        "<HEADING>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<H1> gives the largest heading size. Heading sizes gradually decrease from <H1> (largest) to <H6> (smallest)."
+    },
+    {
+      "id": 26,
+      "question": "How many levels of headings are available in HTML?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HTML provides 6 levels of headings from <H1> to <H6>. <H7> and <H8> are not valid tags and are ignored by browsers."
+    },
+    {
+      "id": 27,
+      "question": "Each heading tag automatically:",
+      "options": [
+        "Makes text bold",
+        "Starts as a new paragraph",
+        "Changes font color",
+        "Adds borders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each heading tag automatically starts as a new paragraph, and the text following it also starts as a new paragraph."
+    },
+    {
+      "id": 28,
+      "question": "The <HR> tag is used to:",
+      "options": [
+        "Add horizontal spacing",
+        "Draw a horizontal line",
+        "Create headers",
+        "Insert line breaks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<HR> tag is used to draw a horizontal line (Horizontal Rule) to separate sections of a web page."
+    },
+    {
+      "id": 29,
+      "question": "Which attribute of <HR> specifies the thickness of the line?",
+      "options": [
+        "WIDTH",
+        "HEIGHT",
+        "SIZE",
+        "THICK"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SIZE attribute of <HR> tag specifies the height/thickness of the horizontal rule in pixels."
+    },
+    {
+      "id": 30,
+      "question": "WIDTH=\"50%\" in <HR> tag means:",
+      "options": [
+        "50 pixels wide",
+        "Half of the window width",
+        "50 inches wide",
+        "50 points wide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "WIDTH=\"50%\" means the horizontal rule will be 50% of the browser window width. Without % sign, it would be pixels."
+    },
+    {
+      "id": 31,
+      "question": "NOSHADE attribute of <HR> tag:",
+      "options": [
+        "Adds shadow effect",
+        "Removes color",
+        "Makes the rule solid instead of shaded",
+        "Makes the rule transparent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "NOSHADE attribute specifies that the horizontal rule should be solid and not shaded (which is the default appearance)."
+    },
+    {
+      "id": 32,
+      "question": "The <TITLE> tag is placed in which element?",
+      "options": [
+        "BODY",
+        "HEAD",
+        "HTML",
+        "HEADER"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <TITLE> tag is placed in the HEAD element. It sets the text that appears in the browser's title bar."
+    },
+    {
+      "id": 33,
+      "question": "If an HTML document doesn't contain a title, what appears in the title bar?",
+      "options": [
+        "\"Untitled Document\"",
+        "Nothing",
+        "The file name",
+        "\"HTML Page\""
+      ],
+      "correctAnswer": 2,
+      "explanation": "If an HTML document doesn't contain a title, the file name of the HTML document is displayed in the browser's title bar."
+    },
+    {
+      "id": 34,
+      "question": "Which attribute of <BODY> sets the background color?",
+      "options": [
+        "COLOR",
+        "BACKGROUND",
+        "BGCOLOR",
+        "BACKCOLOR"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BGCOLOR attribute of <BODY> tag is used to specify the background color of the web page."
+    },
+    {
+      "id": 35,
+      "question": "Which attribute of <BODY> sets the text color?",
+      "options": [
+        "COLOR",
+        "TEXT",
+        "TEXTCOLOR",
+        "FONTCOLOR"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TEXT attribute of <BODY> tag sets the color of normal text in the document. The default text color is black."
+    },
+    {
+      "id": 36,
+      "question": "BACKGROUND attribute of <BODY> tag is used to:",
+      "options": [
+        "Set background color",
+        "Set background image",
+        "Set text background",
+        "Set border background"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BACKGROUND attribute of <BODY> tag is used to specify an image to be shown in the background of the web page."
+    },
+    {
+      "id": 37,
+      "question": "What happens if a background image is smaller than the browser window?",
+      "options": [
+        "It gets stretched",
+        "It appears once in corner",
+        "It gets tiled to fit",
+        "It disappears"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If the background image is smaller than the browser window, it will be tiled (repeated) to fit the entire window."
+    },
+    {
+      "id": 38,
+      "question": "Which of the following is NOT a valid color name in HTML?",
+      "options": [
+        "RED",
+        "BLUE",
+        "PURPLE",
+        "TRANSPARENT"
+      ],
+      "correctAnswer": 3,
+      "explanation": "TRANSPARENT is not a valid color name. Valid color names include RED, BLUE, GREEN, YELLOW, CYAN, etc."
+    },
+    {
+      "id": 39,
+      "question": "The <PRE> tag is used to:",
+      "options": [
+        "Preload content",
+        "Display predefined text preserving spaces and line breaks",
+        "Preview content",
+        "Create preformatted tables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<PRE> tag displays text in a fixed-width font and preserves both spaces and line breaks exactly as typed."
+    },
+    {
+      "id": 40,
+      "question": "In HTML, when the browser encounters an invalid tag, it:",
+      "options": [
+        "Shows an error message",
+        "Stops loading the page",
+        "Ignores the tag completely",
+        "Replaces it with default tag"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When browsers encounter invalid tags (like <H7> or <H8>), they ignore these tags completely and continue processing the rest of the document."
+    },
+    {
+      "id": 41,
+      "question": "Which is the correct way to apply both bold and underline to text?",
+      "options": [
+        "<B><U>Text</B></U>",
+        "<B><U>Text</U></B>",
+        "<BU>Text</BU>",
+        "<BOLD><UNDERLINE>Text</UNDERLINE></BOLD>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct way to nest tags is <B><U>Text</U></B> - opening tags in order, then closing tags in reverse order."
+    },
+    {
+      "id": 42,
+      "question": "Default paragraph alignment in HTML is:",
+      "options": [
+        "CENTER",
+        "RIGHT",
+        "LEFT",
+        "JUSTIFY"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By default, paragraphs in HTML are left-aligned. You can change this using the ALIGN attribute of <P> tag."
+    },
+    {
+      "id": 43,
+      "question": "Multiple attributes in a tag are separated by:",
+      "options": [
+        "Commas",
+        "Semicolons",
+        "Spaces",
+        "Periods"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multiple attributes in a tag are separated by spaces. For example: <FONT FACE=\"Arial\" SIZE=3 COLOR=red>."
+    },
+    {
+      "id": 44,
+      "question": "What type of software is a web browser?",
+      "options": [
+        "System software",
+        "Programming software",
+        "Application software used to surf Internet",
+        "Database software"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A web browser is application software used to surf the Internet and display web pages. Examples include Chrome, Firefox, Edge."
+    },
+    {
+      "id": 45,
+      "question": "A website is:",
+      "options": [
+        "A single web page",
+        "A collection of interlinked web pages",
+        "A web browser",
+        "An HTML document"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A website is a collection of interlinked web pages that are connected through hyperlinks and usually share a common domain."
+    },
+    {
+      "id": 46,
+      "question": "Web pages can contain which of the following components?",
+      "options": [
+        "Text only",
+        "Images only",
+        "Text, images, hyperlinks, forms, audio, video",
+        "HTML code only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Web pages can contain various components including text, images, hyperlinks, forms, audio, video, and interactive elements."
+    },
+    {
+      "id": 47,
+      "question": "HTML documents can be created in:",
+      "options": [
+        "Specialized HTML editors only",
+        "Any text editor like Notepad",
+        "Web browsers only",
+        "Database software only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HTML documents are text files and can be created in any text editor like Notepad, Notepad++, or specialized HTML editors."
+    },
+    {
+      "id": 48,
+      "question": "To view an HTML document as a web page, you need to:",
+      "options": [
+        "Save it and open in a text editor",
+        "Upload it to the internet first",
+        "Open it in a web browser",
+        "Compile it first"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To view an HTML document as a web page, you need to open the .html file in a web browser, which will render and display it properly."
+    }
+  ]
+}

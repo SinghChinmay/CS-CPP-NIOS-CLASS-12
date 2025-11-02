@@ -1,0 +1,606 @@
+{
+  "title": "C++ Control Statements - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 14",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What symbol is used to terminate every statement in C++?",
+      "options": [
+        "Colon (:)",
+        "Semicolon (;)",
+        "Period (.)",
+        "Comma (,)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In C++, every statement must be terminated with a semicolon (;). This tells the compiler where one statement ends and the next begins."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following symbols are used to enclose a compound statement in C++?",
+      "options": [
+        "Square brackets [ ]",
+        "Parentheses ( )",
+        "Curly braces { }",
+        "Angle brackets < >"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Compound statements in C++ are enclosed in curly braces { }. The opening brace { marks the beginning and the closing brace } marks the end of the block."
+    },
+    {
+      "id": 3,
+      "question": "What is a null statement in C++?",
+      "options": [
+        "A statement with no variables",
+        "A statement containing only a semicolon (;)",
+        "A statement with zero value",
+        "An empty function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A null statement in C++ is simply a semicolon (;) by itself. It's useful when the syntax requires a statement but the logic doesn't need any action to be performed."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is NOT a conditional statement in C++?",
+      "options": [
+        "if statement",
+        "if-else statement",
+        "switch statement",
+        "for statement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The for statement is a loop construct, not a conditional statement. Conditional statements include if, if-else, and switch statements that make decisions based on conditions."
+    },
+    {
+      "id": 5,
+      "question": "In an if statement, what happens when the condition is false?",
+      "options": [
+        "The program terminates",
+        "An error occurs",
+        "The statements inside the if block are skipped",
+        "The statements are executed anyway"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the condition in an if statement evaluates to false, the statements inside the if block are skipped and execution continues with the next statement after the if block."
+    },
+    {
+      "id": 6,
+      "question": "What is the correct syntax for an if-else statement?",
+      "options": [
+        "if (condition) { statement1; } else { statement2; }",
+        "if condition { statement1; } else { statement2; }",
+        "if (condition) statement1; else statement2;",
+        "Both A and C are correct"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both syntaxes are correct in C++. You can use braces for compound statements or omit them for single statements. The condition must always be enclosed in parentheses."
+    },
+    {
+      "id": 7,
+      "question": "In the given code: `if (x == 5)`, what does the double equals (==) operator do?",
+      "options": [
+        "Assigns the value 5 to x",
+        "Checks if x is equal to 5",
+        "Adds 5 to x",
+        "Subtracts 5 from x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The double equals (==) is a comparison operator that checks for equality. It returns true if x equals 5, false otherwise. Single equals (=) is for assignment."
+    },
+    {
+      "id": 8,
+      "question": "What is a nested if statement?",
+      "options": [
+        "An if statement inside another if statement",
+        "Multiple if statements in sequence",
+        "An if statement with multiple conditions",
+        "An if statement without else"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A nested if statement is an if statement that is placed inside another if or else statement. This allows for more complex decision-making logic in programs."
+    },
+    {
+      "id": 9,
+      "question": "Which statement allows multiple branching in C++?",
+      "options": [
+        "if statement",
+        "if-else statement",
+        "switch statement",
+        "nested if statement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The switch statement allows multiple branching by testing a variable against many values (cases). It's more efficient than multiple if-else statements for checking multiple discrete values."
+    },
+    {
+      "id": 10,
+      "question": "In a switch statement, what is the purpose of the break statement?",
+      "options": [
+        "To exit the program",
+        "To transfer control to the end of the switch statement",
+        "To restart the switch statement",
+        "To check the next case"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The break statement in a switch case transfers control to the end of the switch statement, preventing execution from falling through to subsequent cases."
+    },
+    {
+      "id": 11,
+      "question": "What happens if you omit the break statement in a switch case?",
+      "options": [
+        "Compilation error occurs",
+        "The program terminates",
+        "Execution continues to the next case statements",
+        "Nothing happens"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Without a break statement, execution falls through to the next case. This means all subsequent cases will execute until a break is encountered or the switch ends."
+    },
+    {
+      "id": 12,
+      "question": "What is executed when no case matches in a switch statement?",
+      "options": [
+        "The first case",
+        "The last case",
+        "The default case",
+        "Nothing is executed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The default case is executed when none of the explicit cases match the switch expression. It acts as a catch-all for unhandled values."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is a loop construct in C++?",
+      "options": [
+        "while loop",
+        "do-while loop",
+        "for loop",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "C++ provides three types of loop constructs: while loop, do-while loop, and for loop. Each has different characteristics for different use cases."
+    },
+    {
+      "id": 14,
+      "question": "In a while loop, when is the condition checked?",
+      "options": [
+        "After each execution of the loop body",
+        "Before each execution of the loop body",
+        "Only at the beginning",
+        "Only at the end"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a while loop, the condition is checked before each execution of the loop body. If the condition is false initially, the loop body never executes."
+    },
+    {
+      "id": 15,
+      "question": "What is the main difference between while and do-while loops?",
+      "options": [
+        "while loop runs faster",
+        "do-while loop executes the loop body at least once",
+        "while loop can have multiple conditions",
+        "There is no difference"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The do-while loop executes the loop body at least once because the condition is checked after the loop body execution, unlike the while loop where condition is checked first."
+    },
+    {
+      "id": 16,
+      "question": "In a do-while loop, where is the condition placed?",
+      "options": [
+        "Before the loop body",
+        "After the loop body",
+        "Inside the loop body",
+        "Outside the loop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a do-while loop, the condition is placed after the loop body. The syntax is: do { statements; } while (condition);"
+    },
+    {
+      "id": 17,
+      "question": "Which loop is best suited when you know in advance how many times the loop should execute?",
+      "options": [
+        "while loop",
+        "do-while loop",
+        "for loop",
+        "All loops are equally suitable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The for loop is best for count-controlled loops where you know the number of iterations in advance. It combines initialization, condition, and increment in one statement."
+    },
+    {
+      "id": 18,
+      "question": "What are the three operations performed in a for loop?",
+      "options": [
+        "Input, process, output",
+        "Start, middle, end",
+        "Initialization, condition testing, increment/decrement",
+        "Declaration, assignment, comparison"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A for loop has three parts: initialization (executed once), condition testing (before each iteration), and increment/decrement (after each iteration)."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a jump statement in C++?",
+      "options": [
+        "goto statement",
+        "break statement",
+        "continue statement",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Jump statements transfer control unconditionally. C++ has goto (jumps to label), break (exits loop/switch), and continue (skips to next iteration)."
+    },
+    {
+      "id": 20,
+      "question": "What does the goto statement do?",
+      "options": [
+        "Exits the program",
+        "Transfers control to a labeled statement",
+        "Repeats the current statement",
+        "Skips the next statement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The goto statement unconditionally transfers program control to a labeled statement elsewhere in the program. However, it's considered poor programming practice."
+    },
+    {
+      "id": 21,
+      "question": "What is the difference between break and continue statements?",
+      "options": [
+        "break exits the loop, continue skips to the next iteration",
+        "continue exits the loop, break skips to the next iteration",
+        "They perform the same function",
+        "break is for loops, continue is for switch statements"
+      ],
+      "correctAnswer": 0,
+      "explanation": "break exits the entire loop or switch statement, while continue skips the remaining statements in the current iteration and moves to the next iteration."
+    },
+    {
+      "id": 22,
+      "question": "Which header file is required for using the exit() function?",
+      "options": [
+        "iostream.h",
+        "stdio.h",
+        "process.h",
+        "conio.h"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The exit() function is declared in process.h header file. It terminates the program execution and returns a status code to the operating system."
+    },
+    {
+      "id": 23,
+      "question": "What value should be passed to exit() function for correct execution?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Any positive number"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By convention, exit(0) indicates successful program termination. Non-zero values typically indicate various error conditions."
+    },
+    {
+      "id": 24,
+      "question": "Consider the code: `int c; float a = 245.05, b = 40.02; c = a + b;` What will be the value of c?",
+      "options": [
+        "285.09",
+        "2850",
+        "285",
+        "285.0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When assigning a float result to an int variable, the decimal part is truncated (not rounded). So 285.07 becomes 285."
+    },
+    {
+      "id": 25,
+      "question": "What will be the output of: `for (int i = 0; i < 5; i++) cout << i;`",
+      "options": [
+        "01234",
+        "12345",
+        "0123",
+        "1234"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The loop starts with i=0, continues while i<5, and increments i after each iteration. So it prints 0, 1, 2, 3, 4."
+    },
+    {
+      "id": 26,
+      "question": "In the statement `while (n <= 10)`, what is n called?",
+      "options": [
+        "Loop variable",
+        "Loop control variable",
+        "Counter variable",
+        "Index variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The variable used to control loop execution is called a loop control variable. Its value determines when the loop starts and stops."
+    },
+    {
+      "id": 27,
+      "question": "Which loop guarantees that the loop body will execute at least once?",
+      "options": [
+        "for loop",
+        "while loop",
+        "do-while loop",
+        "All loops guarantee this"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Only the do-while loop guarantees at least one execution because it checks the condition after executing the loop body, not before."
+    },
+    {
+      "id": 28,
+      "question": "What does the increment operator (++) do?",
+      "options": [
+        "Increases the value by 10",
+        "Increases the value by 1",
+        "Doubles the value",
+        "Resets the value to 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The increment operator (++) increases the value of a variable by 1. It can be used as prefix (++var) or postfix (var++)."
+    },
+    {
+      "id": 29,
+      "question": "In a switch statement, which case is executed when no explicit case matches?",
+      "options": [
+        "case 0",
+        "case 1",
+        "default case",
+        "No case is executed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The default case is executed when none of the explicit case values match the switch expression. It's optional but recommended for handling unexpected values."
+    },
+    {
+      "id": 30,
+      "question": "What is the purpose of compound statements in C++?",
+      "options": [
+        "To group multiple statements together",
+        "To make the code run faster",
+        "To reduce memory usage",
+        "To handle errors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Compound statements, enclosed in curly braces {}, group multiple statements together to be treated as a single unit, especially useful in control structures."
+    },
+    {
+      "id": 31,
+      "question": "Which operator is used for assignment in C++?",
+      "options": [
+        "==",
+        "=",
+        "+=",
+        "!="
+      ],
+      "correctAnswer": 1,
+      "explanation": "The single equals sign (=) is the assignment operator in C++. Don't confuse it with == (equality comparison) or += (compound assignment)."
+    },
+    {
+      "id": 32,
+      "question": "What happens in this code: `total += n;`?",
+      "options": [
+        "total is assigned the value of n",
+        "total is added to n",
+        "n is added to total",
+        "total and n are compared"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The += operator is a compound assignment operator. `total += n` is equivalent to `total = total + n`, so n is added to total."
+    },
+    {
+      "id": 33,
+      "question": "In the expression `number % 10`, what does the % operator do?",
+      "options": [
+        "Divides number by 10",
+        "Multiplies number by 10",
+        "Finds the remainder when number is divided by 10",
+        "Finds the quotient when number is divided by 10"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The modulo operator (%) returns the remainder after integer division. For example, 23 % 10 = 3."
+    },
+    {
+      "id": 34,
+      "question": "What is the correct way to include the iostream header file?",
+      "options": [
+        "#include <iostream.h>",
+        "#include \"iostream.h\"",
+        "include <iostream.h>",
+        "#include iostream.h"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct syntax is #include <iostream.h> with angle brackets for system headers. The # is required for preprocessor directives."
+    },
+    {
+      "id": 35,
+      "question": "Which of the following is the correct syntax for a do-while loop?",
+      "options": [
+        "do { statements; } while (condition);",
+        "do (condition) { statements; }",
+        "while (condition) do { statements; }",
+        "do { statements; } (condition);"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct syntax is: do { statements; } while (condition); Note the semicolon after the while condition is required."
+    },
+    {
+      "id": 36,
+      "question": "What does the statement `cin >> x >> y;` do?",
+      "options": [
+        "Outputs x and y",
+        "Inputs values for x and y",
+        "Compares x and y",
+        "Assigns y to x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cin statement with >> operator reads input values from the keyboard and stores them in variables x and y respectively."
+    },
+    {
+      "id": 37,
+      "question": "In nested if statements, how many levels of nesting are possible?",
+      "options": [
+        "Only 2 levels",
+        "Only 3 levels",
+        "Maximum 10 levels",
+        "No specific limit"
+      ],
+      "correctAnswer": 3,
+      "explanation": "There is no specific limit to the number of nesting levels in if statements, though excessive nesting can make code difficult to read and maintain."
+    },
+    {
+      "id": 38,
+      "question": "What will happen if the condition in a while loop is initially false?",
+      "options": [
+        "The loop body executes once",
+        "The loop body never executes",
+        "An error occurs",
+        "The program terminates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the while loop condition is false initially, the loop body is never executed because the condition is checked before entering the loop."
+    },
+    {
+      "id": 39,
+      "question": "Which statement is used to skip the remaining statements in a loop iteration?",
+      "options": [
+        "break",
+        "continue",
+        "goto",
+        "exit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The continue statement skips the remaining statements in the current iteration and jumps to the next iteration of the loop."
+    },
+    {
+      "id": 40,
+      "question": "What is the output of: `for (char i = 'A'; i < 'E'; i++) cout << i;`",
+      "options": [
+        "ABCD",
+        "ABCDE",
+        "ABC",
+        "A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The loop starts with i='A', continues while i<'E', and increments i. So it prints A, B, C, D (stops before E)."
+    },
+    {
+      "id": 41,
+      "question": "In switch statement, what data types can be used for the expression?",
+      "options": [
+        "Only integers",
+        "Only characters",
+        "Integers and characters",
+        "Any data type"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Switch statements in C++ can work with integer types (int, char, short, long) and their variations. Floating-point and string types are not allowed."
+    },
+    {
+      "id": 42,
+      "question": "What does `cout << \"Hello \\n\";` do?",
+      "options": [
+        "Prints Hello and moves to new line",
+        "Prints Hello\\n",
+        "Only prints Hello",
+        "Causes an error"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The \\n is an escape sequence that represents a newline character, so it prints 'Hello' and moves the cursor to the next line."
+    },
+    {
+      "id": 43,
+      "question": "Which loop control variable operation must be performed first?",
+      "options": [
+        "Testing",
+        "Initialization",
+        "Updating",
+        "Declaration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Initialization must be performed first to give the loop control variable an initial value before it can be tested or updated."
+    },
+    {
+      "id": 44,
+      "question": "What is the purpose of the default case in a switch statement?",
+      "options": [
+        "It's mandatory in every switch",
+        "It handles cases that don't match any explicit case",
+        "It's executed first",
+        "It terminates the switch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The default case handles values that don't match any of the explicit case labels. It's optional but recommended for robust code."
+    },
+    {
+      "id": 45,
+      "question": "In the code `if (marks >= 90) cout << \"A Grade\";`, what does >= mean?",
+      "options": [
+        "Greater than",
+        "Less than or equal to",
+        "Greater than or equal to",
+        "Not equal to"
+      ],
+      "correctAnswer": 2,
+      "explanation": ">= is the 'greater than or equal to' operator. It returns true if the left operand is greater than or equal to the right operand."
+    },
+    {
+      "id": 46,
+      "question": "What happens when you use goto statement in a program?",
+      "options": [
+        "It improves program efficiency",
+        "It's considered good programming practice",
+        "It transfers control unconditionally",
+        "It creates a loop"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The goto statement transfers control unconditionally to a labeled statement. However, it's generally considered poor programming practice as it can make code hard to follow."
+    },
+    {
+      "id": 47,
+      "question": "Which of the following correctly represents a label for goto statement?",
+      "options": [
+        "label;",
+        "label:",
+        ":label",
+        "label()"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A label in C++ is an identifier followed by a colon (:). For example: label: statement;"
+    },
+    {
+      "id": 48,
+      "question": "What is the main disadvantage of using goto statements?",
+      "options": [
+        "They are slow",
+        "They use more memory",
+        "They make code difficult to understand and maintain",
+        "They don't work in C++"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main problem with goto is that it can create 'spaghetti code' - programs that are hard to read, understand, debug, and maintain because control flow jumps around unpredictably."
+    },
+    {
+      "id": 49,
+      "question": "In a for loop, which part is executed only once?",
+      "options": [
+        "Condition checking",
+        "Initialization",
+        "Increment/decrement",
+        "Loop body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The initialization part of a for loop is executed only once at the beginning. The condition is checked before each iteration, and increment/decrement happens after each iteration."
+    },
+    {
+      "id": 50,
+      "question": "What does the expression `number /= 10;` do?",
+      "options": [
+        "Multiplies number by 10",
+        "Divides number by 10 and stores result in number",
+        "Adds 10 to number",
+        "Finds remainder of number divided by 10"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The /= operator is a compound assignment operator. `number /= 10` is equivalent to `number = number / 10`, so it divides number by 10 and stores the result back in number."
+    }
+  ]
+}

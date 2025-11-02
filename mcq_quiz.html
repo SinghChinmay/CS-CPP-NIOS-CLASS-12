@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Control Statements MCQ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .question-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-left: 5px solid #667eea;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .question-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .question-number {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .options-container {
+            display: grid;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .option {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+            transform: translateX(5px);
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .option.correct {
+            border-color: #28a745;
+            background: #28a745;
+            color: white;
+        }
+
+        .option.incorrect {
+            border-color: #dc3545;
+            background: #dc3545;
+            color: white;
+        }
+
+        .option-label {
+            font-weight: bold;
+            margin-right: 12px;
+            min-width: 25px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #545b62;
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .answer-section {
+            background: #e8f4f8;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 4px solid #17a2b8;
+            display: none;
+        }
+
+        .answer-section.show {
+            display: block;
+            animation: slideDown 0.3s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .answer-label {
+            font-weight: bold;
+            color: #17a2b8;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .explanation-section {
+            background: #fff3cd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+            border-left: 4px solid #ffc107;
+            display: none;
+        }
+
+        .explanation-section.show {
+            display: block;
+            animation: slideDown 0.3s ease;
+        }
+
+        .explanation-label {
+            font-weight: bold;
+            color: #856404;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .score-container {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+            display: none;
+        }
+
+        .score-container.show {
+            display: block;
+            animation: slideDown 0.5s ease;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px;
+            border-left: 4px solid #dc3545;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .question-card {
+                padding: 20px;
+            }
+            
+            .button-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="quiz-title">Loading...</h1>
+            <p id="quiz-subtitle"></p>
+        </div>
+        
+        <div class="content">
+            <div id="loading" class="loading">
+                Loading questions...
+            </div>
+            
+            <div id="error" class="error" style="display: none;">
+                Error loading questions. Please check if mcq_data.json file exists.
+            </div>
+            
+            <div id="score-container" class="score-container">
+                <h2>Quiz Complete!</h2>
+                <p id="final-score"></p>
+            </div>
+            
+            <div id="questions-container"></div>
+        </div>
+    </div>
+
+    <script>
+        let quizData = null;
+        let userAnswers = {};
+        let totalQuestions = 0;
+
+        // Load JSON data
+        async function loadQuizData() {
+            try {
+                const response = await fetch('mcq_data.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load quiz data');
+                }
+                quizData = await response.json();
+                totalQuestions = quizData.questions.length;
+                displayQuiz();
+            } catch (error) {
+                console.error('Error loading quiz data:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+            }
+        }
+
+        // Display the quiz
+        function displayQuiz() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('quiz-title').textContent = quizData.title;
+            document.getElementById('quiz-subtitle').textContent = quizData.subtitle;
+            
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+            
+            quizData.questions.forEach(question => {
+                const questionCard = createQuestionCard(question);
+                container.appendChild(questionCard);
+            });
+        }
+
+        // Create a question card
+        function createQuestionCard(question) {
+            const card = document.createElement('div');
+            card.className = 'question-card';
+            card.innerHTML = `
+                <div class="question-number">Question ${question.id}</div>
+                <div class="question-text">${question.question}</div>
+                <div class="options-container" id="options-${question.id}">
+                    ${question.options.map((option, index) => `
+                        <div class="option" onclick="selectOption(${question.id}, ${index})" id="option-${question.id}-${index}">
+                            <span class="option-label">${String.fromCharCode(65 + index)})</span>
+                            <span>${option}</span>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="button-container">
+                    <button class="btn btn-primary" onclick="revealAnswer(${question.id})" id="reveal-btn-${question.id}" disabled>
+                        Reveal Answer
+                    </button>
+                    <button class="btn btn-secondary" onclick="showExplanation(${question.id})" id="explain-btn-${question.id}" disabled>
+                        Show Explanation
+                    </button>
+                </div>
+                <div class="answer-section" id="answer-${question.id}">
+                    <div class="answer-label">Correct Answer:</div>
+                    <div>${String.fromCharCode(65 + question.correctAnswer)}) ${question.options[question.correctAnswer]}</div>
+                </div>
+                <div class="explanation-section" id="explanation-${question.id}">
+                    <div class="explanation-label">Explanation:</div>
+                    <div>${question.explanation}</div>
+                </div>
+            `;
+            return card;
+        }
+
+        // Select an option
+        function selectOption(questionId, optionIndex) {
+            // Remove previous selections
+            const options = document.querySelectorAll(`#options-${questionId} .option`);
+            options.forEach(option => {
+                option.classList.remove('selected');
+            });
+            
+            // Mark current selection
+            const selectedOption = document.getElementById(`option-${questionId}-${optionIndex}`);
+            selectedOption.classList.add('selected');
+            
+            // Store user answer
+            userAnswers[questionId] = optionIndex;
+            
+            // Enable reveal answer button
+            document.getElementById(`reveal-btn-${questionId}`).disabled = false;
+        }
+
+        // Reveal the correct answer
+        function revealAnswer(questionId) {
+            const question = quizData.questions.find(q => q.id === questionId);
+            const userAnswer = userAnswers[questionId];
+            const correctAnswer = question.correctAnswer;
+            
+            // Show answer section
+            const answerSection = document.getElementById(`answer-${questionId}`);
+            answerSection.classList.add('show');
+            
+            // Color code the options
+            const options = document.querySelectorAll(`#options-${questionId} .option`);
+            options.forEach((option, index) => {
+                option.style.pointerEvents = 'none'; // Disable further clicks
+                
+                if (index === correctAnswer) {
+                    option.classList.add('correct');
+                } else if (index === userAnswer && index !== correctAnswer) {
+                    option.classList.add('incorrect');
+                }
+            });
+            
+            // Enable explanation button
+            document.getElementById(`explain-btn-${questionId}`).disabled = false;
+            
+            // Disable reveal button
+            document.getElementById(`reveal-btn-${questionId}`).disabled = true;
+            
+            // Check if all questions are answered
+            checkQuizCompletion();
+        }
+
+        // Show explanation
+        function showExplanation(questionId) {
+            const explanationSection = document.getElementById(`explanation-${questionId}`);
+            explanationSection.classList.add('show');
+            
+            // Disable explanation button
+            document.getElementById(`explain-btn-${questionId}`).disabled = true;
+        }
+
+        // Check if quiz is complete
+        function checkQuizCompletion() {
+            const answeredQuestions = Object.keys(userAnswers).length;
+            const revealedAnswers = document.querySelectorAll('.answer-section.show').length;
+            
+            if (revealedAnswers === totalQuestions) {
+                showFinalScore();
+            }
+        }
+
+        // Show final score
+        function showFinalScore() {
+            let correctAnswers = 0;
+            
+            quizData.questions.forEach(question => {
+                const userAnswer = userAnswers[question.id];
+                if (userAnswer === question.correctAnswer) {
+                    correctAnswers++;
+                }
+            });
+            
+            const percentage = Math.round((correctAnswers / totalQuestions) * 100);
+            const scoreContainer = document.getElementById('score-container');
+            const finalScore = document.getElementById('final-score');
+            
+            finalScore.innerHTML = `
+                You scored ${correctAnswers} out of ${totalQuestions} questions correctly.<br>
+                Your percentage: ${percentage}%<br>
+                ${percentage >= 80 ? '🎉 Excellent work!' : 
+                  percentage >= 60 ? '👍 Good job!' : 
+                  '📚 Keep practicing!'}
+            `;
+            
+            scoreContainer.classList.add('show');
+            scoreContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Initialize the quiz when page loads
+        document.addEventListener('DOMContentLoaded', loadQuizData);
+    </script>
+</body>
+</html>

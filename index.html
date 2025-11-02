@@ -260,6 +260,44 @@
             border-left: 4px solid #dc3545;
         }
 
+        .quiz-selector {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            border-left: 5px solid #667eea;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .quiz-selector select {
+            width: 100%; 
+            padding: 12px 15px; 
+            font-size: 1.1rem; 
+            border: 2px solid #e9ecef; 
+            border-radius: 8px; 
+            background: white; 
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .quiz-selector select:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .quiz-selector select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .quiz-selector label {
+            font-size: 1.2rem; 
+            font-weight: 600; 
+            color: #2c3e50; 
+            margin-bottom: 15px; 
+            display: block;
+        }
+
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 2rem;
@@ -282,17 +320,28 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1 id="quiz-title">Loading...</h1>
-            <p id="quiz-subtitle"></p>
+            <h1 id="quiz-title">C++ MCQ Quiz</h1>
+            <p id="quiz-subtitle">NIOS Class 12 Computer Science</p>
         </div>
         
         <div class="content">
-            <div id="loading" class="loading">
+            <div class="quiz-selector">
+                <label for="quiz-dropdown">
+                    Select Quiz Topic:
+                </label>
+                <select id="quiz-dropdown" onchange="loadSelectedQuiz()">
+                    <option value="">-- Select a quiz --</option>
+                    <option value="Control_Statements_MCQ.json">Control Statements (Lesson 14)</option>
+                    <option value="Functions_MCQ.json">Functions (Lesson 15)</option>
+                </select>
+            </div>
+            
+            <div id="loading" class="loading" style="display: none;">
                 Loading questions...
             </div>
             
             <div id="error" class="error" style="display: none;">
-                Error loading questions. Please check if mcq_data.json file exists.
+                Error loading questions. Please check if the selected file exists.
             </div>
             
             <div id="score-container" class="score-container">
@@ -309,10 +358,46 @@
         let userAnswers = {};
         let totalQuestions = 0;
 
-        // Load JSON data
-        async function loadQuizData() {
+        // Load selected quiz data
+        async function loadSelectedQuiz() {
+            const dropdown = document.getElementById('quiz-dropdown');
+            const selectedFile = dropdown.value;
+            
+            if (!selectedFile) {
+                // Clear quiz if no selection
+                document.getElementById('questions-container').innerHTML = '';
+                document.getElementById('score-container').classList.remove('show');
+                document.getElementById('error').style.display = 'none';
+                return;
+            }
+            
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('questions-container').innerHTML = '';
+            document.getElementById('score-container').classList.remove('show');
+            
             try {
-                const response = await fetch('Control_Statements_MCQ.json');
+                const response = await fetch(selectedFile);
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${selectedFile}`);
+                }
+                quizData = await response.json();
+                totalQuestions = quizData.questions.length;
+                userAnswers = {}; // Reset user answers
+                displayQuiz();
+            } catch (error) {
+                console.error('Error loading quiz data:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Error loading questions from ${selectedFile}. Please check if the file exists.`;
+            }
+        }
+
+        // Load JSON data (legacy function - kept for compatibility)
+        async function loadQuizData(filename = 'Control_Statements_MCQ.json') {
+            try {
+                const response = await fetch(filename);
                 if (!response.ok) {
                     throw new Error('Failed to load quiz data');
                 }
@@ -329,8 +414,8 @@
         // Display the quiz
         function displayQuiz() {
             document.getElementById('loading').style.display = 'none';
-            document.getElementById('quiz-title').textContent = quizData.title;
-            document.getElementById('quiz-subtitle').textContent = quizData.subtitle;
+            document.getElementById('quiz-title').textContent = quizData.title || 'C++ MCQ Quiz';
+            document.getElementById('quiz-subtitle').textContent = quizData.subtitle || 'NIOS Class 12 Computer Science';
             
             const container = document.getElementById('questions-container');
             container.innerHTML = '';
@@ -474,7 +559,10 @@
         }
 
         // Initialize the quiz when page loads
-        document.addEventListener('DOMContentLoaded', loadQuizData);
+        document.addEventListener('DOMContentLoaded', function() {
+            // Quiz selector is ready, no default loading needed
+            console.log('Quiz application loaded successfully');
+        });
     </script>
 </body>
 </html>

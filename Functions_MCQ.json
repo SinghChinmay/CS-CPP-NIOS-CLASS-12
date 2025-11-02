@@ -1,0 +1,582 @@
+{
+  "title": "C++ Functions - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 15",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a function in C++?",
+      "options": [
+        "A variable that stores data",
+        "A group of statements that together perform a task",
+        "An operator that performs calculations",
+        "A data type used for numbers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A function is a group of statements that together perform a task. Functions help organize code into reusable blocks that can be called when needed."
+    },
+    {
+      "id": 2,
+      "question": "Which function is present by default in every C++ program?",
+      "options": [
+        "start()",
+        "begin()",
+        "main()",
+        "init()"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Every C++ program has a main() function by default. The main() function is the starting point for the execution of a program."
+    },
+    {
+      "id": 3,
+      "question": "Which header file contains mathematical functions like sin(), cos(), and tan()?",
+      "options": [
+        "iostream.h",
+        "ctype.h",
+        "string.h",
+        "math.h"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mathematical functions like sin(), cos(), tan(), sqrt(), pow(), etc., are defined in the math.h header file."
+    },
+    {
+      "id": 4,
+      "question": "What does the function sqrt(x) do?",
+      "options": [
+        "Calculates x squared",
+        "Calculates square root of x",
+        "Calculates absolute value of x",
+        "Calculates logarithm of x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sqrt(x) function calculates and returns the square root of the number x."
+    },
+    {
+      "id": 5,
+      "question": "Which header file is required for character functions like isalpha() and toupper()?",
+      "options": [
+        "math.h",
+        "ctype.h",
+        "string.h",
+        "stdio.h"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All character functions require the ctype.h header file. This includes functions like isalpha(), isdigit(), toupper(), tolower(), etc."
+    },
+    {
+      "id": 6,
+      "question": "What does the function isdigit(c) return?",
+      "options": [
+        "True if c is a letter, False otherwise",
+        "True if c is a digit (0-9), False otherwise",
+        "True if c is uppercase, False otherwise",
+        "True if c is lowercase, False otherwise"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The isdigit(c) function returns True if the character c is a digit (0 through 9), otherwise it returns False."
+    },
+    {
+      "id": 7,
+      "question": "Which function converts a character to uppercase?",
+      "options": [
+        "tolower(c)",
+        "toupper(c)",
+        "isupper(c)",
+        "islower(c)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The toupper(c) function converts the character c to uppercase letter."
+    },
+    {
+      "id": 8,
+      "question": "In which header file are string functions like strlen() and strcat() found?",
+      "options": [
+        "ctype.h",
+        "math.h",
+        "string.h",
+        "iostream.h"
+      ],
+      "correctAnswer": 2,
+      "explanation": "String functions are present in the string.h header file. This includes functions like strlen(), strcat(), strcpy(), strcmp(), etc."
+    },
+    {
+      "id": 9,
+      "question": "What does the strlen(S) function do?",
+      "options": [
+        "Concatenates two strings",
+        "Compares two strings",
+        "Copies one string to another",
+        "Gives the number of characters in string S"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The strlen(S) function gives the number of characters (including spaces) present in string S."
+    },
+    {
+      "id": 10,
+      "question": "What does strcat(S1, S2) do?",
+      "options": [
+        "Compares S1 and S2",
+        "Copies S2 to S1",
+        "Concatenates S2 onto the end of S1",
+        "Finds the length of S1 and S2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The strcat(S1, S2) function concatenates string S2 onto the end of string S1. String S1 must have enough storage to hold S2."
+    },
+    {
+      "id": 11,
+      "question": "Which header file is required for getchar() and putchar() functions?",
+      "options": [
+        "iostream.h",
+        "ctype.h",
+        "stdio.h",
+        "string.h"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The getchar() and putchar() functions require the stdio.h header file. These functions deal with single character input and output."
+    },
+    {
+      "id": 12,
+      "question": "What does the getchar() function do?",
+      "options": [
+        "Outputs a character to screen",
+        "Returns a single character from keyboard",
+        "Converts character to uppercase",
+        "Checks if character is alphabetic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The getchar() function returns a single character from the standard input device (keyboard). It takes no parameter and returns the input character."
+    },
+    {
+      "id": 13,
+      "question": "What is the difference between getche() and getch()?",
+      "options": [
+        "getche() is faster than getch()",
+        "getch() requires a parameter, getche() doesn't",
+        "getche() echoes the character to screen, getch() doesn't",
+        "There is no difference"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The getche() function echoes (displays) the character to the screen, while getch() does not echo the character. Both require conio.h header file."
+    },
+    {
+      "id": 14,
+      "question": "What is a function prototype?",
+      "options": [
+        "The actual implementation of a function",
+        "A declaration that informs the compiler about functions to be used",
+        "The return statement of a function",
+        "The main() function definition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A function prototype informs the compiler about the functions to be used in a program, the arguments they take, and the type of value they return."
+    },
+    {
+      "id": 15,
+      "question": "What are actual parameters in function calls?",
+      "options": [
+        "Variables that receive values in the called function",
+        "Variables that supply values to the calling function",
+        "Parameters declared in function prototype",
+        "Return values of functions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Actual parameters are the variables that supply values to a calling function. They are the values passed when the function is called."
+    },
+    {
+      "id": 16,
+      "question": "What are formal parameters?",
+      "options": [
+        "Variables that supply values to the calling function",
+        "Variables that receive values from the called statement",
+        "Return values of functions",
+        "Global variables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Formal parameters are the variables that receive values from the called statement. They are declared in the function definition."
+    },
+    {
+      "id": 17,
+      "question": "What is the scope of a local variable?",
+      "options": [
+        "Entire program",
+        "Only within the function where it is defined",
+        "All functions in the program",
+        "Only in the main() function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The scope of a local variable is limited to the function where it is defined. It is only available within that function."
+    },
+    {
+      "id": 18,
+      "question": "What is a global variable?",
+      "options": [
+        "A variable declared inside a function",
+        "A variable declared outside any function",
+        "A variable that can only store integers",
+        "A variable used only in main() function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A global variable is declared outside any function. Its scope extends till the end of the program and is available to all functions that follow its declaration."
+    },
+    {
+      "id": 19,
+      "question": "What is the scope resolution operator in C++?",
+      "options": [
+        "::",
+        "->",
+        ".",
+        "&"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The scope resolution operator is :: (double colon). It is used to access global variables when there's a local variable with the same name."
+    },
+    {
+      "id": 20,
+      "question": "What happens to automatic variables when a function exits?",
+      "options": [
+        "They become global variables",
+        "They are destroyed and their values are lost",
+        "They retain their values for the next function call",
+        "They are converted to static variables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Automatic variables are destroyed when the function exits and control returns to the calling program. Their values are lost."
+    },
+    {
+      "id": 21,
+      "question": "What is the main characteristic of a static variable?",
+      "options": [
+        "It can be accessed from any function",
+        "It retains its value between function calls",
+        "It must be initialized to zero",
+        "It can only store integer values"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A static variable retains its value between function calls. It has the visibility of a local variable but the lifetime of an external variable."
+    },
+    {
+      "id": 22,
+      "question": "In call-by-value method:",
+      "options": [
+        "Address of variables is passed to the function",
+        "Values of variables are passed to the function",
+        "Variables are shared between functions",
+        "Global variables are created"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In call-by-value method, only the values of variables are passed to the function. Changes made in the function do not affect the original variables."
+    },
+    {
+      "id": 23,
+      "question": "In call-by-reference method:",
+      "options": [
+        "Only values are passed to the function",
+        "Address of variables is passed to the function",
+        "New variables are created in the function",
+        "Only constants can be passed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In call-by-reference method, the address of variables is passed to the function. Changes made in the function affect the original variables."
+    },
+    {
+      "id": 24,
+      "question": "What symbol is used to denote reference parameters in C++?",
+      "options": [
+        "*",
+        "&",
+        "#",
+        "@"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ampersand (&) symbol is used to denote reference parameters in C++. For example: void swap(int &a, int &b)."
+    },
+    {
+      "id": 25,
+      "question": "What is an inline function?",
+      "options": [
+        "A function that cannot return values",
+        "A function where code is inserted at call site instead of jumping",
+        "A function that can only be called once",
+        "A function with no parameters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An inline function is one where the actual code is inserted at the function call site instead of jumping to the function. This saves execution time for short functions."
+    },
+    {
+      "id": 26,
+      "question": "How do you declare an inline function?",
+      "options": [
+        "By using the 'inline' keyword before the function",
+        "By using the 'static' keyword",
+        "By using the 'const' keyword",
+        "By using the 'auto' keyword"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An inline function is declared by putting the word 'inline' at the beginning of the function definition."
+    },
+    {
+      "id": 27,
+      "question": "When should inline functions be used?",
+      "options": [
+        "For very long functions",
+        "For functions with loops",
+        "For shorter code only",
+        "For recursive functions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inline functions should be used only for shorter code. If longer code is made inline, the compiler ignores the request and executes it as a normal function."
+    },
+    {
+      "id": 28,
+      "question": "What are default arguments in C++ functions?",
+      "options": [
+        "Arguments that are always zero",
+        "Arguments that have predefined values when not specified in function call",
+        "Arguments that cannot be changed",
+        "Arguments that are automatically generated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Default arguments are values assigned to parameters when no matching argument is provided in the function call. They are specified in the function declaration."
+    },
+    {
+      "id": 29,
+      "question": "Which arguments can have default values in a function?",
+      "options": [
+        "Only the first arguments",
+        "Only the middle arguments",
+        "Only the trailing (last) arguments",
+        "Any arguments in any order"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Only the trailing (last) arguments can have default values in a function. You cannot have default arguments followed by non-default arguments."
+    },
+    {
+      "id": 30,
+      "question": "What is function overloading?",
+      "options": [
+        "Using the same function name for functions with different parameter lists",
+        "Using multiple names for the same function",
+        "Calling a function multiple times",
+        "Creating very long functions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Function overloading allows using the same function name for functions that perform different tasks based on different parameter lists (number or type of arguments)."
+    },
+    {
+      "id": 31,
+      "question": "How does the compiler determine which overloaded function to call?",
+      "options": [
+        "By the function name only",
+        "By the number and type of arguments",
+        "By the order in which functions are defined",
+        "By the length of function code"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The compiler determines which overloaded function to call by checking the number and type of arguments provided in the function call."
+    },
+    {
+      "id": 32,
+      "question": "What does the pow(x,y) function do?",
+      "options": [
+        "Calculates x + y",
+        "Calculates x * y",
+        "Calculates x raised to the power y",
+        "Calculates square root of x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pow(x,y) function calculates x raised to the power y (x^y)."
+    },
+    {
+      "id": 33,
+      "question": "What is the difference between abs(x) and fabs(x)?",
+      "options": [
+        "abs(x) is for integers, fabs(x) is for real numbers",
+        "abs(x) is for real numbers, fabs(x) is for integers",
+        "There is no difference",
+        "abs(x) is faster than fabs(x)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "abs(x) returns the absolute value of an integer number x, while fabs(x) returns the absolute value of a real (floating-point) number x."
+    },
+    {
+      "id": 34,
+      "question": "What does strcpy(S1, S2) do?",
+      "options": [
+        "Compares S1 and S2",
+        "Concatenates S1 and S2",
+        "Copies string S2 to string S1",
+        "Finds the length of S1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "strcpy(S1, S2) copies character string S2 to string S1. String S1 must have enough storage locations to hold S2."
+    },
+    {
+      "id": 35,
+      "question": "What does strcmp(S1, S2) == 0 indicate?",
+      "options": [
+        "S1 is greater than S2",
+        "S1 is less than S2",
+        "S1 equals S2",
+        "S1 and S2 are both empty"
+      ],
+      "correctAnswer": 2,
+      "explanation": "strcmp(S1, S2) == 0 indicates that string S1 equals string S2. The function returns 0 when strings are equal."
+    },
+    {
+      "id": 36,
+      "question": "What does the gets() function do?",
+      "options": [
+        "Gets a single character from keyboard",
+        "Gets a string terminated by newline from input",
+        "Gets only uppercase letters",
+        "Gets only numeric input"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The gets() function gets a string terminated by a newline character from the standard input stream and replaces the newline with a null character."
+    },
+    {
+      "id": 37,
+      "question": "Which statement is true about void functions?",
+      "options": [
+        "They always return an integer value",
+        "They cannot have parameters",
+        "They do not return any value",
+        "They can only be called once"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Functions that do not return any value are known as void functions. They are declared with 'void' as the return type."
+    },
+    {
+      "id": 38,
+      "question": "What is the default return type of a function in C++ when not specified?",
+      "options": [
+        "void",
+        "int",
+        "float",
+        "char"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the return type is not specified, the default return type of a function is int."
+    },
+    {
+      "id": 39,
+      "question": "What keyword is used to return control back to the calling function?",
+      "options": [
+        "break",
+        "continue",
+        "return",
+        "exit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'return' keyword is used to return control back to the calling function, optionally along with a value."
+    },
+    {
+      "id": 40,
+      "question": "What does the log(x) function calculate?",
+      "options": [
+        "Logarithm of x to base 2",
+        "Natural logarithm of x",
+        "Logarithm of x to base 10",
+        "Square root of x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The log(x) function calculates the natural logarithm of x (logarithm to base e)."
+    },
+    {
+      "id": 41,
+      "question": "What does log10(x) calculate?",
+      "options": [
+        "Natural logarithm of x",
+        "Logarithm of x to base 10",
+        "x raised to power 10",
+        "10 raised to power x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The log10(x) function calculates the logarithm of number x to the base 10."
+    },
+    {
+      "id": 42,
+      "question": "What does isalnum(c) check?",
+      "options": [
+        "If c is alphabetic only",
+        "If c is numeric only",
+        "If c is alphanumeric (letter or digit)",
+        "If c is uppercase only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "isalnum(c) returns True if c is a digit from 0 through 9 or an alphabetic character (either uppercase or lowercase), otherwise False."
+    },
+    {
+      "id": 43,
+      "question": "When is a register variable preferred over an automatic variable?",
+      "options": [
+        "When the variable needs global scope",
+        "When fast access is required",
+        "When the variable stores strings",
+        "When the variable is used in loops only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Register variables provide fast access as they are stored inside CPU registers rather than in memory, making them preferred when fast access is needed."
+    },
+    {
+      "id": 44,
+      "question": "What happens if you try to make a long function inline?",
+      "options": [
+        "Compilation error occurs",
+        "The compiler ignores the request and treats it as normal function",
+        "The function runs slower",
+        "The function cannot be called"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If longer code is made inline, the compiler ignores the request and executes it as a normal function."
+    },
+    {
+      "id": 45,
+      "question": "In function overloading, what happens if the compiler cannot find a unique match?",
+      "options": [
+        "It calls the first function defined",
+        "It calls the last function defined",
+        "It generates an error message",
+        "It creates a new function automatically"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If the compiler cannot find a unique match among overloaded functions (ambiguous situation), it generates an error message."
+    },
+    {
+      "id": 46,
+      "question": "What does the exp(x) function calculate?",
+      "options": [
+        "x squared",
+        "Exponential function of x (e^x)",
+        "Square root of x",
+        "Logarithm of x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The exp(x) function calculates the exponential function of x, which is e raised to the power x (e^x)."
+    },
+    {
+      "id": 47,
+      "question": "What is the main advantage of using functions in programming?",
+      "options": [
+        "They make programs run faster",
+        "They save memory space and provide code reusability",
+        "They prevent compilation errors",
+        "They automatically optimize the code"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Functions save memory space because the same code can be executed multiple times without duplication, and they provide code reusability by grouping related statements together."
+    },
+    {
+      "id": 48,
+      "question": "Which of the following is required for inline function declaration?",
+      "options": [
+        "Function prototype is mandatory",
+        "Function should be declared before main() function",
+        "Function must return a value",
+        "Function must have parameters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inline functions should be declared before the main() function and do not require a separate function prototype."
+    }
+  ]
+}

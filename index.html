@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C++ Control Statements MCQ</title>
+    <title>🐾 Kawaii C++ MCQ Quiz 🐾</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+        
         * {
             margin: 0;
             padding: 0;
@@ -12,290 +14,697 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 25%, #fecfef 75%, #ffecd2 100%);
             min-height: 100vh;
             padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Kawaii paw prints floating animation */
+        body::before {
+            content: '🐾';
+            position: fixed;
+            top: -50px;
+            left: 10%;
+            font-size: 30px;
+            animation: floatingPaws 8s infinite linear;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        body::after {
+            content: '🐾';
+            position: fixed;
+            top: -50px;
+            right: 20%;
+            font-size: 25px;
+            animation: floatingPaws 12s infinite linear;
+            animation-delay: -4s;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        @keyframes floatingPaws {
+            0% {
+                transform: translateY(-100px) rotate(0deg);
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+            }
+        }
+
+        /* Additional floating paws */
+        .floating-paw {
+            position: fixed;
+            font-size: 20px;
+            z-index: -1;
+            opacity: 0.2;
+            pointer-events: none;
+        }
+
+        .floating-paw:nth-child(1) {
+            top: 20%;
+            left: 5%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .floating-paw:nth-child(2) {
+            top: 60%;
+            right: 10%;
+            animation: float 8s ease-in-out infinite;
+            animation-delay: -2s;
+        }
+
+        .floating-paw:nth-child(3) {
+            top: 80%;
+            left: 15%;
+            animation: float 7s ease-in-out infinite;
+            animation-delay: -4s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-20px) rotate(5deg);
+            }
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 25px;
+            box-shadow: 0 15px 40px rgba(255, 105, 180, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.2);
             overflow: hidden;
+            backdrop-filter: blur(10px);
+            border: 3px solid transparent;
+            background-clip: padding-box;
+            position: relative;
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, #ff6b9d, #c471f5, #12d8fa, #a8ff78);
+            background-size: 400% 400%;
+            animation: gradientShift 6s ease infinite;
+            z-index: -1;
+            border-radius: 25px;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ff6b9d 0%, #c471f5 50%, #12d8fa 100%);
             color: white;
-            padding: 30px;
+            padding: 40px 30px;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '{ } 🐾 💻 🐾 { }';
+            position: absolute;
+            top: 10px;
+            left: 0;
+            right: 0;
+            font-size: 14px;
+            opacity: 0.6;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .header::after {
+            content: '< /> 🌸 💖 🌸 < />';
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            font-size: 14px;
+            opacity: 0.6;
+            animation: pulse 2s ease-in-out infinite;
+            animation-delay: 1s;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.6; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.05); }
         }
 
         .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+            font-weight: 800;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header h1::before {
+            content: '🐾';
+            margin-right: 15px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        .header h1::after {
+            content: '🐾';
+            margin-left: 15px;
+            animation: bounce 2s ease-in-out infinite;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
         }
 
         .header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
+            font-size: 1.3rem;
+            opacity: 0.95;
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
         }
 
         .content {
             padding: 40px;
+            background: linear-gradient(145deg, #fdf7ff 0%, #fff0f5 100%);
         }
 
         .question-card {
-            background: #f8f9fa;
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 30px;
-            border-left: 5px solid #667eea;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
+            background: linear-gradient(145deg, #ffffff 0%, #fef7ff 100%);
+            border-radius: 20px;
+            padding: 35px;
+            margin-bottom: 35px;
+            border: 3px solid transparent;
+            background-clip: padding-box;
+            box-shadow: 
+                0 8px 25px rgba(255, 105, 180, 0.15),
+                0 4px 15px rgba(196, 113, 245, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.6);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .question-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, #ff6b9d, #c471f5, #12d8fa, #a8ff78);
+            background-size: 400% 400%;
+            animation: gradientShift 8s ease infinite;
+            z-index: -1;
+            border-radius: 20px;
+            padding: 3px;
+        }
+
+        .question-card::after {
+            content: '💻';
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 20px;
+            opacity: 0.3;
+            animation: pulse 3s ease-in-out infinite;
         }
 
         .question-card:hover {
-            transform: translateY(-2px);
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 
+                0 15px 40px rgba(255, 105, 180, 0.25),
+                0 8px 25px rgba(196, 113, 245, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
         }
 
         .question-number {
-            background: #667eea;
+            background: linear-gradient(135deg, #ff6b9d 0%, #c471f5 100%);
             color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-weight: bold;
-            font-size: 0.9rem;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-weight: 800;
+            font-size: 1rem;
             display: inline-block;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(255, 107, 157, 0.4);
+            position: relative;
+            z-index: 1;
+        }
+
+        .question-number::before {
+            content: '🐾';
+            margin-right: 8px;
+            animation: wiggle 1.5s ease-in-out infinite;
+        }
+
+        @keyframes wiggle {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); }
+            75% { transform: rotate(-5deg); }
         }
 
         .question-text {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #2c3e50;
-            margin-bottom: 25px;
-            line-height: 1.6;
+            font-size: 1.4rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff6b9d, #c471f5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 30px;
+            line-height: 1.7;
+            position: relative;
         }
 
         .options-container {
             display: grid;
-            gap: 12px;
-            margin-bottom: 20px;
+            gap: 15px;
+            margin-bottom: 25px;
         }
 
         .option {
-            background: white;
-            border: 2px solid #e9ecef;
-            border-radius: 8px;
-            padding: 15px 20px;
+            background: linear-gradient(145deg, #ffffff 0%, #fef7ff 100%);
+            border: 3px solid #ffe0f0;
+            border-radius: 15px;
+            padding: 18px 25px;
             cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 1.1rem;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-size: 1.2rem;
+            font-weight: 600;
             position: relative;
             display: flex;
             align-items: center;
+            color: #2d3748;
+            box-shadow: 0 4px 12px rgba(255, 182, 193, 0.2);
+        }
+
+        .option::before {
+            content: '🐾';
+            position: absolute;
+            right: 20px;
+            opacity: 0;
+            transform: scale(0);
+            transition: all 0.3s ease;
         }
 
         .option:hover {
-            border-color: #667eea;
-            background: #f8f9ff;
-            transform: translateX(5px);
+            border-color: #ff6b9d;
+            background: linear-gradient(145deg, #fff0f5 0%, #ffeef8 100%);
+            transform: translateX(10px) scale(1.02);
+            box-shadow: 0 8px 20px rgba(255, 107, 157, 0.3);
+        }
+
+        .option:hover::before {
+            opacity: 1;
+            transform: scale(1);
         }
 
         .option.selected {
-            border-color: #667eea;
-            background: #667eea;
+            border-color: #ff6b9d;
+            background: linear-gradient(135deg, #ff6b9d 0%, #c471f5 100%);
             color: white;
+            transform: scale(1.03);
+            box-shadow: 0 8px 25px rgba(255, 107, 157, 0.4);
+        }
+
+        .option.selected::before {
+            content: '💖';
+            opacity: 1;
+            transform: scale(1.2);
         }
 
         .option.correct {
-            border-color: #28a745;
-            background: #28a745;
+            border-color: #48bb78;
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
             color: white;
+            box-shadow: 0 8px 25px rgba(72, 187, 120, 0.4);
+        }
+
+        .option.correct::before {
+            content: '✨';
+            opacity: 1;
+            transform: scale(1.2);
         }
 
         .option.incorrect {
-            border-color: #dc3545;
-            background: #dc3545;
+            border-color: #f56565;
+            background: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);
             color: white;
+            box-shadow: 0 8px 25px rgba(245, 101, 101, 0.4);
+        }
+
+        .option.incorrect::before {
+            content: '😿';
+            opacity: 1;
+            transform: scale(1.2);
         }
 
         .option-label {
-            font-weight: bold;
-            margin-right: 12px;
-            min-width: 25px;
+            font-weight: 800;
+            margin-right: 15px;
+            min-width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ff6b9d 0%, #c471f5 100%);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            box-shadow: 0 3px 10px rgba(255, 107, 157, 0.3);
+        }
+
+        .option.selected .option-label {
+            background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
+            color: #ff6b9d;
+            transform: scale(1.1);
+        }
+
+        .option.correct .option-label,
+        .option.incorrect .option-label {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
         }
 
         .button-container {
             display: flex;
-            gap: 15px;
-            margin-top: 20px;
+            gap: 20px;
+            margin-top: 25px;
             flex-wrap: wrap;
         }
 
         .btn {
-            padding: 12px 24px;
+            padding: 15px 30px;
             border: none;
-            border-radius: 8px;
+            border-radius: 25px;
             cursor: pointer;
-            font-size: 1rem;
-            font-weight: 600;
-            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            font-weight: 700;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn:hover::before {
+            left: 100%;
         }
 
         .btn-primary {
-            background: #667eea;
+            background: linear-gradient(135deg, #ff6b9d 0%, #c471f5 100%);
             color: white;
+            box-shadow: 0 6px 20px rgba(255, 107, 157, 0.4);
         }
 
         .btn-primary:hover {
-            background: #5a6fd8;
-            transform: translateY(-2px);
+            background: linear-gradient(135deg, #ff5a8a 0%, #b965f0 100%);
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(255, 107, 157, 0.5);
         }
 
         .btn-secondary {
-            background: #6c757d;
-            color: white;
+            background: linear-gradient(135deg, #a8ff78 0%, #78ffd6 100%);
+            color: #2d3748;
+            box-shadow: 0 6px 20px rgba(168, 255, 120, 0.4);
         }
 
         .btn-secondary:hover {
-            background: #545b62;
-            transform: translateY(-2px);
+            background: linear-gradient(135deg, #9bff6b 0%, #6bffd1 100%);
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(168, 255, 120, 0.5);
         }
 
         .btn:disabled {
-            opacity: 0.6;
+            opacity: 0.5;
             cursor: not-allowed;
             transform: none;
+            background: #e2e8f0;
+            color: #a0aec0;
+            box-shadow: none;
+        }
+
+        .btn:disabled:hover {
+            transform: none;
+            box-shadow: none;
         }
 
         .answer-section {
-            background: #e8f4f8;
-            border-radius: 8px;
-            padding: 20px;
-            margin-top: 20px;
-            border-left: 4px solid #17a2b8;
+            background: linear-gradient(145deg, #f0fff4 0%, #c6f6d5 100%);
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 25px;
+            border: 3px solid #9ae6b4;
             display: none;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(154, 230, 180, 0.3);
+        }
+
+        .answer-section::before {
+            content: '✨';
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 20px;
+            animation: sparkle 2s ease-in-out infinite;
+        }
+
+        @keyframes sparkle {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
         }
 
         .answer-section.show {
             display: block;
-            animation: slideDown 0.3s ease;
+            animation: kawaiiBounceIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
-        @keyframes slideDown {
-            from {
+        @keyframes kawaiiBounceIn {
+            0% {
                 opacity: 0;
-                transform: translateY(-10px);
+                transform: scale(0.3) translateY(-50px);
             }
-            to {
+            50% {
                 opacity: 1;
-                transform: translateY(0);
+                transform: scale(1.05) translateY(-10px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
             }
         }
 
         .answer-label {
-            font-weight: bold;
-            color: #17a2b8;
-            font-size: 1.1rem;
-            margin-bottom: 10px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #48bb78, #38a169);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+        }
+
+        .answer-label::before {
+            content: '🎯 ';
         }
 
         .explanation-section {
-            background: #fff3cd;
-            border-radius: 8px;
-            padding: 20px;
-            margin-top: 15px;
-            border-left: 4px solid #ffc107;
+            background: linear-gradient(145deg, #fffaf0 0%, #fef5e7 100%);
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 20px;
+            border: 3px solid #f6e05e;
             display: none;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(246, 224, 94, 0.3);
+        }
+
+        .explanation-section::before {
+            content: '💡';
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 20px;
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.1); }
         }
 
         .explanation-section.show {
             display: block;
-            animation: slideDown 0.3s ease;
+            animation: kawaiiBounceIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
         .explanation-label {
-            font-weight: bold;
-            color: #856404;
-            font-size: 1.1rem;
-            margin-bottom: 10px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ed8936, #dd6b20);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+        }
+
+        .explanation-label::before {
+            content: '📚 ';
         }
 
         .score-container {
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            background: linear-gradient(135deg, #ff6b9d 0%, #c471f5 50%, #a8ff78 100%);
             color: white;
-            padding: 20px;
-            border-radius: 12px;
+            padding: 30px;
+            border-radius: 20px;
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 35px;
             display: none;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(255, 107, 157, 0.4);
+        }
+
+        .score-container::before {
+            content: '🎉✨🐾✨🎉';
+            position: absolute;
+            top: 10px;
+            left: 0;
+            right: 0;
+            font-size: 16px;
+            animation: celebration 3s ease-in-out infinite;
+        }
+
+        @keyframes celebration {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
         }
 
         .score-container.show {
             display: block;
-            animation: slideDown 0.5s ease;
+            animation: kawaiiBounceIn 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
         .loading {
             text-align: center;
-            padding: 50px;
-            font-size: 1.2rem;
-            color: #6c757d;
+            padding: 60px;
+            font-size: 1.4rem;
+            background: linear-gradient(135deg, #ff6b9d, #c471f5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        .loading::before {
+            content: '🐾 ';
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
 
         .error {
-            background: #f8d7da;
-            color: #721c24;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px;
-            border-left: 4px solid #dc3545;
+            background: linear-gradient(145deg, #fed7d7 0%, #feb2b2 100%);
+            color: #742a2a;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px;
+            border: 3px solid #fc8181;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(252, 129, 129, 0.3);
+        }
+
+        .error::before {
+            content: '😿 ';
         }
 
         .quiz-selector {
-            background: #f8f9fa;
-            border-radius: 12px;
-            padding: 25px;
-            border-left: 5px solid #667eea;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(145deg, #ffffff 0%, #fef7ff 100%);
+            border-radius: 20px;
+            padding: 30px;
+            border: 3px solid #ffe0f0;
+            box-shadow: 0 8px 25px rgba(255, 182, 193, 0.2);
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .quiz-selector::before {
+            content: '🌸';
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 24px;
+            animation: float 3s ease-in-out infinite;
         }
 
         .quiz-selector select {
             width: 100%; 
-            padding: 12px 15px; 
-            font-size: 1.1rem; 
-            border: 2px solid #e9ecef; 
-            border-radius: 8px; 
-            background: white; 
+            padding: 15px 20px; 
+            font-size: 1.2rem; 
+            font-weight: 600;
+            border: 3px solid #ffe0f0; 
+            border-radius: 15px; 
+            background: linear-gradient(145deg, #ffffff 0%, #fef7ff 100%);
             cursor: pointer;
             transition: all 0.3s ease;
+            font-family: 'Nunito', sans-serif;
+            color: #2d3748;
         }
 
         .quiz-selector select:hover {
-            border-color: #667eea;
-            background: #f8f9ff;
+            border-color: #ff6b9d;
+            background: linear-gradient(145deg, #fff0f5 0%, #ffeef8 100%);
+            transform: scale(1.02);
         }
 
         .quiz-selector select:focus {
             outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            border-color: #ff6b9d;
+            box-shadow: 0 0 0 4px rgba(255, 107, 157, 0.2);
         }
 
         .quiz-selector label {
-            font-size: 1.2rem; 
-            font-weight: 600; 
-            color: #2c3e50; 
-            margin-bottom: 15px; 
+            font-size: 1.3rem; 
+            font-weight: 800; 
+            background: linear-gradient(135deg, #ff6b9d, #c471f5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 18px; 
             display: block;
+        }
+
+        .quiz-selector label::before {
+            content: '🎮 ';
         }
 
         @media (max-width: 768px) {
@@ -318,34 +727,41 @@
     </style>
 </head>
 <body>
+    <!-- Floating kawaii elements -->
+    <div class="floating-paw" style="top: 20%; left: 5%;">🐾</div>
+    <div class="floating-paw" style="top: 60%; right: 10%;">💻</div>
+    <div class="floating-paw" style="top: 80%; left: 15%;">🌸</div>
+    <div class="floating-paw" style="top: 30%; right: 25%;">💖</div>
+    <div class="floating-paw" style="top: 70%; left: 80%;">🐾</div>
+
     <div class="container">
         <div class="header">
-            <h1 id="quiz-title">C++ MCQ Quiz</h1>
-            <p id="quiz-subtitle">NIOS Class 12 Computer Science</p>
+            <h1 id="quiz-title">Kawaii C++ MCQ Quiz</h1>
+            <p id="quiz-subtitle">NIOS Class 12 Computer Science 🐾 💻</p>
         </div>
         
         <div class="content">
             <div class="quiz-selector">
                 <label for="quiz-dropdown">
-                    Select Quiz Topic:
+                    Choose Your Kawaii Coding Adventure:
                 </label>
                 <select id="quiz-dropdown" onchange="loadSelectedQuiz()">
-                    <option value="">-- Select a quiz --</option>
-                    <option value="Control_Statements_MCQ.json">Control Statements (Lesson 14)</option>
-                    <option value="Functions_MCQ.json">Functions (Lesson 15)</option>
+                    <option value="">-- Pick a cute topic! 🐾 --</option>
+                    <option value="Control_Statements_MCQ.json">🔄 Control Statements (Lesson 14) - If Paws & Loops!</option>
+                    <option value="Functions_MCQ.json">🎯 Functions (Lesson 15) - Coding Paw-ers!</option>
                 </select>
             </div>
             
             <div id="loading" class="loading" style="display: none;">
-                Loading questions...
+                Loading your kawaii questions... 🐾✨
             </div>
             
             <div id="error" class="error" style="display: none;">
-                Error loading questions. Please check if the selected file exists.
+                Oops! Our coding cats couldn't find the questions... 😿💻
             </div>
             
             <div id="score-container" class="score-container">
-                <h2>Quiz Complete!</h2>
+                <h2>🎉 Quiz Paw-ty Complete! 🎉</h2>
                 <p id="final-score"></p>
             </div>
             
@@ -390,7 +806,7 @@
                 console.error('Error loading quiz data:', error);
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('error').style.display = 'block';
-                document.getElementById('error').textContent = `Error loading questions from ${selectedFile}. Please check if the file exists.`;
+                document.getElementById('error').textContent = `Aww! Our coding kitties couldn't find ${selectedFile}... 😿🐾 Please check if the file exists!`;
             }
         }
 
@@ -547,11 +963,11 @@
             const finalScore = document.getElementById('final-score');
             
             finalScore.innerHTML = `
-                You scored ${correctAnswers} out of ${totalQuestions} questions correctly.<br>
-                Your percentage: ${percentage}%<br>
-                ${percentage >= 80 ? '🎉 Excellent work!' : 
-                  percentage >= 60 ? '👍 Good job!' : 
-                  '📚 Keep practicing!'}
+                🐾 You scored ${correctAnswers} out of ${totalQuestions} questions correctly! 🐾<br>
+                💖 Your kawaii percentage: ${percentage}% 💖<br>
+                ${percentage >= 80 ? '🎉✨ Paw-some work! You\'re a coding master! ✨🎉' : 
+                  percentage >= 60 ? '👍🌸 Great job! Your coding paws are strong! 🌸👍' : 
+                  '📚🐾 Keep practicing, little coder! You\'ll get there! 🐾📚'}
             `;
             
             scoreContainer.classList.add('show');
@@ -561,7 +977,7 @@
         // Initialize the quiz when page loads
         document.addEventListener('DOMContentLoaded', function() {
             // Quiz selector is ready, no default loading needed
-            console.log('Quiz application loaded successfully');
+            console.log('🐾✨ Kawaii Quiz application loaded successfully! Ready for coding fun! ✨🐾');
         });
     </script>
 </body>

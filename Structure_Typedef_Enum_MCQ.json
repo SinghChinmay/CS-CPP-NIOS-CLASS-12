@@ -1,0 +1,582 @@
+{
+  "title": "Structure, Typedef & Enumerated Data Type - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Computer Science - Lesson 17",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a structure in C++?",
+      "options": [
+        "A collection of functions",
+        "A collection of simple variables which can be of same or different types",
+        "A type of loop statement",
+        "A mathematical operation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A structure is a collection of simple variables which can be of same or different types. It is a user-defined datatype that allows you to combine different data types to store a particular type of record."
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to define a structure in C++?",
+      "options": [
+        "class",
+        "struct",
+        "structure",
+        "define"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'struct' keyword is used to define a structure in C++. For example: struct student { char name[20]; int marks; };"
+    },
+    {
+      "id": 3,
+      "question": "What are the data items in a structure called?",
+      "options": [
+        "Elements",
+        "Components",
+        "Members",
+        "Variables"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The data items in a structure are called the members of the structure. Each member can be of a different data type."
+    },
+    {
+      "id": 4,
+      "question": "How do you access a member of a structure?",
+      "options": [
+        "structure_variable->member_name",
+        "structure_variable.member_name",
+        "structure_variable[member_name]",
+        "structure_variable::member_name"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Structure members are accessed using the dot operator (.). The format is: structure_variable.member_name. For example: S1.name or S1.marks."
+    },
+    {
+      "id": 5,
+      "question": "Which is the correct way to declare a structure variable?",
+      "options": [
+        "student S1;",
+        "struct student S1;",
+        "Both options 1 and 2 are correct",
+        "structure student S1;"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both 'student S1;' and 'struct student S1;' are correct ways to declare a structure variable in C++. The 'struct' keyword is optional when declaring variables."
+    },
+    {
+      "id": 6,
+      "question": "How can you initialize a structure variable during declaration?",
+      "options": [
+        "student S2 = {\"ANKIT\", 32};",
+        "student S2 = (\"ANKIT\", 32);",
+        "student S2 = [\"ANKIT\", 32];",
+        "student S2 = \"ANKIT\", 32;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Structure variables are initialized during declaration using curly braces {}. For example: student S2 = {\"ANKIT\", 32}; where values are provided in the order of member declaration."
+    },
+    {
+      "id": 7,
+      "question": "What happens when you assign one structure variable to another (S3 = S2)?",
+      "options": [
+        "Only the first member is copied",
+        "It causes a compilation error",
+        "The value of each member of S2 is assigned to the corresponding member of S3",
+        "Only the address is copied"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When you assign one structure variable to another (S3 = S2), the value of each member of S2 is assigned to the corresponding member of S3. This is called memberwise assignment."
+    },
+    {
+      "id": 8,
+      "question": "What is nested structure?",
+      "options": [
+        "A structure inside a function",
+        "A structure within another structure",
+        "A structure with only integer members",
+        "A structure with arrays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nested structure means a structure within another structure. For example, a 'date' structure can be nested inside a 'biodata' structure to represent date of birth."
+    },
+    {
+      "id": 9,
+      "question": "How do you access a member of a nested structure?",
+      "options": [
+        "Apply the dot operator once",
+        "Apply the dot operator twice",
+        "Use the arrow operator",
+        "Use square brackets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To access members of a nested structure, you must apply the dot operator twice. For example: b.date_of_birth.month where 'date_of_birth' is a nested structure."
+    },
+    {
+      "id": 10,
+      "question": "Which is the correct way to access a nested structure member?",
+      "options": [
+        "b.date_of_birth->month",
+        "b->date_of_birth.month",
+        "b.date_of_birth.month",
+        "b[date_of_birth][month]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct syntax to access a nested structure member is using dot operators: b.date_of_birth.month. This accesses the 'month' member of the 'date_of_birth' structure within 'b'."
+    },
+    {
+      "id": 11,
+      "question": "How do you initialize a nested structure?",
+      "options": [
+        "biodata bd = {\"MOHIT\", {3, 21, 1991}, \"Rohini\"};",
+        "biodata bd = (\"MOHIT\", (3, 21, 1991), \"Rohini\");",
+        "biodata bd = [\"MOHIT\", [3, 21, 1991], \"Rohini\"];",
+        "biodata bd = \"MOHIT\", 3, 21, 1991, \"Rohini\";"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nested structures are initialized using nested curly braces. The inner braces separate the values for the nested structure: biodata bd = {\"MOHIT\", {3, 21, 1991}, \"Rohini\"};"
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of typedef in C++?",
+      "options": [
+        "To create new variables",
+        "To define a new name for an existing data type",
+        "To delete existing data types",
+        "To create functions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "typedef is used to define a new name for an existing data type. It provides an alternative name for standard data types for better code documentation and understanding."
+    },
+    {
+      "id": 13,
+      "question": "What is the general syntax of typedef?",
+      "options": [
+        "typedef new_datatype existing_datatype;",
+        "typedef existing_datatype new_datatype;",
+        "new_datatype typedef existing_datatype;",
+        "existing_datatype typedef new_datatype;"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The general syntax of typedef is: typedef existing_datatype new_datatype; For example: typedef float real; creates 'real' as an alternative name for 'float'."
+    },
+    {
+      "id": 14,
+      "question": "After the statement 'typedef float real;', which declaration is valid?",
+      "options": [
+        "real amount;",
+        "float amount;",
+        "Both options 1 and 2 are valid",
+        "Neither option is valid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "After 'typedef float real;', both 'real amount;' and 'float amount;' are valid declarations. 'real' becomes an alternative name for 'float', so both can be used interchangeably."
+    },
+    {
+      "id": 15,
+      "question": "What is the main advantage of using typedef?",
+      "options": [
+        "It increases program speed",
+        "It reduces memory usage",
+        "It provides self-documenting code with descriptive names",
+        "It creates new data types"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main advantage of typedef is that it provides self-documenting code by allowing descriptive names for standard data types, making the code more readable and understandable."
+    },
+    {
+      "id": 16,
+      "question": "What is an enumerated data type?",
+      "options": [
+        "A built-in data type",
+        "A user-defined datatype with a finite list of values",
+        "A type for storing large numbers",
+        "A type for storing arrays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enumerated data type is a user-defined datatype that works when you know in advance a finite list of values that a data type can take. It defines a set of named constants."
+    },
+    {
+      "id": 17,
+      "question": "Which keyword is used to create an enumerated data type?",
+      "options": [
+        "enumerate",
+        "enum",
+        "enumeration",
+        "enumtype"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'enum' keyword is used to create an enumerated data type. For example: enum months { jan, feb, mar, apr, may };"
+    },
+    {
+      "id": 18,
+      "question": "In the declaration 'enum months { jan, feb, mar, apr, may };', what is the value of 'mar'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In enum, the first member gets value 0, second gets 1, and so on. So jan=0, feb=1, mar=2, apr=3, may=4. Therefore, 'mar' has the value 2."
+    },
+    {
+      "id": 19,
+      "question": "How are enum members stored internally?",
+      "options": [
+        "As character constants",
+        "As integer constants",
+        "As floating-point constants",
+        "As string constants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enum members are stored internally as integer constants. The first name is given value 0, the second value 1, and so on, unless explicitly specified otherwise."
+    },
+    {
+      "id": 20,
+      "question": "In 'enum months { jan = 1, feb, mar, apr, may };', what is the value of 'apr'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When jan is explicitly set to 1, the subsequent values follow: jan=1, feb=2, mar=3, apr=4, may=5. Each next element gets the previous value plus one."
+    },
+    {
+      "id": 21,
+      "question": "In 'enum color { red, green = 5, blue };', what is the value of 'blue'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When green is explicitly set to 5, blue gets the next value, which is 5+1=6. So red=0, green=5, blue=6."
+    },
+    {
+      "id": 22,
+      "question": "Can enum values be input by the user or output on the screen directly?",
+      "options": [
+        "Yes, both input and output are possible",
+        "Only input is possible",
+        "Only output is possible",
+        "No, neither input nor output is possible directly"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Enum values cannot be directly input by the user or output on the screen. They are used internally as integer constants for program logic and comparisons."
+    },
+    {
+      "id": 23,
+      "question": "How many values can an enum variable hold at a time?",
+      "options": [
+        "Multiple values",
+        "Only one value out of the possible values",
+        "All possible values",
+        "Two values"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An enum variable takes only one value out of the possible values defined in the enumeration. For example, a variable of type 'months' can hold only one month value at a time."
+    },
+    {
+      "id": 24,
+      "question": "What will be output of: enum months {jan, feb, mar, apr}; months m1=jan, m2=apr; int diff = m2-m1;?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "jan=0, feb=1, mar=2, apr=3. So m1=0, m2=3. Therefore diff = m2-m1 = 3-0 = 3."
+    },
+    {
+      "id": 25,
+      "question": "Which structures can be assigned to each other?",
+      "options": [
+        "Any two structures",
+        "Only structures with same number of members",
+        "Only structures of the same structure type",
+        "Only structures with integer members"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One structure variable can be assigned to another only when they are of the same structure type, otherwise the compiler will give an error message."
+    },
+    {
+      "id": 26,
+      "question": "What is the correct way to declare an enum for days of the week?",
+      "options": [
+        "enum days { sun, mon, tue, wed, thu, fri, sat };",
+        "days { sun, mon, tue, wed, thu, fri, sat };",
+        "enum { sun, mon, tue, wed, thu, fri, sat } days;",
+        "declare enum days { sun, mon, tue, wed, thu, fri, sat };"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct syntax is: enum days { sun, mon, tue, wed, thu, fri, sat }; This creates an enumerated type called 'days' with seven possible values."
+    },
+    {
+      "id": 27,
+      "question": "In a structure, members are accessed using which operator?",
+      "options": [
+        "-> (arrow)",
+        ". (dot)",
+        ":: (scope resolution)",
+        "* (asterisk)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Structure members are accessed using the dot operator (.). For example: student.name or student.marks. The arrow operator is used with pointers to structures."
+    },
+    {
+      "id": 28,
+      "question": "What happens if you don't initialize all members of a structure during declaration?",
+      "options": [
+        "Compilation error occurs",
+        "Uninitialized members get default values",
+        "Uninitialized members may contain garbage values",
+        "All members automatically become zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If you don't initialize all members during declaration, the uninitialized members may contain garbage values (unpredictable data from memory)."
+    },
+    {
+      "id": 29,
+      "question": "Which is a valid use of typedef with structures?",
+      "options": [
+        "typedef struct student STUDENT;",
+        "typedef STUDENT struct student;",
+        "struct typedef student STUDENT;",
+        "STUDENT typedef struct student;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct syntax is: typedef struct student STUDENT; This creates 'STUDENT' as an alternative name for 'struct student', allowing you to declare variables as 'STUDENT s1;' instead of 'struct student s1;'."
+    },
+    {
+      "id": 30,
+      "question": "What is the main difference between enum and #define for constants?",
+      "options": [
+        "No difference",
+        "enum provides type checking, #define does not",
+        "enum uses more memory",
+        "#define is faster"
+      ],
+      "correctAnswer": 1,
+      "explanation": "enum provides type checking and creates a new data type, while #define simply performs text substitution. enum is safer and more maintainable."
+    },
+    {
+      "id": 31,
+      "question": "Can you perform arithmetic operations on enum values?",
+      "options": [
+        "No, arithmetic operations are not allowed",
+        "Yes, because they are stored as integers",
+        "Only addition and subtraction",
+        "Only comparison operations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Yes, you can perform arithmetic operations on enum values because they are stored internally as integer constants. For example: int diff = m2 - m1; where m2 and m1 are enum variables."
+    },
+    {
+      "id": 32,
+      "question": "What is the size of a structure variable?",
+      "options": [
+        "Sum of sizes of all its members",
+        "Size of the largest member",
+        "Always 4 bytes",
+        "At least the sum of sizes, may be more due to padding"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The size of a structure is at least the sum of sizes of all its members, but may be more due to memory alignment and padding requirements of the system."
+    },
+    {
+      "id": 33,
+      "question": "Which header file is typically needed for using structures with string operations?",
+      "options": [
+        "Only iostream.h",
+        "Only stdio.h",
+        "Both iostream.h and stdio.h",
+        "string.h"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For structures with string operations like gets(), you typically need both iostream.h (for cout, cin) and stdio.h (for gets() function), as shown in the examples."
+    },
+    {
+      "id": 34,
+      "question": "What is the purpose of inner braces in nested structure initialization?",
+      "options": [
+        "They are mandatory for compilation",
+        "They separate values for nested structures for clarity",
+        "They increase execution speed",
+        "They reduce memory usage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inner braces in nested structure initialization separate the values for nested structures, making the code more readable and clear. They are ignored by the compiler but help in understanding."
+    },
+    {
+      "id": 35,
+      "question": "Can a structure contain an array as a member?",
+      "options": [
+        "No, arrays are not allowed",
+        "Yes, arrays can be structure members",
+        "Only character arrays are allowed",
+        "Only integer arrays are allowed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Yes, arrays can be members of a structure. For example: char name[20]; is a character array member in the student structure example."
+    },
+    {
+      "id": 36,
+      "question": "What is the scope of enum members?",
+      "options": [
+        "Local to the enum only",
+        "Global throughout the program",
+        "Local to the function where declared",
+        "Depends on where enum is declared"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The scope of enum members depends on where the enum is declared. If declared globally, members have global scope. If declared inside a function, they have local scope."
+    },
+    {
+      "id": 37,
+      "question": "Which is correct about enum variable declaration?",
+      "options": [
+        "months m1, m2;",
+        "enum months m1, m2;",
+        "Both options 1 and 2 are correct",
+        "month m1, m2;"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both 'months m1, m2;' and 'enum months m1, m2;' are correct ways to declare enum variables. The 'enum' keyword is optional when declaring variables."
+    },
+    {
+      "id": 38,
+      "question": "What makes enumerated data types useful?",
+      "options": [
+        "They save memory",
+        "They make code more readable and self-documenting",
+        "They execute faster",
+        "They prevent all errors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enumerated data types make code more readable and self-documenting by using meaningful names instead of arbitrary integer values, making the program easier to understand and maintain."
+    },
+    {
+      "id": 39,
+      "question": "Can you compare enum values using relational operators?",
+      "options": [
+        "No, comparison is not allowed",
+        "Yes, using their underlying integer values",
+        "Only equality comparison is allowed",
+        "Only with same enum type"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Yes, you can compare enum values using relational operators because they are stored as integers. For example: if (m1 > m2) compares their underlying integer values."
+    },
+    {
+      "id": 40,
+      "question": "What is a user-defined data type?",
+      "options": [
+        "Data type provided by the system",
+        "Data type created by the programmer",
+        "Data type for user input only",
+        "Data type for mathematical operations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A user-defined data type is a data type created by the programmer to suit specific needs. Both structures and enums are examples of user-defined data types in C++."
+    },
+    {
+      "id": 41,
+      "question": "In 'enum boolean {false, true};', what are the values of false and true?",
+      "options": [
+        "false=0, true=1",
+        "false=1, true=0",
+        "false=true=0",
+        "false=true=1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In 'enum boolean {false, true};', false gets value 0 and true gets value 1, which corresponds to the conventional boolean values in programming."
+    },
+    {
+      "id": 42,
+      "question": "Why is 'enum boolean {false, true};' better than 'enum boolean {true, false};'?",
+      "options": [
+        "It executes faster",
+        "It uses less memory",
+        "It assigns conventional values: false=0, true=1",
+        "It prevents compilation errors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "enum boolean {false, true}; is better because it assigns conventional boolean values: false=0 and true=1, which matches the standard boolean representation in most programming languages."
+    },
+    {
+      "id": 43,
+      "question": "Can a structure member be of another structure type?",
+      "options": [
+        "No, only basic data types are allowed",
+        "Yes, this creates nested structures",
+        "Only if both structures are the same",
+        "Only with pointers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Yes, a structure member can be of another structure type, creating nested structures. For example, a 'biodata' structure can have a 'today' structure as a member for date of birth."
+    },
+    {
+      "id": 44,
+      "question": "What is the difference between struct and class in C++?",
+      "options": [
+        "No difference",
+        "struct members are public by default, class members are private",
+        "struct is for data, class is for functions",
+        "struct is older syntax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In C++, the main difference between struct and class is that struct members are public by default, while class members are private by default. Otherwise, they are functionally equivalent."
+    },
+    {
+      "id": 45,
+      "question": "How do you declare multiple variables of the same enum type?",
+      "options": [
+        "enum months m1; enum months m2;",
+        "months m1, m2;",
+        "Both options 1 and 2 are correct",
+        "month m1, m2;"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both ways are correct: you can declare multiple enum variables separately (enum months m1; enum months m2;) or together (months m1, m2;). The second form is more concise."
+    },
+    {
+      "id": 46,
+      "question": "What happens if you try to assign an integer directly to an enum variable?",
+      "options": [
+        "It works without any issues",
+        "Compilation error occurs",
+        "Runtime error occurs",
+        "The value is automatically converted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In C++, you cannot directly assign an integer to an enum variable without explicit casting. This would cause a compilation error because enum provides type safety."
+    },
+    {
+      "id": 47,
+      "question": "Which statement about structure assignment is true?",
+      "options": [
+        "Only individual members can be assigned",
+        "Entire structure can be assigned if types match",
+        "Structure assignment is not allowed",
+        "Only the first member is assigned"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Entire structures can be assigned to each other if they are of the same structure type. This is called memberwise assignment, where all members are copied automatically."
+    },
+    {
+      "id": 48,
+      "question": "What is the main purpose of using structures in programming?",
+      "options": [
+        "To save memory",
+        "To group related data of different types together",
+        "To make programs run faster",
+        "To create loops"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main purpose of structures is to group related data of different types together under a single name, creating a logical unit that represents a real-world entity like a student, employee, or date."
+    }
+  ]
+}

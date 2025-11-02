@@ -781,18 +781,25 @@
             });
         }
 
+        // Escape HTML characters to prevent rendering of tags
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
         // Create a question card
         function createQuestionCard(question) {
             const card = document.createElement('div');
             card.className = 'question-card';
             card.innerHTML = `
                 <div class="question-number">Question ${question.id}</div>
-                <div class="question-text">${question.question}</div>
+                <div class="question-text">${escapeHtml(question.question)}</div>
                 <div class="options-container" id="options-${question.id}">
                     ${question.options.map((option, index) => `
                         <div class="option" onclick="selectOption(${question.id}, ${index})" id="option-${question.id}-${index}">
                             <span class="option-label">${String.fromCharCode(65 + index)})</span>
-                            <span>${option}</span>
+                            <span>${escapeHtml(option)}</span>
                         </div>
                     `).join('')}
                 </div>
@@ -806,11 +813,11 @@
                 </div>
                 <div class="answer-section" id="answer-${question.id}">
                     <div class="answer-label">Correct Answer:</div>
-                    <div>${String.fromCharCode(65 + question.correctAnswer)}) ${question.options[question.correctAnswer]}</div>
+                    <div>${String.fromCharCode(65 + question.correctAnswer)}) ${escapeHtml(question.options[question.correctAnswer])}</div>
                 </div>
                 <div class="explanation-section" id="explanation-${question.id}">
                     <div class="explanation-label">Explanation:</div>
-                    <div>${question.explanation}</div>
+                    <div>${escapeHtml(question.explanation)}</div>
                 </div>
             `;
             return card;

@@ -1,0 +1,246 @@
+{
+  "title": "Standing Waves and Stationary Waves - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Chapter 14: Wave Phenomena",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Standing or stationary waves are formed when:",
+      "options": [
+        "Single wave travels in one direction",
+        "Two waves of same frequency and amplitude travel in opposite directions",
+        "Two waves of different frequencies overlap",
+        "Wave reflects from a wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stationary waves are formed by the superposition of two identical waves (same frequency and amplitude) traveling in opposite directions with the same speed along the same line."
+    },
+    {
+      "id": 2,
+      "question": "What is the main difference between traveling waves and standing waves?",
+      "options": [
+        "Speed is different",
+        "In traveling waves, wave form moves; in standing waves, it doesn't",
+        "Standing waves have higher frequency",
+        "Traveling waves don't carry energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In traveling waves, the wave pattern moves through the medium, transporting energy. In standing waves, the waveform doesn't move forward but oscillates at a fixed location."
+    },
+    {
+      "id": 3,
+      "question": "In a standing wave, points where amplitude is zero are called:",
+      "options": [
+        "Antinodes",
+        "Nodes",
+        "Crests",
+        "Troughs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nodes are points in a standing wave where the amplitude is zero and particles remain at rest. These occur at fixed positions in the medium."
+    },
+    {
+      "id": 4,
+      "question": "In a standing wave, points where amplitude is maximum are called:",
+      "options": [
+        "Nodes",
+        "Crests",
+        "Antinodes",
+        "Stationary points"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Antinodes are points in a standing wave where particles oscillate with maximum amplitude. These occur at regular intervals between nodes."
+    },
+    {
+      "id": 5,
+      "question": "The distance between two consecutive nodes in a standing wave is:",
+      "options": [
+        "λ",
+        "λ/2",
+        "λ/4",
+        "2λ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The distance between two consecutive nodes (or consecutive antinodes) is λ/2. The distance between a node and the next antinode is λ/4."
+    },
+    {
+      "id": 6,
+      "question": "The distance between a node and the nearest antinode is:",
+      "options": [
+        "λ",
+        "λ/2",
+        "λ/4",
+        "λ/8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since consecutive nodes are λ/2 apart, and antinodes lie midway between nodes, the distance from a node to the nearest antinode is λ/4."
+    },
+    {
+      "id": 7,
+      "question": "The equation of a stationary wave formed by two waves y₁ = a sin(ωt - kx) and y₂ = a sin(ωt + kx) is:",
+      "options": [
+        "y = 2a sin(ωt)cos(kx)",
+        "y = 2a cos(ωt)sin(kx)",
+        "y = 2a sin(ωt)sin(kx)",
+        "y = a sin(ωt - kx)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using trigonometric addition: y = y₁ + y₂ = 2a cos(ωt)sin(kx). This represents a standing wave where amplitude varies with position but oscillates uniformly with time."
+    },
+    {
+      "id": 8,
+      "question": "In the stationary wave equation y = A cos(ωt), where A = -2a sin(kx), nodes occur at positions where:",
+      "options": [
+        "sin(kx) = 0",
+        "sin(kx) = 1",
+        "cos(ωt) = 0",
+        "cos(ωt) = 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since nodes occur where amplitude A = 0, we need sin(kx) = 0, which happens at kx = mπ (where m = 0, 1, 2...), giving x = mλ/2."
+    },
+    {
+      "id": 9,
+      "question": "Antinodes occur in a standing wave at positions where:",
+      "options": [
+        "sin(kx) = 0",
+        "sin(kx) = ±1",
+        "cos(ωt) = 0",
+        "cos(kx) = 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Antinodes occur where |sin(kx)| = 1, which gives maximum amplitude. This occurs at kx = (2m+1)π/2, giving x = (2m+1)λ/4."
+    },
+    {
+      "id": 10,
+      "question": "At nodes in a standing wave, what is the particle velocity?",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Constant",
+        "Variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At nodes, particles don't move; their displacement is always zero. Therefore, particle velocity is zero at all times."
+    },
+    {
+      "id": 11,
+      "question": "At antinodes in a standing wave, what is the strain (∂y/∂x)?",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Infinite",
+        "Variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At antinodes, the slope of the wave profile is zero because antinodes represent positions of uniform amplitude with no spatial variation. Therefore, strain is zero."
+    },
+    {
+      "id": 12,
+      "question": "What happens to the energy in a standing wave?",
+      "options": [
+        "Flows uniformly through the medium",
+        "Surges back and forth; net flow across any point is zero",
+        "Is lost to the surroundings",
+        "Increases with time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In standing waves, energy oscillates between kinetic and potential energy in each segment, but there is no net transport of energy past any fixed point. Energy merely surges back and forth."
+    },
+    {
+      "id": 13,
+      "question": "When a transverse wave traveling along a string reflects from a fixed end, what happens?",
+      "options": [
+        "Crest returns as crest",
+        "Crest returns as trough (phase reversal of π)",
+        "Wave continues unchanged",
+        "Wave disappears"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reflection from a denser medium (fixed end) causes a phase change of π. A crest becomes a trough, and vice versa. This is because the fixed end is a node."
+    },
+    {
+      "id": 14,
+      "question": "When a transverse wave traveling along a string reflects from a free end, what happens?",
+      "options": [
+        "Crest returns as trough",
+        "Crest returns as crest (no phase change)",
+        "Wave disappears",
+        "Amplitude doubles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reflection from a rarer medium (free end) causes no phase change. A crest returns as a crest. The free end is an antinode."
+    },
+    {
+      "id": 15,
+      "question": "In a longitudinal standing wave, what is the relationship between compression regions and particle motion?",
+      "options": [
+        "Compressions occur where particles have maximum velocity",
+        "Compressions occur at displacement nodes (antinodes in pressure)",
+        "Compressions occur at displacement antinodes",
+        "Compressions are uniformly distributed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In longitudinal waves, pressure antinodes (maximum pressure change) correspond to displacement nodes, and pressure nodes correspond to displacement antinodes."
+    },
+    {
+      "id": 16,
+      "question": "The time period of oscillation of a stationary wave equals:",
+      "options": [
+        "Sum of time periods of component waves",
+        "Difference of time periods of component waves",
+        "The time period of the component waves",
+        "Half the time period of component waves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since stationary waves are formed from two waves of the same frequency, the time period of the resultant standing wave equals the time period of the component waves."
+    },
+    {
+      "id": 17,
+      "question": "A standing wave on a string of length L with both ends fixed must have:",
+      "options": [
+        "A node at each end",
+        "An antinode at each end",
+        "A node at one end and antinode at the other",
+        "No specific requirement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When both ends of a string are fixed, they act as rigid boundaries and must be nodes. Standing waves on such strings have nodes at both ends."
+    },
+    {
+      "id": 18,
+      "question": "For a string of length L fixed at both ends, the possible wavelengths are:",
+      "options": [
+        "λ = L",
+        "λ = 2L/n, where n = 1, 2, 3...",
+        "λ = L/n, where n = 1, 2, 3...",
+        "λ = nL"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a string fixed at both ends: L = n(λ/2), so λ = 2L/n. The first harmonic has n=1, second has n=2, etc."
+    },
+    {
+      "id": 19,
+      "question": "The strain in a standing wave is:",
+      "options": [
+        "Maximum at antinodes and zero at nodes",
+        "Maximum at nodes and zero at antinodes",
+        "Uniform throughout",
+        "Only present at ends"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Strain (∂y/∂x) is maximum where the waveform has steepest slope, which occurs at nodes where particles transition from positive to negative displacement."
+    },
+    {
+      "id": 20,
+      "question": "In a standing wave, at the same time t, nodes and antinodes are:",
+      "options": [
+        "All at rest",
+        "All moving with same velocity",
+        "Moving with different velocities",
+        "Nodes at rest, antinodes moving with different velocities"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nodes remain at rest at all times. Antinodes oscillate with amplitudes determined by position, all reaching maximum displacement simultaneously but with different velocities depending on position."
+    }
+  ]
+}

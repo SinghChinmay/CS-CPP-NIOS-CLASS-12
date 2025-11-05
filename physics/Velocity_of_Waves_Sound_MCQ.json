@@ -1,0 +1,246 @@
+{
+  "title": "Velocity of Waves and Sound - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Chapter 14: Wave Phenomena",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Newton's formula for velocity of sound in a gas is v = √(P/ρ). What was Newton's assumption about compression and rarefaction?",
+      "options": [
+        "Isothermal process",
+        "Adiabatic process",
+        "Isobaric process",
+        "Isochoric process"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newton assumed that compression and rarefaction occur under isothermal conditions (constant temperature). However, this led to a significant error as the actual process is adiabatic."
+    },
+    {
+      "id": 2,
+      "question": "What is the percentage error in Newton's formula when compared to experimental observations for velocity of sound in air?",
+      "options": [
+        "5%",
+        "10%",
+        "16%",
+        "25%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using Newton's formula with standard values: (333 - 280)/333 × 100% = 16%. This significant error indicated an error in Newton's assumptions."
+    },
+    {
+      "id": 3,
+      "question": "Laplace's correction to Newton's formula considers compression and rarefaction as:",
+      "options": [
+        "Isothermal processes",
+        "Adiabatic processes",
+        "Slow processes",
+        "Rapid isothermal processes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Laplace pointed out that sound propagation occurs too rapidly for heat exchange, making the process adiabatic. Using this correction with γ = 1.4 gives v = 333 m/s at STP."
+    },
+    {
+      "id": 4,
+      "question": "According to Laplace's formula, the velocity of sound in a gas is v = √(γP/ρ). What is the value of γ for air?",
+      "options": [
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For air, the heat capacity ratio γ = Cp/Cv = 1.4. This value is used in Laplace's correction formula to give the correct velocity of sound."
+    },
+    {
+      "id": 5,
+      "question": "The velocity of sound in air at STP using Laplace's formula is approximately:",
+      "options": [
+        "280 m/s",
+        "300 m/s",
+        "333 m/s",
+        "350 m/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "v = √(1.4 × 1.01 × 10⁵ / 1.29) = 333 m/s at STP, which matches experimental observations very well."
+    },
+    {
+      "id": 6,
+      "question": "How does temperature affect the velocity of sound in air?",
+      "options": [
+        "No effect",
+        "Decreases with temperature",
+        "Increases with temperature",
+        "Increases then decreases"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Velocity of sound increases with temperature. The relationship is approximately v = 333 + 0.61t (m/s) where t is temperature in °C."
+    },
+    {
+      "id": 7,
+      "question": "What is the increase in velocity of sound for every 1°C rise in temperature in air?",
+      "options": [
+        "0.30 m/s",
+        "0.61 m/s",
+        "1.0 m/s",
+        "2.0 m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For small temperature variations, the velocity increases by approximately 0.61 m/s per degree Celsius, as derived from the relation v ∝ √T."
+    },
+    {
+      "id": 8,
+      "question": "How does pressure affect the velocity of sound in a gas?",
+      "options": [
+        "Increases with pressure",
+        "Decreases with pressure",
+        "No effect",
+        "Proportional to square of pressure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pressure has no effect on velocity of sound because when pressure increases, density also increases proportionally, keeping P/ρ constant."
+    },
+    {
+      "id": 9,
+      "question": "The velocity of sound is inversely proportional to the square root of density. Which gas has the highest velocity of sound among O₂, N₂, and H₂?",
+      "options": [
+        "O₂",
+        "N₂",
+        "H₂",
+        "All have same velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since v ∝ 1/√ρ, hydrogen with the lowest density has the highest velocity. The velocity ratio: v_H₂/v_O₂ = √(M_O₂/M_H₂) = √(32/2) = 4."
+    },
+    {
+      "id": 10,
+      "question": "How does humidity affect the velocity of sound in air?",
+      "options": [
+        "Decreases velocity",
+        "Increases velocity",
+        "No effect",
+        "Only affects frequency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As humidity increases (with temperature and pressure constant), the density of air decreases, causing the velocity of sound to increase."
+    },
+    {
+      "id": 11,
+      "question": "At what temperature is the speed of sound in air double its value at 273 K (STP)?",
+      "options": [
+        "546 K",
+        "819 K",
+        "1092 K",
+        "1365 K"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since v ∝ √T, if v₂ = 2v₁, then √(T₂/T₁) = 2, so T₂ = 4T₁ = 4 × 273 = 1092 K."
+    },
+    {
+      "id": 12,
+      "question": "The velocity of longitudinal waves in an elastic medium is given by:",
+      "options": [
+        "v = √(E/ρ)",
+        "v = E/ρ",
+        "v = √(ρ/E)",
+        "v = ρ/E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The velocity of longitudinal waves is v = √(E/ρ), where E is the elastic modulus and ρ is the density. In solids, this velocity is greater than in liquids and gases."
+    },
+    {
+      "id": 13,
+      "question": "How are velocities of longitudinal waves in different media related?",
+      "options": [
+        "vgas > vliquid > vsolid",
+        "vsolid > vliquid > vgas",
+        "vliquid > vgas > vsolid",
+        "All have same velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since elastic modulus is highest in solids and lowest in gases, vsolid > vliquid > vgas. This is because velocity depends on √(E/ρ)."
+    },
+    {
+      "id": 14,
+      "question": "For a transverse wave on a stretched string with tension F and mass per unit length m, the velocity is:",
+      "options": [
+        "v = √(F/m)",
+        "v = F/m",
+        "v = √(m/F)",
+        "v = m/F"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The velocity of transverse waves on a string is v = √(F/m), where F is tension and m is mass per unit length. Higher tension increases velocity, more mass decreases it."
+    },
+    {
+      "id": 15,
+      "question": "How does increasing tension in a string affect the velocity of transverse waves?",
+      "options": [
+        "Decreases",
+        "No effect",
+        "Increases",
+        "Changes only frequency"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since v = √(F/m), increasing tension F increases the wave velocity. This is why tightening a guitar string increases both pitch and wave velocity."
+    },
+    {
+      "id": 16,
+      "question": "If you increase the linear mass density of a string by replacing it with a heavier string, how does the velocity change?",
+      "options": [
+        "Increases",
+        "Decreases",
+        "No change",
+        "Becomes infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since v = √(F/m), increasing mass per unit length (m) decreases velocity. For the same tension, heavier strings have slower wave propagation."
+    },
+    {
+      "id": 17,
+      "question": "The velocity of sound in air at 0°C is 332 m/s. What will it be at 20°C?",
+      "options": [
+        "339.2 m/s",
+        "343.0 m/s",
+        "345.2 m/s",
+        "350.0 m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using v = 333 + 0.61t, at 20°C: v = 333 + 0.61(20) ≈ 343 m/s. (Note: 332 is used as reference in some calculations, giving 343 m/s at 20°C)"
+    },
+    {
+      "id": 18,
+      "question": "Why does sound travel faster in solids than in gases?",
+      "options": [
+        "Solids are denser",
+        "Solids have greater elastic modulus",
+        "Solids have lower temperature",
+        "Gas molecules are moving"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Solids have a much greater elastic modulus (E) compared to gases. Since v = √(E/ρ), the large E value in solids outweighs the density factor, resulting in higher velocity."
+    },
+    {
+      "id": 19,
+      "question": "The elastic modulus for transverse waves in a solid is:",
+      "options": [
+        "Young's modulus",
+        "Bulk modulus",
+        "Modulus of rigidity",
+        "Modulus of tension"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For transverse waves, the relevant elastic property is the modulus of rigidity (or shear modulus), not Young's modulus which applies to longitudinal waves."
+    },
+    {
+      "id": 20,
+      "question": "What property of air is bad conductor of heat, making sound propagation adiabatic rather than isothermal?",
+      "options": [
+        "Low density",
+        "Low thermal conductivity",
+        "Low specific heat",
+        "Low elasticity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Air is a poor conductor of heat due to its low thermal conductivity. Combined with the rapid compression/rarefaction during sound propagation, this prevents significant heat exchange, making the process adiabatic."
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "title": "Musical Sound Characteristics and Organ Pipes - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Chapter 14: Wave Phenomena",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a characteristic of musical sound?",
+      "options": [
+        "Pitch",
+        "Loudness",
+        "Quality",
+        "Velocity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The three main characteristics of musical sound are pitch, loudness, and quality (timbre). Velocity is a property of wave propagation, not a characteristic of musical sound."
+    },
+    {
+      "id": 2,
+      "question": "What is pitch in musical sound?",
+      "options": [
+        "Strength of sound",
+        "Characteristic that enables us to classify sound as high or low",
+        "Number of overtones",
+        "Quality of sound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pitch is the subjective characteristic that enables us to classify musical notes as 'high' or 'low'. It depends on frequency but is not directly proportional to it."
+    },
+    {
+      "id": 3,
+      "question": "A high-pitched sound has:",
+      "options": [
+        "High intensity",
+        "High frequency",
+        "Low amplitude",
+        "Low velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "High pitch corresponds to high frequency. This is why sounds like a mosquito buzz (high frequency) are perceived as shrill, despite low intensity."
+    },
+    {
+      "id": 4,
+      "question": "What is loudness of sound?",
+      "options": [
+        "Number of vibrations per second",
+        "Distance between successive crests",
+        "Subjective effect of intensity received by the listener's ear",
+        "Frequency of oscillation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Loudness is how loud or soft a sound seems to the listener, determined by the intensity of the sound wave. It's a subjective perception."
+    },
+    {
+      "id": 5,
+      "question": "The intensity of a sound wave is defined as:",
+      "options": [
+        "Energy per unit volume",
+        "Power per unit area per unit time",
+        "Average energy transported per unit area per second",
+        "Both b and c"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Intensity is the average amount of energy transported by a wave per unit area per second, perpendicular to the direction of propagation. It's expressed in W/m²."
+    },
+    {
+      "id": 6,
+      "question": "Intensity level in decibels is defined by:",
+      "options": [
+        "β = 10 log(I/I₀)",
+        "β = log(I/I₀)",
+        "β = I/I₀",
+        "β = 10(I/I₀)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The intensity level β = 10 log(I/I₀), where I₀ = 10⁻¹² W/m² is the reference intensity (threshold of hearing). Intensity level is expressed in decibels (dB)."
+    },
+    {
+      "id": 7,
+      "question": "The threshold of hearing corresponds to an intensity level of:",
+      "options": [
+        "0 dB",
+        "10 dB",
+        "20 dB",
+        "100 dB"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The threshold of hearing (faintest audible sound) is defined as 0 dB, corresponding to intensity I₀ = 10⁻¹² W/m²."
+    },
+    {
+      "id": 8,
+      "question": "The threshold of feeling (pain) in the human ear corresponds to approximately:",
+      "options": [
+        "60 dB",
+        "80 dB",
+        "100 dB",
+        "120 dB"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The threshold of feeling occurs at approximately 120 dB, where sound becomes uncomfortably loud and potentially harmful to hearing."
+    },
+    {
+      "id": 9,
+      "question": "The human ear is most sensitive to frequencies in the range:",
+      "options": [
+        "20-100 Hz",
+        "500-1000 Hz",
+        "2000-3000 Hz",
+        "10000-15000 Hz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The human ear is most sensitive (lowest threshold) in the frequency range 2000-3000 Hz. This is why sounds in this range are perceived as louder at the same intensity."
+    },
+    {
+      "id": 10,
+      "question": "What is quality (or timbre) of sound?",
+      "options": [
+        "Intensity of sound",
+        "Frequency of sound",
+        "Characteristic enabling us to distinguish two notes of same pitch and loudness from different instruments",
+        "Velocity of sound"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Quality or timbre is the characteristic that allows us to distinguish between a piano and guitar playing the same note at the same loudness. It depends on the waveform and harmonic content."
+    },
+    {
+      "id": 11,
+      "question": "Why do different musical instruments produce different quality sounds?",
+      "options": [
+        "They have different frequencies",
+        "They have different amplitudes",
+        "They emit fundamental frequency with different combinations of overtones",
+        "They all emit pure tones"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Different instruments emit different harmonic combinations along with the fundamental frequency. These overtones create different waveforms, giving each instrument its unique quality."
+    },
+    {
+      "id": 12,
+      "question": "A pure tone is emitted by:",
+      "options": [
+        "Piano",
+        "Violin",
+        "Tuning fork",
+        "Guitar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A tuning fork is specifically designed to emit a pure tone of one particular frequency with minimal overtones. All other instruments produce complex tones with multiple frequencies."
+    },
+    {
+      "id": 13,
+      "question": "At a closed end of an organ pipe, there must be:",
+      "options": [
+        "An antinode",
+        "A node",
+        "A crest",
+        "A trough"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At a closed end, air particles cannot move, so there must be a node. At an open end, particles can move freely, so there's an antinode."
+    },
+    {
+      "id": 14,
+      "question": "At an open end of an organ pipe, there must be:",
+      "options": [
+        "A node",
+        "An antinode",
+        "A pressure maximum",
+        "Zero displacement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At an open end, air can move freely and density changes are zero (continuous with atmosphere). This corresponds to a displacement antinode."
+    },
+    {
+      "id": 15,
+      "question": "For an open organ pipe of length L, the fundamental frequency is:",
+      "options": [
+        "v/L",
+        "v/2L",
+        "2v/L",
+        "4v/L"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For an open pipe: L = λ/2, so λ = 2L. Since v = νλ, the fundamental frequency ν₁ = v/λ = v/2L."
+    },
+    {
+      "id": 16,
+      "question": "For a closed organ pipe of length L, the fundamental frequency is:",
+      "options": [
+        "v/L",
+        "v/2L",
+        "2v/L",
+        "v/4L"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For a closed pipe: L = λ/4, so λ = 4L. Since v = νλ, the fundamental frequency ν₁ = v/λ = v/4L."
+    },
+    {
+      "id": 17,
+      "question": "What is the ratio of fundamental frequencies of an open pipe and a closed pipe of the same length?",
+      "options": [
+        "1:1",
+        "1:2",
+        "2:1",
+        "4:1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Open pipe: ν₁ = v/2L; Closed pipe: ν₁ = v/4L. Ratio = (v/2L)/(v/4L) = 2/1 = 2:1."
+    },
+    {
+      "id": 18,
+      "question": "In an open organ pipe, the harmonics produced are:",
+      "options": [
+        "Only odd multiples of fundamental (1st, 3rd, 5th...)",
+        "Only even multiples of fundamental (2nd, 4th, 6th...)",
+        "All multiples of fundamental (1st, 2nd, 3rd...)",
+        "No harmonics, only fundamental"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An open pipe is rich in harmonics and produces all multiples of the fundamental frequency: ν₁, 2ν₁, 3ν₁, 4ν₁... This makes it richer in overtones."
+    },
+    {
+      "id": 19,
+      "question": "In a closed organ pipe, the harmonics produced are:",
+      "options": [
+        "All multiples of fundamental",
+        "Only even multiples (2nd, 4th, 6th...)",
+        "Only odd multiples (1st, 3rd, 5th...)",
+        "No harmonics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A closed pipe produces only odd harmonics: ν₁, 3ν₁, 5ν₁... The even harmonics are missing. This makes it less rich in overtones compared to an open pipe."
+    },
+    {
+      "id": 20,
+      "question": "Which organ pipe is richer in overtones?",
+      "options": [
+        "Closed pipe",
+        "Open pipe",
+        "Both equally",
+        "Depends on length"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Open pipes produce all multiples of fundamental (richer), while closed pipes produce only odd multiples. Therefore, open pipes are richer in overtones and produce more complex tones."
+    }
+  ]
+}

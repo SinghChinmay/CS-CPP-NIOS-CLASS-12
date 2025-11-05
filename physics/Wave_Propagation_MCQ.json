@@ -1,0 +1,246 @@
+{
+  "title": "Wave Propagation - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Chapter 14: Wave Phenomena",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the relationship between wave velocity (v), frequency (ν), and wavelength (λ)?",
+      "options": [
+        "v = ν/λ",
+        "v = νλ",
+        "v = λ/ν",
+        "v = 1/(νλ)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The fundamental wave equation relates velocity, frequency, and wavelength as v = νλ. This shows that wave velocity is the product of frequency and wavelength."
+    },
+    {
+      "id": 2,
+      "question": "In a transverse wave on a stretched string, how do particles of the medium move relative to the direction of wave propagation?",
+      "options": [
+        "In the same direction as the wave",
+        "Perpendicular to the direction of wave propagation",
+        "At an angle of 45° to the wave direction",
+        "In random directions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In transverse waves, particles oscillate perpendicular to the direction of wave propagation. This is characteristic of transverse waves like those on strings and electromagnetic waves."
+    },
+    {
+      "id": 3,
+      "question": "What is the propagation constant (k) in wave motion?",
+      "options": [
+        "Phase change per unit time",
+        "Phase change per unit distance",
+        "Distance between crests",
+        "Frequency of the wave"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The propagation constant k is the phase change per unit distance, given by k = 2π/λ. It describes how the phase changes as you move through space."
+    },
+    {
+      "id": 4,
+      "question": "For a longitudinal wave, which of the following represents the displacement-distance relationship?",
+      "options": [
+        "It shows actual crests and troughs",
+        "It shows compressions and rarefactions as a sinusoidal curve",
+        "It shows only compressions",
+        "It shows only rarefactions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In longitudinal waves, the displacement-distance graph shows a sinusoidal pattern representing alternate compressions (high density) and rarefactions (low density) in the medium."
+    },
+    {
+      "id": 5,
+      "question": "What is the phase difference between two particles in a wave separated by one complete wavelength?",
+      "options": [
+        "π",
+        "2π",
+        "π/2",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Particles separated by a wavelength are in the same phase, with a phase difference of 2π (or 0 modulo 2π). The phase difference is related to path difference by Δφ = 2π(Δx)/λ."
+    },
+    {
+      "id": 6,
+      "question": "The equation of a simple harmonic wave traveling in the +x direction is given by y = a sin(ωt - kx). What does the term (ωt - kx) represent?",
+      "options": [
+        "The wavelength",
+        "The phase of the wave",
+        "The amplitude",
+        "The frequency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term (ωt - kx) represents the phase of the wave. At any point (x) and time (t), this determines the instantaneous phase of oscillation at that location."
+    },
+    {
+      "id": 7,
+      "question": "If the initial phase angle at the origin is φ₀, the equation of a wave becomes y(x,t) = a sin[(ωt - kx) + φ₀]. What effect does φ₀ have on the wave?",
+      "options": [
+        "It changes the amplitude",
+        "It shifts the wave in space and time",
+        "It changes the frequency",
+        "It has no effect"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The initial phase angle φ₀ introduces a phase shift to the entire wave function, effectively shifting the wave profile in both space and time without changing its fundamental properties like amplitude or frequency."
+    },
+    {
+      "id": 8,
+      "question": "What are the essential properties of a medium for propagation of mechanical waves?",
+      "options": [
+        "Only density",
+        "Only elasticity",
+        "Mass of particles and elasticity",
+        "Only temperature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For mechanical waves to propagate, the medium must have (i) particles with mass and (ii) elasticity. These properties allow disturbances to transmit from one particle to the next through the medium."
+    },
+    {
+      "id": 9,
+      "question": "Which type of waves can travel through vacuum?",
+      "options": [
+        "Sound waves",
+        "Waves on water",
+        "Electromagnetic waves",
+        "Seismic waves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electromagnetic waves, which are transverse, do not require any material medium for propagation and can travel through vacuum. This is because they consist of oscillating electric and magnetic fields."
+    },
+    {
+      "id": 10,
+      "question": "For transverse waves on a stretched string, the velocity depends on:",
+      "options": [
+        "Tension and mass per unit length",
+        "Only frequency",
+        "Only wavelength",
+        "Only amplitude"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The velocity of transverse waves on a string is given by v = √(F/m), where F is the tension and m is the mass per unit length. It is independent of frequency and amplitude."
+    },
+    {
+      "id": 11,
+      "question": "The relation between angular frequency (ω) and frequency (ν) is:",
+      "options": [
+        "ω = ν",
+        "ω = 2πν",
+        "ω = ν/2π",
+        "ω = π/ν"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angular frequency ω (in radians per second) and frequency ν (in Hz) are related by ω = 2πν. This accounts for the fact that one complete oscillation corresponds to 2π radians."
+    },
+    {
+      "id": 12,
+      "question": "What does wavelength (λ) represent in wave motion?",
+      "options": [
+        "Distance traveled in one second",
+        "Distance between two nearest particles in the same phase",
+        "Maximum displacement of a particle",
+        "Time taken to complete one oscillation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wavelength is the distance between two nearest particles vibrating in the same phase. It's also the distance the wave travels in one complete period (T)."
+    },
+    {
+      "id": 13,
+      "question": "For a progressive wave, if the path difference between two points is λ/2, what is the phase difference?",
+      "options": [
+        "π",
+        "2π",
+        "π/2",
+        "3π"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phase difference Δφ = (2π/λ) × path difference. For path difference = λ/2, Δφ = (2π/λ) × (λ/2) = π."
+    },
+    {
+      "id": 14,
+      "question": "The wave number k is related to wavelength by:",
+      "options": [
+        "k = λ",
+        "k = 2π/λ",
+        "k = λ/2π",
+        "k = 1/λ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wave number k represents the phase change per unit distance and is defined as k = 2π/λ. It has units of radians per meter."
+    },
+    {
+      "id": 15,
+      "question": "If the frequency of a wave is 50 Hz and wavelength is 4 m, what is the velocity of the wave?",
+      "options": [
+        "12.5 m/s",
+        "200 m/s",
+        "8 m/s",
+        "0.125 m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using v = νλ, where ν = 50 Hz and λ = 4 m, we get v = 50 × 4 = 200 m/s."
+    },
+    {
+      "id": 16,
+      "question": "Which property distinguishes longitudinal waves from transverse waves?",
+      "options": [
+        "Frequency",
+        "Direction of particle motion relative to wave propagation",
+        "Speed",
+        "Amplitude"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The key distinction is the direction of particle motion. In longitudinal waves, particles move along the direction of propagation, while in transverse waves, they move perpendicular to it."
+    },
+    {
+      "id": 17,
+      "question": "A longitudinal wave in a medium can only be transmitted through:",
+      "options": [
+        "Solids only",
+        "Liquids only",
+        "Gases only",
+        "Solids, liquids, and gases"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Longitudinal waves require volume elasticity to propagate, which is present in all three states of matter. This is why sound (longitudinal) can travel through solids, liquids, and gases."
+    },
+    {
+      "id": 18,
+      "question": "In the simple harmonic wave equation y = a sin(ωt - kx), what does 'a' represent?",
+      "options": [
+        "Wavelength",
+        "Amplitude",
+        "Angular frequency",
+        "Wave velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The parameter 'a' is the amplitude of the wave, representing the maximum displacement of particles from their equilibrium positions."
+    },
+    {
+      "id": 19,
+      "question": "The phase change per unit time in wave motion is represented by:",
+      "options": [
+        "k (wave number)",
+        "λ (wavelength)",
+        "ω (angular frequency)",
+        "v (velocity)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Angular frequency ω represents the phase change per unit time, while wave number k represents phase change per unit distance."
+    },
+    {
+      "id": 20,
+      "question": "For a transverse wave on a slinky, when one end executes SHM with period T, how long does it take for the disturbance to propagate one wavelength?",
+      "options": [
+        "T/2",
+        "T",
+        "2T",
+        "T/4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The wave travels one wavelength in one period. This is because v = λ/T, which rearranges to show that the time to travel distance λ is T."
+    }
+  ]
+}

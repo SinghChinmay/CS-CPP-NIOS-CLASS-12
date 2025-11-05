@@ -1,0 +1,246 @@
+{
+  "title": "Superposition, Interference and Beats - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Chapter 14: Wave Phenomena",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The principle of superposition states that when two waves overlap, the resultant displacement is:",
+      "options": [
+        "Product of individual displacements",
+        "Vector sum of individual displacements",
+        "Difference of individual displacements",
+        "Average of individual displacements"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The principle of superposition states that at points where two waves overlap, the resultant displacement is the vector sum (algebraic sum for collinear waves) of the displacements due to each wave individually."
+    },
+    {
+      "id": 2,
+      "question": "When two wave crests overlap, what is observed at the point of overlap?",
+      "options": [
+        "Resultant displacement is minimum",
+        "Resultant displacement is maximum",
+        "Resultant displacement is zero",
+        "No wave exists"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When two wave crests (maximum positive displacements) overlap, their displacements add constructively, resulting in maximum positive displacement at that point."
+    },
+    {
+      "id": 3,
+      "question": "When a wave crest overlaps with a wave trough, what is the nature of the resultant?",
+      "options": [
+        "Maximum amplitude crest",
+        "Maximum amplitude trough",
+        "Displacement on the side of larger amplitude",
+        "Zero displacement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When a crest overlaps a trough, the resultant amplitude depends on which has greater magnitude. The resultant will be on the side of the larger amplitude but with reduced magnitude."
+    },
+    {
+      "id": 4,
+      "question": "What is interference of waves?",
+      "options": [
+        "When waves block each other",
+        "When waves cancel out completely",
+        "Redistribution of energy due to superposition of waves",
+        "When waves change frequency"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Interference is the phenomenon where two or more waves overlap to produce a resultant wave with energy redistributed in space. It's not just about cancellation but redistribution of energy in different regions."
+    },
+    {
+      "id": 5,
+      "question": "For constructive interference of two waves of the same amplitude and frequency traveling in the same direction, the phase difference should be:",
+      "options": [
+        "π",
+        "2π (or 0)",
+        "π/2",
+        "(2m+1)π"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Constructive interference occurs when the phase difference is 2π (or any multiple of 2π, including 0). This means the waves are in phase."
+    },
+    {
+      "id": 6,
+      "question": "For destructive interference of two waves, the phase difference should be:",
+      "options": [
+        "0",
+        "π (or odd multiple of π)",
+        "2π",
+        "π/4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Destructive interference occurs when the phase difference is an odd multiple of π (π, 3π, 5π...). For equal amplitudes, this results in complete cancellation."
+    },
+    {
+      "id": 7,
+      "question": "The resultant amplitude when two waves of amplitudes a₁ and a₂ interfere with phase difference φ is given by:",
+      "options": [
+        "A = a₁ + a₂",
+        "A = |a₁ - a₂|",
+        "A = √(a₁² + a₂² + 2a₁a₂cosφ)",
+        "A = a₁ × a₂"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The resultant amplitude is given by A = √(a₁² + a₂² + 2a₁a₂cosφ). This is derived from vector addition of the two wave amplitudes with phase difference φ."
+    },
+    {
+      "id": 8,
+      "question": "What is the intensity ratio Imax/Imin when two waves of equal amplitude interfere?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "When two equal amplitude waves interfere: Imax ∝ (a+a)² = 4a², Imin ∝ (a-a)² = 0. But for unequal amplitudes, the ratio depends on amplitude ratio. For equal amplitudes, the minimum is zero and ratio is undefined, but during constructive interference, intensity is 4 times single wave intensity."
+    },
+    {
+      "id": 9,
+      "question": "When the path difference between two waves equals λ/2, they:",
+      "options": [
+        "Constructively interfere",
+        "Destructively interfere",
+        "Don't interfere",
+        "Produce beats"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Path difference of λ/2 corresponds to phase difference of π, which causes destructive interference. The two waves are out of phase by 180°."
+    },
+    {
+      "id": 10,
+      "question": "What are beats in sound waves?",
+      "options": [
+        "Periodic variations in amplitude of sound",
+        "Change in frequency of sound",
+        "Change in velocity of sound",
+        "Production of harmonics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beats are periodic variations in the intensity of sound produced when two waves of slightly different frequencies interfere. The intensity alternately becomes maximum and minimum."
+    },
+    {
+      "id": 11,
+      "question": "If two tuning forks of frequencies 500 Hz and 505 Hz are sounded together, how many beats are produced per second?",
+      "options": [
+        "1 beat/s",
+        "5 beats/s",
+        "505 beats/s",
+        "500 beats/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beat frequency = |ν₁ - ν₂| = |505 - 500| = 5 Hz. This means 5 beats are heard per second."
+    },
+    {
+      "id": 12,
+      "question": "The beat period (time for one complete beat) when two waves have frequency difference Δν is:",
+      "options": [
+        "Δν",
+        "1/Δν",
+        "Δν/2",
+        "2/Δν"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If beat frequency = Δν, then beat period T = 1/Δν. For example, 5 beats/s means beat period = 1/5 = 0.2 s."
+    },
+    {
+      "id": 13,
+      "question": "A tuning fork of unknown frequency produces 5 beats per second with a fork of 512 Hz. What are the possible frequencies?",
+      "options": [
+        "507 Hz only",
+        "517 Hz only",
+        "507 Hz or 517 Hz",
+        "512 Hz ± 2.5 Hz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If beat frequency is 5, then unknown frequency = 512 ± 5. So the unknown frequency is either 507 Hz or 517 Hz."
+    },
+    {
+      "id": 14,
+      "question": "When beats are produced by two tuning forks, why does loading one fork with wax increase the number of beats?",
+      "options": [
+        "Increases amplitude",
+        "Decreases frequency of the loaded fork",
+        "Increases frequency difference",
+        "Changes wavelength"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Loading with wax increases the mass of the fork, which decreases its frequency. This increases the frequency difference between the two forks, resulting in more beats per second."
+    },
+    {
+      "id": 15,
+      "question": "The human ear cannot distinguish beats if the beat frequency exceeds:",
+      "options": [
+        "5 Hz",
+        "10 Hz",
+        "15 Hz",
+        "20 Hz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The human ear cannot perceive sounds occurring in intervals less than 1/10 second. So beats faster than 10 Hz are not heard as separate beats."
+    },
+    {
+      "id": 16,
+      "question": "In an interference pattern, if the ratio of maximum to minimum intensity is 9, what is the amplitude ratio of the interfering waves?",
+      "options": [
+        "1:1",
+        "2:1",
+        "3:1",
+        "4:1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Imax/Imin = [(a₁+a₂)/(a₁-a₂)]² = 9. Solving: (a₁+a₂)/(a₁-a₂) = 3, which gives a₁/a₂ = 2/1 or 2:1."
+    },
+    {
+      "id": 17,
+      "question": "Two waves of nearly equal frequency travel in the same direction. The phenomenon observed is:",
+      "options": [
+        "Standing waves",
+        "Beats",
+        "Diffraction",
+        "Refraction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When two waves of nearly equal (but not identical) frequency interfere in the same direction, beats are produced due to the periodic variation of constructive and destructive interference."
+    },
+    {
+      "id": 18,
+      "question": "What is the relationship between beat frequency and the frequencies of the two waves?",
+      "options": [
+        "Beat frequency = ν₁ × ν₂",
+        "Beat frequency = |ν₁ - ν₂|",
+        "Beat frequency = ν₁ + ν₂",
+        "Beat frequency = (ν₁ + ν₂)/2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The beat frequency equals the absolute value of the difference between the two frequencies: Δν = |ν₁ - ν₂|."
+    },
+    {
+      "id": 19,
+      "question": "In the graphic representation of beat formation, what do the two curves represent?",
+      "options": [
+        "Two standing waves",
+        "Displacement-time graphs of two waves with slightly different frequencies",
+        "Two transverse waves",
+        "Maximum and minimum points"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The displacement-time graphs show two waves with slightly different frequencies. Their superposition creates the beat pattern where amplitude varies from maximum to minimum periodically."
+    },
+    {
+      "id": 20,
+      "question": "When two identical waves traveling in opposite directions produce beats, what happens?",
+      "options": [
+        "Only standing waves form",
+        "No beats, only standing waves",
+        "More beats are produced",
+        "Beats cancel out"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Identical waves traveling in opposite directions produce standing waves, not beats. Beats are only produced when waves of nearly equal frequency travel in the same direction."
+    }
+  ]
+}

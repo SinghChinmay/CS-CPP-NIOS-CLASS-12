@@ -1,0 +1,246 @@
+{
+  "title": "Doppler Effect - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Chapter 14: Wave Phenomena",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The Doppler effect is the:",
+      "options": [
+        "Change in velocity of sound",
+        "Apparent change in frequency due to relative motion of source and observer",
+        "Change in wavelength only",
+        "Change in amplitude due to reflection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Doppler effect is the apparent change in frequency (and wavelength) of a wave when the source and/or observer are in relative motion with respect to the medium."
+    },
+    {
+      "id": 2,
+      "question": "When a sound source moves towards a stationary observer, the observed frequency is:",
+      "options": [
+        "Lower than actual frequency",
+        "Higher than actual frequency",
+        "Same as actual frequency",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the source approaches, the wavelengths become compressed, resulting in higher observed frequency. This is why a siren sounds higher-pitched as an ambulance approaches."
+    },
+    {
+      "id": 3,
+      "question": "When a sound source moves away from a stationary observer, the observed frequency is:",
+      "options": [
+        "Higher than actual frequency",
+        "Lower than actual frequency",
+        "Same as actual frequency",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the source recedes, wavelengths become stretched, resulting in lower observed frequency. This is why a siren sounds lower-pitched as an ambulance moves away."
+    },
+    {
+      "id": 4,
+      "question": "In the Doppler effect formula n' = n(v - v₀)/(v - vₛ), what do the symbols represent?",
+      "options": [
+        "v = velocity of sound, vₛ = velocity of source, v₀ = velocity of observer, n' = observed frequency",
+        "v = velocity of observer, vₛ = velocity of sound, v₀ = velocity of source, n' = original frequency",
+        "v = wavelength, vₛ = source intensity, v₀ = observer intensity, n' = wavelength",
+        "All symbols have different meanings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the standard Doppler formula: v = velocity of sound (in the medium), vₛ = velocity of source, v₀ = velocity of observer, n = original frequency, n' = observed frequency."
+    },
+    {
+      "id": 5,
+      "question": "The Doppler effect does NOT affect:",
+      "options": [
+        "Observed frequency",
+        "Speed of sound in the medium",
+        "Wavelength",
+        "Perceived pitch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The speed of sound depends only on the medium's properties (temperature, density, elasticity), not on the motion of source or observer. The Doppler effect affects frequency and wavelength, but not the wave speed itself."
+    },
+    {
+      "id": 6,
+      "question": "If a train whistle has frequency 500 Hz and the train approaches a stationary observer at speed vₛ, what is observed?",
+      "options": [
+        "Frequency = 500 Hz (no change)",
+        "Frequency > 500 Hz",
+        "Frequency < 500 Hz",
+        "Frequency becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As the source approaches, the observer receives more wavefronts per second, so observed frequency n' = n(v)/(v - vₛ) > n, since the denominator decreases."
+    },
+    {
+      "id": 7,
+      "question": "The red shift observed in light from distant stars indicates that:",
+      "options": [
+        "Stars are getting hotter",
+        "Stars are moving towards Earth",
+        "Stars are moving away from Earth",
+        "Stars are stationary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Red shift means the observed wavelength is longer (lower frequency), indicating the source is receding. This red shift led to the discovery that the universe is expanding."
+    },
+    {
+      "id": 8,
+      "question": "In a red shift, if Δλ/λ = 0.032%, what is the velocity of recession?",
+      "options": [
+        "9.6 × 10³ m/s",
+        "9.6 × 10⁴ m/s",
+        "9.6 × 10⁵ m/s",
+        "9.6 × 10⁶ m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using Δλ/λ = vₛ/c, and c = 3×10⁸ m/s: vₛ = 0.032/100 × 3×10⁸ = 9.6×10⁴ m/s."
+    },
+    {
+      "id": 9,
+      "question": "SONAR (Sound Navigation And Ranging) uses the Doppler effect to:",
+      "options": [
+        "Only detect objects",
+        "Measure velocity of moving objects underwater",
+        "Produce sound waves",
+        "Amplify sound signals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SONAR uses Doppler shift to measure the velocity of submarines or other moving objects. If an object moves towards the receiver, the reflected frequency increases; if away, it decreases."
+    },
+    {
+      "id": 10,
+      "question": "RADAR uses Doppler effect to measure:",
+      "options": [
+        "Distance only",
+        "Frequency only",
+        "Velocity of moving aircraft or objects",
+        "Wavelength only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "RADAR detects Doppler shift in reflected electromagnetic waves to determine if and how fast an object (aircraft, vehicle) is moving toward or away from the radar station."
+    },
+    {
+      "id": 11,
+      "question": "When both source and observer are moving, the observed frequency is given by:",
+      "options": [
+        "n' = n(v + vₛ)/(v - v₀)",
+        "n' = n(v - v₀)/(v + vₛ)",
+        "n' = n(v + v₀)/(v + vₛ)",
+        "n' = n(v - v₀)/(v - vₛ)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The general Doppler formula when both are moving: n' = n(v ± v₀)/(v ∓ vₛ). The signs depend on the directions of motion relative to the wave propagation."
+    },
+    {
+      "id": 12,
+      "question": "If an observer moves towards a stationary source, the observed frequency:",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the observer moves towards the source, they encounter more wavefronts per unit time, increasing the observed frequency. This is independent of source motion."
+    },
+    {
+      "id": 13,
+      "question": "The Doppler effect is most pronounced when:",
+      "options": [
+        "Source velocity equals sound velocity",
+        "Source moves very slowly",
+        "Observer is far away",
+        "Medium temperature is high"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Doppler effect becomes more pronounced as source velocity increases. At velocities approaching the speed of sound, shock waves can form."
+    },
+    {
+      "id": 14,
+      "question": "Shock waves are produced when:",
+      "options": [
+        "Source velocity equals sound velocity",
+        "Source velocity exceeds sound velocity",
+        "Source velocity is very small",
+        "Observer is stationary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the source travels faster than sound (supersonic), it catches up with its own wavefronts, creating a shock wave. This produces the characteristic 'sonic boom'."
+    },
+    {
+      "id": 15,
+      "question": "An observer hears an engine whistle. The pitch seems higher when the engine:",
+      "options": [
+        "Moves away from the observer",
+        "Is stationary",
+        "Moves towards the observer",
+        "Changes speed suddenly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The perceived pitch (frequency) is higher when the engine approaches because of the Doppler effect. The frequency appears lower when moving away."
+    },
+    {
+      "id": 16,
+      "question": "A tuning fork and its approaching echo source produce beats. This happens because:",
+      "options": [
+        "Frequencies are exactly equal",
+        "Frequencies are slightly different due to Doppler shift",
+        "Amplitudes are different",
+        "Wavelengths are same"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Due to Doppler effect, the echo frequency is different from the original sound frequency when there's relative motion, causing beats to be heard."
+    },
+    {
+      "id": 17,
+      "question": "The ambulance siren frequency change from high to low as it passes is due to:",
+      "options": [
+        "Change in siren mechanism",
+        "Change in Doppler shift from approach to recession",
+        "Change in medium properties",
+        "Change in observer position"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As the ambulance approaches, the Doppler shift increases the frequency (higher pitch). As it recedes, the frequency decreases (lower pitch). The change occurs as it passes the observer."
+    },
+    {
+      "id": 18,
+      "question": "For a source moving towards an observer with velocity vₛ, if vₛ approaches the speed of sound v, the observed frequency approaches:",
+      "options": [
+        "Zero",
+        "Infinity",
+        "n/2",
+        "2n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the formula n' = n(v)/(v - vₛ), as vₛ → v, the denominator → 0, so n' → ∞. This is why supersonic objects produce very loud shock waves."
+    },
+    {
+      "id": 19,
+      "question": "Blue shift in light from stars indicates that:",
+      "options": [
+        "Stars are moving away from Earth",
+        "Stars are moving towards Earth",
+        "Stars are stationary",
+        "Stars are cooling down"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blue shift means the observed wavelength is shorter (higher frequency), indicating the source is approaching. This is the opposite of red shift for receding stars."
+    },
+    {
+      "id": 20,
+      "question": "The Doppler effect for light follows the same principle as for sound waves, but:",
+      "options": [
+        "It's exactly the same",
+        "Relativistic corrections are needed at high velocities",
+        "It doesn't depend on frequency",
+        "Light is not affected by motion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For light, especially at high velocities (comparable to speed of light), relativistic Doppler effect must be used instead of the classical formula, accounting for relativistic effects."
+    }
+  ]
+}

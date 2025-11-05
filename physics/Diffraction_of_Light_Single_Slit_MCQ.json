@@ -1,0 +1,306 @@
+{
+  "title": "Diffraction of Light - Single Slit Diffraction - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Module 6: Wave Phenomena and Light",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is diffraction of light?",
+      "options": [
+        "The splitting of white light into its component colors",
+        "The bending of light around the edges of an obstacle or through an aperture",
+        "The spreading of light through a prism",
+        "The scattering of light by particles in air"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diffraction is the bending of light around the edges of an obstacle or through an aperture. When light passes through a narrow opening or encounters an obstacle of very small dimensions, it deviates from the straight-line path into the shadow region."
+    },
+    {
+      "id": 2,
+      "question": "What is a simple example of observing diffraction in daily life?",
+      "options": [
+        "Rainbow formation",
+        "Shadow of an object",
+        "Looking at a street light with eyes almost closed causes light to streak outward",
+        "Mirror reflection"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When you look at a street light at night and almost close your eyes, the light appears to streak outward due to diffraction caused by the edges of your eyelids. This is a simple daily observation of diffraction."
+    },
+    {
+      "id": 3,
+      "question": "What conditions must be satisfied to observe diffraction of light?",
+      "options": [
+        "Only the size of the aperture matters",
+        "Only the distance from aperture to screen matters",
+        "The aperture/obstacle size should be of the order of wavelength, AND separation between aperture and screen should be several times the aperture size",
+        "The light must be red in color"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To observe diffraction: (a) The size of the obstacle or aperture should be of the order of the wavelength of light (≈10⁻⁶ m), AND (b) The separation between aperture and screen should be considerably larger (several thousand times) than the size of the aperture."
+    },
+    {
+      "id": 4,
+      "question": "Why is diffraction of light not commonly observed in everyday life with large objects?",
+      "options": [
+        "Because diffraction only occurs with red light",
+        "Because the wavelength of light is very small compared to everyday objects",
+        "Because diffraction requires very high intensity of light",
+        "Because diffraction cannot occur in air"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The wavelength of light is of the order of 10⁻⁶ m. To observe diffraction, we need obstacles or apertures of this size. Large everyday objects are much larger than this, so their diffraction effects are negligible and light appears to travel in straight lines."
+    },
+    {
+      "id": 5,
+      "question": "What is the main feature of a single slit diffraction pattern at the central region?",
+      "options": [
+        "A series of dark spots",
+        "A horizontal streak of light along the normal to the slit",
+        "A vertical line only",
+        "Concentric circles of light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The single slit diffraction pattern shows a horizontal streak of light along a line normal to the length of the slit. This is accompanied by a pattern of bright and dark fringes perpendicular to this streak."
+    },
+    {
+      "id": 6,
+      "question": "What are the bright spots in a single slit diffraction pattern called?",
+      "options": [
+        "Primary fringes",
+        "Secondary maxima and primary maxima",
+        "Principal maxima (for central spot) and secondary maxima (for other bright spots)",
+        "Interference fringes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In single slit diffraction, the central bright spot is called the principal maxima, while the other bright spots on either side are called secondary maxima. The principal maximum is the brightest, with secondary maxima having progressively lower intensities."
+    },
+    {
+      "id": 7,
+      "question": "How does the width of the central bright spot compare to other bright spots in single slit diffraction?",
+      "options": [
+        "It is half the width of other spots",
+        "It is twice the width of other spots",
+        "It is equal to the width of other spots",
+        "It is much narrower than other spots"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The width of the central bright spot (principal maximum) is twice the width of other bright spots (secondary maxima). This is a characteristic feature of single slit diffraction pattern."
+    },
+    {
+      "id": 8,
+      "question": "How does the intensity of secondary maxima compare with the principal maximum?",
+      "options": [
+        "Secondary maxima are equally bright",
+        "Secondary maxima are brighter",
+        "Secondary maxima have progressively diminishing intensity",
+        "Secondary maxima have the same intensity as principal maximum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The intensity of secondary maxima progressively decreases as you move away from the central principal maximum. This is due to increasing path differences and the nature of superposition of waves from different parts of the slit."
+    },
+    {
+      "id": 9,
+      "question": "What happens to the wavefront when it passes through a narrow slit according to Huygens' principle?",
+      "options": [
+        "It remains a plane wavefront",
+        "It becomes a circular wavefront",
+        "The plane wavefront becomes curved due to diffraction at the slit edges",
+        "It becomes compressed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to Huygens' principle, when a plane wavefront passes through a narrow slit, only the part incident on the slit passes through. Due to the absence of superposing wavelets at the edges, the wavefront becomes curved instead of remaining planar."
+    },
+    {
+      "id": 10,
+      "question": "In single slit diffraction, what does each point of the slit aperture act as?",
+      "options": [
+        "A barrier to light",
+        "A source of secondary wavelets",
+        "A mirror reflecting light",
+        "A lens focusing light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Huygens' principle, each point of the aperture such as P, Q, R becomes a source of secondary wavelets. These secondary wavelets from different parts of the slit interfere with each other to produce the diffraction pattern."
+    },
+    {
+      "id": 11,
+      "question": "Why is the central point O on a single slit diffraction screen the brightest?",
+      "options": [
+        "Because all secondary wavelets reach O in phase",
+        "Because it receives light from all parts of the slit",
+        "Because the slit is centered at O",
+        "Both (a) and (b)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The central point O is the brightest because: (a) Due to symmetry, wavelets from all parts of the slit reach O in phase or nearly in phase, and (b) It receives contributions from the entire wavefront passing through the slit, resulting in maximum intensity."
+    },
+    {
+      "id": 12,
+      "question": "What is the condition for minimum intensity (dark fringes) in single slit diffraction?",
+      "options": [
+        "Path difference = λ",
+        "Path difference = nλ (n = 1, 2, 3, ...)",
+        "Path difference = (n + 1/2)λ",
+        "Path difference = λ/2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the path difference between the extreme rays from the slit edges equals an integral multiple of the wavelength (nλ, where n = 1, 2, 3, ...), we get destructive interference and minimum intensity (dark fringes)."
+    },
+    {
+      "id": 13,
+      "question": "How is the slit divided in the analysis of single slit diffraction to explain minima?",
+      "options": [
+        "Into 2 equal parts",
+        "Into n equal parts corresponding to the order of minimum",
+        "Into many equal parts for pairing and cancellation analysis",
+        "It is not divided"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In analyzing single slit diffraction, the slit is conceptually divided into many equal parts (like 100 parts) from which secondary wavelets emanate. By pairing wavelets from corresponding parts, we can explain the destructive and constructive interference patterns."
+    },
+    {
+      "id": 14,
+      "question": "What occurs at point P where the path difference between extreme rays equals λ?",
+      "options": [
+        "Maximum intensity (bright fringe)",
+        "Minimum intensity (dark fringe)",
+        "Intermediate intensity",
+        "No light reaches at this point"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the path difference between the extreme points of the slit equals λ, the slit can be divided into two halves. Wavelets from each half will be out of phase by λ/2 and cancel each other, producing a dark fringe at point P."
+    },
+    {
+      "id": 15,
+      "question": "Why are secondary maxima less intense than the principal maximum?",
+      "options": [
+        "Due to the increasing path difference between wavelets",
+        "Only a portion of the slit contributes to secondary maxima",
+        "Secondary maxima are farther from the slit",
+        "Both (a) and (b)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Secondary maxima are less intense than the principal maximum because: (a) There is increasing path difference between wavelets from different parts of the slit, and (b) Only a portion of the wavefront contributes constructively at secondary maxima, unlike the principal maximum where the entire wavefront contributes."
+    },
+    {
+      "id": 16,
+      "question": "In single slit diffraction, how does the superposition at the center (point O) differ from that at an off-axis point?",
+      "options": [
+        "No difference, superposition is the same everywhere",
+        "At O, wavelets from all parts reach in phase; at off-axis points, varying phase differences exist",
+        "At off-axis points, more wavelets contribute",
+        "At O, fewer wavelets contribute"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the center point O, due to symmetry, wavelets from all parts of the slit reach in phase or nearly in phase, producing constructive interference. At off-axis points P, there is a path difference, causing wavelets to arrive with varying phase differences, leading to destructive or partial cancellation."
+    },
+    {
+      "id": 17,
+      "question": "What type of experimental setup is typically used to demonstrate single slit diffraction?",
+      "options": [
+        "A point source, a converging lens, and a narrow slit",
+        "A single lens without any source",
+        "A source, a slit, and a lens to focus light on the observation screen",
+        "Both (a) and (c)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Single slit diffraction is demonstrated using: (a) A monochromatic source placed on the focal plane of a converging lens to produce a plane wavefront incident on the slit, and (c) Another converging lens to focus light from different portions of the slit on the observation screen."
+    },
+    {
+      "id": 18,
+      "question": "How does the diffraction pattern change when the slit width is decreased?",
+      "options": [
+        "Fringes become closer together",
+        "Fringes become wider and more spread out",
+        "Number of fringes decreases",
+        "Pattern remains unchanged"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As the slit width decreases, the diffraction pattern becomes more spread out with wider fringes. This is because narrower apertures produce more diffraction, causing the pattern to spread over a larger area on the screen."
+    },
+    {
+      "id": 19,
+      "question": "How does the diffraction pattern depend on the wavelength of light used?",
+      "options": [
+        "Shorter wavelengths produce wider patterns",
+        "Longer wavelengths produce wider patterns",
+        "Pattern is independent of wavelength",
+        "Very short wavelengths produce no diffraction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Longer wavelengths produce wider diffraction patterns. This is why red light (longer wavelength) shows more pronounced diffraction than blue light (shorter wavelength) for the same slit width."
+    },
+    {
+      "id": 20,
+      "question": "What is the physical significance of the fact that the central bright spot is twice as wide as other bright spots?",
+      "options": [
+        "It indicates the slit width",
+        "It shows the asymmetry of the pattern",
+        "It reflects the symmetric contributions from all parts of the slit to the central maximum",
+        "It proves light is a particle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The central maximum being twice as wide as secondary maxima reflects the symmetric geometry of the slit and the way wavelets from different parts of the slit contribute to the intensity distribution. The first minima occur at equal distances on either side of the center."
+    },
+    {
+      "id": 21,
+      "question": "Can the phenomenon of diffraction violate the law of rectilinear propagation of light?",
+      "options": [
+        "No, diffraction is just an application of rectilinear propagation",
+        "Yes, diffraction shows light does not always travel in straight lines",
+        "Diffraction proves light travels in straight lines",
+        "Diffraction has nothing to do with light propagation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diffraction does violate the strict law of rectilinear propagation because light bends around edges of obstacles and apertures instead of continuing in a straight path. This bending into the shadow region demonstrates that light can deviate from straight-line propagation."
+    },
+    {
+      "id": 22,
+      "question": "What is the practical condition needed to observe diffraction with everyday objects?",
+      "options": [
+        "Use very bright light",
+        "Use very long wavelengths",
+        "Objects must have dimensions of the order of the wavelength (10⁻⁶ m)",
+        "Use a magnifying glass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To observe diffraction effects, obstacles or apertures must have dimensions of the order of the wavelength of light (≈10⁻⁶ m). Since everyday objects are much larger, diffraction effects are negligible for them, and light appears to travel in straight lines."
+    },
+    {
+      "id": 23,
+      "question": "In Huygens' construction for single slit diffraction, why do wavelets at the edge of the slit deviate?",
+      "options": [
+        "Because they are near the barrier",
+        "Because there are no superposing wavelets beyond the edges",
+        "Because of the intensity of light",
+        "Because of the curved wavefront"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wavelets emitted from points near the edges of the slit have no wavelets beyond the edges with which to superpose. Since superposition helps maintain the wavefront shape as planar, the absence of such superposing wavelets causes edge wavelets to deviate and spread out."
+    },
+    {
+      "id": 24,
+      "question": "What causes the formation of secondary maxima between consecutive minima in single slit diffraction?",
+      "options": [
+        "Complete cancellation of wavelets",
+        "Partial constructive interference when one part of the slit contributes predominantly",
+        "Reflection from the slit edges",
+        "Multiple scattering of light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Secondary maxima form between consecutive minima due to partial constructive interference. At these points, although there is significant destructive interference from most of the slit, one portion (typically about 1/3 of the slit) contributes predominantly, creating a bright but dim secondary maximum."
+    },
+    {
+      "id": 25,
+      "question": "How is single slit diffraction different from Young's double slit interference?",
+      "options": [
+        "Diffraction uses one slit, interference uses two slits",
+        "Diffraction shows single slit pattern, interference shows superposition of two coherent sources",
+        "In diffraction, secondary wavelets from the same slit interfere; in interference, waves from different sources superpose",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Key differences: (a) Single slit diffraction uses one slit with secondary wavelets from different parts interfering, while (b) Double slit interference involves superposition of waves from two different coherent sources. (c) Diffraction explains bending around obstacles, while interference produces fringes from two sources."
+    }
+  ]
+}

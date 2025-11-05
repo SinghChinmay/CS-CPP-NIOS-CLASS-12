@@ -1,0 +1,306 @@
+{
+  "title": "Interference of Light - Young's Double Slit Experiment - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Module 6: Wave Phenomena and Light",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is interference of light?",
+      "options": [
+        "The bending of light around obstacles",
+        "The redistribution of energy due to superposition of light waves from coherent sources",
+        "The change in direction of light when entering a new medium",
+        "The combination of light of different colors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Interference of light refers to the redistribution of energy due to superposition of light waves from two coherent sources. This results in bright and dark fringes on a screen."
+    },
+    {
+      "id": 2,
+      "question": "Who first observed the phenomenon of interference of light experimentally?",
+      "options": [
+        "Isaac Newton",
+        "Christiaan Huygens",
+        "Thomas Young",
+        "Augustin-Jean Fresnel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thomas Young first observed the phenomenon of interference of light experimentally in 1802 through his famous two-slit experiment, which played a significant role in establishing the wave theory of light."
+    },
+    {
+      "id": 3,
+      "question": "In Young's double slit experiment, what is the role of the first pinhole S?",
+      "options": [
+        "To filter out certain wavelengths of light",
+        "To create a monochromatic point source of light",
+        "To reduce the intensity of incident light",
+        "To polarize the light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first pinhole S serves as a point source that emits monochromatic light. When illuminated by monochromatic light, it allows the slits S1 and S2 to act as coherent sources."
+    },
+    {
+      "id": 4,
+      "question": "What is a coherent source of light?",
+      "options": [
+        "A source that emits light continuously",
+        "Two sources that emit light of the same frequency, amplitude, with constant phase difference",
+        "A source with high intensity of light",
+        "A source that emits white light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coherent sources emit waves of the same frequency and amplitude, and maintain a constant phase difference between them. This is essential for observing a clear interference pattern."
+    },
+    {
+      "id": 5,
+      "question": "What happens when two light waves from coherent sources superpose in phase?",
+      "options": [
+        "The waves cancel each other",
+        "A dark fringe is observed",
+        "Constructive interference occurs, producing a bright fringe",
+        "The wavelength is doubled"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When two light waves from coherent sources arrive in phase (phase difference = 0 or 2nπ), constructive interference occurs. The crests of one wave coincide with crests of the other, resulting in maximum displacement and a bright fringe."
+    },
+    {
+      "id": 6,
+      "question": "What is destructive interference?",
+      "options": [
+        "When light waves are blocked by an obstacle",
+        "When the crests of one wave coincide with the troughs of another, resulting in zero intensity",
+        "When light waves change their direction",
+        "When the intensity of light decreases due to absorption"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Destructive interference occurs when the crests of one light wave coincide with the troughs of another wave. The phase difference is π or an odd multiple of π, resulting in zero total amplitude and a dark fringe."
+    },
+    {
+      "id": 7,
+      "question": "In Young's experiment, what is the phase difference for constructive interference?",
+      "options": [
+        "π, 3π, 5π, ... (odd multiples of π)",
+        "0, 2π, 4π, ... (even multiples of π)",
+        "π/2, 3π/2, 5π/2, ...",
+        "π/4, 3π/4, 5π/4, ..."
+      ],
+      "correctAnswer": 1,
+      "explanation": "For constructive interference, the phase difference must be δ = 0, 2π, 4π, ... = 2nπ. At these phase differences, the two waves arrive in phase, producing maximum intensity."
+    },
+    {
+      "id": 8,
+      "question": "What is the phase difference for destructive interference in Young's experiment?",
+      "options": [
+        "0, 2π, 4π, ...",
+        "π, 3π, 5π, ... = (2n+1)π",
+        "π/2, 3π/2, ...",
+        "Any value less than π"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For destructive interference, the phase difference must be δ = π, 3π, 5π, ... = (2n+1)π. At these values, the crests of one wave coincide with the troughs of the other, producing zero intensity."
+    },
+    {
+      "id": 9,
+      "question": "What does the intensity of the resultant wave in Young's experiment depend on?",
+      "options": [
+        "The color of light only",
+        "The square of the amplitude of the resultant wave",
+        "The distance between the slits",
+        "The speed of light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The intensity of light is proportional to the square of the amplitude of the wave, I ∝ A². This is why bright fringes (high amplitude) have much higher intensity than dark fringes (zero amplitude)."
+    },
+    {
+      "id": 10,
+      "question": "In Young's double slit experiment, how is the path difference related to the phase difference?",
+      "options": [
+        "Δ = λδ",
+        "Δ = (λ/2π)δ",
+        "Δ = δλ/(2π)",
+        "Δ = 2πδ/λ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The relationship between path difference Δ and phase difference δ is: Δ = (λ/2π)δ. Since a path difference of one wavelength corresponds to a phase difference of 2π, this relation follows from the proportionality."
+    },
+    {
+      "id": 11,
+      "question": "What is the condition for bright fringes in terms of path difference?",
+      "options": [
+        "Δ = (2n+1)λ/2",
+        "Δ = nλ, where n = 0, 1, 2, ...",
+        "Δ = nλ/2",
+        "Δ = (n+1/4)λ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For bright fringes (constructive interference), the path difference must be an integral multiple of the wavelength: Δ = nλ, where n = 0, 1, 2, ... This corresponds to phase difference of 2nπ."
+    },
+    {
+      "id": 12,
+      "question": "What is the condition for dark fringes in terms of path difference?",
+      "options": [
+        "Δ = nλ",
+        "Δ = (2n+1)λ/2, where n = 0, 1, 2, ...",
+        "Δ = nλ/4",
+        "Δ = 2nλ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For dark fringes (destructive interference), the path difference must be an odd multiple of half wavelength: Δ = (2n+1)λ/2, where n = 0, 1, 2, ... This corresponds to phase difference of (2n+1)π."
+    },
+    {
+      "id": 13,
+      "question": "In Young's experiment, the path difference at a point on the screen is Δ = S₂P - S₁P. How is this related to the geometry?",
+      "options": [
+        "Δ = d × D",
+        "Δ = d sinθ, or approximately d(x/D)",
+        "Δ = (d+D)/x",
+        "Δ = x/D"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The path difference is given by Δ = d sinθ, where d is the slit separation and θ is the angle. For small angles, sinθ ≈ x/D, so Δ ≈ dx/D, where x is the distance from the center and D is the distance between slits and screen."
+    },
+    {
+      "id": 14,
+      "question": "What is the formula for the position of bright fringes in Young's double slit experiment?",
+      "options": [
+        "(xₙ)bright = n(D/d)λ",
+        "(xₙ)bright = (n + 1/2)(D/d)λ",
+        "(xₙ)bright = n²(D/d)λ",
+        "(xₙ)bright = nDλ/d² "
+      ],
+      "correctAnswer": 0,
+      "explanation": "The position of the nth bright fringe is given by (xₙ)bright = n(D/d)λ, where n = 0, 1, 2, ... and D is the distance to the screen, d is the slit separation, and λ is the wavelength."
+    },
+    {
+      "id": 15,
+      "question": "What is the formula for the position of dark fringes in Young's double slit experiment?",
+      "options": [
+        "(xₙ)dark = n(D/d)λ",
+        "(xₙ)dark = (n + 1/2)(D/d)λ",
+        "(xₙ)dark = n²(D/d)λ",
+        "(xₙ)dark = (2n)(D/d)λ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The position of the nth dark fringe is given by (xₙ)dark = (n + 1/2)(D/d)λ, where n = 0, 1, 2, ... The dark fringes are located at half-integer multiples of the fringe width."
+    },
+    {
+      "id": 16,
+      "question": "What is fringe width in Young's double slit experiment?",
+      "options": [
+        "The distance between two consecutive bright fringes",
+        "The distance from the central bright fringe to the first dark fringe",
+        "The distance between a bright fringe and an adjacent dark fringe",
+        "The total width of the interference pattern"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fringe width (β) is the distance between two consecutive bright fringes (or two consecutive dark fringes). It is given by β = (D/d)λ and remains constant throughout the pattern."
+    },
+    {
+      "id": 17,
+      "question": "What is the formula for fringe width in Young's experiment?",
+      "options": [
+        "β = dλ/D",
+        "β = Dλ/d",
+        "β = λ/Dd",
+        "β = d/Dλ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The fringe width is given by β = (D/d)λ, where D is the distance to the screen, d is the separation between slits, and λ is the wavelength. It is directly proportional to wavelength and distance, and inversely proportional to slit separation."
+    },
+    {
+      "id": 18,
+      "question": "What happens to the fringe width if the distance D between the slits and screen is increased?",
+      "options": [
+        "Fringe width decreases",
+        "Fringe width remains constant",
+        "Fringe width increases",
+        "Fringe width becomes zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since β = (D/d)λ, increasing D increases the fringe width. This is because the same path difference corresponds to larger spatial distances on the screen when D is larger."
+    },
+    {
+      "id": 19,
+      "question": "What happens to the fringe width if the slit separation d is increased?",
+      "options": [
+        "Fringe width increases",
+        "Fringe width remains constant",
+        "Fringe width decreases",
+        "Fringe width becomes infinite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since β = (D/d)λ, increasing d decreases the fringe width. Fringes become closer together as the slit separation increases. This is because the path difference changes more rapidly with position on the screen."
+    },
+    {
+      "id": 20,
+      "question": "What happens to the interference pattern if the wavelength of light is increased?",
+      "options": [
+        "Fringe width decreases",
+        "Fringe width remains constant",
+        "Fringe width increases",
+        "No interference pattern is observed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since β = (D/d)λ, increasing the wavelength increases the fringe width. This is why red light (longer wavelength) produces wider fringes than blue light (shorter wavelength) in the same experimental setup."
+    },
+    {
+      "id": 21,
+      "question": "In Young's double slit experiment, why do we use a monochromatic source?",
+      "options": [
+        "To make the experiment easier to perform",
+        "To ensure that S₁ and S₂ act as coherent sources",
+        "To increase the intensity of light",
+        "To reduce the number of fringes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A monochromatic (single wavelength) source is used because when S₁ and S₂ are illuminated by monochromatic light of the same frequency and amplitude, they act as coherent sources and produce a stable interference pattern."
+    },
+    {
+      "id": 22,
+      "question": "What is the intensity of bright fringes relative to the intensity of an individual source?",
+      "options": [
+        "2 times",
+        "4 times",
+        "Same as individual intensity",
+        "Half the individual intensity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At bright fringes, the intensity is maximum: I = 4a², where a is the amplitude of each individual source. This is because I ∝ A² and the resultant amplitude A = 2a (for waves in phase), so I = (2a)² = 4a²."
+    },
+    {
+      "id": 23,
+      "question": "What is the intensity of dark fringes in Young's interference pattern?",
+      "options": [
+        "Maximum",
+        "Half the average intensity",
+        "Zero",
+        "2a²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At dark fringes, the intensity is zero because the two waves are completely out of phase (phase difference = π). The crests of one wave exactly cancel the troughs of the other, resulting in zero displacement and zero intensity."
+    },
+    {
+      "id": 24,
+      "question": "How is energy conserved in the interference pattern when dark fringes have zero intensity?",
+      "options": [
+        "Energy is not conserved in interference",
+        "Energy is destroyed at dark fringes",
+        "Energy from dark fringes reappears at bright fringes",
+        "Energy spreads uniformly across the screen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The principle of energy conservation is maintained because the energy that disappears at dark fringes reappears at bright fringes. The intensity at bright fringes (4a²) is greater than what would result from two incoherent sources (2a²)."
+    },
+    {
+      "id": 25,
+      "question": "Can two incandescent light bulbs replace the slits S₁ and S₂ in Young's experiment?",
+      "options": [
+        "Yes, they produce identical interference patterns",
+        "Yes, but with weaker fringes",
+        "No, because they emit incoherent light with different wavelengths and no constant phase relationship",
+        "No, because they are too bright"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Two incandescent bulbs cannot replace S₁ and S₂ because they emit incoherent light. Independent sources emit different wavelengths, amplitudes, and without constant phase relationship, so no stable interference pattern is observed on the screen."
+    }
+  ]
+}

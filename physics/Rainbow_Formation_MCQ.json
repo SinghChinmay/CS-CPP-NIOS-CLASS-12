@@ -1,0 +1,246 @@
+{
+  "title": "Rainbow Formation - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Module 6, Chapter 21 (Part 2)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How is a rainbow formed in nature?",
+      "options": [
+        "By dispersion of sunlight through suspended water drops in air",
+        "By total internal reflection of sunlight",
+        "By absorption of sunlight by water",
+        "By refraction of sunlight in clouds only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rainbows are formed when sunlight is dispersed through suspended water drops (rain) in the air. The water drops act as tiny prisms, dispersing the white sunlight into its component colours."
+    },
+    {
+      "id": 2,
+      "question": "What is the primary rainbow?",
+      "options": [
+        "The brighter rainbow seen above the secondary rainbow",
+        "The brighter rainbow seen below the secondary rainbow",
+        "The only rainbow visible on a rainy day",
+        "The rainbow that appears first in the morning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The primary rainbow is the brighter one and appears at a lower angle (about 42°) from the antisolar point. It lies below (inside) the secondary rainbow and is formed by two refractions and one internal reflection in water drops."
+    },
+    {
+      "id": 3,
+      "question": "What processes occur inside a water drop to form a primary rainbow?",
+      "options": [
+        "Two refractions and two internal reflections",
+        "One refraction and one internal reflection",
+        "Two refractions and one internal reflection",
+        "Three refractions and no internal reflections"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a primary rainbow, light undergoes two refractions (at entry and exit) and one internal reflection inside the water drop. This sequence of events causes the dispersion and deviation necessary to form the rainbow."
+    },
+    {
+      "id": 4,
+      "question": "What is the angle of minimum deviation for a primary rainbow?",
+      "options": [
+        "90°",
+        "137° 29'",
+        "180°",
+        "42° 31'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle of minimum deviation for a primary rainbow is 137° 29', which means the emergent rays make an angle of 42° 31' with the incident rays. This angle corresponds to the brightest shining colours in the rainbow bow."
+    },
+    {
+      "id": 5,
+      "question": "At what angle from the observer's eye do the red rays of the primary rainbow appear?",
+      "options": [
+        "42° 31'",
+        "41°",
+        "43°",
+        "51°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The red rays of the primary rainbow appear within a cone of approximately 43° from the antisolar point (the point directly opposite to the sun from the observer's perspective)."
+    },
+    {
+      "id": 6,
+      "question": "At what angle from the observer's eye do the violet rays of the primary rainbow appear?",
+      "options": [
+        "42° 31'",
+        "41°",
+        "43°",
+        "54°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The violet rays of the primary rainbow appear within a cone of approximately 41° from the antisolar point. Since violet is deviated more than red, it appears at a smaller angle from the antisolar point (closer to the sun)."
+    },
+    {
+      "id": 7,
+      "question": "What is the arrangement of colours in the primary rainbow?",
+      "options": [
+        "Red is on the inner side and violet is on the outer side",
+        "Violet is on the inner side and red is on the outer side",
+        "All colours are mixed uniformly",
+        "Green is in the middle with red and violet on sides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the primary rainbow, red is on the outer side (43°) and violet is on the inner side (41°), with the remaining colours (orange, yellow, green, blue, indigo) following the order VIBGYOR from inner to outer."
+    },
+    {
+      "id": 8,
+      "question": "What is the secondary rainbow?",
+      "options": [
+        "The fainter rainbow seen above the primary rainbow",
+        "The brighter rainbow",
+        "The rainbow that appears only at night",
+        "The rainbow that appears only in winter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The secondary rainbow is the fainter one and appears above (outside) the primary rainbow. It is formed by two refractions and two internal reflections in water drops, which causes more light loss and results in reduced brightness."
+    },
+    {
+      "id": 9,
+      "question": "What processes occur inside a water drop to form a secondary rainbow?",
+      "options": [
+        "Two refractions and one internal reflection",
+        "One refraction and two internal reflections",
+        "Two refractions and two internal reflections",
+        "Three refractions and two internal reflections"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a secondary rainbow, light undergoes two refractions (at entry and exit) and two internal reflections inside the water drop. The extra internal reflection causes more absorption of light, making the secondary rainbow fainter than the primary."
+    },
+    {
+      "id": 10,
+      "question": "What are the angles of minimum deviation for the secondary rainbow?",
+      "options": [
+        "137° 29' and 139° 31'",
+        "231° and 234°",
+        "42° 31' and 41°",
+        "51° and 54°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angles of minimum deviation for red and violet colours in the secondary rainbow are 231° and 234° respectively. These larger angles correspond to the outer appearance of the secondary rainbow."
+    },
+    {
+      "id": 11,
+      "question": "At what angles do red and violet rays appear in the secondary rainbow?",
+      "options": [
+        "Red at 51° and violet at 54°",
+        "Red at 43° and violet at 41°",
+        "Red at 42° 31' and violet at 42°",
+        "Red at 54° and violet at 51°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The secondary rainbow appears at angles of approximately 51° for red and 54° for violet rays from the antisolar point. Since these angles are larger than for the primary rainbow, the secondary rainbow appears outside (above) the primary."
+    },
+    {
+      "id": 12,
+      "question": "What is the arrangement of colours in the secondary rainbow?",
+      "options": [
+        "Red is on the inner side and violet is on the outer side",
+        "Violet is on the inner side and red is on the outer side",
+        "All colours are in reverse order compared to primary rainbow",
+        "Colours are arranged opposite to the primary rainbow"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the secondary rainbow, the colours are arranged in reverse order compared to the primary rainbow. Red is on the outer side and violet is on the inner side, showing that the colours are inverted due to the additional internal reflection."
+    },
+    {
+      "id": 13,
+      "question": "Why is the secondary rainbow fainter than the primary rainbow?",
+      "options": [
+        "Because it has more internal reflections causing more light loss",
+        "Because the water drops are farther away",
+        "Because it has fewer colours",
+        "Because the sun is in a different position"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The secondary rainbow is fainter because it involves two internal reflections compared to one in the primary rainbow. Each internal reflection causes some light to be absorbed, resulting in progressive loss of intensity."
+    },
+    {
+      "id": 14,
+      "question": "What is the region between the primary and secondary rainbows called?",
+      "options": [
+        "Alexander's dark band",
+        "Alexander's bright band",
+        "Descartes' band",
+        "Rainbow gap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The region between the primary and secondary rainbows appears relatively dark compared to the sky outside the secondary rainbow. This phenomenon, known as Alexander's dark band or Alexander's dark space, is due to the geometry of light scattering."
+    },
+    {
+      "id": 15,
+      "question": "According to Descartes' explanation, which rays contribute most to the brightness of a rainbow?",
+      "options": [
+        "Rays that have undergone no internal reflection",
+        "Rays that have suffered minimum deviation",
+        "Rays that have the maximum deviation",
+        "Rays that have been absorbed by water drops"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Descartes explained that rainbows are seen through rays that have suffered minimum deviation in the water drops. These rays are most intense because they bunch together, creating the bright coloured arcs we see in a rainbow."
+    },
+    {
+      "id": 16,
+      "question": "Under what conditions is a rainbow visible?",
+      "options": [
+        "Any time it rains",
+        "When the sun is at our back and at a definite angle with respect to the observer",
+        "Only in the morning",
+        "Only when there is strong wind"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A rainbow is visible when the sun is at the observer's back and the light hits the water drops at a specific angle. The sun must be at a low angle (less than 42°) above the horizon for the primary rainbow to be visible."
+    },
+    {
+      "id": 17,
+      "question": "Can rainbows be seen in places other than during rain?",
+      "options": [
+        "No, only during rain",
+        "Yes, in fountains of water or near waterfalls in evening or morning when sun rays are at the correct angle",
+        "Yes, anytime in the sky",
+        "Only at noon when the sun is directly overhead"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rainbows can be observed near fountains, waterfalls, or any water spray when the sun rays are incident on water droplets at the correct angle, typically in the evening or morning when the sun is lower in the sky."
+    },
+    {
+      "id": 18,
+      "question": "Why don't we see rainbows at noon?",
+      "options": [
+        "Because there is no rain at noon",
+        "Because the sun is overhead and the angle is too steep for rainbow formation",
+        "Because clouds cover the sky at noon",
+        "Because water drops don't reflect light at noon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At noon, when the sun is directly overhead, the angle between the sun's rays and the water drops becomes too steep for the primary rainbow (which requires angles around 42°) to form and be visible to an observer on the ground."
+    },
+    {
+      "id": 19,
+      "question": "What is the colour sequence in the primary rainbow from outer to inner?",
+      "options": [
+        "VIBGYOR",
+        "ROYGBIV",
+        "Red, Orange, Yellow, Green, Blue, Indigo, Violet",
+        "Violet, Indigo, Blue, Green, Yellow, Orange, Red"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the primary rainbow, the colour sequence from outer to inner is: Red (outermost at 43°), Orange, Yellow, Green, Blue, Indigo, Violet (innermost at 41°). This is because red is deviated less and violet is deviated more."
+    },
+    {
+      "id": 20,
+      "question": "How many times does light undergo internal reflection in a tertiary rainbow (if it were to exist)?",
+      "options": [
+        "One time",
+        "Two times",
+        "Three times",
+        "Four times"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If a tertiary rainbow were to exist, light would undergo three internal reflections. However, tertiary rainbows are extremely faint and rarely observed because most of the light is absorbed after multiple internal reflections inside the water drops."
+    }
+  ]
+}

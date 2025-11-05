@@ -1,0 +1,246 @@
+{
+  "title": "Huygens' Principle and Wave Propagation - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Module 6: Wave Phenomena and Light",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to Huygens' principle, what is the nature of light?",
+      "options": [
+        "Light travels as a stream of particles",
+        "Light is a wave that propagates through an ether medium",
+        "Light travels in straight lines without any deviation",
+        "Light has both particle and wave properties only in certain conditions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Huygens postulated that light is a wave which travels through a hypothetical medium called ether. This principle was fundamental in establishing the wave theory of light and explaining phenomena like interference and diffraction."
+    },
+    {
+      "id": 2,
+      "question": "What is a wavefront?",
+      "options": [
+        "The path followed by a light ray",
+        "The locus of all points vibrating in the same phase at a given instant",
+        "The direction of propagation of light",
+        "The surface of the obstacle or aperture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A wavefront is the locus of all points vibrating in the same phase at a given instant. For a point source in an isotropic medium, the wavefront is spherical, while for a distant source, any small portion appears planar."
+    },
+    {
+      "id": 3,
+      "question": "What type of wavefront is produced by a point source of light?",
+      "options": [
+        "Planar wavefront",
+        "Cylindrical wavefront",
+        "Spherical wavefront",
+        "Elliptical wavefront"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A point source emitting light in an isotropic medium produces spherical wavefronts. The locus of all points vibrating in the same phase forms a sphere around the point source."
+    },
+    {
+      "id": 4,
+      "question": "What is the relationship between the ray of light and the wavefront?",
+      "options": [
+        "They are parallel to each other",
+        "The ray is perpendicular to the wavefront",
+        "They are at 45° to each other",
+        "They move in the same direction but at different speeds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The line perpendicular to the wavefront at a point represents the direction of motion of the wavefront at that point. This line is called the ray of light. Thus, rays are always perpendicular to the wavefront."
+    },
+    {
+      "id": 5,
+      "question": "Which type of wavefront is produced by a line source of light?",
+      "options": [
+        "Spherical",
+        "Planar",
+        "Cylindrical",
+        "Conical"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A line source of light emits cylindrical wavefronts. This is because all points on the line source are at equal distances from any point on a cylindrical surface perpendicular to the line."
+    },
+    {
+      "id": 6,
+      "question": "What condition must be satisfied for the wavefront to remain planar?",
+      "options": [
+        "The source of light must be far away",
+        "Light must travel through vacuum",
+        "The medium must be isotropic",
+        "All of the above"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the source of light is at a large distance, any small portion of the spherical wavefront can be considered to be a plane wavefront. This is because the radius of curvature becomes very large and the wavefront appears nearly planar locally."
+    },
+    {
+      "id": 7,
+      "question": "State the first part of Huygens' principle:",
+      "options": [
+        "Light travels in straight lines through a homogeneous medium",
+        "Each point on a wavefront becomes a source of secondary disturbance",
+        "The energy of light is distributed equally in all directions",
+        "The speed of light is constant in all media"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Huygens' principle, each point on a wavefront becomes a source of secondary disturbance which spreads out in the medium. These secondary wavelets form new wavefronts as time progresses."
+    },
+    {
+      "id": 8,
+      "question": "How is the position of a wavefront at any later instant obtained using Huygens' principle?",
+      "options": [
+        "By drawing perpendicular lines from all points on the current wavefront",
+        "By drawing a forward common envelope to all secondary wavelets",
+        "By measuring the distance traveled by the wavefront",
+        "By calculating the phase velocity of the medium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The position of the wavefront at any later instant is obtained by drawing the forward common envelope to all the secondary wavelets emitted from different points on the current wavefront."
+    },
+    {
+      "id": 9,
+      "question": "What is the significance of Huygens' construction?",
+      "options": [
+        "It determines the speed of light in different media",
+        "It describes the propagation of the wavefront by determining its shape and location",
+        "It proves that light is a particle",
+        "It explains the formation of shadows"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Huygens' construction enables us to describe wave motion by determining the shape and location of a wavefront at a subsequent instant from its shape and location at an earlier instant. This effectively describes the propagation of the wavefront."
+    },
+    {
+      "id": 10,
+      "question": "In Huygens' construction for a plane wavefront, what are the secondary wavelets?",
+      "options": [
+        "Wavefronts that have already passed through",
+        "Circles (in 2D) or spheres (in 3D) emitted from each point on the primary wavefront",
+        "The new wavefront formed after propagation",
+        "The rays perpendicular to the original wavefront"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Secondary wavelets are circles in 2D representation or spheres in 3D, with radius equal to the speed of the wavefront multiplied by time, emitted from each point on the primary wavefront."
+    },
+    {
+      "id": 11,
+      "question": "According to Huygens' principle, in which direction does energy not travel?",
+      "options": [
+        "Forward along the normal to the wavefront",
+        "Backward in the opposite direction",
+        "Perpendicular to the direction of propagation",
+        "At an angle to the normal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Huygens' principle, the wavefront does not travel in the backward direction. Energy carried by waves is transmitted equally in all forward directions, but the wavefront progresses only forward."
+    },
+    {
+      "id": 12,
+      "question": "How does the envelope of secondary wavelets determine the new wavefront?",
+      "options": [
+        "It is the arithmetic sum of all wavelets",
+        "It is the tangent line or surface to all secondary wavelets",
+        "It is the perpendicular bisector of the wavelets",
+        "It is the diameter of the largest wavelet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The common tangent (or forward envelope) to all secondary wavelets represents the new position of the wavefront. This tangent touches all the secondary wavelets and represents the wavefront at that instant."
+    },
+    {
+      "id": 13,
+      "question": "For a circular wavefront centered at O expanding with time, how are the secondary wavelets constructed?",
+      "options": [
+        "As straight lines from the center",
+        "As concentric circles smaller than the primary wavefront",
+        "As arcs from each point on the primary wavefront with radius vT",
+        "As perpendicular bisectors of the radii"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a circular wavefront, arcs are drawn from each point on the primary wavefront as center, with radius equal to vT (speed × time). The tangent to these arcs gives the new expanded circular wavefront."
+    },
+    {
+      "id": 14,
+      "question": "What does the hypothetical medium 'ether' in Huygens' principle possess?",
+      "options": [
+        "High density and incompressibility",
+        "The ability to transmit light waves",
+        "The strange property of occupying all space, including vacuum",
+        "Both (b) and (c)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "According to Huygens, ether has the strange property of occupying all space, including vacuum, and it is through this medium that light waves propagate. This concept was later replaced by Maxwell's electromagnetic field theory."
+    },
+    {
+      "id": 15,
+      "question": "How is the tangent line or surface in Huygens' construction determined?",
+      "options": [
+        "By joining the centers of all secondary wavelets",
+        "By drawing the common envelope to all secondary wavelets",
+        "By extending the primary wavefront",
+        "By calculating the vector sum of all wavelets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tangent line or surface that touches all the secondary wavelets represents the new wavefront. This tangent or envelope is drawn in the forward direction to determine the position of the wavefront at a later time."
+    },
+    {
+      "id": 16,
+      "question": "What relationship exists between the speed of the wavefront and the time interval in Huygens' construction?",
+      "options": [
+        "The secondary wavelets have a radius independent of time",
+        "The radius of each secondary wavelet equals the speed of light times time",
+        "The radius of secondary wavelets equals the speed of the wavefront times time",
+        "Time is not a factor in Huygens' construction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Huygens' construction, the radius of each secondary wavelet is given by r = vt, where v is the velocity of the wavefront and t is the time interval. This ensures the proper propagation of the wavefront."
+    },
+    {
+      "id": 17,
+      "question": "In 2D representation, how are the secondary wavelets formed from a plane wavefront?",
+      "options": [
+        "As spheres from each point",
+        "As concentric circles centered at each point on the wavefront",
+        "As straight lines perpendicular to the wavefront",
+        "As semicircles only on one side"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 2D representation (as on the water surface), the secondary wavelets appear as circles centered at each point on the primary wavefront. The envelope to these circles represents the new wavefront position."
+    },
+    {
+      "id": 18,
+      "question": "What is a beam of light according to Huygens' principle?",
+      "options": [
+        "A single ray of light",
+        "A collection of rays emanating from a source",
+        "A wavefront moving through space",
+        "The boundary of a wavefront"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A beam of light is a collection of rays (lines perpendicular to wavefronts). Multiple rays together form a beam, and the collection shows how light propagates from the source."
+    },
+    {
+      "id": 19,
+      "question": "What property of ether was considered strange by Huygens?",
+      "options": [
+        "It has infinite density",
+        "It is heavier than matter",
+        "It occupies all space, including vacuum",
+        "It moves with the speed of light"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The strange property that Huygens attributed to ether was its ability to occupy all space, including vacuum. This hypothetical medium was later replaced by the concept of electromagnetic fields."
+    },
+    {
+      "id": 20,
+      "question": "How does Huygens' principle explain wave propagation geometrically?",
+      "options": [
+        "By calculating the frequency and wavelength",
+        "By determining the shape and location of wavefront at successive instants",
+        "By measuring the intensity of light",
+        "By analyzing the polarization of light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Huygens' principle explains wave propagation by enabling us to determine the shape and location of the wavefront at successive instants of time using geometrical construction of secondary wavelets and their envelope."
+    }
+  ]
+}

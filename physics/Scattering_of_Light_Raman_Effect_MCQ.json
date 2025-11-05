@@ -1,0 +1,306 @@
+{
+  "title": "Scattering of Light and Raman Effect - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Module 6, Chapter 21 (Part 3)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is scattering of light?",
+      "options": [
+        "The reflection of light from a mirror",
+        "The diffusion of light in all directions when it falls on tiny dust particles in the atmosphere",
+        "The refraction of light through a prism",
+        "The absorption of light by dark bodies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scattering of light is a phenomenon where light is diffused in all directions when it encounters tiny dust particles or molecules in the atmosphere. This is different from reflection as scattered light doesn't obey the laws of reflection."
+    },
+    {
+      "id": 2,
+      "question": "What is the mechanism of scattering of light?",
+      "options": [
+        "Reflection followed by refraction",
+        "Absorption of light by the scattering particle and instant re-emission in all directions",
+        "Interference of light waves",
+        "Diffraction around the particles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scattering is a two-step process: absorption of light by the scattering particle and then immediate re-emission by it in all possible directions. This distinguishes it from reflection where the angle of incidence equals angle of reflection."
+    },
+    {
+      "id": 3,
+      "question": "What is the condition for effective scattering of light by a particle?",
+      "options": [
+        "The particle size must be larger than the wavelength of light",
+        "The particle size must be smaller than the wavelength of light",
+        "The particle size must equal the wavelength of light",
+        "Particle size doesn't matter for scattering"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For effective scattering, the size of the particle must be less than the wavelength of light incident on it. Larger particles scatter all wavelengths equally. This condition is crucial for observing the colour-dependent scattering effects."
+    },
+    {
+      "id": 4,
+      "question": "What is Rayleigh's law of scattering?",
+      "options": [
+        "Intensity is inversely proportional to wavelength squared (I ∝ 1/λ²)",
+        "Intensity is inversely proportional to the fourth power of wavelength (I ∝ 1/λ⁴)",
+        "Intensity is directly proportional to wavelength (I ∝ λ)",
+        "Intensity is independent of wavelength"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rayleigh's law states that the intensity of scattered light is inversely proportional to the fourth power of its wavelength: I ∝ 1/λ⁴. This means shorter wavelengths are scattered much more intensely than longer wavelengths."
+    },
+    {
+      "id": 5,
+      "question": "According to Rayleigh's law, which colour is scattered most intensely?",
+      "options": [
+        "Red light",
+        "Yellow light",
+        "Blue light",
+        "Orange light"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blue light has a shorter wavelength than most other colours in visible spectrum. Since intensity is inversely proportional to λ⁴, blue light is scattered much more intensely than red light (approximately 6 times more intensely)."
+    },
+    {
+      "id": 6,
+      "question": "Which colour is scattered least intensely according to Rayleigh's law?",
+      "options": [
+        "Blue light",
+        "Green light",
+        "Red light",
+        "Violet light"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Red light has the longest wavelength in the visible spectrum. Since intensity is inversely proportional to λ⁴, red light is scattered the least intensely compared to other colours."
+    },
+    {
+      "id": 7,
+      "question": "Why does the sky appear blue during the day?",
+      "options": [
+        "Because the sky reflects blue light from the ocean",
+        "Because blue light is scattered most by air molecules and dust particles in the atmosphere",
+        "Because the sun emits primarily blue light",
+        "Because water vapour in the atmosphere is blue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sky appears blue because blue light (shorter wavelength) is scattered approximately 6 times more intensely than red light by air molecules and dust particles according to Rayleigh's law. This scattered blue light reaches our eyes from all directions."
+    },
+    {
+      "id": 8,
+      "question": "Why do clouds appear white?",
+      "options": [
+        "Because they reflect all colours equally from water droplets",
+        "Because they contain ice crystals that are white",
+        "Because water droplets in clouds are larger than the wavelength of visible light and scatter all wavelengths nearly equally",
+        "Because water is white in nature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cloud droplets are much larger than the wavelength of visible light (5000 Å). Therefore, they scatter all wavelengths with almost equal intensity, and the scattered light appears white (combination of all colours)."
+    },
+    {
+      "id": 9,
+      "question": "Why do dense clouds appear dark or grey?",
+      "options": [
+        "Because they absorb all light",
+        "Because they are at high altitude where there is less sunlight",
+        "Because they absorb most of the incident sunlight, allowing less light to be transmitted and scattered",
+        "Because the air inside is cold"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dense clouds appear dark or grey because they absorb most of the sunlight incident on them. Less light is available for scattering, so less light is transmitted through and scattered by the clouds."
+    },
+    {
+      "id": 10,
+      "question": "Why does the sun appear red at sunrise and sunset?",
+      "options": [
+        "Because the sun emits red light at these times",
+        "Because light travels a greater distance through the atmosphere, causing blue light to be scattered away and only red light reaches the observer",
+        "Because water vapour is red at these times",
+        "Because the earth's rotation changes the sun's colour"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At sunrise and sunset, the sun is near the horizon and its light travels a much greater distance through the atmosphere. Blue and violet wavelengths are scattered away at approximately 90°, leaving only the red and orange wavelengths to reach the observer."
+    },
+    {
+      "id": 11,
+      "question": "Why does the sun appear white (or crimson) at noon?",
+      "options": [
+        "Because all colours are scattered equally at noon",
+        "Because the distance through the atmosphere is less at noon, and blue light is also scattered less, so a combination of all colours reaches the observer",
+        "Because the sun is directly overhead at noon",
+        "Because water droplets scatter white light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At noon, the sun is overhead and light travels a shorter distance through the atmosphere. Although blue light is still scattered more than red, less overall scattering occurs. The combination of all scattered colours results in white or crimson appearance."
+    },
+    {
+      "id": 12,
+      "question": "What would be the colour of the sky for an astronaut in a spaceship flying at high altitude?",
+      "options": [
+        "Blue, as seen from Earth",
+        "Black, because there are no dust particles or air molecules to scatter light",
+        "Red, because all blue light is absorbed",
+        "White, because all colours scatter equally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At high altitudes in space, there are no dust particles or air molecules to scatter sunlight. Therefore, there is no scattering, and the sky appears black. Sunlight reaches the observer only as direct rays."
+    },
+    {
+      "id": 13,
+      "question": "Why does the sky appear deep blue after rains on a clear day?",
+      "options": [
+        "Because rain brings down all dust and water vapour",
+        "Because the atmosphere becomes clear of dust particles, and Rayleigh's law is strictly followed, resulting in pure blue colour from blue light scattering",
+        "Because water in the air turns blue",
+        "Because clouds are cleared and reflect more blue light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After rains, dust particles and larger water droplets are removed from the atmosphere. With a clearer atmosphere and smaller molecules, Rayleigh scattering is more purely followed, and the intense blue colour becomes more pronounced."
+    },
+    {
+      "id": 14,
+      "question": "Can we observe the red colour of the sun at sunrise without binoculars or telescopes?",
+      "options": [
+        "No, we need special equipment to see it",
+        "Yes, we can directly observe it with our eyes",
+        "No, it's always covered by clouds",
+        "Yes, but only during total solar eclipse"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Yes, we can directly observe the red colour of the sun at sunrise and sunset with our naked eyes. The scattering of blue light in the atmosphere naturally filters the sunlight, allowing us to see the red disc without special protection (which we need at noon)."
+    },
+    {
+      "id": 15,
+      "question": "What is the Raman effect?",
+      "options": [
+        "The reflection of light from a surface",
+        "A phenomenon where scattered light radiation may have frequency greater or less than incident radiation",
+        "The refraction of light through a prism",
+        "The absorption of light by matter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Raman effect is a phenomenon where light radiation undergoes scattering from a transparent substance (solid, liquid, or gas) and the frequency of scattered radiation differs from the frequency of incident radiation. It was discovered by C.V. Raman in 1926."
+    },
+    {
+      "id": 16,
+      "question": "What are Stokes' lines in the Raman spectrum?",
+      "options": [
+        "Lines with frequency greater than incident radiation",
+        "Lines with frequency equal to incident radiation",
+        "Lines with frequency less than incident radiation",
+        "Lines with zero frequency"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Stokes' lines are spectral lines in the Raman spectrum that have frequency less than the frequency of incident radiation. They occur when the scattered photon loses energy to the substance being irradiated."
+    },
+    {
+      "id": 17,
+      "question": "What are anti-Stokes' lines in the Raman spectrum?",
+      "options": [
+        "Lines with frequency less than incident radiation",
+        "Lines with frequency equal to incident radiation",
+        "Lines with frequency greater than incident radiation",
+        "Lines that don't appear in Raman spectrum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anti-Stokes' lines are spectral lines in the Raman spectrum that have frequency greater than the frequency of incident radiation. They occur when the incident photon gains energy from an excited substance."
+    },
+    {
+      "id": 18,
+      "question": "What happens in the first possibility of light interaction in Raman effect?",
+      "options": [
+        "The light loses energy to the substance",
+        "The light gains energy from the substance",
+        "The light doesn't change energy, so frequency remains unchanged (elastic scattering)",
+        "The light is completely absorbed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the first possibility, the incident light radiation doesn't undergo any change of energy when interacting with the substance. Therefore, its frequency remains unchanged. This is elastic scattering and doesn't appear as separate lines in Raman spectrum."
+    },
+    {
+      "id": 19,
+      "question": "What happens in the second possibility of light interaction in Raman effect?",
+      "options": [
+        "The light gains energy and frequency increases",
+        "The light loses energy to the substance, causing a decrease in frequency (Stokes' lines)",
+        "The light remains unchanged",
+        "The light is converted to heat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the second possibility, the incident light radiation loses some of its energy to the substance. This causes the frequency of scattered radiation to decrease, resulting in Stokes' lines in the Raman spectrum."
+    },
+    {
+      "id": 20,
+      "question": "What happens in the third possibility of light interaction in Raman effect?",
+      "options": [
+        "The light loses energy to the substance",
+        "The light doesn't change energy",
+        "The light interacts with an already-excited substance and gains energy, increasing frequency (anti-Stokes' lines)",
+        "The light is completely reflected"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the third possibility, the incident light interacts with a substance that is already in an excited state. The substance transfers its energy to the light, causing the frequency of scattered radiation to increase, resulting in anti-Stokes' lines."
+    },
+    {
+      "id": 21,
+      "question": "Who discovered the Raman effect?",
+      "options": [
+        "Isaac Newton",
+        "C.V. Raman in 1926",
+        "A.H. Compton",
+        "Albert Einstein"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C.V. Raman discovered the Raman effect in 1926. He was awarded the Nobel Prize in Physics in 1930 for this discovery, becoming the first Indian national to win a Nobel Prize in physics."
+    },
+    {
+      "id": 22,
+      "question": "What is the Raman spectrum?",
+      "options": [
+        "The spectrum of the incident light",
+        "The spectrum of the substance being irradiated",
+        "The spectrum of scattered radiation showing Stokes' and anti-Stokes' lines in addition to the main line",
+        "The spectrum of visible light in the atmosphere"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Raman spectrum is the spectrum of scattered radiation. It contains the main elastic scattering line (same frequency as incident light) plus Stokes' lines (lower frequency) and anti-Stokes' lines (higher frequency)."
+    },
+    {
+      "id": 23,
+      "question": "What is an analogue of Raman effect observed by A.H. Compton?",
+      "options": [
+        "Scattering of visible light",
+        "Scattering of X-rays (Compton scattering)",
+        "Scattering of radio waves",
+        "Scattering of ultraviolet light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A.H. Compton observed a similar phenomenon with X-rays, known as Compton scattering, where X-rays scattered from matter show change in wavelength. This is analogous to the Raman effect observed with light."
+    },
+    {
+      "id": 24,
+      "question": "What are some applications of Raman effect?",
+      "options": [
+        "Only for understanding light scattering",
+        "In spectroscopy for molecular structure analysis, studying molecular vibrations, and determining composition of substances",
+        "Only for producing rainbows",
+        "Only for explaining sky colour"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Raman effect has numerous applications in various fields including spectroscopy for molecular structure analysis, studying vibrational and rotational states of molecules, determining the composition of substances, and in materials science and physics."
+    },
+    {
+      "id": 25,
+      "question": "In Example 21.4, which wavelength is scattered most intensely from chimney smoke?",
+      "options": [
+        "6867 Å (red)",
+        "5890 Å (yellow)",
+        "3934 Å (violet)",
+        "All are scattered equally"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since 3934 Å is the smallest wavelength among the given options, according to Rayleigh's law (I ∝ 1/λ⁴), it will be scattered most intensely. Shorter wavelengths are scattered much more than longer wavelengths."
+    }
+  ]
+}

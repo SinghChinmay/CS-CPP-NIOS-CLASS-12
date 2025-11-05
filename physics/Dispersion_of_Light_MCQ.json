@@ -1,0 +1,246 @@
+{
+  "title": "Dispersion of Light - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Module 6, Chapter 21 (Part 1)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is dispersion of light?",
+      "options": [
+        "The splitting of white light into its constituent colours or wavelengths by a medium",
+        "The bending of light at the interface of two media",
+        "The reflection of light from a surface",
+        "The absorption of light by a medium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dispersion is the phenomenon where white light splits into its component colours (wavelengths) when passing through an optically denser medium like a prism. This occurs because different wavelengths travel at different speeds in the medium."
+    },
+    {
+      "id": 2,
+      "question": "Why do different colours of light deviate by different amounts in a prism?",
+      "options": [
+        "Because they have different intensities",
+        "Because they have different wavelengths and travel at different speeds in the medium",
+        "Because they are emitted from different sources",
+        "Because the prism is not homogeneous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Different colours have different wavelengths. In an optically denser medium, each wavelength travels at a different speed, resulting in different refractive indices and hence different angles of refraction (deviation)."
+    },
+    {
+      "id": 3,
+      "question": "What is a dispersive medium?",
+      "options": [
+        "A medium that absorbs all colours equally",
+        "A medium where component wavelengths travel with different speeds and get separated",
+        "A medium that reflects all colours equally",
+        "A medium that has no refractive index"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A dispersive medium is one where different wavelengths of light travel at different speeds, causing them to be separated. Glass prism is an example of a dispersive medium, while air is a non-dispersive medium."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is NOT a suitable example to observe dispersion?",
+      "options": [
+        "A glass prism",
+        "A glass slab",
+        "A rainbow in nature",
+        "A triangular prism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A glass slab is not suitable for observing dispersion because the emergent rays are very close and parallel to the incident beam, and the colours mix up again after emerging, so separation is not visible on a screen."
+    },
+    {
+      "id": 5,
+      "question": "What does the acronym VIBGYOR represent?",
+      "options": [
+        "The seven colours of the spectrum in order: Violet, Indigo, Blue, Green, Yellow, Orange, Red",
+        "The seven colours in reverse order",
+        "The wavelengths of visible light",
+        "The refractive indices of different media"
+      ],
+      "correctAnswer": 0,
+      "explanation": "VIBGYOR is a mnemonic for the seven colours of the visible spectrum in order of decreasing wavelength: Violet, Indigo, Blue, Green, Yellow, Orange, and Red. Violet has the shortest wavelength and red has the longest."
+    },
+    {
+      "id": 6,
+      "question": "What is the angle of deviation?",
+      "options": [
+        "The angle between the incident ray and the prism face",
+        "The angle between the emergent ray and the incident ray",
+        "The refracting angle of the prism",
+        "The angle of incidence at the first face"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle of deviation (δ) is the angle between the emergent ray and the incident ray. It depends on the angle of incidence, the prism angle, and the refractive index of the prism material."
+    },
+    {
+      "id": 7,
+      "question": "What is the relationship between angle of incidence (i), angle of emergence (e), angle of prism (A), and angle of deviation (δ)?",
+      "options": [
+        "i + e = A + δ",
+        "i - e = A - δ",
+        "i × e = A × δ",
+        "i + δ = e + A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fundamental prism relation is: i + e = A + δ, where i is angle of incidence, e is angle of emergence, A is angle of prism, and δ is angle of deviation. This relation holds for any ray passing through a prism."
+    },
+    {
+      "id": 8,
+      "question": "What is the angle of minimum deviation?",
+      "options": [
+        "The maximum value of the angle of deviation as angle of incidence varies",
+        "The minimum value of the angle of deviation as angle of incidence varies",
+        "The angle at which the prism is oriented",
+        "The angle of the refracting surface"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle of minimum deviation (δm) is the minimum value that the angle of deviation attains as the angle of incidence is varied. It depends on the material of the prism and the wavelength of light used."
+    },
+    {
+      "id": 9,
+      "question": "At the position of minimum deviation, what is the relationship between angle of incidence (i) and angle of emergence (e)?",
+      "options": [
+        "i > e",
+        "i < e",
+        "i = e",
+        "i and e are independent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At minimum deviation, the angle of incidence equals the angle of emergence (i = e). Also, the refraction angles at both faces become equal (r₁ = r₂ = A/2), and the ray passes symmetrically through the prism parallel to its base."
+    },
+    {
+      "id": 10,
+      "question": "What is the formula for refractive index at minimum deviation?",
+      "options": [
+        "μ = sin(A + δm)/sin(A)",
+        "μ = sin((A + δm)/2)/sin(A/2)",
+        "μ = sin(δm)/sin(A)",
+        "μ = cos(A)/cos(δm)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The refractive index at minimum deviation is given by: μ = sin((A + δm)/2)/sin(A/2), where A is the prism angle and δm is the angle of minimum deviation. This is derived from the condition i = e and r₁ = r₂ = A/2."
+    },
+    {
+      "id": 11,
+      "question": "For a small-angled prism, which formula relates angle of deviation to refractive index?",
+      "options": [
+        "δ = A(μ - 1)",
+        "δ = (μ - 1)A",
+        "δ = A × μ",
+        "δ = A/μ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a small-angled prism (where angles can be approximated as sin θ ≈ θ), the angle of deviation is directly proportional to the refractive index: δ = (μ - 1)A, where μ is the refractive index and A is the prism angle."
+    },
+    {
+      "id": 12,
+      "question": "Why is violet light deviated more than red light when passing through a prism?",
+      "options": [
+        "Because violet light has a longer wavelength",
+        "Because violet light has a shorter wavelength and higher refractive index in glass",
+        "Because violet light travels faster in glass",
+        "Because the prism absorbs more red light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Violet light has a shorter wavelength than red light. In glass (optically denser medium), shorter wavelengths have higher refractive indices. Therefore, μV > μR, and violet light is deviated more than red light (δV > δR)."
+    },
+    {
+      "id": 13,
+      "question": "What is angular dispersion?",
+      "options": [
+        "The angle between the incident and emergent rays",
+        "The difference between angles of deviation for any two wavelengths (colours)",
+        "The angle of the prism",
+        "The angle between the normal and the incident ray"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angular dispersion is the difference in the angles of deviation for two different wavelengths or colours of light. For example, the angular dispersion between red and violet is (δV - δR)."
+    },
+    {
+      "id": 14,
+      "question": "What is dispersive power (ω) of a prism material?",
+      "options": [
+        "The ratio of angle of deviation to prism angle",
+        "The ratio of angular dispersion to mean deviation",
+        "The ratio of refractive index to wavelength",
+        "The ratio of incident angle to emergent angle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dispersive power (ω) is the ratio of angular dispersion to the mean deviation: ω = (δV - δR)/δY, where δY is the deviation for yellow light. It can also be expressed as ω = (μV - μR)/(μY - 1)."
+    },
+    {
+      "id": 15,
+      "question": "What is the relationship between refractive index and wavelength?",
+      "options": [
+        "Refractive index is independent of wavelength",
+        "Refractive index increases with increasing wavelength",
+        "Refractive index decreases with increasing wavelength",
+        "Refractive index is inversely proportional to wavelength squared"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The refractive index of a medium varies inversely with wavelength. Shorter wavelengths (like violet) have higher refractive indices, while longer wavelengths (like red) have lower refractive indices. This variation is responsible for dispersion."
+    },
+    {
+      "id": 16,
+      "question": "In Example 21.1, if wavelength changes from 384 nm to 760 nm, how does the refractive index change?",
+      "options": [
+        "Refractive index increases from 1.56 to 1.95",
+        "Refractive index decreases from 1.56 to 0.8",
+        "Refractive index remains constant at 1.5",
+        "Refractive index becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "From Example 21.1: for 384 nm, μ = 1.56; for 760 nm, μ = 0.8. This shows that refractive index decreases significantly as wavelength increases, demonstrating the inverse relationship between refractive index and wavelength."
+    },
+    {
+      "id": 17,
+      "question": "What is spectral dispersive power?",
+      "options": [
+        "The total intensity of light",
+        "The ratio Δμ/Δλ, where Δμ is change in refractive index and Δλ is change in wavelength",
+        "The angle of minimum deviation",
+        "The refractive index of the material"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spectral dispersive power is the ratio of the change in refractive index (Δμ) to the change in wavelength (Δλ): Δμ/Δλ. It indicates how much the refractive index changes per unit change in wavelength."
+    },
+    {
+      "id": 18,
+      "question": "In Example 21.2, what is the deviation caused by a prism with angle 30' and refractive index 1.6?",
+      "options": [
+        "δ = 0.3° = 18'",
+        "δ = 1.6° = 96'",
+        "δ = 0.6° = 36'",
+        "δ = 30° = 1800'"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the formula δ = (μ - 1)A for a small-angled prism: δ = (1.6 - 1) × 0.5° = 0.6 × 0.5° = 0.3° = 18'. This demonstrates the direct proportionality between deviation and (μ - 1)."
+    },
+    {
+      "id": 19,
+      "question": "For an equilateral prism, if angle of minimum deviation equals prism angle (δm = A), what is the refractive index?",
+      "options": [
+        "μ = √2 ≈ 1.41",
+        "μ = √3 ≈ 1.73",
+        "μ = 2",
+        "μ = 1.5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an equilateral prism (A = 60°), if δm = A = 60°, using μ = sin((A + δm)/2)/sin(A/2) = sin(60°)/sin(30°) = √2 ≈ 1.41. This is shown in Example 21.3."
+    },
+    {
+      "id": 20,
+      "question": "Why does a ray pass symmetrically through a prism at minimum deviation?",
+      "options": [
+        "Because the prism is equilateral",
+        "Because the angle of incidence equals the angle of emergence (i = e) and the beam is parallel to the base",
+        "Because the refractive index is high",
+        "Because the wavelength is small"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At minimum deviation, the condition i = e ensures symmetric passage through the prism. This also means r₁ = r₂, and the ray inside the prism becomes parallel to the base, providing the path of minimum deviation."
+    }
+  ]
+}

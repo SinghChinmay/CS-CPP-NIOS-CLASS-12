@@ -1,0 +1,486 @@
+{
+  "title": "Viscosity and Bernoulli's Principle - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Chapter 9 (Part 3)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Viscosity is the property of a fluid that:",
+      "options": [
+        "Opposes relative motion between adjacent layers",
+        "Helps in fluid flow",
+        "Increases with temperature",
+        "Depends on pressure only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Viscosity is the property by which a fluid opposes the relative motion between its adjacent layers, acting like internal friction."
+    },
+    {
+      "id": 2,
+      "question": "The SI unit of coefficient of viscosity is:",
+      "options": [
+        "Poise",
+        "N·s/m²",
+        "N/m²",
+        "kg/m·s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SI unit of coefficient of viscosity is N·s/m² (or Pa·s). The CGS unit is poise, where 1 poise = 0.1 N·s/m²."
+    },
+    {
+      "id": 3,
+      "question": "The viscous force between two layers is given by F = -η A (dv/dx), where η is:",
+      "options": [
+        "Density",
+        "Velocity",
+        "Coefficient of viscosity",
+        "Pressure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the viscous force equation F = -η A (dv/dx), η represents the coefficient of viscosity of the fluid."
+    },
+    {
+      "id": 4,
+      "question": "The velocity gradient dv/dx represents:",
+      "options": [
+        "Change in velocity with time",
+        "Change in velocity with distance perpendicular to flow",
+        "Change in velocity with distance along flow",
+        "Acceleration of the fluid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Velocity gradient dv/dx represents the change in velocity with distance in the direction perpendicular to the flow."
+    },
+    {
+      "id": 5,
+      "question": "Streamline flow is characterized by:",
+      "options": [
+        "Irregular flow paths",
+        "Mixing of fluid layers",
+        "Smooth, non-intersecting flow lines",
+        "High velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Streamline flow has smooth, non-intersecting flow lines where each particle follows the same path as preceding particles."
+    },
+    {
+      "id": 6,
+      "question": "Turbulent flow occurs when velocity exceeds:",
+      "options": [
+        "Sound velocity",
+        "Critical velocity",
+        "Terminal velocity",
+        "Average velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Turbulent flow occurs when the fluid velocity exceeds the critical velocity specific to that fluid and flow conditions."
+    },
+    {
+      "id": 7,
+      "question": "Reynolds number is given by:",
+      "options": [
+        "R = ρvd/η",
+        "R = ηvd/ρ",
+        "R = ρη/vd",
+        "R = vd/ρη"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reynolds number R = ρvd/η, where ρ is density, v is velocity, d is diameter, and η is viscosity."
+    },
+    {
+      "id": 8,
+      "question": "Flow is laminar when Reynolds number is:",
+      "options": [
+        "Less than 1000",
+        "Between 1000-2000",
+        "Greater than 2000",
+        "Equal to 2000"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flow is laminar when Reynolds number is below 1000, unsteady between 1000-2000, and turbulent above 2000."
+    },
+    {
+      "id": 9,
+      "question": "According to Stokes' law, viscous force is:",
+      "options": [
+        "F = 6πηrv",
+        "F = 3πηrv",
+        "F = 4πηrv",
+        "F = 2πηrv"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stokes' law states that viscous force on a spherical object is F = 6πηrv, where η is viscosity, r is radius, and v is velocity."
+    },
+    {
+      "id": 10,
+      "question": "Terminal velocity is achieved when:",
+      "options": [
+        "Acceleration is maximum",
+        "Net force becomes zero",
+        "Velocity is minimum",
+        "Only gravity acts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Terminal velocity is achieved when the net force becomes zero, balancing weight, buoyant force, and viscous drag."
+    },
+    {
+      "id": 11,
+      "question": "Terminal velocity of a sphere in viscous fluid is given by:",
+      "options": [
+        "v₀ = 2r²g(ρ-σ)/(9η)",
+        "v₀ = r²g(ρ-σ)/(6η)",
+        "v₀ = 3r²g(ρ-σ)/(8η)",
+        "v₀ = r²g(ρ-σ)/(3η)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Terminal velocity is v₀ = 2r²g(ρ-σ)/(9η), where ρ is object density, σ is fluid density, r is radius, and η is viscosity."
+    },
+    {
+      "id": 12,
+      "question": "Bernoulli's principle states that:",
+      "options": [
+        "Pressure increases with velocity",
+        "Pressure decreases with velocity",
+        "Pressure is independent of velocity",
+        "Velocity is constant in a fluid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bernoulli's principle states that where fluid velocity is high, pressure is low, and where velocity is low, pressure is high."
+    },
+    {
+      "id": 13,
+      "question": "Bernoulli's equation is:",
+      "options": [
+        "P + ½ρv² + ρgh = constant",
+        "P - ½ρv² + ρgh = constant",
+        "P + ½ρv² - ρgh = constant",
+        "P × ½ρv² × ρgh = constant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bernoulli's equation states that P + ½ρv² + ρgh = constant, representing conservation of energy in fluid flow."
+    },
+    {
+      "id": 14,
+      "question": "The three types of energy in flowing fluids are:",
+      "options": [
+        "Kinetic, potential, thermal",
+        "Pressure, kinetic, potential",
+        "Kinetic, thermal, electrical",
+        "Pressure, thermal, potential"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flowing fluids possess pressure energy, kinetic energy (½mv²), and potential energy (mgh)."
+    },
+    {
+      "id": 15,
+      "question": "In the equation of continuity, A₁v₁ = A₂v₂ represents:",
+      "options": [
+        "Conservation of energy",
+        "Conservation of mass",
+        "Conservation of momentum",
+        "Conservation of pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The continuity equation A₁v₁ = A₂v₂ represents conservation of mass for incompressible fluid flow."
+    },
+    {
+      "id": 16,
+      "question": "A venturimeter is used to measure:",
+      "options": [
+        "Pressure",
+        "Temperature",
+        "Flow rate",
+        "Viscosity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A venturimeter is used to measure the rate of flow of liquids through pipes using Bernoulli's principle."
+    },
+    {
+      "id": 17,
+      "question": "In a venturimeter, pressure is lowest at:",
+      "options": [
+        "The inlet",
+        "The outlet",
+        "The throat (narrowest section)",
+        "Pressure is same everywhere"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to Bernoulli's principle, pressure is lowest at the throat where velocity is highest due to the narrowest cross-section."
+    },
+    {
+      "id": 18,
+      "question": "An atomizer works on the principle of:",
+      "options": [
+        "Surface tension",
+        "Bernoulli's principle",
+        "Pascal's law",
+        "Archimedes' principle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An atomizer works on Bernoulli's principle - high-speed air creates low pressure that draws liquid up through the tube."
+    },
+    {
+      "id": 19,
+      "question": "The lift on an airplane wing is generated by:",
+      "options": [
+        "Engine thrust",
+        "Pressure difference due to airflow",
+        "Wing weight",
+        "Air resistance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Airplane lift is generated by pressure difference - faster airflow over the curved upper wing surface creates lower pressure above than below."
+    },
+    {
+      "id": 20,
+      "question": "A cricket ball swings in flight due to:",
+      "options": [
+        "Gravity",
+        "Air resistance",
+        "Pressure difference from spinning",
+        "Wind direction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A spinning cricket ball creates different air velocities on different sides, causing pressure difference and curved flight path."
+    },
+    {
+      "id": 21,
+      "question": "When water flows through a pipe of decreasing cross-section:",
+      "options": [
+        "Velocity decreases, pressure increases",
+        "Velocity increases, pressure decreases",
+        "Both velocity and pressure increase",
+        "Both velocity and pressure decrease"
+      ],
+      "correctAnswer": 1,
+      "explanation": "From continuity equation, velocity increases in narrower sections. From Bernoulli's principle, higher velocity means lower pressure."
+    },
+    {
+      "id": 22,
+      "question": "The dimensions of coefficient of viscosity are:",
+      "options": [
+        "[ML⁻¹T⁻¹]",
+        "[MLT⁻¹]",
+        "[ML⁻²T⁻¹]",
+        "[M⁻¹LT⁻¹]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From F = ηA(dv/dx), dimensions of η = [MLT⁻²]/([L²][T⁻¹][L⁻¹]) = [ML⁻¹T⁻¹]."
+    },
+    {
+      "id": 23,
+      "question": "Parachutes work by utilizing:",
+      "options": [
+        "Buoyancy",
+        "Terminal velocity",
+        "Surface tension",
+        "Bernoulli's principle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parachutes increase air resistance, reducing terminal velocity to allow safe landing by balancing weight with viscous drag."
+    },
+    {
+      "id": 24,
+      "question": "Rain drops do not hurt us because they reach:",
+      "options": [
+        "Maximum velocity",
+        "Terminal velocity",
+        "Minimum velocity",
+        "Variable velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rain drops reach terminal velocity due to air resistance, limiting their speed and preventing damage upon impact."
+    },
+    {
+      "id": 25,
+      "question": "In streamline flow, streamlines:",
+      "options": [
+        "Can intersect",
+        "Never intersect",
+        "Intersect at right angles",
+        "Intersect randomly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Streamlines never intersect because intersection would imply two different velocity directions at the same point, which is impossible."
+    },
+    {
+      "id": 26,
+      "question": "Critical velocity depends on:",
+      "options": [
+        "Only fluid viscosity",
+        "Only tube diameter",
+        "Viscosity, density, and tube diameter",
+        "Only fluid density"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critical velocity depends on fluid viscosity (η), fluid density (ρ), and tube diameter (d): vc = Rη/(ρd)."
+    },
+    {
+      "id": 27,
+      "question": "Glycerin flows slower than water because:",
+      "options": [
+        "Glycerin has higher viscosity",
+        "Glycerin has lower density",
+        "Glycerin has higher surface tension",
+        "Glycerin has lower temperature"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycerin flows slower than water because it has much higher viscosity, offering greater resistance to flow."
+    },
+    {
+      "id": 28,
+      "question": "In Bernoulli's equation, the term ½ρv² represents:",
+      "options": [
+        "Pressure energy per unit volume",
+        "Kinetic energy per unit volume",
+        "Potential energy per unit volume",
+        "Total energy per unit volume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term ½ρv² in Bernoulli's equation represents kinetic energy per unit volume of the flowing fluid."
+    },
+    {
+      "id": 29,
+      "question": "A filter pump (aspirator) works by:",
+      "options": [
+        "Increasing pressure",
+        "Creating vacuum through high-speed water flow",
+        "Using gravity",
+        "Electromagnetic effects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A filter pump creates vacuum by using high-speed water flow through a narrow nozzle, which creates low pressure and sucks air."
+    },
+    {
+      "id": 30,
+      "question": "When a fluid flows from a wider to narrower section of a pipe:",
+      "options": [
+        "Kinetic energy decreases",
+        "Potential energy increases",
+        "Pressure energy decreases",
+        "Total energy increases"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When fluid flows to a narrower section, velocity increases (kinetic energy increases) and pressure energy decreases to conserve total energy."
+    },
+    {
+      "id": 31,
+      "question": "Stokes' law is applicable for:",
+      "options": [
+        "Turbulent flow only",
+        "Laminar flow only",
+        "Both laminar and turbulent flow",
+        "Supersonic flow only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stokes' law is applicable only for laminar (streamline) flow of viscous fluids around spherical objects."
+    },
+    {
+      "id": 32,
+      "question": "The negative sign in viscous force equation F = -ηA(dv/dx) indicates:",
+      "options": [
+        "Force direction",
+        "Force opposes motion",
+        "Energy conservation",
+        "Mathematical convention"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The negative sign indicates that viscous force opposes the relative motion between fluid layers, acting like friction."
+    },
+    {
+      "id": 33,
+      "question": "Bernoulli's equation is derived assuming:",
+      "options": [
+        "Compressible, viscous fluid",
+        "Incompressible, non-viscous fluid",
+        "Compressible, non-viscous fluid",
+        "Incompressible, viscous fluid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bernoulli's equation assumes incompressible (constant density), non-viscous fluid in streamline flow."
+    },
+    {
+      "id": 34,
+      "question": "In a carburetor, petrol is drawn into air stream due to:",
+      "options": [
+        "Pump action",
+        "Gravity",
+        "Low pressure from high-speed air",
+        "Magnetic force"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a carburetor, high-speed air creates low pressure near the petrol nozzle, drawing petrol into the air stream by Bernoulli's principle."
+    },
+    {
+      "id": 35,
+      "question": "The speed of efflux from a hole at depth h in a tank is:",
+      "options": [
+        "v = √(gh)",
+        "v = √(2gh)",
+        "v = √(3gh)",
+        "v = √(gh/2)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "From Bernoulli's equation applied to fluid flowing out of a hole, the speed of efflux is v = √(2gh)."
+    },
+    {
+      "id": 36,
+      "question": "Viscosity of liquids generally:",
+      "options": [
+        "Increases with temperature",
+        "Decreases with temperature",
+        "Remains constant with temperature",
+        "First increases then decreases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Viscosity of liquids generally decreases with increasing temperature as molecular motion increases and intermolecular forces weaken."
+    },
+    {
+      "id": 37,
+      "question": "The attracted disc paradox is explained by:",
+      "options": [
+        "Magnetic attraction",
+        "Electrostatic forces",
+        "Bernoulli's principle",
+        "Surface tension"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The attracted disc paradox is explained by Bernoulli's principle - high-speed air between discs creates low pressure, causing atmospheric pressure to push discs together."
+    },
+    {
+      "id": 38,
+      "question": "A ping-pong ball dancing on a water jet demonstrates:",
+      "options": [
+        "Buoyancy",
+        "Surface tension",
+        "Bernoulli's principle",
+        "Viscosity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The dancing ping-pong ball demonstrates Bernoulli's principle - when the ball moves aside, faster flow creates lower pressure, pushing it back to center."
+    },
+    {
+      "id": 39,
+      "question": "In laminar flow, adjacent layers:",
+      "options": [
+        "Mix completely",
+        "Slide over each other smoothly",
+        "Move in opposite directions",
+        "Have same velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In laminar flow, adjacent fluid layers slide smoothly over each other without mixing, maintaining distinct flow lines."
+    },
+    {
+      "id": 40,
+      "question": "The pressure energy per unit mass of a fluid is:",
+      "options": [
+        "P/ρ",
+        "Pρ",
+        "P²/ρ",
+        "ρ/P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pressure energy per unit mass is P/ρ, where P is pressure and ρ is density of the fluid."
+    }
+  ]
+}

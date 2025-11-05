@@ -1,0 +1,486 @@
+{
+  "title": "Hydrostatic Pressure and Pascal's Law - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Chapter 9 (Part 1)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is pressure defined as?",
+      "options": [
+        "Force per unit volume",
+        "Thrust per unit area",
+        "Work per unit time",
+        "Energy per unit mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pressure is defined as the normal force or thrust per unit area exerted by a fluid. P = Thrust/Area."
+    },
+    {
+      "id": 2,
+      "question": "The SI unit of pressure is:",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Joule",
+        "Watt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SI unit of pressure is Pascal (Pa), which is equal to N/m². It is named after French scientist Blaise Pascal."
+    },
+    {
+      "id": 3,
+      "question": "Hydrostatic pressure at depth h in a liquid of density ρ is given by:",
+      "options": [
+        "P = ρgh",
+        "P = ρh/g",
+        "P = ρg/h",
+        "P = h/ρg"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydrostatic pressure increases linearly with depth according to P = ρgh, where ρ is density, g is gravitational acceleration, and h is depth."
+    },
+    {
+      "id": 4,
+      "question": "Why are dam walls thicker at the bottom?",
+      "options": [
+        "To provide better foundation",
+        "Due to increased hydrostatic pressure with depth",
+        "For aesthetic purposes",
+        "To prevent erosion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dam walls are thicker at the bottom because hydrostatic pressure increases linearly with depth (P = ρgh), requiring stronger walls to withstand greater pressure."
+    },
+    {
+      "id": 5,
+      "question": "The absolute pressure at depth h below the surface of a liquid exposed to atmosphere is:",
+      "options": [
+        "P = ρgh",
+        "P = Patm - ρgh",
+        "P = Patm + ρgh",
+        "P = Patm/ρgh"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Absolute pressure at depth h is the sum of atmospheric pressure and gauge pressure: P = Patm + ρgh."
+    },
+    {
+      "id": 6,
+      "question": "Standard atmospheric pressure is approximately:",
+      "options": [
+        "1.01 × 10³ Pa",
+        "1.01 × 10⁴ Pa",
+        "1.01 × 10⁵ Pa",
+        "1.01 × 10⁶ Pa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Standard atmospheric pressure is 1.01 × 10⁵ Pa, as determined by Torricelli's barometer experiment with mercury."
+    },
+    {
+      "id": 7,
+      "question": "In Torricelli's barometer, mercury rises to a height of:",
+      "options": [
+        "76 mm",
+        "76 cm",
+        "76 m",
+        "7.6 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Torricelli's barometer, mercury rises to 76 cm (0.76 m) height, which balances atmospheric pressure."
+    },
+    {
+      "id": 8,
+      "question": "According to Archimedes' principle, buoyant force equals:",
+      "options": [
+        "Weight of the object",
+        "Volume of the object",
+        "Weight of fluid displaced",
+        "Density of the fluid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Archimedes' principle states that buoyant force on an object equals the weight of fluid displaced by the object."
+    },
+    {
+      "id": 9,
+      "question": "A floating object displaces fluid equal to:",
+      "options": [
+        "Its volume",
+        "Its weight",
+        "Its density",
+        "Its surface area"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A floating object displaces fluid equal to its own weight, maintaining equilibrium between gravitational force and buoyant force."
+    },
+    {
+      "id": 10,
+      "question": "Pascal's law states that pressure applied to an enclosed liquid is:",
+      "options": [
+        "Decreased proportionally",
+        "Transmitted undiminished",
+        "Doubled at all points",
+        "Converted to kinetic energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pascal's law states that pressure applied to any part of an enclosed liquid is transmitted undiminished to every point of the liquid and walls of the container."
+    },
+    {
+      "id": 11,
+      "question": "In a hydraulic press, if the area ratio A₂/A₁ = 100, then force ratio F₂/F₁ is:",
+      "options": [
+        "1",
+        "10",
+        "100",
+        "1000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to Pascal's law, F₂/F₁ = A₂/A₁. If area ratio is 100, force ratio is also 100."
+    },
+    {
+      "id": 12,
+      "question": "Hydraulic brakes work on the principle of:",
+      "options": [
+        "Archimedes' principle",
+        "Pascal's law",
+        "Bernoulli's principle",
+        "Newton's law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydraulic brakes work on Pascal's law, where pressure applied at brake pedal is transmitted through brake fluid to all wheels simultaneously."
+    },
+    {
+      "id": 13,
+      "question": "A hot air balloon floats because:",
+      "options": [
+        "Hot air is lighter than cold air",
+        "Buoyant force exceeds weight",
+        "Surface tension effects",
+        "Bernoulli's principle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hot air balloon floats because hot air has less density than cold air, creating a net upward buoyant force greater than the balloon's weight."
+    },
+    {
+      "id": 14,
+      "question": "When an object is completely submerged and sinks, the condition is:",
+      "options": [
+        "Weight < Buoyant force",
+        "Weight = Buoyant force",
+        "Weight > Buoyant force",
+        "Density = 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When an object sinks, its weight is greater than the buoyant force acting on it."
+    },
+    {
+      "id": 15,
+      "question": "Pressure at a given depth in a liquid depends on:",
+      "options": [
+        "Shape of the container",
+        "Area of the container",
+        "Only depth and liquid density",
+        "Temperature only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pressure at a given depth depends only on the depth and density of the liquid, not on the shape or area of the container."
+    },
+    {
+      "id": 16,
+      "question": "If pressure on a smaller piston is P and area is A₁, then force on larger piston of area A₂ is:",
+      "options": [
+        "PA₁",
+        "PA₂",
+        "P(A₁ + A₂)",
+        "P(A₂ - A₁)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Pascal's law, pressure is same on both pistons. Force = Pressure × Area, so force on larger piston is PA₂."
+    },
+    {
+      "id": 17,
+      "question": "The principle behind lifting heavy objects with hydraulic jack is:",
+      "options": [
+        "Conservation of energy",
+        "Pascal's law",
+        "Archimedes' principle",
+        "Conservation of momentum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydraulic jack works on Pascal's law, allowing a small force on small piston to lift heavy load on large piston."
+    },
+    {
+      "id": 18,
+      "question": "In the equilibrium condition of a cylinder in liquid, the net force is:",
+      "options": [
+        "Maximum",
+        "Minimum",
+        "Zero",
+        "Negative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In equilibrium, the resultant force acting on the cylinder must be zero, balancing upward and downward forces."
+    },
+    {
+      "id": 19,
+      "question": "Guericke's experiment with copper hemispheres demonstrated:",
+      "options": [
+        "Surface tension",
+        "Atmospheric pressure",
+        "Viscosity",
+        "Buoyancy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Guericke's experiment with evacuated copper hemispheres demonstrated the enormous force exerted by atmospheric pressure."
+    },
+    {
+      "id": 20,
+      "question": "The density of mercury used in Torricelli's barometer is:",
+      "options": [
+        "13.6 g/cm³",
+        "1.36 g/cm³",
+        "136 g/cm³",
+        "0.136 g/cm³"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mercury has a density of 13.6 g/cm³ or 13,600 kg/m³, which is why it's suitable for barometer measurements."
+    },
+    {
+      "id": 21,
+      "question": "If an object has the same density as the fluid, it will:",
+      "options": [
+        "Sink to the bottom",
+        "Float on the surface",
+        "Remain suspended at any depth",
+        "Oscillate up and down"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When object density equals fluid density, weight equals buoyant force at any depth, so it remains suspended wherever placed."
+    },
+    {
+      "id": 22,
+      "question": "The force exerted by a fluid on a submerged object acts:",
+      "options": [
+        "Tangentially to the surface",
+        "Normal to the surface",
+        "At 45° to the surface",
+        "Randomly in all directions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fluids exert force normal (perpendicular) to the surface of submerged objects due to pressure acting perpendicular to surfaces."
+    },
+    {
+      "id": 23,
+      "question": "In a hydraulic system, if force F₁ = 10 N is applied on piston of area 2 cm², what pressure is transmitted?",
+      "options": [
+        "5 N/cm²",
+        "10 N/cm²",
+        "20 N/cm²",
+        "50 N/cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pressure = Force/Area = 10 N / 2 cm² = 5 N/cm². This pressure is transmitted undiminished throughout the fluid."
+    },
+    {
+      "id": 24,
+      "question": "Why can mosquitoes walk on water while humans cannot?",
+      "options": [
+        "Mosquitoes are lighter",
+        "Surface tension supports mosquitoes",
+        "Water pressure is different",
+        "Gravitational force is less on mosquitoes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mosquitoes can walk on water due to surface tension, which can support their light weight without breaking the water surface."
+    },
+    {
+      "id": 25,
+      "question": "The advantage of hydraulic systems is:",
+      "options": [
+        "Energy conservation",
+        "Force multiplication",
+        "Speed increase",
+        "Temperature control"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydraulic systems provide mechanical advantage by multiplying force - a small input force can produce a much larger output force."
+    },
+    {
+      "id": 26,
+      "question": "At sea level, atmospheric pressure can support a mercury column of height:",
+      "options": [
+        "76 mm",
+        "760 mm",
+        "7600 mm",
+        "0.76 mm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Standard atmospheric pressure at sea level can support a mercury column of 760 mm (76 cm) height."
+    },
+    {
+      "id": 27,
+      "question": "In Pascal's law applications, the work output compared to work input is:",
+      "options": [
+        "Greater",
+        "Equal",
+        "Lesser",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work output equals work input in hydraulic systems (ignoring friction). Force is multiplied but distance moved is reduced proportionally."
+    },
+    {
+      "id": 28,
+      "question": "The buoyant force on a completely submerged object depends on:",
+      "options": [
+        "Object's weight",
+        "Object's density",
+        "Volume of object",
+        "Object's shape"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Buoyant force depends on the volume of fluid displaced, which equals the volume of the submerged object."
+    },
+    {
+      "id": 29,
+      "question": "Pressure in liquids is transmitted:",
+      "options": [
+        "Only downward",
+        "Only upward",
+        "Only horizontally",
+        "Equally in all directions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "According to Pascal's law, pressure in liquids is transmitted equally in all directions."
+    },
+    {
+      "id": 30,
+      "question": "If the depth of water in a dam is doubled, the pressure at the bottom becomes:",
+      "options": [
+        "Half",
+        "Same",
+        "Double",
+        "Four times"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since P = ρgh, pressure is directly proportional to depth. Doubling depth doubles the pressure."
+    },
+    {
+      "id": 31,
+      "question": "A submarine experiences maximum pressure when it is:",
+      "options": [
+        "At the surface",
+        "At maximum depth",
+        "Rising upward",
+        "Moving horizontally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pressure increases with depth (P = ρgh), so maximum pressure occurs at maximum depth."
+    },
+    {
+      "id": 32,
+      "question": "Archimedes discovered the principle of buoyancy while:",
+      "options": [
+        "Swimming",
+        "Taking a bath",
+        "Sailing",
+        "Drinking water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to historical accounts, Archimedes discovered buoyancy while taking a bath and noticing the displacement of water."
+    },
+    {
+      "id": 33,
+      "question": "In a hydraulic brake system, brake oil serves to:",
+      "options": [
+        "Lubricate moving parts",
+        "Transmit pressure",
+        "Cool the system",
+        "Prevent corrosion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Brake oil in hydraulic brakes primarily serves to transmit pressure from the brake pedal to all four wheels simultaneously."
+    },
+    {
+      "id": 34,
+      "question": "The center of buoyancy is located at:",
+      "options": [
+        "Center of the object",
+        "Bottom of the object",
+        "Center of displaced fluid",
+        "Top of the object"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The center of buoyancy is the center of gravity of the displaced fluid volume, where the buoyant force effectively acts."
+    },
+    {
+      "id": 35,
+      "question": "When a body floats in equilibrium:",
+      "options": [
+        "Weight > Buoyant force",
+        "Weight < Buoyant force",
+        "Weight = Buoyant force",
+        "Weight = 0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a floating body in equilibrium, the weight equals the buoyant force, resulting in zero net force."
+    },
+    {
+      "id": 36,
+      "question": "Pascal's law is applicable to:",
+      "options": [
+        "Solids only",
+        "Liquids only",
+        "Gases only",
+        "Both liquids and gases"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Pascal's law applies to both liquids and gases (fluids) since both can transmit pressure equally in all directions."
+    },
+    {
+      "id": 37,
+      "question": "The pressure at the bottom of a lake depends on:",
+      "options": [
+        "Surface area of the lake",
+        "Total volume of water",
+        "Depth of the lake only",
+        "Shape of the lake bottom"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pressure at the bottom depends only on the depth of water (P = ρgh), not on surface area, volume, or shape."
+    },
+    {
+      "id": 38,
+      "question": "In a hydraulic lift, mechanical advantage is achieved by:",
+      "options": [
+        "Using different liquids",
+        "Different piston areas",
+        "Different heights",
+        "Different temperatures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mechanical advantage in hydraulic lifts is achieved by using pistons with different cross-sectional areas."
+    },
+    {
+      "id": 39,
+      "question": "Atmospheric pressure decreases with altitude because:",
+      "options": [
+        "Temperature decreases",
+        "Gravity decreases",
+        "Height of air column decreases",
+        "Air density decreases"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Atmospheric pressure decreases with altitude because the height of air column above decreases, reducing the weight of air pressing down."
+    },
+    {
+      "id": 40,
+      "question": "The condition for an object to float is that its average density should be:",
+      "options": [
+        "Greater than fluid density",
+        "Less than fluid density",
+        "Equal to fluid density",
+        "Independent of fluid density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For an object to float, its average density must be less than the density of the fluid it's placed in."
+    }
+  ]
+}

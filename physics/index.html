@@ -850,41 +850,29 @@
 
     <div class="container">
         <div class="header">
-            <h1 id="quiz-title">Kawaii CS MCQ Quiz</h1>
-            <p id="quiz-subtitle">NIOS Class 12 Computer Science 🐾 💻</p>
+            <h1 id="quiz-title">Kawaii Physics MCQ Quiz</h1>
+            <p id="quiz-subtitle">NIOS Class 12 Physics - Fluids & Surface Tension 🌊 ⚗️</p>
         </div>
         
         <div class="content">
             <div class="quiz-selector">
                 <label for="quiz-dropdown">
-                    Choose Your Kawaii Coding Adventure:
+                    Choose Your Kawaii Physics Adventure:
                 </label>
                 <select id="quiz-dropdown" onchange="loadSelectedQuiz()">
-                    <option value="">-- Pick a cute topic! 🐾 --</option>
-                    <option value="Binary_Logic_MCQ.json">🔢 Binary Logic (Module 1 Lesson 2) - Number Systems!</option>
-                    <option value="Operating_Systems_MCQ.json">💻 Operating Systems (Module 1 Lesson 4) - OS Fundamentals!</option>
-                    <option value="Data_Communication_Networking_MCQ.json">🌐 Data Communication & Networking (Module 1 Lesson 5) - Network Basics!</option>
-                    <option value="Communications_Internet_MCQ.json">🌍 Communications on Internet (Module 1 Lesson 6) - Internet Services!</option>
-                    <option value="Control_Statements_MCQ.json">🔄 Control Statements (Lesson 14) - If Paws & Loops!</option>
-                    <option value="Functions_MCQ.json">🎯 Functions (Lesson 15) - Coding Paw-ers!</option>
-                    <option value="Arrays_MCQ.json">📋 Arrays (Lesson 16) - Data Collections!</option>
-                    <option value="Structure_Typedef_Enum_MCQ.json">🏗️ Structures, Typedef & Enum (Lesson 17) - Data Structures!</option>
-                    <option value="Classes_Objects_Constructors_Destructors_MCQ.json">🏛️ Classes & Objects (Lesson 18) - OOP Magic!</option>
-                    <option value="Inheritance_MCQ.json">🧬 Inheritance (Lesson 19) - Code Reusability!</option>
-                    <option value="Pointers_MCQ.json">👉 Pointers (Lesson 20) - Memory Masters!</option>
-                    <option value="Files_MCQ.json">📁 Files (Lesson 21) - Data Storage!</option>
-                    <option value="Database_Management_Systems_MCQ.json">🗄️ Database Management Systems (Lesson 23) - Data Organization!</option>
-                    <option value="Web_Designing_HTML_MCQ.json">🌐 Web Designing HTML (Lesson 24) - Web Creation!</option>
-                    <option value="Images_And_Lists_HTML_MCQ.json">🖼️ Images & Lists HTML (Lesson 25) - Web Enhancement!</option>
-                </select>
+                    <option value="">-- Pick a fascinating physics topic! 🌊 --</option>
+                    <option value="Hydrostatic_Pressure_MCQ.json">Hydrostatic Pressure & Pascal's Law (Chapter 9 - Part 1)</option>
+                    <option value="Surface_Tension_MCQ.json">Surface Tension & Capillary Action (Chapter 9 - Part 2)</option>
+                    <option value="Fluid_Mechanics_MCQ.json">Viscosity & Bernoulli's Principle (Chapter 9 - Part 3)</option>
+               </select>
             </div>
             
             <div id="loading" class="loading" style="display: none;">
-                Loading your kawaii questions... 🐾✨
+                Loading your kawaii physics questions... 🌊✨
             </div>
             
             <div id="error" class="error" style="display: none;">
-                Oops! Our coding cats couldn't find the questions... 😿💻
+                Oops! Our physics equations couldn't find the questions... 😿⚗️
             </div>
             
             <div id="score-container" class="score-container">
@@ -933,7 +921,7 @@
                 console.error('Error loading quiz data:', error);
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('error').style.display = 'block';
-                document.getElementById('error').textContent = `Aww! Our coding kitties couldn't find ${selectedFile}... 😿🐾 Please check if the file exists!`;
+                document.getElementById('error').textContent = `Aww! Our physics molecules couldn't find ${selectedFile}... 😿🌊 Please check if the file exists!`;
             }
         }
 
@@ -957,8 +945,8 @@
         // Display the quiz
         function displayQuiz() {
             document.getElementById('loading').style.display = 'none';
-            document.getElementById('quiz-title').textContent = quizData.title || 'C++ MCQ Quiz';
-            document.getElementById('quiz-subtitle').textContent = quizData.subtitle || 'NIOS Class 12 Computer Science';
+            document.getElementById('quiz-title').textContent = quizData.title || 'Physics MCQ Quiz';
+            document.getElementById('quiz-subtitle').textContent = quizData.subtitle || 'NIOS Class 12 Physics';
             
             const container = document.getElementById('questions-container');
             container.innerHTML = '';
@@ -1099,9 +1087,9 @@
             finalScore.innerHTML = `
                 🐾 You scored ${correctAnswers} out of ${totalQuestions} questions correctly! 🐾<br>
                 💖 Your kawaii percentage: ${percentage}% 💖<br>
-                ${percentage >= 80 ? '🎉✨ Paw-some work! You\'re a coding master! ✨🎉' : 
-                  percentage >= 60 ? '👍🌸 Great job! Your coding paws are strong! 🌸👍' : 
-                  '📚🐾 Keep practicing, little coder! You\'ll get there! 🐾📚'}
+                ${percentage >= 80 ? '🎉✨ Fantastic! You\'re a physics master! ✨🎉' : 
+                  percentage >= 60 ? '👍🌸 Great job! Your science skills are strong! 🌸👍' : 
+                  '📚🌊 Keep practicing, little scientist! You\'ll get there! 🌊📚'}
             `;
             
             scoreContainer.classList.add('show');
@@ -1111,7 +1099,7 @@
         // Initialize the quiz when page loads
         document.addEventListener('DOMContentLoaded', function() {
             // Quiz selector is ready, no default loading needed
-            console.log('🐾✨ Kawaii Quiz application loaded successfully! Ready for coding fun! ✨🐾');
+            console.log('🌊✨ Kawaii Physics Quiz application loaded successfully! Ready for science fun! ✨🌊');
         });
     </script>
 </body>

@@ -1,0 +1,486 @@
+{
+  "title": "Surface Tension and Capillary Action - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics - Chapter 9 (Part 2)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Surface tension is defined as:",
+      "options": [
+        "Force per unit area",
+        "Force per unit length",
+        "Energy per unit area",
+        "Both force per unit length and energy per unit area"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Surface tension can be defined as force per unit length (T = F/L) or as surface energy per unit area (T = W/A). Both definitions are equivalent."
+    },
+    {
+      "id": 2,
+      "question": "The SI unit of surface tension is:",
+      "options": [
+        "N/m",
+        "N·m",
+        "N/m²",
+        "N·m²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI unit of surface tension is N/m (Newton per meter), representing force per unit length."
+    },
+    {
+      "id": 3,
+      "question": "Surface tension arises due to:",
+      "options": [
+        "Gravitational forces",
+        "Electromagnetic forces",
+        "Intermolecular forces",
+        "Nuclear forces"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Surface tension arises due to intermolecular forces, particularly the cohesive forces between molecules at the surface."
+    },
+    {
+      "id": 4,
+      "question": "Molecules at the surface of a liquid experience:",
+      "options": [
+        "Equal forces from all sides",
+        "Net upward force",
+        "Net downward force",
+        "No intermolecular forces"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Surface molecules experience a net downward force because they have fewer neighboring molecules above them compared to molecules inside the liquid."
+    },
+    {
+      "id": 5,
+      "question": "Free drops of liquid assume spherical shape because:",
+      "options": [
+        "Sphere has maximum volume",
+        "Sphere has minimum surface area for given volume",
+        "Gravitational effects",
+        "Air resistance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Liquid drops assume spherical shape because surface tension tends to minimize surface area, and sphere has minimum surface area for a given volume."
+    },
+    {
+      "id": 6,
+      "question": "The force of adhesion is the attractive force between:",
+      "options": [
+        "Molecules of the same substance",
+        "Molecules of different substances",
+        "Atoms within a molecule",
+        "Electrons and nuclei"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adhesive force is the attractive force between molecules of two different substances, like water and glass."
+    },
+    {
+      "id": 7,
+      "question": "The force of cohesion is the attractive force between:",
+      "options": [
+        "Molecules of different substances",
+        "Molecules of the same substance",
+        "Positive and negative charges",
+        "Atoms in a crystal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cohesive force is the attractive force between molecules of the same substance, like water molecules with each other."
+    },
+    {
+      "id": 8,
+      "question": "Water wets glass because:",
+      "options": [
+        "Cohesive forces > Adhesive forces",
+        "Adhesive forces > Cohesive forces",
+        "Surface tension is low",
+        "Glass is smooth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water wets glass because adhesive forces between water and glass molecules are greater than cohesive forces between water molecules."
+    },
+    {
+      "id": 9,
+      "question": "Mercury does not wet glass because:",
+      "options": [
+        "Mercury has high density",
+        "Cohesive forces > Adhesive forces",
+        "Mercury is metallic",
+        "Glass repels mercury"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mercury doesn't wet glass because cohesive forces between mercury atoms are greater than adhesive forces between mercury and glass."
+    },
+    {
+      "id": 10,
+      "question": "Surface energy of a liquid is:",
+      "options": [
+        "Kinetic energy of surface molecules",
+        "Potential energy of surface molecules",
+        "Work done to increase surface area",
+        "Heat energy of the surface"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Surface energy is the work done to increase the surface area of a liquid by bringing molecules from the interior to the surface."
+    },
+    {
+      "id": 11,
+      "question": "The angle of contact is measured:",
+      "options": [
+        "From outside the liquid",
+        "From within the liquid",
+        "At the liquid surface",
+        "In the vapor phase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle of contact is defined as the angle between the liquid surface and container wall, measured from within the liquid."
+    },
+    {
+      "id": 12,
+      "question": "For water in a glass tube, the angle of contact is:",
+      "options": [
+        "0°",
+        "Acute (< 90°)",
+        "90°",
+        "Obtuse (> 90°)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water in glass has an acute angle of contact (less than 90°) because water wets glass, forming a concave meniscus."
+    },
+    {
+      "id": 13,
+      "question": "For mercury in a glass tube, the angle of contact is:",
+      "options": [
+        "0°",
+        "Acute (< 90°)",
+        "90°",
+        "Obtuse (> 90°)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mercury in glass has an obtuse angle of contact (greater than 90°) because mercury doesn't wet glass, forming a convex meniscus."
+    },
+    {
+      "id": 14,
+      "question": "Capillary action is the phenomenon of:",
+      "options": [
+        "Liquid flowing through pipes",
+        "Rise or depression of liquid in narrow tubes",
+        "Evaporation of liquids",
+        "Mixing of two liquids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Capillary action is the phenomenon of rise or depression of liquid in narrow tubes (capillaries) due to surface tension."
+    },
+    {
+      "id": 15,
+      "question": "The height of liquid rise in a capillary tube is given by:",
+      "options": [
+        "h = 2T cosθ / (rρg)",
+        "h = rρg / (2T cosθ)",
+        "h = 2T sinθ / (rρg)",
+        "h = rρg sinθ / (2T)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The height of capillary rise is h = 2T cosθ / (rρg), where T is surface tension, θ is contact angle, r is tube radius, ρ is density, and g is gravitational acceleration."
+    },
+    {
+      "id": 16,
+      "question": "Capillary rise is inversely proportional to:",
+      "options": [
+        "Surface tension",
+        "Liquid density",
+        "Tube radius",
+        "Contact angle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From h = 2T cosθ / (rρg), capillary rise is inversely proportional to tube radius r. Smaller radius gives greater rise."
+    },
+    {
+      "id": 17,
+      "question": "Excess pressure inside a spherical liquid drop of radius r is:",
+      "options": [
+        "T/r",
+        "2T/r",
+        "4T/r",
+        "T/(2r)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Excess pressure inside a spherical liquid drop is 2T/r, where T is surface tension and r is radius."
+    },
+    {
+      "id": 18,
+      "question": "Excess pressure inside a soap bubble in air is:",
+      "options": [
+        "T/r",
+        "2T/r",
+        "4T/r",
+        "8T/r"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A soap bubble has two surfaces (inner and outer), so excess pressure is 4T/r, twice that of a liquid drop."
+    },
+    {
+      "id": 19,
+      "question": "Excess pressure inside an air bubble in water is:",
+      "options": [
+        "T/r",
+        "2T/r",
+        "4T/r",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An air bubble in water has only one surface (the inner surface), so excess pressure is 2T/r."
+    },
+    {
+      "id": 20,
+      "question": "Detergents are effective cleaning agents because they:",
+      "options": [
+        "Increase surface tension",
+        "Decrease surface tension",
+        "Have high viscosity",
+        "Are chemically reactive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Detergents decrease surface tension of water, allowing it to penetrate between fibers and dislodge dirt particles more effectively."
+    },
+    {
+      "id": 21,
+      "question": "The phenomenon that allows mosquitoes to walk on water is:",
+      "options": [
+        "Buoyancy",
+        "Surface tension",
+        "Viscosity",
+        "Capillary action"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Surface tension creates an elastic-like surface film that can support the light weight of mosquitoes without breaking."
+    },
+    {
+      "id": 22,
+      "question": "Surface tension generally decreases with:",
+      "options": [
+        "Increasing temperature",
+        "Decreasing temperature",
+        "Increasing pressure",
+        "Decreasing pressure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Surface tension decreases with increasing temperature because intermolecular forces weaken as molecular kinetic energy increases."
+    },
+    {
+      "id": 23,
+      "question": "When the angle of contact is 90°, the liquid surface becomes:",
+      "options": [
+        "Concave",
+        "Convex",
+        "Horizontal",
+        "Vertical"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the angle of contact is 90°, adhesive and cohesive forces balance, resulting in a horizontal liquid surface."
+    },
+    {
+      "id": 24,
+      "question": "Blotting paper absorbs ink due to:",
+      "options": [
+        "Osmosis",
+        "Diffusion",
+        "Capillary action",
+        "Evaporation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blotting paper has numerous narrow pores that act as capillaries, drawing ink upward through capillary action."
+    },
+    {
+      "id": 25,
+      "question": "Plants transport water from roots to leaves through:",
+      "options": [
+        "Osmotic pressure",
+        "Capillary action",
+        "Gravitational force",
+        "Molecular pumps"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plants use capillary action in their vascular tissues (xylem) to transport water from roots to leaves against gravity."
+    },
+    {
+      "id": 26,
+      "question": "The work done in forming a soap film on a rectangular frame is:",
+      "options": [
+        "T × A",
+        "2T × A",
+        "T × L",
+        "2T × L"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work done = 2T × A because a soap film has two surfaces, and work equals surface tension times the total increase in surface area."
+    },
+    {
+      "id": 27,
+      "question": "When inner film of a soap bubble is punctured, the cotton thread takes circular shape due to:",
+      "options": [
+        "Air pressure",
+        "Surface tension",
+        "Gravity",
+        "Electromagnetic force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Surface tension of the remaining outer film pulls the thread into a circular shape to minimize the surface area."
+    },
+    {
+      "id": 28,
+      "question": "Camphor boat moves on water surface due to:",
+      "options": [
+        "Buoyancy",
+        "Convection currents",
+        "Local reduction in surface tension",
+        "Magnetic forces"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Camphor dissolves in water and locally reduces surface tension, creating an imbalance that propels the boat."
+    },
+    {
+      "id": 29,
+      "question": "The rise of oil in the wick of a lamp is due to:",
+      "options": [
+        "Evaporation",
+        "Capillary action",
+        "Thermal expansion",
+        "Pressure difference"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oil rises in the wick through capillary action in the narrow spaces between wick fibers."
+    },
+    {
+      "id": 30,
+      "question": "For a liquid to rise in a capillary tube, the angle of contact should be:",
+      "options": [
+        "0°",
+        "Less than 90°",
+        "90°",
+        "Greater than 90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For capillary rise, cos θ must be positive, which occurs when θ < 90° (acute angle of contact)."
+    },
+    {
+      "id": 31,
+      "question": "Mercury level in a capillary tube dipped in mercury will:",
+      "options": [
+        "Rise above the external level",
+        "Fall below the external level",
+        "Remain at the same level",
+        "Oscillate up and down"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mercury has an obtuse contact angle with glass, so it shows capillary depression rather than rise."
+    },
+    {
+      "id": 32,
+      "question": "The force that acts upward on mosquito legs touching water surface is:",
+      "options": [
+        "Buoyant force",
+        "Vertical component of surface tension",
+        "Air pressure",
+        "Magnetic force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vertical component of surface tension acting along the line of contact balances the mosquito's weight."
+    },
+    {
+      "id": 33,
+      "question": "Spherical shape of rain drops is due to:",
+      "options": [
+        "Air resistance",
+        "Gravitational force",
+        "Surface tension",
+        "Wind pressure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Surface tension minimizes surface area, making raindrops spherical for maximum volume with minimum surface area."
+    },
+    {
+      "id": 34,
+      "question": "If radius of a spherical drop is halved, its excess pressure becomes:",
+      "options": [
+        "Half",
+        "Same",
+        "Double",
+        "Four times"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since P = 2T/r, if radius is halved, excess pressure doubles (P ∝ 1/r)."
+    },
+    {
+      "id": 35,
+      "question": "Addition of soap to water:",
+      "options": [
+        "Increases surface tension",
+        "Decreases surface tension",
+        "Has no effect on surface tension",
+        "First increases then decreases surface tension"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soap molecules have hydrophilic heads and hydrophobic tails that disrupt the hydrogen bonding between water molecules, reducing surface tension."
+    },
+    {
+      "id": 36,
+      "question": "The meniscus of water in a glass tube is:",
+      "options": [
+        "Flat",
+        "Concave",
+        "Convex",
+        "Irregular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water forms a concave meniscus in glass because adhesive forces between water and glass exceed cohesive forces in water."
+    },
+    {
+      "id": 37,
+      "question": "Two soap bubbles of different radii are connected by a tube. Air will flow from:",
+      "options": [
+        "Larger bubble to smaller bubble",
+        "Smaller bubble to larger bubble",
+        "No flow occurs",
+        "Alternating direction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smaller bubble has higher pressure (P = 4T/r), so air flows from smaller to larger bubble until pressure equalizes."
+    },
+    {
+      "id": 38,
+      "question": "Which liquid will rise highest in identical capillary tubes?",
+      "options": [
+        "Water",
+        "Mercury",
+        "Alcohol",
+        "Depends on tube material"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Capillary rise depends on surface tension, density, and contact angle with tube material. Different liquids behave differently with different materials."
+    },
+    {
+      "id": 39,
+      "question": "Farmers plow fields after rain to:",
+      "options": [
+        "Mix nutrients",
+        "Break soil capillaries",
+        "Increase aeration",
+        "Remove weeds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plowing breaks capillaries in soil, preventing water from reaching the surface through capillary action, conserving soil moisture."
+    },
+    {
+      "id": 40,
+      "question": "The dimensions of surface tension are:",
+      "options": [
+        "[ML⁻¹T⁻²]",
+        "[MT⁻²]",
+        "[MLT⁻²]",
+        "[ML⁻²T⁻²]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Surface tension = Force/Length, so dimensions are [MLT⁻²]/[L] = [MT⁻²]."
+    }
+  ]
+}

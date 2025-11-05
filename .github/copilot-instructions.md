@@ -17,7 +17,10 @@ NIOS/
 └── physics/                     # Physics subject folder
     ├── index.html              # Physics quiz application
     ├── physics.txt             # Source material for physics topics
-    └── *.json                  # Individual topic MCQ databases (to be added)
+    ├── Hydrostatic_Pressure_MCQ.json     # Chapter 9 Part 1 MCQs
+    ├── Surface_Tension_MCQ.json           # Chapter 9 Part 2 MCQs
+    ├── Fluid_Mechanics_MCQ.json           # Chapter 9 Part 3 MCQs
+    └── *.json                  # Additional physics topic MCQ databases
 ```
 
 ### Core Components
@@ -43,7 +46,7 @@ Landing Page → Subject Selection → Quiz Selector Dropdown → JSON File Sele
 
 ### Subject-Specific Applications
 - **Computer Science** (`/cs/index.html`): C++ programming topics with 16 MCQ modules
-- **Physics** (`/physics/index.html`): Physics concepts and principles (expandable)
+- **Physics** (`/physics/index.html`): Fluid mechanics and surface tension with 3 MCQ modules (Chapter 9)
 - **Future Subjects**: Easy to add new subject folders following the same pattern
 
 ## Key Patterns & Conventions
@@ -175,10 +178,13 @@ Landing Page → Subject Selection → Quiz Selector Dropdown → JSON File Sele
 - **Question Coverage**: 600+ comprehensive MCQs across all topics
 
 #### Physics (`/physics/`)
-- **Source Material**: `physics.txt` - NIOS Class 12 Physics curriculum  
-- **Status**: Framework ready, MCQ content to be developed
-- **Planned Topics**: Mechanics, Thermodynamics, Optics, Modern Physics
-- **Future Implementation**: Following same JSON structure as CS module
+- **Source Material**: `physics.txt` - NIOS Class 12 Physics curriculum (Chapter 9: Hydrostatic Pressure and Surface Tension)
+- **Available Topics** (3 MCQ modules):
+  - **Chapter 9 Part 1**: Hydrostatic Pressure & Pascal's Law (40 questions)
+  - **Chapter 9 Part 2**: Surface Tension & Capillary Action (40 questions)  
+  - **Chapter 9 Part 3**: Viscosity & Bernoulli's Principle (40 questions)
+- **Question Coverage**: 120+ comprehensive MCQs covering fluid mechanics concepts
+- **Future Expansion**: Ready for additional physics chapters following same structure
 
 ### Content Sources
 - NIOS Class 12 official curriculum materials
@@ -221,3 +227,42 @@ Landing Page → Subject Selection → Quiz Selector Dropdown → JSON File Sele
 - AI creates JSON file with proper structure
 - AI updates HTML dropdown if needed
 - System ready for immediate use
+
+### Physics Content Expansion Guidelines
+
+**When adding new Physics chapters/topics:**
+
+1. **Content Analysis for Physics**
+   - Identify chapter number and topic (e.g., "Chapter 10: Waves")
+   - Break down complex topics into logical parts if needed
+   - Focus on NIOS curriculum alignment and learning objectives
+   - Note key formulas, laws, principles, and units
+
+2. **Physics MCQ File Creation**
+   - **Naming**: `{Chapter_Topic}_MCQ.json` or `{Topic_Part}_MCQ.json`
+   - **Examples**: `Waves_MCQ.json`, `Thermodynamics_Part1_MCQ.json`
+   - **Content Split**: Large chapters should be split into manageable parts (40-50 questions each)
+
+3. **Physics Question Types to Include**
+   - **Conceptual Understanding**: Laws, principles, definitions
+   - **Formula Application**: Numerical problems and calculations  
+   - **Unit Analysis**: SI units, dimensions, conversions
+   - **Graphical Interpretation**: Reading and analyzing physics graphs
+   - **Experimental Physics**: Laboratory procedures, observations
+   - **Real-world Applications**: Practical physics phenomena
+
+4. **Physics HTML Dropdown Updates**
+   - Add new option to `/physics/index.html` dropdown
+   - **Format**: `"Topic Name (Chapter X - Part Y)"` or `"Topic Name (Chapter X)"`
+   - **Examples**: 
+     - `"Waves & Sound (Chapter 10)"`
+     - `"Thermodynamics - Laws (Chapter 11 - Part 1)"`
+     - `"Thermodynamics - Processes (Chapter 11 - Part 2)"`
+   - Maintain chapter order for curriculum flow
+
+5. **Physics-Specific Quality Checks**
+   - Ensure mathematical accuracy in formula-based questions
+   - Include proper units in all numerical answers
+   - Verify physics terminology and notation
+   - Cross-reference with NIOS physics textbook standards
+   - Include explanations with step-by-step solutions for calculations

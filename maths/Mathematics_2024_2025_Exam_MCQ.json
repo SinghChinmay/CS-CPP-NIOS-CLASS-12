@@ -327,7 +327,7 @@
     {
       "id": 47,
       "question": "The inverse of matrix [[1, 2], [3, 4]] is:",
-      "options": "[[-2, 1], [1.5, -0.5]]", "[[4, -2], [-3, 1]]", "[[-4, 2], [3, -1]]", "Does not exist"],
+      "options": ["[[-2, 1], [1.5, -0.5]]", "[[4, -2], [-3, 1]]", "[[-4, 2], [3, -1]]", "Does not exist"],
       "correctAnswer": 0,
       "explanation": "For a 2×2 matrix [[a,b],[c,d]], inverse = (1/det)[[d,-b],[-c,a]]. Here det = -2, so A⁻¹ = (-1/2)[[4,-2],[-3,1]] = [[-2, 1], [1.5, -0.5]]."
     },

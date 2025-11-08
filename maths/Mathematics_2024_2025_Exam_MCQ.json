@@ -1,0 +1,846 @@
+{
+  "title": "NIOS Class 12 Mathematics - 2024-2025 Exam MCQs",
+  "subtitle": "Comprehensive practice set based on NIOS Class 12 Mathematics curriculum (Code 311)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "If A = {1, 2, 3} and B = {4, 5}, then the number of relations from A to B is:",
+      "options": ["6", "8", "32", "64"],
+      "correctAnswer": 3,
+      "explanation": "The number of relations from set A to set B is 2^(n(A) × n(B)) = 2^(3 × 2) = 2^6 = 64."
+    },
+    {
+      "id": 2,
+      "question": "A function f: R → R is defined by f(x) = 3x + 5. What is the inverse function f⁻¹(x)?",
+      "options": ["(x - 5)/3", "(x + 5)/3", "3x - 5", "5 - 3x"],
+      "correctAnswer": 0,
+      "explanation": "Let y = 3x + 5. Solving for x: x = (y - 5)/3. Therefore, f⁻¹(x) = (x - 5)/3."
+    },
+    {
+      "id": 3,
+      "question": "If matrix A = [[2, 3], [1, 4]], then the determinant of A is:",
+      "options": ["5", "8", "11", "-5"],
+      "correctAnswer": 0,
+      "explanation": "det(A) = (2)(4) - (3)(1) = 8 - 3 = 5."
+    },
+    {
+      "id": 4,
+      "question": "The derivative of sin(x²) with respect to x is:",
+      "options": ["cos(x²)", "2x cos(x²)", "2x sin(x²)", "-2x cos(x²)"],
+      "correctAnswer": 1,
+      "explanation": "Using chain rule: d/dx[sin(x²)] = cos(x²) · d/dx(x²) = cos(x²) · 2x = 2x cos(x²)."
+    },
+    {
+      "id": 5,
+      "question": "∫ (1/x) dx equals:",
+      "options": ["x² + C", "ln|x| + C", "e^x + C", "1/x² + C"],
+      "correctAnswer": 1,
+      "explanation": "The integral of 1/x is the natural logarithm: ∫(1/x)dx = ln|x| + C."
+    },
+    {
+      "id": 6,
+      "question": "The area of the triangle with vertices (0,0), (3,0), and (0,4) is:",
+      "options": ["6 sq units", "12 sq units", "7 sq units", "5 sq units"],
+      "correctAnswer": 0,
+      "explanation": "Area = (1/2) × base × height = (1/2) × 3 × 4 = 6 square units."
+    },
+    {
+      "id": 7,
+      "question": "If P(A) = 0.6 and P(B) = 0.4, and A and B are independent events, then P(A ∩ B) is:",
+      "options": ["1.0", "0.24", "0.2", "0.6"],
+      "correctAnswer": 1,
+      "explanation": "For independent events, P(A ∩ B) = P(A) × P(B) = 0.6 × 0.4 = 0.24."
+    },
+    {
+      "id": 8,
+      "question": "The slope of the line perpendicular to the line 2x + 3y = 6 is:",
+      "options": ["-2/3", "3/2", "-3/2", "2/3"],
+      "correctAnswer": 1,
+      "explanation": "The slope of 2x + 3y = 6 is -2/3. The perpendicular slope is the negative reciprocal: 3/2."
+    },
+    {
+      "id": 9,
+      "question": "lim(x→0) (sin x)/x equals:",
+      "options": ["0", "1", "∞", "undefined"],
+      "correctAnswer": 1,
+      "explanation": "This is a standard limit: lim(x→0) (sin x)/x = 1."
+    },
+    {
+      "id": 10,
+      "question": "If y = e^(2x), then dy/dx is:",
+      "options": ["e^(2x)", "2e^(2x)", "e^x", "2x e^(2x-1)"],
+      "correctAnswer": 1,
+      "explanation": "Using chain rule: d/dx[e^(2x)] = e^(2x) · 2 = 2e^(2x)."
+    },
+    {
+      "id": 11,
+      "question": "The equation of a circle with center (2, 3) and radius 5 is:",
+      "options": ["(x-2)² + (y-3)² = 5", "(x-2)² + (y-3)² = 25", "(x+2)² + (y+3)² = 25", "x² + y² = 25"],
+      "correctAnswer": 1,
+      "explanation": "The standard form is (x-h)² + (y-k)² = r², so (x-2)² + (y-3)² = 5² = 25."
+    },
+    {
+      "id": 12,
+      "question": "If matrices A and B are of order 2×3 and 3×2 respectively, then the order of AB is:",
+      "options": ["2×2", "3×3", "2×3", "3×2"],
+      "correctAnswer": 0,
+      "explanation": "When multiplying matrices, if A is m×n and B is n×p, then AB is m×p. So 2×3 · 3×2 = 2×2."
+    },
+    {
+      "id": 13,
+      "question": "The value of ∫₀¹ x² dx is:",
+      "options": ["1/3", "1/2", "1", "2/3"],
+      "correctAnswer": 0,
+      "explanation": "∫₀¹ x² dx = [x³/3]₀¹ = 1³/3 - 0³/3 = 1/3."
+    },
+    {
+      "id": 14,
+      "question": "If z = 3 + 4i, then |z| (the modulus of z) is:",
+      "options": ["3", "4", "5", "7"],
+      "correctAnswer": 2,
+      "explanation": "|z| = √(3² + 4²) = √(9 + 16) = √25 = 5."
+    },
+    {
+      "id": 15,
+      "question": "The solution of the differential equation dy/dx = ky (where k is a constant) is:",
+      "options": ["y = kx + C", "y = Ce^(kx)", "y = Cx^k", "y = k ln x + C"],
+      "correctAnswer": 1,
+      "explanation": "Separating variables and integrating: ∫(1/y)dy = ∫k dx, giving ln|y| = kx + C, so y = Ce^(kx)."
+    },
+    {
+      "id": 16,
+      "question": "The angle between vectors a⃗ = i + j and b⃗ = i - j is:",
+      "options": ["0°", "45°", "90°", "180°"],
+      "correctAnswer": 2,
+      "explanation": "a⃗ · b⃗ = (1)(1) + (1)(-1) = 0. Since dot product is zero, the angle is 90°."
+    },
+    {
+      "id": 17,
+      "question": "The domain of f(x) = √(x - 2) is:",
+      "options": ["All real numbers", "x ≥ 2", "x > 2", "x ≤ 2"],
+      "correctAnswer": 1,
+      "explanation": "For the square root to be defined, x - 2 ≥ 0, which means x ≥ 2."
+    },
+    {
+      "id": 18,
+      "question": "If A is a 3×3 matrix and |A| = 5, then |2A| equals:",
+      "options": ["10", "40", "5", "20"],
+      "correctAnswer": 1,
+      "explanation": "For an n×n matrix, |kA| = k^n|A|. So |2A| = 2³ × 5 = 8 × 5 = 40."
+    },
+    {
+      "id": 19,
+      "question": "The second derivative of y = x³ - 2x² + x is:",
+      "options": ["3x² - 4x + 1", "6x - 4", "x² - x", "6"],
+      "correctAnswer": 1,
+      "explanation": "First derivative: dy/dx = 3x² - 4x + 1. Second derivative: d²y/dx² = 6x - 4."
+    },
+    {
+      "id": 20,
+      "question": "A coin is tossed 3 times. What is the probability of getting exactly 2 heads?",
+      "options": ["1/8", "3/8", "1/2", "5/8"],
+      "correctAnswer": 1,
+      "explanation": "Using binomial probability: C(3,2) × (1/2)² × (1/2)¹ = 3 × 1/4 × 1/2 = 3/8."
+    },
+    {
+      "id": 21,
+      "question": "The distance between points (1, 2, 3) and (4, 6, 8) in 3D space is:",
+      "options": ["5√2", "5", "√50", "√26"],
+      "correctAnswer": 0,
+      "explanation": "Distance = √[(4-1)² + (6-2)² + (8-3)²] = √[9 + 16 + 25] = √50 = 5√2."
+    },
+    {
+      "id": 22,
+      "question": "If tan⁻¹(1) + tan⁻¹(√3) = x, then x equals:",
+      "options": ["π/4", "π/3", "7π/12", "5π/12"],
+      "correctAnswer": 2,
+      "explanation": "tan⁻¹(1) = π/4 and tan⁻¹(√3) = π/3. So x = π/4 + π/3 = 3π/12 + 4π/12 = 7π/12."
+    },
+    {
+      "id": 23,
+      "question": "The range of the function f(x) = sin x is:",
+      "options": ["[0, 1]", "[-1, 1]", "(-∞, ∞)", "[0, ∞)"],
+      "correctAnswer": 1,
+      "explanation": "The sine function oscillates between -1 and 1, so its range is [-1, 1]."
+    },
+    {
+      "id": 24,
+      "question": "If A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]], then A + B equals:",
+      "options": ["[[6, 8], [10, 12]]", "[[5, 12], [21, 32]]", "[[6, 7], [9, 11]]", "[[4, 4], [4, 4]]"],
+      "correctAnswer": 0,
+      "explanation": "Matrix addition: A + B = [[1+5, 2+6], [3+7, 4+8]] = [[6, 8], [10, 12]]."
+    },
+    {
+      "id": 25,
+      "question": "The critical points of f(x) = x³ - 3x are:",
+      "options": ["x = 0 only", "x = ±1", "x = ±√3", "No critical points"],
+      "correctAnswer": 1,
+      "explanation": "f'(x) = 3x² - 3 = 0 gives 3x² = 3, so x² = 1, and x = ±1."
+    },
+    {
+      "id": 26,
+      "question": "∫ cos x dx equals:",
+      "options": ["-sin x + C", "sin x + C", "cos x + C", "-cos x + C"],
+      "correctAnswer": 1,
+      "explanation": "The integral of cos x is sin x + C."
+    },
+    {
+      "id": 27,
+      "question": "The equation of the line passing through (1, 2) with slope 3 is:",
+      "options": ["y = 3x - 1", "y = 3x + 2", "y = 3x - 5", "y = x + 3"],
+      "correctAnswer": 0,
+      "explanation": "Using y - y₁ = m(x - x₁): y - 2 = 3(x - 1), so y = 3x - 3 + 2 = 3x - 1."
+    },
+    {
+      "id": 28,
+      "question": "If P(A) = 0.5, P(B) = 0.6, and P(A ∩ B) = 0.3, then P(A ∪ B) is:",
+      "options": ["0.8", "0.9", "1.1", "0.4"],
+      "correctAnswer": 0,
+      "explanation": "Using P(A ∪ B) = P(A) + P(B) - P(A ∩ B) = 0.5 + 0.6 - 0.3 = 0.8."
+    },
+    {
+      "id": 29,
+      "question": "The value of log₁₀(100) is:",
+      "options": ["1", "2", "10", "100"],
+      "correctAnswer": 1,
+      "explanation": "log₁₀(100) = log₁₀(10²) = 2."
+    },
+    {
+      "id": 30,
+      "question": "If f(x) = x² and g(x) = x + 1, then (f ∘ g)(x) equals:",
+      "options": ["x² + 1", "(x + 1)²", "x² + x + 1", "x³ + 1"],
+      "correctAnswer": 1,
+      "explanation": "(f ∘ g)(x) = f(g(x)) = f(x + 1) = (x + 1)²."
+    },
+    {
+      "id": 31,
+      "question": "The transpose of matrix [[1, 2, 3], [4, 5, 6]] is:",
+      "options": ["[[1, 4], [2, 5], [3, 6]]", "[[1, 2, 3], [4, 5, 6]]", "[[6, 5, 4], [3, 2, 1]]", "[[1, 4, 2], [5, 3, 6]]"],
+      "correctAnswer": 0,
+      "explanation": "Transpose interchanges rows and columns: [[1, 2, 3], [4, 5, 6]]ᵀ = [[1, 4], [2, 5], [3, 6]]."
+    },
+    {
+      "id": 32,
+      "question": "The degree of the differential equation (d²y/dx²)³ + 5(dy/dx) = 0 is:",
+      "options": ["1", "2", "3", "5"],
+      "correctAnswer": 1,
+      "explanation": "The degree is the highest power of the highest order derivative in its polynomial form. Here it's 2."
+    },
+    {
+      "id": 33,
+      "question": "lim(x→∞) (3x² + 2x + 1)/(x² + 5) equals:",
+      "options": ["0", "1", "3", "∞"],
+      "correctAnswer": 2,
+      "explanation": "Dividing numerator and denominator by x²: lim(x→∞) (3 + 2/x + 1/x²)/(1 + 5/x²) = 3/1 = 3."
+    },
+    {
+      "id": 34,
+      "question": "The mean of the numbers 2, 4, 6, 8, 10 is:",
+      "options": ["5", "6", "7", "8"],
+      "correctAnswer": 1,
+      "explanation": "Mean = (2 + 4 + 6 + 8 + 10)/5 = 30/5 = 6."
+    },
+    {
+      "id": 35,
+      "question": "If sin θ = 3/5 and θ is in the first quadrant, then cos θ is:",
+      "options": ["3/5", "4/5", "5/3", "5/4"],
+      "correctAnswer": 1,
+      "explanation": "Using sin²θ + cos²θ = 1: (3/5)² + cos²θ = 1, so cos²θ = 16/25, and cos θ = 4/5 (positive in Q1)."
+    },
+    {
+      "id": 36,
+      "question": "The area under the curve y = x from x = 0 to x = 2 is:",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 1,
+      "explanation": "Area = ∫₀² x dx = [x²/2]₀² = 4/2 - 0 = 2."
+    },
+    {
+      "id": 37,
+      "question": "The vector equation of a line passing through point (1, 2, 3) parallel to vector i + 2j + 3k is:",
+      "options": ["r⃗ = (i + 2j + 3k) + λ(i + 2j + 3k)", "r⃗ = (1, 2, 3) + λ(1, 2, 3)", "r⃗ = λ(i + 2j + 3k)", "Both A and B"],
+      "correctAnswer": 3,
+      "explanation": "The vector equation is r⃗ = a⃗ + λb⃗ where a⃗ is a position vector and b⃗ is the direction vector. Options A and B represent the same equation in different notations."
+    },
+    {
+      "id": 38,
+      "question": "If the determinant of a 2×2 matrix is zero, then the matrix is:",
+      "options": ["Invertible", "Singular", "Identity", "Symmetric"],
+      "correctAnswer": 1,
+      "explanation": "A matrix with determinant zero is called singular and has no inverse."
+    },
+    {
+      "id": 39,
+      "question": "The derivative of ln(x) is:",
+      "options": ["x", "1/x", "e^x", "ln x"],
+      "correctAnswer": 1,
+      "explanation": "d/dx[ln(x)] = 1/x."
+    },
+    {
+      "id": 40,
+      "question": "A die is rolled. What is the probability of getting a number greater than 4?",
+      "options": ["1/6", "1/3", "1/2", "2/3"],
+      "correctAnswer": 1,
+      "explanation": "Numbers greater than 4 are 5 and 6, so P = 2/6 = 1/3."
+    },
+    {
+      "id": 41,
+      "question": "The general solution of dy/dx = 0 is:",
+      "options": ["y = x + C", "y = C", "y = Cx", "y = e^x + C"],
+      "correctAnswer": 1,
+      "explanation": "If dy/dx = 0, then y is constant. So y = C."
+    },
+    {
+      "id": 42,
+      "question": "The equation x² + y² + 2x - 4y + 1 = 0 represents:",
+      "options": ["A line", "A circle", "A parabola", "An ellipse"],
+      "correctAnswer": 1,
+      "explanation": "This is the general form of a circle: x² + y² + 2gx + 2fy + c = 0."
+    },
+    {
+      "id": 43,
+      "question": "If vector a⃗ = 2i + 3j and b⃗ = 4i + 6j, then a⃗ and b⃗ are:",
+      "options": ["Perpendicular", "Parallel", "Equal", "None of these"],
+      "correctAnswer": 1,
+      "explanation": "b⃗ = 2a⃗, so they are parallel vectors."
+    },
+    {
+      "id": 44,
+      "question": "∫ e^x dx equals:",
+      "options": ["e^x + C", "xe^x + C", "e^(x+1) + C", "ln(e^x) + C"],
+      "correctAnswer": 0,
+      "explanation": "The integral of e^x is e^x + C."
+    },
+    {
+      "id": 45,
+      "question": "The slope of the tangent to the curve y = x² at x = 2 is:",
+      "options": ["2", "4", "8", "1"],
+      "correctAnswer": 1,
+      "explanation": "dy/dx = 2x. At x = 2, slope = 2(2) = 4."
+    },
+    {
+      "id": 46,
+      "question": "If A and B are mutually exclusive events with P(A) = 0.3 and P(B) = 0.4, then P(A ∪ B) is:",
+      "options": ["0.12", "0.5", "0.7", "1.0"],
+      "correctAnswer": 2,
+      "explanation": "For mutually exclusive events, P(A ∪ B) = P(A) + P(B) = 0.3 + 0.4 = 0.7."
+    },
+    {
+      "id": 47,
+      "question": "The inverse of matrix [[1, 2], [3, 4]] is:",
+      "options": ["[[-2, 1], [1.5, -0.5]]", "[[4, -2], [-3, 1]]", "[[-4, 2], [3, -1]]", "Does not exist"],
+      "correctAnswer": 0,
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], inverse = (1/det)[[d,-b],[-c,a]]. Here det = -2, so A⁻¹ = (-1/2)[[4,-2],[-3,1]] = [[-2, 1], [1.5, -0.5]]."
+    },
+    {
+      "id": 48,
+      "question": "The maximum value of sin x + cos x is:",
+      "options": ["1", "√2", "2", "0"],
+      "correctAnswer": 1,
+      "explanation": "sin x + cos x = √2 sin(x + π/4), which has maximum value √2."
+    },
+    {
+      "id": 49,
+      "question": "lim(h→0) [f(x+h) - f(x)]/h represents:",
+      "options": ["f(x)", "f'(x)", "∫f(x)dx", "f(h)"],
+      "correctAnswer": 1,
+      "explanation": "This is the definition of the derivative f'(x)."
+    },
+    {
+      "id": 50,
+      "question": "The variance of the data set {1, 2, 3, 4, 5} is:",
+      "options": ["1", "2", "√2", "10"],
+      "correctAnswer": 1,
+      "explanation": "Mean = 3. Variance = [(1-3)² + (2-3)² + (3-3)² + (4-3)² + (5-3)²]/5 = [4+1+0+1+4]/5 = 10/5 = 2."
+    },
+    {
+      "id": 51,
+      "question": "The direction cosines of a line equally inclined to the coordinate axes are:",
+      "options": ["(1, 1, 1)", "(1/√3, 1/√3, 1/√3)", "(1/3, 1/3, 1/3)", "(1/2, 1/2, 1/2)"],
+      "correctAnswer": 1,
+      "explanation": "If equally inclined, l = m = n. Since l² + m² + n² = 1, we get 3l² = 1, so l = 1/√3."
+    },
+    {
+      "id": 52,
+      "question": "∫₀^π sin x dx equals:",
+      "options": ["0", "1", "2", "π"],
+      "correctAnswer": 2,
+      "explanation": "∫₀^π sin x dx = [-cos x]₀^π = -cos(π) - (-cos(0)) = -(-1) - (-1) = 1 + 1 = 2."
+    },
+    {
+      "id": 53,
+      "question": "The order of the differential equation d²y/dx² + 5dy/dx + 6y = 0 is:",
+      "options": ["1", "2", "3", "6"],
+      "correctAnswer": 1,
+      "explanation": "The order is the highest derivative present, which is 2."
+    },
+    {
+      "id": 54,
+      "question": "If f(x) = |x|, then f'(0) is:",
+      "options": ["0", "1", "-1", "Does not exist"],
+      "correctAnswer": 3,
+      "explanation": "The absolute value function has a sharp corner at x = 0, so the derivative does not exist there."
+    },
+    {
+      "id": 55,
+      "question": "The focus of the parabola y² = 8x is:",
+      "options": ["(2, 0)", "(0, 2)", "(4, 0)", "(0, 4)"],
+      "correctAnswer": 0,
+      "explanation": "For y² = 4ax, focus is (a, 0). Here 4a = 8, so a = 2, and focus is (2, 0)."
+    },
+    {
+      "id": 56,
+      "question": "If two events A and B are independent, then:",
+      "options": ["P(A|B) = P(A)", "P(A|B) = 0", "P(A|B) = 1", "P(A|B) = P(B)"],
+      "correctAnswer": 0,
+      "explanation": "For independent events, P(A|B) = P(A)."
+    },
+    {
+      "id": 57,
+      "question": "The contrapositive of the statement 'If p then q' is:",
+      "options": ["If q then p", "If not q then not p", "If not p then not q", "p and q"],
+      "correctAnswer": 1,
+      "explanation": "The contrapositive of 'p → q' is '¬q → ¬p'."
+    },
+    {
+      "id": 58,
+      "question": "∫ sec² x dx equals:",
+      "options": ["tan x + C", "cot x + C", "sec x + C", "cosec x + C"],
+      "correctAnswer": 0,
+      "explanation": "The integral of sec² x is tan x + C."
+    },
+    {
+      "id": 59,
+      "question": "The point which divides the line segment joining (1, 2) and (5, 6) in the ratio 1:1 is:",
+      "options": ["(2, 3)", "(3, 4)", "(4, 5)", "(2.5, 3.5)"],
+      "correctAnswer": 1,
+      "explanation": "Midpoint = ((1+5)/2, (2+6)/2) = (3, 4)."
+    },
+    {
+      "id": 60,
+      "question": "If A = [[3, 0], [0, 3]], then A is:",
+      "options": ["Zero matrix", "Identity matrix", "Scalar matrix", "Diagonal matrix"],
+      "correctAnswer": 2,
+      "explanation": "A scalar matrix is a diagonal matrix where all diagonal elements are equal. Here A = 3I."
+    },
+    {
+      "id": 61,
+      "question": "The area of the region bounded by y = x², x = 0, x = 1, and y = 0 is:",
+      "options": ["1/2", "1/3", "2/3", "1"],
+      "correctAnswer": 1,
+      "explanation": "Area = ∫₀¹ x² dx = [x³/3]₀¹ = 1/3."
+    },
+    {
+      "id": 62,
+      "question": "The angle between the lines y = x and y = √3x is:",
+      "options": ["30°", "45°", "60°", "90°"],
+      "correctAnswer": 0,
+      "explanation": "Slopes are m₁ = 1 and m₂ = √3. Using tan θ = |(m₂ - m₁)/(1 + m₁m₂)| = |(√3 - 1)/(1 + √3)| = 1/√3, so θ = 30°."
+    },
+    {
+      "id": 63,
+      "question": "If z₁ = 1 + i and z₂ = 1 - i, then z₁ · z₂ equals:",
+      "options": ["0", "2", "2i", "-2i"],
+      "correctAnswer": 1,
+      "explanation": "z₁ · z₂ = (1 + i)(1 - i) = 1 - i² = 1 - (-1) = 2."
+    },
+    {
+      "id": 64,
+      "question": "The derivative of tan⁻¹(x) is:",
+      "options": ["1/(1 + x²)", "1/(1 - x²)", "-1/(1 + x²)", "1/√(1 - x²)"],
+      "correctAnswer": 0,
+      "explanation": "d/dx[tan⁻¹(x)] = 1/(1 + x²)."
+    },
+    {
+      "id": 65,
+      "question": "A bag contains 3 red and 5 blue balls. Two balls are drawn at random. The probability that both are red is:",
+      "options": ["3/28", "1/28", "15/28", "3/8"],
+      "correctAnswer": 0,
+      "explanation": "P(both red) = C(3,2)/C(8,2) = 3/28."
+    },
+    {
+      "id": 66,
+      "question": "The general solution of dy/dx = y is:",
+      "options": ["y = x + C", "y = Ce^x", "y = Cx", "y = C/x"],
+      "correctAnswer": 1,
+      "explanation": "Separating variables: ∫(1/y)dy = ∫dx, giving ln|y| = x + C, so y = Ce^x."
+    },
+    {
+      "id": 67,
+      "question": "The eccentricity of an ellipse is:",
+      "options": ["Greater than 1", "Equal to 1", "Less than 1", "0"],
+      "correctAnswer": 2,
+      "explanation": "For an ellipse, 0 < e < 1."
+    },
+    {
+      "id": 68,
+      "question": "If f(x) = x³, then f''(x) equals:",
+      "options": ["3x²", "6x", "6", "x"],
+      "correctAnswer": 1,
+      "explanation": "f'(x) = 3x², f''(x) = 6x."
+    },
+    {
+      "id": 69,
+      "question": "The maximum value of f(x) = -x² + 4x + 5 is:",
+      "options": ["5", "7", "9", "11"],
+      "correctAnswer": 2,
+      "explanation": "f'(x) = -2x + 4 = 0 gives x = 2. f(2) = -4 + 8 + 5 = 9."
+    },
+    {
+      "id": 70,
+      "question": "The magnitude of vector 3i + 4j + 12k is:",
+      "options": ["5", "12", "13", "19"],
+      "correctAnswer": 2,
+      "explanation": "|v| = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13."
+    },
+    {
+      "id": 71,
+      "question": "lim(x→0) (e^x - 1)/x equals:",
+      "options": ["0", "1", "e", "∞"],
+      "correctAnswer": 1,
+      "explanation": "This is a standard limit: lim(x→0) (e^x - 1)/x = 1."
+    },
+    {
+      "id": 72,
+      "question": "The equation of a line passing through the origin with slope m is:",
+      "options": ["y = mx", "y = mx + c", "y = x", "y = m"],
+      "correctAnswer": 0,
+      "explanation": "A line through origin has form y = mx (y-intercept = 0)."
+    },
+    {
+      "id": 73,
+      "question": "∫ x dx equals:",
+      "options": ["x²/2 + C", "x² + C", "2x + C", "x³/3 + C"],
+      "correctAnswer": 0,
+      "explanation": "∫ x dx = x²/2 + C."
+    },
+    {
+      "id": 74,
+      "question": "If A and B are symmetric matrices of same order, then AB is symmetric if:",
+      "options": ["A = B", "AB = BA", "A = -B", "Always"],
+      "correctAnswer": 1,
+      "explanation": "AB is symmetric if and only if AB = BA (i.e., A and B commute)."
+    },
+    {
+      "id": 75,
+      "question": "The value of sin²θ + cos²θ is:",
+      "options": ["0", "1", "2", "Depends on θ"],
+      "correctAnswer": 1,
+      "explanation": "This is a fundamental trigonometric identity: sin²θ + cos²θ = 1 for all θ."
+    },
+    {
+      "id": 76,
+      "question": "The distance of point (3, 4) from the origin is:",
+      "options": ["3", "4", "5", "7"],
+      "correctAnswer": 2,
+      "explanation": "Distance = √(3² + 4²) = √25 = 5."
+    },
+    {
+      "id": 77,
+      "question": "If P(E) = 0.25, then P(not E) is:",
+      "options": ["0.25", "0.5", "0.75", "1.0"],
+      "correctAnswer": 2,
+      "explanation": "P(not E) = 1 - P(E) = 1 - 0.25 = 0.75."
+    },
+    {
+      "id": 78,
+      "question": "The derivative of constant 5 is:",
+      "options": ["5", "0", "1", "Undefined"],
+      "correctAnswer": 1,
+      "explanation": "The derivative of any constant is 0."
+    },
+    {
+      "id": 79,
+      "question": "A line makes equal angles with the coordinate axes. If one angle is α, then cos α equals:",
+      "options": ["1", "1/√2", "1/√3", "1/2"],
+      "correctAnswer": 2,
+      "explanation": "If l = m = n and l² + m² + n² = 1, then 3l² = 1, so l = cos α = 1/√3."
+    },
+    {
+      "id": 80,
+      "question": "The standard deviation is the square root of:",
+      "options": ["Mean", "Median", "Variance", "Mode"],
+      "correctAnswer": 2,
+      "explanation": "Standard deviation σ = √(variance)."
+    },
+    {
+      "id": 81,
+      "question": "If f(x) = 1/x, then ∫ f(x) dx equals:",
+      "options": ["x² + C", "ln|x| + C", "-1/x² + C", "e^x + C"],
+      "correctAnswer": 1,
+      "explanation": "∫(1/x)dx = ln|x| + C."
+    },
+    {
+      "id": 82,
+      "question": "The value of i² (where i is the imaginary unit) is:",
+      "options": ["1", "-1", "i", "0"],
+      "correctAnswer": 1,
+      "explanation": "By definition, i² = -1."
+    },
+    {
+      "id": 83,
+      "question": "The centroid of a triangle with vertices (0,0), (6,0), and (0,6) is:",
+      "options": ["(2, 2)", "(3, 3)", "(4, 4)", "(1, 1)"],
+      "correctAnswer": 0,
+      "explanation": "Centroid = ((0+6+0)/3, (0+0+6)/3) = (2, 2)."
+    },
+    {
+      "id": 84,
+      "question": "The equation x² + y² = r² represents:",
+      "options": ["A line", "A circle with center at origin", "A parabola", "An ellipse"],
+      "correctAnswer": 1,
+      "explanation": "This is the standard equation of a circle centered at origin with radius r."
+    },
+    {
+      "id": 85,
+      "question": "If dy/dx = 3x², then y equals:",
+      "options": ["x³ + C", "3x³ + C", "6x + C", "9x + C"],
+      "correctAnswer": 0,
+      "explanation": "Integrating: y = ∫3x² dx = x³ + C."
+    },
+    {
+      "id": 86,
+      "question": "The dot product of perpendicular vectors is:",
+      "options": ["1", "0", "-1", "Maximum"],
+      "correctAnswer": 1,
+      "explanation": "If vectors are perpendicular, their dot product is 0."
+    },
+    {
+      "id": 87,
+      "question": "lim(x→2) (x² - 4)/(x - 2) equals:",
+      "options": ["0", "2", "4", "Undefined"],
+      "correctAnswer": 2,
+      "explanation": "Factoring: (x² - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2. At x = 2, limit = 4."
+    },
+    {
+      "id": 88,
+      "question": "The number of ways to arrange 4 different books on a shelf is:",
+      "options": ["4", "12", "16", "24"],
+      "correctAnswer": 3,
+      "explanation": "Number of arrangements = 4! = 4 × 3 × 2 × 1 = 24."
+    },
+    {
+      "id": 89,
+      "question": "If A is a square matrix and |A| = 0, then A is:",
+      "options": ["Invertible", "Singular", "Symmetric", "Diagonal"],
+      "correctAnswer": 1,
+      "explanation": "A matrix with zero determinant is singular (non-invertible)."
+    },
+    {
+      "id": 90,
+      "question": "The derivative of e^(3x) is:",
+      "options": ["e^(3x)", "3e^(3x)", "e^(3x)/3", "3xe^(3x-1)"],
+      "correctAnswer": 1,
+      "explanation": "Using chain rule: d/dx[e^(3x)] = e^(3x) · 3 = 3e^(3x)."
+    },
+    {
+      "id": 91,
+      "question": "The sum of first n natural numbers is:",
+      "options": ["n(n+1)", "n(n+1)/2", "n²", "2n"],
+      "correctAnswer": 1,
+      "explanation": "The sum formula is 1 + 2 + 3 + ... + n = n(n+1)/2."
+    },
+    {
+      "id": 92,
+      "question": "∫₁² (2x) dx equals:",
+      "options": ["2", "3", "4", "6"],
+      "correctAnswer": 1,
+      "explanation": "∫₁² 2x dx = [x²]₁² = 4 - 1 = 3."
+    },
+    {
+      "id": 93,
+      "question": "The coefficient of x³ in the expansion of (1 + x)⁵ is:",
+      "options": ["5", "10", "15", "20"],
+      "correctAnswer": 1,
+      "explanation": "Using binomial theorem: C(5,3) = 10."
+    },
+    {
+      "id": 94,
+      "question": "If tan θ = 1, then θ equals:",
+      "options": ["0°", "30°", "45°", "60°"],
+      "correctAnswer": 2,
+      "explanation": "tan 45° = 1."
+    },
+    {
+      "id": 95,
+      "question": "The area of a circle with radius r is:",
+      "options": ["πr", "2πr", "πr²", "4πr²"],
+      "correctAnswer": 2,
+      "explanation": "Area of circle = πr²."
+    },
+    {
+      "id": 96,
+      "question": "If A = {1, 2} and B = {3, 4}, then A × B has:",
+      "options": ["2 elements", "3 elements", "4 elements", "6 elements"],
+      "correctAnswer": 2,
+      "explanation": "A × B = {(1,3), (1,4), (2,3), (2,4)} has 4 elements."
+    },
+    {
+      "id": 97,
+      "question": "The principal value of sin⁻¹(1/2) is:",
+      "options": ["30°", "45°", "60°", "90°"],
+      "correctAnswer": 0,
+      "explanation": "sin⁻¹(1/2) = 30° or π/6 radians."
+    },
+    {
+      "id": 98,
+      "question": "The function f(x) = x² is:",
+      "options": ["Even", "Odd", "Neither", "Both"],
+      "correctAnswer": 0,
+      "explanation": "f(-x) = (-x)² = x² = f(x), so it's an even function."
+    },
+    {
+      "id": 99,
+      "question": "The number of diagonals in a hexagon is:",
+      "options": ["6", "9", "12", "15"],
+      "correctAnswer": 1,
+      "explanation": "Number of diagonals = n(n-3)/2 = 6(3)/2 = 9."
+    },
+    {
+      "id": 100,
+      "question": "If log₂(8) = x, then x equals:",
+      "options": ["2", "3", "4", "8"],
+      "correctAnswer": 1,
+      "explanation": "2^x = 8 = 2³, so x = 3."
+    },
+    {
+      "id": 101,
+      "question": "The vertex of the parabola y = x² is:",
+      "options": ["(0, 0)", "(1, 1)", "(0, 1)", "(1, 0)"],
+      "correctAnswer": 0,
+      "explanation": "The parabola y = x² has vertex at the origin (0, 0)."
+    },
+    {
+      "id": 102,
+      "question": "The probability of getting a head when a fair coin is tossed is:",
+      "options": ["0", "1/4", "1/2", "1"],
+      "correctAnswer": 2,
+      "explanation": "P(head) = 1/2 for a fair coin."
+    },
+    {
+      "id": 103,
+      "question": "The derivative of x^n (where n is a constant) is:",
+      "options": ["nx^(n-1)", "x^(n+1)", "nx", "n"],
+      "correctAnswer": 0,
+      "explanation": "Power rule: d/dx[x^n] = nx^(n-1)."
+    },
+    {
+      "id": 104,
+      "question": "The angle in a semicircle is:",
+      "options": ["45°", "60°", "90°", "180°"],
+      "correctAnswer": 2,
+      "explanation": "The angle subtended by a diameter at any point on the circle is 90°."
+    },
+    {
+      "id": 105,
+      "question": "If vector a⃗ · b⃗ = 0, then the vectors are:",
+      "options": ["Parallel", "Perpendicular", "Equal", "Collinear"],
+      "correctAnswer": 1,
+      "explanation": "Zero dot product indicates perpendicular vectors."
+    },
+    {
+      "id": 106,
+      "question": "The sum of roots of equation x² - 5x + 6 = 0 is:",
+      "options": ["5", "6", "-5", "-6"],
+      "correctAnswer": 0,
+      "explanation": "For ax² + bx + c = 0, sum of roots = -b/a = -(-5)/1 = 5."
+    },
+    {
+      "id": 107,
+      "question": "∫ sin x dx equals:",
+      "options": ["cos x + C", "-cos x + C", "sin x + C", "-sin x + C"],
+      "correctAnswer": 1,
+      "explanation": "∫ sin x dx = -cos x + C."
+    },
+    {
+      "id": 108,
+      "question": "The midpoint of the line segment joining (2, 3) and (6, 7) is:",
+      "options": ["(4, 5)", "(8, 10)", "(3, 4)", "(2, 3)"],
+      "correctAnswer": 0,
+      "explanation": "Midpoint = ((2+6)/2, (3+7)/2) = (4, 5)."
+    },
+    {
+      "id": 109,
+      "question": "If matrix A is 3×2 and matrix B is 2×4, then AB is of order:",
+      "options": ["2×2", "3×4", "4×3", "Cannot be multiplied"],
+      "correctAnswer": 1,
+      "explanation": "When multiplying m×n and n×p matrices, result is m×p, so 3×4."
+    },
+    {
+      "id": 110,
+      "question": "The complement of set A in universal set U is denoted by:",
+      "options": ["A'", "A⁻¹", "Aᶜ", "Both A and C"],
+      "correctAnswer": 3,
+      "explanation": "The complement can be denoted as A' or Aᶜ."
+    },
+    {
+      "id": 111,
+      "question": "The value of cos(90°) is:",
+      "options": ["0", "1", "-1", "1/2"],
+      "correctAnswer": 0,
+      "explanation": "cos(90°) = 0."
+    },
+    {
+      "id": 112,
+      "question": "A fair die is rolled twice. The probability of getting sum 7 is:",
+      "options": ["1/6", "1/12", "1/36", "7/36"],
+      "correctAnswer": 0,
+      "explanation": "Favorable outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 out of 36, so P = 6/36 = 1/6."
+    },
+    {
+      "id": 113,
+      "question": "The slope of a horizontal line is:",
+      "options": ["0", "1", "∞", "Undefined"],
+      "correctAnswer": 0,
+      "explanation": "A horizontal line has zero slope."
+    },
+    {
+      "id": 114,
+      "question": "lim(x→1) (x - 1) equals:",
+      "options": ["0", "1", "-1", "Does not exist"],
+      "correctAnswer": 0,
+      "explanation": "Direct substitution: lim(x→1) (x - 1) = 1 - 1 = 0."
+    },
+    {
+      "id": 115,
+      "question": "The identity element for multiplication of real numbers is:",
+      "options": ["0", "1", "-1", "Does not exist"],
+      "correctAnswer": 1,
+      "explanation": "For any real number a, a × 1 = a, so 1 is the multiplicative identity."
+    },
+    {
+      "id": 116,
+      "question": "The solution set of |x| = 3 is:",
+      "options": ["{3}", "{-3}", "{3, -3}", "Empty set"],
+      "correctAnswer": 2,
+      "explanation": "|x| = 3 means x = 3 or x = -3."
+    },
+    {
+      "id": 117,
+      "question": "If y = sin²x, then dy/dx equals:",
+      "options": ["cos²x", "2sin x cos x", "sin 2x", "Both B and C"],
+      "correctAnswer": 3,
+      "explanation": "dy/dx = 2sin x · cos x = sin 2x, so both options B and C are correct."
+    },
+    {
+      "id": 118,
+      "question": "The volume of a sphere with radius r is:",
+      "options": ["4πr²", "(4/3)πr³", "πr²", "2πr³"],
+      "correctAnswer": 1,
+      "explanation": "Volume of sphere = (4/3)πr³."
+    },
+    {
+      "id": 119,
+      "question": "The range of function f(x) = x² where x ∈ R is:",
+      "options": ["R", "[0, ∞)", "(-∞, 0]", "[-1, 1]"],
+      "correctAnswer": 1,
+      "explanation": "Since x² ≥ 0 for all real x, range is [0, ∞)."
+    },
+    {
+      "id": 120,
+      "question": "The null matrix is a matrix in which:",
+      "options": ["All elements are 1", "All elements are 0", "All diagonal elements are 0", "Determinant is 0"],
+      "correctAnswer": 1,
+      "explanation": "A null (or zero) matrix has all elements equal to zero."
+    }
+  ]
+}

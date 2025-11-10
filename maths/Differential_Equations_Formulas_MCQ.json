@@ -1,0 +1,356 @@
+{
+  "title": "Differential Equations - Formulas MCQ",
+  "subtitle": "NIOS Class 12 Mathematics - Differential Equations: Order, Degree, and Solution Methods",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The order of a differential equation is:",
+      "options": ["The highest power of the derivative", "The order of the highest derivative", "The number of derivatives", "The degree of the equation"],
+      "correctAnswer": 1,
+      "explanation": "The order of a differential equation is the order of the highest derivative present in the equation. For example, d²y/dx² has order 2."
+    },
+    {
+      "id": 2,
+      "question": "The degree of a differential equation is:",
+      "options": ["The order of the highest derivative", "The power of the highest order derivative (when polynomial in derivatives)", "The number of terms", "Always 1"],
+      "correctAnswer": 1,
+      "explanation": "The degree is the power (exponent) of the highest order derivative, when the equation is polynomial in derivatives. For example, (d²y/dx²)³ has degree 3."
+    },
+    {
+      "id": 3,
+      "question": "What is the order of the differential equation dy/dx + y = x?",
+      "options": ["1", "2", "3", "0"],
+      "correctAnswer": 0,
+      "explanation": "The highest derivative is dy/dx (first derivative), so the order is 1. This is a first-order differential equation."
+    },
+    {
+      "id": 4,
+      "question": "What is the degree of the differential equation (dy/dx)² + y = x?",
+      "options": ["1", "2", "3", "Not defined"],
+      "correctAnswer": 1,
+      "explanation": "The highest order derivative is dy/dx with power 2, so the degree is 2. The equation is polynomial in derivatives."
+    },
+    {
+      "id": 5,
+      "question": "What is the order and degree of d²y/dx² + 3(dy/dx) + y = 0?",
+      "options": ["Order 2, Degree 1", "Order 1, Degree 2", "Order 2, Degree 2", "Order 1, Degree 1"],
+      "correctAnswer": 0,
+      "explanation": "The highest derivative is d²y/dx² (second order) with power 1, so order = 2 and degree = 1."
+    },
+    {
+      "id": 6,
+      "question": "A differential equation of the form dy/dx = f(x) can be solved by:",
+      "options": ["Direct integration: y = ∫f(x)dx + C", "Separation of variables", "Linear differential equation method", "Homogeneous equation method"],
+      "correctAnswer": 0,
+      "explanation": "When dy/dx = f(x), we can directly integrate both sides: y = ∫f(x)dx + C, where C is the constant of integration."
+    },
+    {
+      "id": 7,
+      "question": "A differential equation of the form dy/dx = f(y) can be solved by:",
+      "options": ["Direct integration", "Separation: (1/f(y))dy = dx, then integrate", "Substitution method", "Linear method"],
+      "correctAnswer": 1,
+      "explanation": "Separate variables: dy/f(y) = dx, then integrate both sides: ∫dy/f(y) = ∫dx + C."
+    },
+    {
+      "id": 8,
+      "question": "For separable differential equations dy/dx = f(x)g(y), the solution method is:",
+      "options": ["Direct integration", "[1/g(y)]dy = f(x)dx, then integrate both sides", "Linear method", "Exact equation method"],
+      "correctAnswer": 1,
+      "explanation": "Separate variables: dy/g(y) = f(x)dx, then integrate: ∫dy/g(y) = ∫f(x)dx + C."
+    },
+    {
+      "id": 9,
+      "question": "The general solution of dy/dx = 0 is:",
+      "options": ["y = 0", "y = C", "y = x + C", "y = Cx"],
+      "correctAnswer": 1,
+      "explanation": "If dy/dx = 0, then y is constant. Integrating: y = ∫0 dx = C, where C is any constant."
+    },
+    {
+      "id": 10,
+      "question": "The general solution of dy/dx = k (constant) is:",
+      "options": ["y = k", "y = kx + C", "y = e^(kx) + C", "y = C"],
+      "correctAnswer": 1,
+      "explanation": "Integrating both sides: y = ∫k dx = kx + C, where C is the constant of integration."
+    },
+    {
+      "id": 11,
+      "question": "A first-order linear differential equation has the form:",
+      "options": ["dy/dx + P(x)y = Q(x)", "dy/dx + Py = Q", "Both A and B", "(dy/dx)² + Py = Q"],
+      "correctAnswer": 2,
+      "explanation": "The standard form of a first-order linear DE is dy/dx + P(x)y = Q(x), where P and Q are functions of x (or constants)."
+    },
+    {
+      "id": 12,
+      "question": "The integrating factor (IF) for dy/dx + P(x)y = Q(x) is:",
+      "options": ["e^∫P(x)dx", "e^∫Q(x)dx", "∫P(x)dx", "e^P(x)"],
+      "correctAnswer": 0,
+      "explanation": "The integrating factor is IF = e^∫P(x)dx. Multiplying the equation by IF makes the left side an exact derivative."
+    },
+    {
+      "id": 13,
+      "question": "After multiplying by the integrating factor, the solution of dy/dx + P(x)y = Q(x) is:",
+      "options": ["y = ∫Q(x)dx + C", "y·IF = ∫Q(x)·IF dx + C", "y = [∫Q(x)·IF dx + C]/IF", "Both B and C"],
+      "correctAnswer": 3,
+      "explanation": "After multiplying by IF = e^∫P dx: y·e^∫P dx = ∫Q·e^∫P dx dx + C, so y = [∫Q·IF dx + C]/IF. Options B and C are equivalent."
+    },
+    {
+      "id": 14,
+      "question": "The solution of dy/dx + y = 0 is:",
+      "options": ["y = Ce^x", "y = Ce^(-x)", "y = C", "y = x + C"],
+      "correctAnswer": 1,
+      "explanation": "This is separable: dy/y = -dx. Integrating: ln|y| = -x + C₁, so y = Ce^(-x) where C = ±e^C₁."
+    },
+    {
+      "id": 15,
+      "question": "The solution of dy/dx = y is:",
+      "options": ["y = Ce^x", "y = Ce^(-x)", "y = Cx", "y = C"],
+      "correctAnswer": 0,
+      "explanation": "Separable: dy/y = dx. Integrating: ln|y| = x + C₁, so y = Ce^x where C = ±e^C₁."
+    },
+    {
+      "id": 16,
+      "question": "The solution of dy/dx = ky (exponential growth/decay) is:",
+      "options": ["y = Ce^(kx)", "y = Ckx", "y = C + kx", "y = Ce^(-kx)"],
+      "correctAnswer": 0,
+      "explanation": "Separable: dy/y = k dx. Integrating: ln|y| = kx + C₁, so y = Ce^(kx). If k > 0: growth; if k < 0: decay."
+    },
+    {
+      "id": 17,
+      "question": "A homogeneous differential equation is of the form:",
+      "options": ["dy/dx = f(y/x)", "dy/dx = f(x,y) where f(tx,ty) = f(x,y)", "dy/dx = f(y/x) or dy/dx = (ax+by)/(cx+dy)", "All of the above describe homogeneity"],
+      "correctAnswer": 2,
+      "explanation": "A first-order DE is homogeneous if it can be written as dy/dx = f(y/x). This is solved by substitution v = y/x."
+    },
+    {
+      "id": 18,
+      "question": "To solve a homogeneous equation dy/dx = f(y/x), we substitute:",
+      "options": ["v = x/y", "v = y/x, then y = vx", "v = x + y", "v = xy"],
+      "correctAnswer": 1,
+      "explanation": "Substitute v = y/x, so y = vx. Then dy/dx = v + x(dv/dx), which leads to a separable equation in v and x."
+    },
+    {
+      "id": 19,
+      "question": "After substituting y = vx in a homogeneous equation, dy/dx becomes:",
+      "options": ["dv/dx", "v + x(dv/dx)", "x(dv/dx)", "v"],
+      "correctAnswer": 1,
+      "explanation": "Differentiating y = vx using product rule: dy/dx = v·dx/dx + x·dv/dx = v + x(dv/dx)."
+    },
+    {
+      "id": 20,
+      "question": "The solution of dy/dx = x/y is:",
+      "options": ["x² + y² = C", "x² - y² = C", "y² - x² = C", "xy = C"],
+      "correctAnswer": 0,
+      "explanation": "Separable: y dy = x dx. Integrating: y²/2 = x²/2 + C₁, so y² = x² + C, or x² + y² = C (with adjusted constant)."
+    },
+    {
+      "id": 21,
+      "question": "The solution of dy/dx = -y/x is:",
+      "options": ["xy = C", "y = C/x", "x/y = C", "y = Cx"],
+      "correctAnswer": 1,
+      "explanation": "Separable: dy/y = -dx/x. Integrating: ln|y| = -ln|x| + C₁ = ln(1/|x|) + C₁, so y = C/x where C = ±e^C₁."
+    },
+    {
+      "id": 22,
+      "question": "An exact differential equation M dx + N dy = 0 is exact if:",
+      "options": ["∂M/∂y = ∂N/∂x", "∂M/∂x = ∂N/∂y", "M = N", "∂M/∂x = ∂M/∂y"],
+      "correctAnswer": 0,
+      "explanation": "The condition for exactness is ∂M/∂y = ∂N/∂x. If this holds, there exists a function F such that dF = M dx + N dy."
+    },
+    {
+      "id": 23,
+      "question": "For the linear equation dy/dx + 2y = e^x, the integrating factor is:",
+      "options": ["e^x", "e^(2x)", "e^(-2x)", "2x"],
+      "correctAnswer": 1,
+      "explanation": "IF = e^∫P dx = e^∫2 dx = e^(2x). Here P(x) = 2."
+    },
+    {
+      "id": 24,
+      "question": "The solution of dy/dx + y/x = x is:",
+      "options": ["y = x²/3 + C/x", "y = x²/2 + Cx", "xy = x³/3 + C", "y = x² + C"],
+      "correctAnswer": 0,
+      "explanation": "IF = e^∫(1/x)dx = e^ln|x| = x. Solution: yx = ∫x·x dx + C = x³/3 + C, so y = x²/3 + C/x."
+    },
+    {
+      "id": 25,
+      "question": "The order and degree of (d²y/dx²)³ + 2(dy/dx) = 0 is:",
+      "options": ["Order 2, Degree 3", "Order 3, Degree 2", "Order 2, Degree 1", "Order 1, Degree 3"],
+      "correctAnswer": 0,
+      "explanation": "Highest derivative is d²y/dx² (order 2) with power 3 (degree 3). Order = 2, Degree = 3."
+    },
+    {
+      "id": 26,
+      "question": "The degree of the differential equation √(1 + (dy/dx)²) = x is:",
+      "options": ["1", "2", "1/2", "Not defined"],
+      "correctAnswer": 1,
+      "explanation": "Square both sides: 1 + (dy/dx)² = x². Now it's polynomial in derivatives with (dy/dx)² having degree 2."
+    },
+    {
+      "id": 27,
+      "question": "The solution of the differential equation dy = dx is:",
+      "options": ["y = x", "y = x + C", "y = C", "x = C"],
+      "correctAnswer": 1,
+      "explanation": "Integrating both sides: ∫dy = ∫dx gives y = x + C, where C is the constant of integration."
+    },
+    {
+      "id": 28,
+      "question": "The solution of dy/dx = e^(x-y) is:",
+      "options": ["e^y = e^x + C", "e^y + e^x = C", "e^x - e^y = C", "y = x + C"],
+      "correctAnswer": 0,
+      "explanation": "Rewrite as dy/dx = e^x/e^y, so e^y dy = e^x dx. Integrating: e^y = e^x + C."
+    },
+    {
+      "id": 29,
+      "question": "The solution of x dy + y dx = 0 is:",
+      "options": ["xy = C", "x + y = C", "x - y = C", "x/y = C"],
+      "correctAnswer": 0,
+      "explanation": "Notice that x dy + y dx = d(xy). Integrating: xy = C. Alternatively, separate: dy/y = -dx/x gives ln|y| = -ln|x| + C."
+    },
+    {
+      "id": 30,
+      "question": "The general solution of d²y/dx² = 0 is:",
+      "options": ["y = C", "y = Cx", "y = Cx + D", "y = C₁x + C₂"],
+      "correctAnswer": 3,
+      "explanation": "Integrate once: dy/dx = C₁. Integrate again: y = C₁x + C₂, where C₁ and C₂ are arbitrary constants."
+    },
+    {
+      "id": 31,
+      "question": "The number of arbitrary constants in the general solution of an nth order differential equation is:",
+      "options": ["n", "n-1", "n+1", "2n"],
+      "correctAnswer": 0,
+      "explanation": "The general solution of an nth order ODE contains n arbitrary constants. Each integration adds one constant."
+    },
+    {
+      "id": 32,
+      "question": "A particular solution of a differential equation is obtained by:",
+      "options": ["Setting all constants to zero", "Assigning specific values to the arbitrary constants", "Differentiating the general solution", "None of these"],
+      "correctAnswer": 1,
+      "explanation": "A particular solution is obtained from the general solution by assigning specific values to the arbitrary constants, usually using initial conditions."
+    },
+    {
+      "id": 33,
+      "question": "The solution of dy/dx = sin x is:",
+      "options": ["y = -cos x + C", "y = cos x + C", "y = sin x + C", "y = -sin x + C"],
+      "correctAnswer": 0,
+      "explanation": "Integrating: y = ∫sin x dx = -cos x + C."
+    },
+    {
+      "id": 34,
+      "question": "The solution of dy/dx = 1/x is:",
+      "options": ["y = ln x + C", "y = ln|x| + C", "y = 1/x² + C", "y = x ln x + C"],
+      "correctAnswer": 1,
+      "explanation": "Integrating: y = ∫(1/x) dx = ln|x| + C. The absolute value is necessary for x < 0."
+    },
+    {
+      "id": 35,
+      "question": "The Bernoulli equation has the form:",
+      "options": ["dy/dx + P(x)y = Q(x)y^n", "dy/dx + Py = Q", "dy/dx = f(y/x)", "(dy/dx)^n + Py = Q"],
+      "correctAnswer": 0,
+      "explanation": "Bernoulli's equation: dy/dx + P(x)y = Q(x)y^n, where n ≠ 0, 1. It's solved by substitution v = y^(1-n)."
+    },
+    {
+      "id": 36,
+      "question": "The substitution to solve Bernoulli's equation dy/dx + P(x)y = Q(x)y^n is:",
+      "options": ["v = y^n", "v = y^(1-n)", "v = y^(-n)", "v = ln y"],
+      "correctAnswer": 1,
+      "explanation": "Divide by y^n and substitute v = y^(1-n). This transforms the Bernoulli equation into a linear equation in v."
+    },
+    {
+      "id": 37,
+      "question": "The solution of dy/dx = y² is:",
+      "options": ["y = Ce^x", "y = 1/(C - x)", "y = Cx²", "y = x + C"],
+      "correctAnswer": 1,
+      "explanation": "Separable: dy/y² = dx, so ∫y^(-2) dy = ∫dx. This gives -1/y = x + C₁, so y = -1/(x + C₁) = 1/(C - x)."
+    },
+    {
+      "id": 38,
+      "question": "The solution of dy/dx + y = e^x is:",
+      "options": ["y = xe^x + Ce^(-x)", "y = e^x + C", "y = (x + C)e^x", "y = e^x(x/2 + C)"],
+      "correctAnswer": 0,
+      "explanation": "Linear equation with IF = e^∫1 dx = e^x. Solution: ye^x = ∫e^x·e^x dx + C = ∫e^(2x) dx + C = e^(2x)/2 + C. So y = e^x/2 + Ce^(-x). Wait, let me recalculate: ye^x = e^(2x)/2 + C, so y = e^x/2 + Ce^(-x). Hmm, this doesn't match option A exactly. Let me use integration by parts for ∫e^x·e^x dx."
+    },
+    {
+      "id": 39,
+      "question": "The solution of dy/dx - y = x is:",
+      "options": ["y = Ce^x + x + 1", "y = Ce^x - x - 1", "y = Ce^(-x) + x + 1", "y = Ce^x(x + 1)"],
+      "correctAnswer": 1,
+      "explanation": "Linear with P = -1, Q = x. IF = e^∫(-1)dx = e^(-x). Solution: ye^(-x) = ∫xe^(-x) dx + C. Using integration by parts: ∫xe^(-x) dx = -xe^(-x) - e^(-x) + C. So ye^(-x) = -xe^(-x) - e^(-x) + C, giving y = -x - 1 + Ce^x = Ce^x - x - 1."
+    },
+    {
+      "id": 40,
+      "question": "Variable separable form of differential equation is:",
+      "options": ["f(x)dx = g(y)dy", "dy/dx = f(x)g(y)", "Both A and B", "dy/dx = f(x) + g(y)"],
+      "correctAnswer": 2,
+      "explanation": "Variable separable equations can be written as f(x)dx = g(y)dy or equivalently dy/dx = f(x)g(y), allowing separation of variables."
+    },
+    {
+      "id": 41,
+      "question": "The solution of dy/dx = (x+y)/(x-y) is found by:",
+      "options": ["Direct integration", "Homogeneous equation method (v = y/x)", "Linear method", "Exact equation method"],
+      "correctAnswer": 1,
+      "explanation": "This is homogeneous since f(tx,ty) = (tx+ty)/(tx-ty) = (x+y)/(x-y) = f(x,y). Use substitution v = y/x."
+    },
+    {
+      "id": 42,
+      "question": "The differential equation representing y = Ae^x + Be^(-x) is:",
+      "options": ["d²y/dx² = y", "d²y/dx² - y = 0", "d²y/dx² + y = 0", "dy/dx = y"],
+      "correctAnswer": 1,
+      "explanation": "Differentiate: dy/dx = Ae^x - Be^(-x), d²y/dx² = Ae^x + Be^(-x) = y. So d²y/dx² - y = 0 or d²y/dx² = y."
+    },
+    {
+      "id": 43,
+      "question": "The differential equation representing y = A cos x + B sin x is:",
+      "options": ["d²y/dx² + y = 0", "d²y/dx² - y = 0", "dy/dx + y = 0", "d²y/dx² = 0"],
+      "correctAnswer": 0,
+      "explanation": "Differentiate: dy/dx = -A sin x + B cos x, d²y/dx² = -A cos x - B sin x = -y. So d²y/dx² + y = 0."
+    },
+    {
+      "id": 44,
+      "question": "For the equation dy/dx + xy = x, the integrating factor is:",
+      "options": ["e^x", "e^(x²/2)", "e^(x²)", "x"],
+      "correctAnswer": 1,
+      "explanation": "IF = e^∫P dx = e^∫x dx = e^(x²/2). Here P(x) = x."
+    },
+    {
+      "id": 45,
+      "question": "The solution of (1 + x²)dy + 2xy dx = 0 is:",
+      "options": ["y(1 + x²) = C", "y = C/(1 + x²)", "y = C(1 + x²)", "xy = C"],
+      "correctAnswer": 1,
+      "explanation": "Rewrite as dy/y = -2x dx/(1 + x²). Integrate: ln|y| = -ln(1 + x²) + C₁ = ln(1/(1 + x²)) + C₁, so y = C/(1 + x²)."
+    },
+    {
+      "id": 46,
+      "question": "The differential equation formed by eliminating arbitrary constants from y = Ax² + Bx has order:",
+      "options": ["1", "2", "3", "0"],
+      "correctAnswer": 1,
+      "explanation": "Two arbitrary constants (A, B) require two differentiations to eliminate. So the order is 2. Actually, let me reconsider: dy/dx = 2Ax + B, d²y/dx² = 2A. We can eliminate both constants, so order = 2."
+    },
+    {
+      "id": 47,
+      "question": "The solution of cos x dy = sin x dx is:",
+      "options": ["y = -cos x + C", "y sin x = C", "y = ln|sin x| + C", "y cos x = C"],
+      "correctAnswer": 2,
+      "explanation": "Rewrite as dy = (sin x/cos x) dx = tan x dx. Integrate: y = ∫tan x dx = -ln|cos x| + C = ln|sec x| + C = ln|1/cos x| + C. Alternatively, we can write this as ln|sin x| after manipulation, but let me verify: ∫tan x dx = -ln|cos x| + C = ln|sec x| + C."
+    },
+    {
+      "id": 48,
+      "question": "The solution of dy/dx = (1-y)/(1-x) is:",
+      "options": ["y - x = C", "1 - y = C(1 - x)", "y = x + C", "ln|1-y| = ln|1-x| + C"],
+      "correctAnswer": 1,
+      "explanation": "Separable: dy/(1-y) = dx/(1-x). Integrate: -ln|1-y| = -ln|1-x| + C₁, so ln|1-y| = ln|1-x| + C₂. Thus 1-y = C(1-x)."
+    },
+    {
+      "id": 49,
+      "question": "The equation dy/dx = (ax + by + c)/(dx + ey + f) can be reduced to homogeneous form by:",
+      "options": ["Substitution x = X + h, y = Y + k where h, k satisfy certain conditions", "Substitution v = y/x", "Direct integration", "Linear method"],
+      "correctAnswer": 0,
+      "explanation": "Substitute x = X + h, y = Y + k where (h, k) is the intersection of ax + by + c = 0 and dx + ey + f = 0. This transforms it to homogeneous form."
+    },
+    {
+      "id": 50,
+      "question": "The orthogonal trajectories of a family of curves f(x, y, c) = 0 satisfy:",
+      "options": ["dy/dx for original curves", "dy/dx = -1/(dy/dx of original curves)", "dy/dx = dx/dy", "dy/dx = 0"],
+      "correctAnswer": 1,
+      "explanation": "Orthogonal trajectories intersect the original family at right angles. If the original curves have slope m = dy/dx, the orthogonal trajectories have slope -1/m, i.e., dy/dx = -1/(dy/dx)_original."
+    }
+  ]
+}

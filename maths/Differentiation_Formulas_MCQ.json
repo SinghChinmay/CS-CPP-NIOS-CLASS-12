@@ -1,0 +1,356 @@
+{
+  "title": "Differentiation - Formulas MCQ",
+  "subtitle": "NIOS Class 12 Mathematics - Essential Differentiation Rules and Formulas",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is d/dx(x^n) where n is any real number?",
+      "options": ["nx^n", "nx^(n-1)", "x^(n-1)", "n"],
+      "correctAnswer": 1,
+      "explanation": "The power rule states: d/dx(x^n) = nx^(n-1). This is one of the most fundamental differentiation formulas."
+    },
+    {
+      "id": 2,
+      "question": "What is d/dx(c) where c is a constant?",
+      "options": ["c", "1", "0", "x"],
+      "correctAnswer": 2,
+      "explanation": "The derivative of any constant is zero: d/dx(c) = 0. This is because a constant function has zero rate of change."
+    },
+    {
+      "id": 3,
+      "question": "What is d/dx(cx) where c is a constant?",
+      "options": ["c", "cx", "x", "0"],
+      "correctAnswer": 0,
+      "explanation": "Using the constant multiple rule: d/dx(cx) = c × d/dx(x) = c × 1 = c."
+    },
+    {
+      "id": 4,
+      "question": "The Product Rule states that d/dx[f(x)g(x)] equals:",
+      "options": ["f'(x)g'(x)", "f(x)g'(x) + f'(x)g(x)", "f'(x)g(x)", "f(x)g'(x)"],
+      "correctAnswer": 1,
+      "explanation": "The Product Rule: d/dx[f(x)g(x)] = f(x)g'(x) + f'(x)g(x). Remember: 'first times derivative of second plus second times derivative of first'."
+    },
+    {
+      "id": 5,
+      "question": "The Quotient Rule states that d/dx[f(x)/g(x)] equals:",
+      "options": ["f'(x)/g'(x)", "[g(x)f'(x) - f(x)g'(x)]/[g(x)]²", "[f(x)g'(x) - g(x)f'(x)]/[g(x)]²", "f'(x)g(x)/[g(x)]²"],
+      "correctAnswer": 1,
+      "explanation": "The Quotient Rule: d/dx[f/g] = [g·f' - f·g']/g². Remember: 'low d-high minus high d-low, square the bottom and away we go'."
+    },
+    {
+      "id": 6,
+      "question": "The Chain Rule states that d/dx[f(g(x))] equals:",
+      "options": ["f'(x)g'(x)", "f'(g(x))·g'(x)", "f(g'(x))", "f'(x)g(x)"],
+      "correctAnswer": 1,
+      "explanation": "The Chain Rule: d/dx[f(g(x))] = f'(g(x))·g'(x). Or in Leibniz notation: dy/dx = (dy/du)(du/dx) where u = g(x)."
+    },
+    {
+      "id": 7,
+      "question": "What is d/dx(e^x)?",
+      "options": ["e^x", "xe^(x-1)", "e", "1"],
+      "correctAnswer": 0,
+      "explanation": "The derivative of e^x is unique: d/dx(e^x) = e^x. This is one of the reasons e is so important in calculus."
+    },
+    {
+      "id": 8,
+      "question": "What is d/dx(a^x) where a > 0, a ≠ 1?",
+      "options": ["xa^(x-1)", "a^x", "a^x ln a", "a^x/ln a"],
+      "correctAnswer": 2,
+      "explanation": "For any positive base a: d/dx(a^x) = a^x ln a. When a = e, this becomes e^x ln e = e^x."
+    },
+    {
+      "id": 9,
+      "question": "What is d/dx(ln x)?",
+      "options": ["1/x", "ln x/x", "x", "e^x"],
+      "correctAnswer": 0,
+      "explanation": "The derivative of natural logarithm: d/dx(ln x) = 1/x for x > 0. This is the inverse relationship to d/dx(e^x) = e^x."
+    },
+    {
+      "id": 10,
+      "question": "What is d/dx(log_a x) where a > 0, a ≠ 1?",
+      "options": ["1/x", "1/(x ln a)", "ln a/x", "a/x"],
+      "correctAnswer": 1,
+      "explanation": "For logarithm with base a: d/dx(log_a x) = 1/(x ln a). When a = e, ln e = 1, so we get 1/x."
+    },
+    {
+      "id": 11,
+      "question": "Using the chain rule, d/dx(sin(x²)) equals:",
+      "options": ["cos(x²)", "2x cos(x²)", "-sin(x²)", "2x sin(x²)"],
+      "correctAnswer": 1,
+      "explanation": "By chain rule: d/dx(sin(x²)) = cos(x²) × d/dx(x²) = cos(x²) × 2x = 2x cos(x²)."
+    },
+    {
+      "id": 12,
+      "question": "What is d/dx(e^(3x))?",
+      "options": ["e^(3x)", "3e^(3x)", "3xe^(3x-1)", "e^(3x)/3"],
+      "correctAnswer": 1,
+      "explanation": "Using chain rule: d/dx(e^(3x)) = e^(3x) × d/dx(3x) = e^(3x) × 3 = 3e^(3x)."
+    },
+    {
+      "id": 13,
+      "question": "What is d/dx(√x)?",
+      "options": ["1/(2√x)", "2√x", "√x/2", "1/√x"],
+      "correctAnswer": 0,
+      "explanation": "Rewrite as x^(1/2), then d/dx(x^(1/2)) = (1/2)x^(-1/2) = 1/(2√x) using the power rule."
+    },
+    {
+      "id": 14,
+      "question": "What is d/dx(1/x)?",
+      "options": ["1/x²", "-1/x²", "1", "-1"],
+      "correctAnswer": 1,
+      "explanation": "Rewrite as x^(-1), then d/dx(x^(-1)) = -1·x^(-2) = -1/x² using the power rule."
+    },
+    {
+      "id": 15,
+      "question": "What is d/dx(x³ + 2x² - 5x + 7)?",
+      "options": ["3x² + 4x - 5", "x⁴ + 2x³ - 5x²", "3x² + 2x - 5", "3x² + 4x - 5 + 7"],
+      "correctAnswer": 0,
+      "explanation": "Using sum/difference rule and power rule: d/dx(x³) + d/dx(2x²) - d/dx(5x) + d/dx(7) = 3x² + 4x - 5 + 0 = 3x² + 4x - 5."
+    },
+    {
+      "id": 16,
+      "question": "Using product rule, d/dx(x·e^x) equals:",
+      "options": ["e^x", "xe^x", "e^x + xe^x", "e^x(1 + x)"],
+      "correctAnswer": 3,
+      "explanation": "Product rule: d/dx(x·e^x) = x·d/dx(e^x) + e^x·d/dx(x) = x·e^x + e^x·1 = e^x(1 + x). Options C and D are equivalent."
+    },
+    {
+      "id": 17,
+      "question": "Using quotient rule, d/dx(x/e^x) equals:",
+      "options": ["(1-x)/e^x", "(x-1)/e^x", "1/e^x", "-x/e^x"],
+      "correctAnswer": 0,
+      "explanation": "Quotient rule: d/dx(x/e^x) = [e^x·1 - x·e^x]/(e^x)² = e^x(1-x)/e^(2x) = (1-x)/e^x."
+    },
+    {
+      "id": 18,
+      "question": "What is d/dx(ln(x²))?",
+      "options": ["1/x²", "2/x", "2x", "ln(2x)"],
+      "correctAnswer": 1,
+      "explanation": "Method 1: ln(x²) = 2ln(x), so d/dx(2ln x) = 2/x. Method 2: Chain rule gives (1/x²)·2x = 2/x."
+    },
+    {
+      "id": 19,
+      "question": "What is d/dx(sin x + cos x)?",
+      "options": ["cos x - sin x", "cos x + sin x", "-sin x - cos x", "0"],
+      "correctAnswer": 0,
+      "explanation": "d/dx(sin x + cos x) = d/dx(sin x) + d/dx(cos x) = cos x + (-sin x) = cos x - sin x."
+    },
+    {
+      "id": 20,
+      "question": "What is d/dx(x^x)?",
+      "options": ["xx^(x-1)", "x^x(1 + ln x)", "x^x ln x", "xx^x"],
+      "correctAnswer": 1,
+      "explanation": "Take ln: ln y = x ln x. Differentiate: (1/y)dy/dx = ln x + 1. So dy/dx = y(ln x + 1) = x^x(ln x + 1) = x^x(1 + ln x)."
+    },
+    {
+      "id": 21,
+      "question": "What is d²/dx²(x³)?",
+      "options": ["3x²", "6x", "6", "x²"],
+      "correctAnswer": 1,
+      "explanation": "First derivative: d/dx(x³) = 3x². Second derivative: d/dx(3x²) = 6x."
+    },
+    {
+      "id": 22,
+      "question": "If y = uv where u and v are functions of x, then dy/dx equals:",
+      "options": ["(du/dx)(dv/dx)", "u(dv/dx) + v(du/dx)", "u(dv/dx)", "v(du/dx)"],
+      "correctAnswer": 1,
+      "explanation": "This is the product rule in Leibniz notation: dy/dx = u(dv/dx) + v(du/dx)."
+    },
+    {
+      "id": 23,
+      "question": "What is d/dx(tan x)?",
+      "options": ["sec² x", "cot² x", "-sec² x", "cosec² x"],
+      "correctAnswer": 0,
+      "explanation": "Using quotient rule on sin x/cos x: d/dx(tan x) = (cos²x + sin²x)/cos²x = 1/cos²x = sec²x."
+    },
+    {
+      "id": 24,
+      "question": "What is d/dx(cot x)?",
+      "options": ["cosec² x", "-cosec² x", "sec² x", "-sec² x"],
+      "correctAnswer": 1,
+      "explanation": "Using quotient rule on cos x/sin x: d/dx(cot x) = -(cos²x + sin²x)/sin²x = -1/sin²x = -cosec²x."
+    },
+    {
+      "id": 25,
+      "question": "What is d/dx(sec x)?",
+      "options": ["sec x tan x", "-sec x tan x", "sec² x", "tan x"],
+      "correctAnswer": 0,
+      "explanation": "Rewrite as 1/cos x and use quotient rule: d/dx(sec x) = sin x/cos²x = (1/cos x)(sin x/cos x) = sec x tan x."
+    },
+    {
+      "id": 26,
+      "question": "What is d/dx(cosec x)?",
+      "options": ["cosec x cot x", "-cosec x cot x", "cosec² x", "-cosec² x"],
+      "correctAnswer": 1,
+      "explanation": "Rewrite as 1/sin x and use quotient rule: d/dx(cosec x) = -cos x/sin²x = -(1/sin x)(cos x/sin x) = -cosec x cot x."
+    },
+    {
+      "id": 27,
+      "question": "What is d/dx(sin² x)?",
+      "options": ["2sin x", "sin 2x", "2sin x cos x", "cos 2x"],
+      "correctAnswer": 2,
+      "explanation": "Using chain rule: d/dx(sin² x) = 2sin x · d/dx(sin x) = 2sin x cos x. Note: This equals sin 2x, so B and C are equivalent."
+    },
+    {
+      "id": 28,
+      "question": "What is d/dx(e^(sin x))?",
+      "options": ["e^(sin x)", "e^(cos x)", "e^(sin x) cos x", "e^(sin x) sin x"],
+      "correctAnswer": 2,
+      "explanation": "Using chain rule: d/dx(e^(sin x)) = e^(sin x) × d/dx(sin x) = e^(sin x) × cos x = e^(sin x) cos x."
+    },
+    {
+      "id": 29,
+      "question": "What is d/dx(ln(sin x))?",
+      "options": ["1/sin x", "cos x/sin x", "cot x", "tan x"],
+      "correctAnswer": 2,
+      "explanation": "Using chain rule: d/dx(ln(sin x)) = (1/sin x) × d/dx(sin x) = (1/sin x) × cos x = cos x/sin x = cot x. Options B and C are equivalent."
+    },
+    {
+      "id": 30,
+      "question": "If y = f(x) and x = g(t), then dy/dt equals:",
+      "options": ["(dy/dx)(dx/dt)", "(dx/dt)(dy/dx)", "dy/dx + dx/dt", "dy/dx - dx/dt"],
+      "correctAnswer": 0,
+      "explanation": "This is the chain rule: dy/dt = (dy/dx)(dx/dt). The derivative with respect to t is the product of derivatives."
+    },
+    {
+      "id": 31,
+      "question": "What is d/dx(|x|)?",
+      "options": ["1", "-1", "x/|x|", "Undefined at x=0"],
+      "correctAnswer": 2,
+      "explanation": "d/dx(|x|) = x/|x| which equals 1 for x > 0 and -1 for x < 0. The derivative is undefined at x = 0. So option C is correct with the note that it's undefined at x = 0."
+    },
+    {
+      "id": 32,
+      "question": "What is d/dx(x²e^x)?",
+      "options": ["2xe^x", "x²e^x", "e^x(x² + 2x)", "2x²e^x"],
+      "correctAnswer": 2,
+      "explanation": "Product rule: d/dx(x²e^x) = x² × e^x + e^x × 2x = e^x(x² + 2x)."
+    },
+    {
+      "id": 33,
+      "question": "What is d/dx(x ln x)?",
+      "options": ["ln x", "1 + ln x", "x + ln x", "ln x - 1"],
+      "correctAnswer": 1,
+      "explanation": "Product rule: d/dx(x ln x) = x × (1/x) + ln x × 1 = 1 + ln x."
+    },
+    {
+      "id": 34,
+      "question": "What is d/dx[(x² + 1)³]?",
+      "options": ["3(x² + 1)²", "6x(x² + 1)²", "3x²(x² + 1)²", "2x(x² + 1)³"],
+      "correctAnswer": 1,
+      "explanation": "Chain rule: d/dx[(x² + 1)³] = 3(x² + 1)² × d/dx(x² + 1) = 3(x² + 1)² × 2x = 6x(x² + 1)²."
+    },
+    {
+      "id": 35,
+      "question": "What is d/dx(e^(-x²))?",
+      "options": ["-e^(-x²)", "-2xe^(-x²)", "e^(-x²)", "-x²e^(-x²)"],
+      "correctAnswer": 1,
+      "explanation": "Chain rule: d/dx(e^(-x²)) = e^(-x²) × d/dx(-x²) = e^(-x²) × (-2x) = -2xe^(-x²)."
+    },
+    {
+      "id": 36,
+      "question": "If f(x) = g(h(x)), then f'(x) equals:",
+      "options": ["g'(x)h'(x)", "g'(h(x))h'(x)", "g(h'(x))", "g'(x) + h'(x)"],
+      "correctAnswer": 1,
+      "explanation": "This is the chain rule: if f(x) = g(h(x)), then f'(x) = g'(h(x)) × h'(x)."
+    },
+    {
+      "id": 37,
+      "question": "What is d/dx(sin(1/x))?",
+      "options": ["cos(1/x)", "-cos(1/x)/x²", "cos(1/x)/x²", "-sin(1/x)/x²"],
+      "correctAnswer": 1,
+      "explanation": "Chain rule: d/dx(sin(1/x)) = cos(1/x) × d/dx(1/x) = cos(1/x) × (-1/x²) = -cos(1/x)/x²."
+    },
+    {
+      "id": 38,
+      "question": "What is d/dx(ln|x|)?",
+      "options": ["1/x for all x ≠ 0", "1/|x|", "x/|x|", "Undefined"],
+      "correctAnswer": 0,
+      "explanation": "For x > 0: d/dx(ln x) = 1/x. For x < 0: d/dx(ln(-x)) = 1/(-x) × (-1) = 1/x. Therefore, d/dx(ln|x|) = 1/x for all x ≠ 0."
+    },
+    {
+      "id": 39,
+      "question": "What is d/dx(x^(1/3))?",
+      "options": ["(1/3)x^(-2/3)", "3x^(2/3)", "x^(-2/3)", "(1/3)x^(2/3)"],
+      "correctAnswer": 0,
+      "explanation": "Using power rule: d/dx(x^(1/3)) = (1/3)x^(1/3 - 1) = (1/3)x^(-2/3) = 1/(3∛(x²))."
+    },
+    {
+      "id": 40,
+      "question": "What is d/dx(5^x)?",
+      "options": ["5^x", "x·5^(x-1)", "5^x ln 5", "5^x/ln 5"],
+      "correctAnswer": 2,
+      "explanation": "For exponential with base a: d/dx(a^x) = a^x ln a. Therefore, d/dx(5^x) = 5^x ln 5."
+    },
+    {
+      "id": 41,
+      "question": "What is d/dx(log₁₀ x)?",
+      "options": ["1/x", "1/(x ln 10)", "ln 10/x", "10/x"],
+      "correctAnswer": 1,
+      "explanation": "For logarithm with base a: d/dx(log_a x) = 1/(x ln a). Therefore, d/dx(log₁₀ x) = 1/(x ln 10)."
+    },
+    {
+      "id": 42,
+      "question": "Using product rule, d/dx(x² sin x) equals:",
+      "options": ["2x sin x + x² cos x", "2x cos x", "x² cos x", "2x sin x"],
+      "correctAnswer": 0,
+      "explanation": "Product rule: d/dx(x² sin x) = x² × d/dx(sin x) + sin x × d/dx(x²) = x² cos x + sin x × 2x = 2x sin x + x² cos x."
+    },
+    {
+      "id": 43,
+      "question": "What is d/dx(e^x/x)?",
+      "options": ["e^x/x²", "(xe^x - e^x)/x²", "e^x(x-1)/x²", "e^x/x"],
+      "correctAnswer": 2,
+      "explanation": "Quotient rule: d/dx(e^x/x) = (x·e^x - e^x·1)/x² = e^x(x-1)/x². Options B and C are equivalent."
+    },
+    {
+      "id": 44,
+      "question": "What is d/dx(cos(3x + 2))?",
+      "options": ["-sin(3x + 2)", "-3sin(3x + 2)", "3sin(3x + 2)", "-sin(3x)"],
+      "correctAnswer": 1,
+      "explanation": "Chain rule: d/dx(cos(3x + 2)) = -sin(3x + 2) × d/dx(3x + 2) = -sin(3x + 2) × 3 = -3sin(3x + 2)."
+    },
+    {
+      "id": 45,
+      "question": "What is d/dx(tan² x)?",
+      "options": ["2tan x", "2sec² x", "2tan x sec² x", "sec⁴ x"],
+      "correctAnswer": 2,
+      "explanation": "Chain rule: d/dx(tan² x) = 2tan x × d/dx(tan x) = 2tan x × sec² x = 2tan x sec² x."
+    },
+    {
+      "id": 46,
+      "question": "If y = √(1-x²), what is dy/dx?",
+      "options": ["-x/√(1-x²)", "x/√(1-x²)", "-√(1-x²)/x", "1/(2√(1-x²))"],
+      "correctAnswer": 0,
+      "explanation": "Rewrite as (1-x²)^(1/2). Chain rule: dy/dx = (1/2)(1-x²)^(-1/2) × (-2x) = -x/√(1-x²)."
+    },
+    {
+      "id": 47,
+      "question": "What is d³/dx³(x⁴)?",
+      "options": ["4x³", "12x²", "24x", "24"],
+      "correctAnswer": 2,
+      "explanation": "First: d/dx(x⁴) = 4x³. Second: d²/dx²(x⁴) = 12x². Third: d³/dx³(x⁴) = 24x."
+    },
+    {
+      "id": 48,
+      "question": "What is d/dx(x·cos x)?",
+      "options": ["cos x - x sin x", "-x sin x", "cos x + x sin x", "-sin x"],
+      "correctAnswer": 0,
+      "explanation": "Product rule: d/dx(x·cos x) = x × d/dx(cos x) + cos x × d/dx(x) = x(-sin x) + cos x(1) = cos x - x sin x."
+    },
+    {
+      "id": 49,
+      "question": "What is d/dx(e^(2x) + e^(-2x))?",
+      "options": ["2e^(2x) - 2e^(-2x)", "e^(2x) - e^(-2x)", "2(e^(2x) - e^(-2x))", "2(e^(2x) + e^(-2x))"],
+      "correctAnswer": 0,
+      "explanation": "d/dx(e^(2x)) = 2e^(2x) and d/dx(e^(-2x)) = -2e^(-2x). Sum: 2e^(2x) + (-2e^(-2x)) = 2e^(2x) - 2e^(-2x)."
+    },
+    {
+      "id": 50,
+      "question": "What is d/dx(ln(x² + 1))?",
+      "options": ["1/(x² + 1)", "2x/(x² + 1)", "2x", "ln(2x)"],
+      "correctAnswer": 1,
+      "explanation": "Chain rule: d/dx(ln(x² + 1)) = 1/(x² + 1) × d/dx(x² + 1) = 1/(x² + 1) × 2x = 2x/(x² + 1)."
+    }
+  ]
+}

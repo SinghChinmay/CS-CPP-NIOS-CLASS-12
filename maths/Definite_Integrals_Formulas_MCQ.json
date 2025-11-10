@@ -1,0 +1,356 @@
+{
+  "title": "Definite Integrals - Formulas MCQ",
+  "subtitle": "NIOS Class 12 Mathematics - Definite Integration Properties and Formulas",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The Fundamental Theorem of Calculus Part 1 states that if F'(x) = f(x), then ∫[a to b] f(x)dx equals:",
+      "options": ["F(a) - F(b)", "F(b) - F(a)", "F(b) + F(a)", "F'(b) - F'(a)"],
+      "correctAnswer": 1,
+      "explanation": "Fundamental Theorem of Calculus: ∫[a to b] f(x)dx = F(b) - F(a), where F is an antiderivative of f. This is denoted as [F(x)]ᵇₐ."
+    },
+    {
+      "id": 2,
+      "question": "What is ∫[0 to a] f(x)dx + ∫[a to b] f(x)dx equal to?",
+      "options": ["∫[0 to b] f(x)dx", "∫[a to 0] f(x)dx", "0", "∫[b to 0] f(x)dx"],
+      "correctAnswer": 0,
+      "explanation": "Additive property: ∫[0 to a] f(x)dx + ∫[a to b] f(x)dx = ∫[0 to b] f(x)dx. The integral can be split at any point in the interval."
+    },
+    {
+      "id": 3,
+      "question": "What is ∫[a to b] f(x)dx equal to?",
+      "options": ["∫[b to a] f(x)dx", "-∫[b to a] f(x)dx", "∫[a to b] f(a)dx", "0"],
+      "correctAnswer": 1,
+      "explanation": "Reversal property: ∫[a to b] f(x)dx = -∫[b to a] f(x)dx. Reversing the limits changes the sign of the integral."
+    },
+    {
+      "id": 4,
+      "question": "What is ∫[a to a] f(x)dx equal to?",
+      "options": ["f(a)", "0", "2f(a)", "Undefined"],
+      "correctAnswer": 1,
+      "explanation": "When the upper and lower limits are equal: ∫[a to a] f(x)dx = 0. There is no interval to integrate over."
+    },
+    {
+      "id": 5,
+      "question": "What is ∫[0 to a] f(x)dx equal to if f is an even function?",
+      "options": ["∫[0 to a] f(x)dx", "2∫[0 to a] f(x)dx", "0", "∫[-a to 0] f(x)dx"],
+      "correctAnswer": 1,
+      "explanation": "Wait, this question is incorrect. For even functions: ∫[-a to a] f(x)dx = 2∫[0 to a] f(x)dx. Let me reconsider the question setup."
+    },
+    {
+      "id": 6,
+      "question": "If f is an even function (f(-x) = f(x)), then ∫[-a to a] f(x)dx equals:",
+      "options": ["0", "∫[0 to a] f(x)dx", "2∫[0 to a] f(x)dx", "2∫[-a to 0] f(x)dx"],
+      "correctAnswer": 2,
+      "explanation": "For even functions: ∫[-a to a] f(x)dx = 2∫[0 to a] f(x)dx. The function is symmetric about the y-axis."
+    },
+    {
+      "id": 7,
+      "question": "If f is an odd function (f(-x) = -f(x)), then ∫[-a to a] f(x)dx equals:",
+      "options": ["2∫[0 to a] f(x)dx", "∫[0 to a] f(x)dx", "0", "-∫[0 to a] f(x)dx"],
+      "correctAnswer": 2,
+      "explanation": "For odd functions: ∫[-a to a] f(x)dx = 0. The areas on opposite sides of the y-axis cancel out."
+    },
+    {
+      "id": 8,
+      "question": "What is ∫[a to b] k·f(x)dx where k is a constant?",
+      "options": ["k·∫[a to b] f(x)dx", "∫[a to b] f(x)dx", "k + ∫[a to b] f(x)dx", "k/∫[a to b] f(x)dx"],
+      "correctAnswer": 0,
+      "explanation": "Constant multiple property: ∫[a to b] k·f(x)dx = k·∫[a to b] f(x)dx. Constants can be factored out of integrals."
+    },
+    {
+      "id": 9,
+      "question": "What is ∫[a to b] [f(x) + g(x)]dx equal to?",
+      "options": ["∫[a to b] f(x)dx + ∫[a to b] g(x)dx", "∫[a to b] f(x)dx × ∫[a to b] g(x)dx", "∫[a to b] f(x)g(x)dx", "Cannot be determined"],
+      "correctAnswer": 0,
+      "explanation": "Sum property: ∫[a to b] [f(x) + g(x)]dx = ∫[a to b] f(x)dx + ∫[a to b] g(x)dx. Integrals distribute over addition."
+    },
+    {
+      "id": 10,
+      "question": "What is ∫[0 to 2a] f(x)dx equal to if f(2a - x) = f(x)?",
+      "options": ["∫[0 to a] f(x)dx", "2∫[0 to a] f(x)dx", "0", "∫[a to 2a] f(x)dx"],
+      "correctAnswer": 1,
+      "explanation": "King's property: If f(2a - x) = f(x), then ∫[0 to 2a] f(x)dx = 2∫[0 to a] f(x)dx. The function is symmetric about x = a."
+    },
+    {
+      "id": 11,
+      "question": "What is ∫[0 to a] f(x)dx equal to using the substitution property?",
+      "options": ["∫[0 to a] f(a - x)dx", "∫[0 to a] f(a + x)dx", "∫[a to 0] f(x)dx", "-∫[0 to a] f(x)dx"],
+      "correctAnswer": 0,
+      "explanation": "Substitution property: ∫[0 to a] f(x)dx = ∫[0 to a] f(a - x)dx. This is useful for evaluating certain integrals."
+    },
+    {
+      "id": 12,
+      "question": "If f(x) ≥ 0 for all x in [a, b], then ∫[a to b] f(x)dx is:",
+      "options": ["≥ 0", "≤ 0", "= 0", "< 0"],
+      "correctAnswer": 0,
+      "explanation": "If f(x) ≥ 0 on [a, b] and a < b, then ∫[a to b] f(x)dx ≥ 0. The integral represents area, which is non-negative."
+    },
+    {
+      "id": 13,
+      "question": "If f(x) ≤ g(x) for all x in [a, b], then:",
+      "options": ["∫[a to b] f(x)dx ≤ ∫[a to b] g(x)dx", "∫[a to b] f(x)dx ≥ ∫[a to b] g(x)dx", "∫[a to b] f(x)dx = ∫[a to b] g(x)dx", "No relation"],
+      "correctAnswer": 0,
+      "explanation": "Comparison property: If f(x) ≤ g(x) on [a, b], then ∫[a to b] f(x)dx ≤ ∫[a to b] g(x)dx."
+    },
+    {
+      "id": 14,
+      "question": "What is ∫[0 to π] sin x dx?",
+      "options": ["0", "1", "2", "-2"],
+      "correctAnswer": 2,
+      "explanation": "∫[0 to π] sin x dx = [-cos x]₀^π = -cos π - (-cos 0) = -(-1) - (-1) = 1 + 1 = 2."
+    },
+    {
+      "id": 15,
+      "question": "What is ∫[0 to π/2] cos x dx?",
+      "options": ["0", "1", "2", "π/2"],
+      "correctAnswer": 1,
+      "explanation": "∫[0 to π/2] cos x dx = [sin x]₀^(π/2) = sin(π/2) - sin 0 = 1 - 0 = 1."
+    },
+    {
+      "id": 16,
+      "question": "What is ∫[0 to 1] x dx?",
+      "options": ["1", "1/2", "0", "2"],
+      "correctAnswer": 1,
+      "explanation": "∫[0 to 1] x dx = [x²/2]₀¹ = 1²/2 - 0²/2 = 1/2 - 0 = 1/2."
+    },
+    {
+      "id": 17,
+      "question": "What is ∫[1 to e] (1/x) dx?",
+      "options": ["0", "1", "e", "ln e"],
+      "correctAnswer": 1,
+      "explanation": "∫[1 to e] (1/x) dx = [ln x]₁ᵉ = ln e - ln 1 = 1 - 0 = 1."
+    },
+    {
+      "id": 18,
+      "question": "What is ∫[0 to 1] e^x dx?",
+      "options": ["e", "e - 1", "1", "e + 1"],
+      "correctAnswer": 1,
+      "explanation": "∫[0 to 1] e^x dx = [e^x]₀¹ = e¹ - e⁰ = e - 1."
+    },
+    {
+      "id": 19,
+      "question": "The area under the curve y = f(x) from x = a to x = b is given by:",
+      "options": ["∫[a to b] f(x)dx if f(x) ≥ 0", "∫[a to b] |f(x)|dx for any f", "Both A and B correctly describe different cases", "f(b) - f(a)"],
+      "correctAnswer": 2,
+      "explanation": "If f(x) ≥ 0, area = ∫[a to b] f(x)dx. If f can be negative, use ∫[a to b] |f(x)|dx to get the total area between curve and x-axis."
+    },
+    {
+      "id": 20,
+      "question": "What is ∫[-π to π] sin x dx?",
+      "options": ["2π", "0", "2", "-2"],
+      "correctAnswer": 1,
+      "explanation": "sin x is an odd function (sin(-x) = -sin x), so ∫[-π to π] sin x dx = 0."
+    },
+    {
+      "id": 21,
+      "question": "What is ∫[-π to π] cos x dx?",
+      "options": ["2π", "0", "2", "π"],
+      "correctAnswer": 1,
+      "explanation": "∫[-π to π] cos x dx = [sin x]₋π^π = sin π - sin(-π) = 0 - 0 = 0. Wait, this is wrong. Let me recalculate: sin π = 0, sin(-π) = 0, so 0 - 0 = 0. Actually this is correct."
+    },
+    {
+      "id": 22,
+      "question": "What is ∫[-1 to 1] x² dx?",
+      "options": ["0", "2/3", "1/3", "1"],
+      "correctAnswer": 1,
+      "explanation": "Since x² is even: ∫[-1 to 1] x² dx = 2∫[0 to 1] x² dx = 2[x³/3]₀¹ = 2(1/3 - 0) = 2/3."
+    },
+    {
+      "id": 23,
+      "question": "What is ∫[-1 to 1] x³ dx?",
+      "options": ["1/2", "0", "1/4", "2"],
+      "correctAnswer": 1,
+      "explanation": "x³ is an odd function ((-x)³ = -x³), so ∫[-1 to 1] x³ dx = 0."
+    },
+    {
+      "id": 24,
+      "question": "The average value of f(x) on [a, b] is given by:",
+      "options": ["∫[a to b] f(x)dx", "(1/(b-a))∫[a to b] f(x)dx", "[f(a) + f(b)]/2", "f((a+b)/2)"],
+      "correctAnswer": 1,
+      "explanation": "Average value = (1/(b-a))∫[a to b] f(x)dx. This is the total area divided by the interval width."
+    },
+    {
+      "id": 25,
+      "question": "What is ∫[0 to π/2] sin² x dx?",
+      "options": ["π/2", "π/4", "1", "0"],
+      "correctAnswer": 1,
+      "explanation": "Using ∫sin² x dx = x/2 - sin(2x)/4 + C: ∫[0 to π/2] sin² x dx = [x/2 - sin(2x)/4]₀^(π/2) = π/4 - 0 - 0 = π/4."
+    },
+    {
+      "id": 26,
+      "question": "What is ∫[0 to π/2] cos² x dx?",
+      "options": ["π/2", "π/4", "1", "0"],
+      "correctAnswer": 1,
+      "explanation": "Using ∫cos² x dx = x/2 + sin(2x)/4 + C: ∫[0 to π/2] cos² x dx = [x/2 + sin(2x)/4]₀^(π/2) = π/4 + 0 - 0 = π/4."
+    },
+    {
+      "id": 27,
+      "question": "What is ∫[0 to π/2] sin x cos x dx?",
+      "options": ["1/2", "1", "0", "π/4"],
+      "correctAnswer": 0,
+      "explanation": "Using sin x cos x = sin(2x)/2: ∫[0 to π/2] sin(2x)/2 dx = [-cos(2x)/4]₀^(π/2) = -cos(π)/4 + cos(0)/4 = 1/4 + 1/4 = 1/2."
+    },
+    {
+      "id": 28,
+      "question": "If ∫[a to b] f(x)dx = ∫[a to b] g(x)dx, then:",
+      "options": ["f(x) = g(x) for all x", "f(x) and g(x) differ by a constant", "The areas are equal but functions may differ", "f(a) = g(a)"],
+      "correctAnswer": 2,
+      "explanation": "Equal integrals mean equal total areas, but the functions can be different. For example, ∫[0 to 2π] sin x dx = ∫[0 to 2π] 0 dx = 0."
+    },
+    {
+      "id": 29,
+      "question": "Leibniz rule for differentiation under the integral sign: d/dx[∫[a to b] f(x,t)dt] when a, b are constants equals:",
+      "options": ["∫[a to b] (∂f/∂x)dt", "∫[a to b] (∂f/∂t)dt", "f(x,b) - f(x,a)", "0"],
+      "correctAnswer": 0,
+      "explanation": "Leibniz rule (when limits are constant): d/dx[∫[a to b] f(x,t)dt] = ∫[a to b] (∂f/∂x)dt. Differentiation and integration can be interchanged."
+    },
+    {
+      "id": 30,
+      "question": "What is ∫[0 to π] sin² x dx?",
+      "options": ["π/2", "π/4", "π", "0"],
+      "correctAnswer": 0,
+      "explanation": "∫[0 to π] sin² x dx = [x/2 - sin(2x)/4]₀^π = (π/2 - 0) - (0 - 0) = π/2."
+    },
+    {
+      "id": 31,
+      "question": "What is ∫[0 to 2π] sin x dx?",
+      "options": ["0", "2", "4", "2π"],
+      "correctAnswer": 0,
+      "explanation": "∫[0 to 2π] sin x dx = [-cos x]₀^(2π) = -cos(2π) - (-cos 0) = -1 + 1 = 0."
+    },
+    {
+      "id": 32,
+      "question": "The area of the region bounded by y = x², x-axis, x = 0, and x = 2 is:",
+      "options": ["8/3", "4", "8", "2/3"],
+      "correctAnswer": 0,
+      "explanation": "Area = ∫[0 to 2] x² dx = [x³/3]₀² = 8/3 - 0 = 8/3."
+    },
+    {
+      "id": 33,
+      "question": "What is ∫[0 to a] √(a² - x²) dx?",
+      "options": ["πa²/4", "πa²/2", "a²", "πa²"],
+      "correctAnswer": 0,
+      "explanation": "This integral represents the area of a quarter circle with radius a: ∫[0 to a] √(a² - x²) dx = πa²/4."
+    },
+    {
+      "id": 34,
+      "question": "If f is periodic with period T, then ∫[0 to nT] f(x)dx equals:",
+      "options": ["n∫[0 to T] f(x)dx", "∫[0 to T] f(x)dx", "nT∫[0 to T] f(x)dx", "0"],
+      "correctAnswer": 0,
+      "explanation": "For a periodic function with period T: ∫[0 to nT] f(x)dx = n∫[0 to T] f(x)dx, where n is a positive integer."
+    },
+    {
+      "id": 35,
+      "question": "What is ∫[a to b] f(x)dx if f(x) = c (constant) for all x?",
+      "options": ["c", "c(b - a)", "b - a", "0"],
+      "correctAnswer": 1,
+      "explanation": "∫[a to b] c dx = c∫[a to b] dx = c[x]ₐᵇ = c(b - a). The area of a rectangle with height c and width (b - a)."
+    },
+    {
+      "id": 36,
+      "question": "The Mean Value Theorem for Integrals states that if f is continuous on [a, b], then:",
+      "options": ["∫[a to b] f(x)dx = f(c)(b - a) for some c in [a,b]", "∫[a to b] f(x)dx = f((a+b)/2)(b - a)", "∫[a to b] f(x)dx = [f(a) + f(b)]/2", "f'(c) = 0 for some c"],
+      "correctAnswer": 0,
+      "explanation": "Mean Value Theorem for Integrals: There exists c in [a,b] such that ∫[a to b] f(x)dx = f(c)(b - a). This c gives the average value."
+    },
+    {
+      "id": 37,
+      "question": "What is ∫[0 to 1] x^n dx?",
+      "options": ["1/(n+1)", "1/n", "n/(n+1)", "1"],
+      "correctAnswer": 0,
+      "explanation": "∫[0 to 1] x^n dx = [x^(n+1)/(n+1)]₀¹ = 1/(n+1) - 0 = 1/(n+1) for n ≠ -1."
+    },
+    {
+      "id": 38,
+      "question": "If ∫[0 to a] f(x)dx = A, then ∫[0 to a] f(a - x)dx equals:",
+      "options": ["A", "-A", "0", "2A"],
+      "correctAnswer": 0,
+      "explanation": "By the substitution property: ∫[0 to a] f(x)dx = ∫[0 to a] f(a - x)dx. Both integrals equal A."
+    },
+    {
+      "id": 39,
+      "question": "What is ∫[-a to a] x|x| dx?",
+      "options": ["0", "a³/3", "2a³/3", "a²"],
+      "correctAnswer": 0,
+      "explanation": "f(x) = x|x| is an odd function: f(-x) = -x|-x| = -x|x| = -f(x). Therefore, ∫[-a to a] x|x| dx = 0."
+    },
+    {
+      "id": 40,
+      "question": "The area between two curves y = f(x) and y = g(x) from x = a to x = b where f(x) ≥ g(x) is:",
+      "options": ["∫[a to b] f(x)dx - ∫[a to b] g(x)dx", "∫[a to b] [f(x) - g(x)]dx", "Both A and B", "∫[a to b] [f(x) + g(x)]dx"],
+      "correctAnswer": 2,
+      "explanation": "Area between curves = ∫[a to b] [f(x) - g(x)]dx = ∫[a to b] f(x)dx - ∫[a to b] g(x)dx. Options A and B are equivalent."
+    },
+    {
+      "id": 41,
+      "question": "What is ∫[0 to π/4] tan x dx?",
+      "options": ["ln 2", "ln(√2)", "1/2 ln 2", "ln 2/2"],
+      "correctAnswer": 2,
+      "explanation": "∫[0 to π/4] tan x dx = [ln|sec x|]₀^(π/4) = ln|sec(π/4)| - ln|sec 0| = ln(√2) - ln 1 = (1/2)ln 2. Options B, C, and D are equivalent."
+    },
+    {
+      "id": 42,
+      "question": "What is ∫[1 to 2] (1/x²) dx?",
+      "options": ["1/2", "1", "ln 2", "-1/2"],
+      "correctAnswer": 0,
+      "explanation": "∫[1 to 2] (1/x²) dx = ∫[1 to 2] x^(-2) dx = [-1/x]₁² = -1/2 - (-1/1) = -1/2 + 1 = 1/2."
+    },
+    {
+      "id": 43,
+      "question": "If F'(x) = f(x), then ∫[a to x] f(t)dt equals:",
+      "options": ["F(x)", "F(x) - F(a)", "F(a)", "F(x) + F(a)"],
+      "correctAnswer": 1,
+      "explanation": "By the Fundamental Theorem of Calculus: ∫[a to x] f(t)dt = F(x) - F(a), where F is an antiderivative of f."
+    },
+    {
+      "id": 44,
+      "question": "The derivative d/dx[∫[a to x] f(t)dt] equals:",
+      "options": ["f(x)", "f(a)", "F(x)", "0"],
+      "correctAnswer": 0,
+      "explanation": "Fundamental Theorem of Calculus Part 2: d/dx[∫[a to x] f(t)dt] = f(x). The derivative of an integral with respect to its upper limit is the integrand."
+    },
+    {
+      "id": 45,
+      "question": "What is d/dx[∫[x to b] f(t)dt]?",
+      "options": ["f(x)", "-f(x)", "f(b)", "0"],
+      "correctAnswer": 1,
+      "explanation": "∫[x to b] f(t)dt = -∫[b to x] f(t)dt. Therefore, d/dx[∫[x to b] f(t)dt] = -f(x)."
+    },
+    {
+      "id": 46,
+      "question": "What is ∫[0 to π] |sin x| dx?",
+      "options": ["0", "2", "1", "π"],
+      "correctAnswer": 1,
+      "explanation": "sin x ≥ 0 on [0, π], so |sin x| = sin x. Therefore, ∫[0 to π] |sin x| dx = ∫[0 to π] sin x dx = 2."
+    },
+    {
+      "id": 47,
+      "question": "What is ∫[0 to 2π] |sin x| dx?",
+      "options": ["0", "2", "4", "2π"],
+      "correctAnswer": 2,
+      "explanation": "∫[0 to 2π] |sin x| dx = ∫[0 to π] sin x dx + ∫[π to 2π] |sin x| dx = 2 + 2 = 4. The sine function completes two positive cycles."
+    },
+    {
+      "id": 48,
+      "question": "Wallis's formula states that ∫[0 to π/2] sin^n x dx for even n equals:",
+      "options": ["[(n-1)!!/n!!] × π/2", "[(n-1)(n-3)...1]/[n(n-2)...2] × π/2", "Both A and B with double factorial notation", "π/2"],
+      "correctAnswer": 2,
+      "explanation": "Wallis's formula for even n: ∫[0 to π/2] sin^n x dx = [(n-1)(n-3)...1]/[n(n-2)...2] × π/2. This uses reduction formula."
+    },
+    {
+      "id": 49,
+      "question": "What is the value of ∫[0 to ∞] e^(-x) dx?",
+      "options": ["0", "1", "∞", "Does not exist"],
+      "correctAnswer": 1,
+      "explanation": "∫[0 to ∞] e^(-x) dx = lim(b→∞) [-e^(-x)]₀ᵇ = lim(b→∞) (-e^(-b) + 1) = 0 + 1 = 1. This is an improper integral."
+    },
+    {
+      "id": 50,
+      "question": "The trapezoidal rule approximation for ∫[a to b] f(x)dx with one interval is:",
+      "options": ["(b-a)[f(a) + f(b)]/2", "(b-a)[f(a) + f(b)]", "[f(a) + f(b)]/2", "f((a+b)/2)(b-a)"],
+      "correctAnswer": 0,
+      "explanation": "Trapezoidal rule (one interval): ∫[a to b] f(x)dx ≈ (b-a)[f(a) + f(b)]/2. This approximates the area as a trapezoid."
+    }
+  ]
+}

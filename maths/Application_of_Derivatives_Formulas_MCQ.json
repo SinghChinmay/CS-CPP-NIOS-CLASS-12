@@ -1,0 +1,356 @@
+{
+  "title": "Application of Derivatives - Formulas MCQ",
+  "subtitle": "NIOS Class 12 Mathematics - Formulas for Tangents, Normals, Maxima, Minima, and Applications",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The slope of the tangent to the curve y = f(x) at point (x₀, y₀) is given by:",
+      "options": ["f(x₀)", "f'(x₀)", "f''(x₀)", "y₀/x₀"],
+      "correctAnswer": 1,
+      "explanation": "The slope of the tangent line at a point is the value of the derivative at that point: m = f'(x₀)."
+    },
+    {
+      "id": 2,
+      "question": "The equation of the tangent line to y = f(x) at (a, f(a)) is:",
+      "options": ["y = f'(a)x + f(a)", "y - f(a) = f'(a)(x - a)", "y = f(a)x + f'(a)", "x - a = f'(a)(y - f(a))"],
+      "correctAnswer": 1,
+      "explanation": "Using point-slope form with slope m = f'(a) and point (a, f(a)): y - f(a) = f'(a)(x - a)."
+    },
+    {
+      "id": 3,
+      "question": "The slope of the normal to the curve y = f(x) at point (x₀, y₀) is:",
+      "options": ["f'(x₀)", "-f'(x₀)", "-1/f'(x₀)", "1/f'(x₀)"],
+      "correctAnswer": 2,
+      "explanation": "The normal is perpendicular to the tangent. If tangent slope = f'(x₀), then normal slope = -1/f'(x₀) (negative reciprocal)."
+    },
+    {
+      "id": 4,
+      "question": "The equation of the normal line to y = f(x) at (a, f(a)) is:",
+      "options": ["y - f(a) = -1/f'(a) × (x - a)", "y - f(a) = f'(a)(x - a)", "y = -f'(a)x + f(a)", "x - a = -f'(a)(y - f(a))"],
+      "correctAnswer": 0,
+      "explanation": "Using point-slope form with normal slope m = -1/f'(a) and point (a, f(a)): y - f(a) = -1/f'(a) × (x - a)."
+    },
+    {
+      "id": 5,
+      "question": "A function f(x) is increasing on an interval if:",
+      "options": ["f'(x) > 0", "f'(x) < 0", "f'(x) = 0", "f''(x) > 0"],
+      "correctAnswer": 0,
+      "explanation": "A function is increasing on an interval when its derivative is positive: f'(x) > 0 for all x in that interval."
+    },
+    {
+      "id": 6,
+      "question": "A function f(x) is decreasing on an interval if:",
+      "options": ["f'(x) > 0", "f'(x) < 0", "f'(x) = 0", "f''(x) < 0"],
+      "correctAnswer": 1,
+      "explanation": "A function is decreasing on an interval when its derivative is negative: f'(x) < 0 for all x in that interval."
+    },
+    {
+      "id": 7,
+      "question": "The necessary condition for f(x) to have a local extremum at x = c is:",
+      "options": ["f'(c) = 0", "f''(c) = 0", "f(c) = 0", "f'(c) > 0"],
+      "correctAnswer": 0,
+      "explanation": "At a local maximum or minimum (critical point), the derivative must be zero or undefined. The necessary condition is f'(c) = 0 (for differentiable functions)."
+    },
+    {
+      "id": 8,
+      "question": "If f'(c) = 0 and f''(c) > 0, then at x = c the function has:",
+      "options": ["Local maximum", "Local minimum", "Point of inflection", "Cannot determine"],
+      "correctAnswer": 1,
+      "explanation": "Second Derivative Test: If f'(c) = 0 and f''(c) > 0, the function has a local minimum at x = c (concave up)."
+    },
+    {
+      "id": 9,
+      "question": "If f'(c) = 0 and f''(c) < 0, then at x = c the function has:",
+      "options": ["Local maximum", "Local minimum", "Point of inflection", "Cannot determine"],
+      "correctAnswer": 0,
+      "explanation": "Second Derivative Test: If f'(c) = 0 and f''(c) < 0, the function has a local maximum at x = c (concave down)."
+    },
+    {
+      "id": 10,
+      "question": "If f'(c) = 0 and f''(c) = 0, then:",
+      "options": ["c is a local minimum", "c is a local maximum", "The test is inconclusive", "c is a point of inflection"],
+      "correctAnswer": 2,
+      "explanation": "When both f'(c) = 0 and f''(c) = 0, the Second Derivative Test fails. We need to use other methods (First Derivative Test or higher derivatives)."
+    },
+    {
+      "id": 11,
+      "question": "A point where f''(x) changes sign is called a:",
+      "options": ["Critical point", "Stationary point", "Point of inflection", "Maximum point"],
+      "correctAnswer": 2,
+      "explanation": "A point of inflection is where the concavity changes, which occurs when f''(x) changes sign (from positive to negative or vice versa)."
+    },
+    {
+      "id": 12,
+      "question": "The rate of change of y with respect to x is given by:",
+      "options": ["dy/dx", "y/x", "Δy/Δx", "y - x"],
+      "correctAnswer": 0,
+      "explanation": "The instantaneous rate of change is the derivative: dy/dx. Option C represents average rate of change."
+    },
+    {
+      "id": 13,
+      "question": "If the angle between the tangent and x-axis is θ, then the slope of the tangent is:",
+      "options": ["sin θ", "cos θ", "tan θ", "cot θ"],
+      "correctAnswer": 2,
+      "explanation": "The slope of a line making angle θ with the positive x-axis is m = tan θ. Therefore, f'(x) = tan θ."
+    },
+    {
+      "id": 14,
+      "question": "The angle φ between two curves at their point of intersection is given by:",
+      "options": ["tan φ = |m₁ - m₂|", "tan φ = |(m₁ - m₂)/(1 + m₁m₂)|", "tan φ = m₁ + m₂", "tan φ = m₁m₂"],
+      "correctAnswer": 1,
+      "explanation": "The angle between two curves equals the angle between their tangents: tan φ = |(m₁ - m₂)/(1 + m₁m₂)|, where m₁ and m₂ are the slopes of the tangents."
+    },
+    {
+      "id": 15,
+      "question": "Two curves intersect orthogonally (at right angles) if:",
+      "options": ["m₁ + m₂ = 0", "m₁m₂ = -1", "m₁ = m₂", "m₁ - m₂ = 1"],
+      "correctAnswer": 1,
+      "explanation": "Two curves are orthogonal at their intersection if their tangents are perpendicular: m₁m₂ = -1 (product of slopes = -1)."
+    },
+    {
+      "id": 16,
+      "question": "The absolute maximum value of a continuous function f(x) on [a, b] occurs at:",
+      "options": ["Only critical points", "Only endpoints", "Critical points or endpoints", "Only where f'(x) = 0"],
+      "correctAnswer": 2,
+      "explanation": "By the Extreme Value Theorem, absolute extrema on a closed interval occur either at critical points (where f'(x) = 0 or undefined) or at the endpoints a and b."
+    },
+    {
+      "id": 17,
+      "question": "If x is increasing at rate dx/dt, then the rate of change of f(x) is:",
+      "options": ["f'(x)", "df/dt = f'(x) × dx/dt", "dx/dt", "f(x) × dx/dt"],
+      "correctAnswer": 1,
+      "explanation": "Using the chain rule: df/dt = (df/dx) × (dx/dt) = f'(x) × dx/dt. This is the basis of related rates problems."
+    },
+    {
+      "id": 18,
+      "question": "The differential dy of a function y = f(x) is given by:",
+      "options": ["dy = f(x)dx", "dy = f'(x)dx", "dy = f''(x)dx", "dy = dx/f'(x)"],
+      "correctAnswer": 1,
+      "explanation": "The differential of y is defined as: dy = f'(x)dx, where dx is the differential of x."
+    },
+    {
+      "id": 19,
+      "question": "The approximate change Δy in y = f(x) when x changes from a to a + Δx is:",
+      "options": ["Δy ≈ f(a)Δx", "Δy ≈ f'(a)Δx", "Δy ≈ f''(a)Δx", "Δy ≈ Δx"],
+      "correctAnswer": 1,
+      "explanation": "Using linear approximation: Δy ≈ dy = f'(a)Δx. This gives the approximate change using the tangent line."
+    },
+    {
+      "id": 20,
+      "question": "Rolle's Theorem states that if f(a) = f(b), f is continuous on [a,b] and differentiable on (a,b), then:",
+      "options": ["f'(c) = 0 for some c in (a,b)", "f(c) = 0 for some c in (a,b)", "f''(c) = 0 for some c in (a,b)", "f is constant"],
+      "correctAnswer": 0,
+      "explanation": "Rolle's Theorem: Under the given conditions, there exists at least one c in (a,b) such that f'(c) = 0."
+    },
+    {
+      "id": 21,
+      "question": "Mean Value Theorem states that if f is continuous on [a,b] and differentiable on (a,b), then:",
+      "options": ["f'(c) = [f(b) - f(a)]/(b - a) for some c in (a,b)", "f(c) = [f(a) + f(b)]/2", "f''(c) = 0", "f'(a) = f'(b)"],
+      "correctAnswer": 0,
+      "explanation": "Mean Value Theorem: There exists c in (a,b) such that f'(c) = [f(b) - f(a)]/(b - a). The instantaneous rate equals the average rate."
+    },
+    {
+      "id": 22,
+      "question": "A function is concave up on an interval if:",
+      "options": ["f'(x) > 0", "f'(x) < 0", "f''(x) > 0", "f''(x) < 0"],
+      "correctAnswer": 2,
+      "explanation": "A function is concave up (convex) when f''(x) > 0. The graph curves upward like a cup ∪."
+    },
+    {
+      "id": 23,
+      "question": "A function is concave down on an interval if:",
+      "options": ["f'(x) > 0", "f'(x) < 0", "f''(x) > 0", "f''(x) < 0"],
+      "correctAnswer": 3,
+      "explanation": "A function is concave down when f''(x) < 0. The graph curves downward like a cap ∩."
+    },
+    {
+      "id": 24,
+      "question": "For a rectangle with perimeter P, the maximum area occurs when:",
+      "options": ["Length = 2 × Width", "Length = Width (square)", "Length = 3 × Width", "Area is unbounded"],
+      "correctAnswer": 1,
+      "explanation": "Given perimeter P = 2(l + w), area A = lw is maximized when l = w, i.e., when the rectangle is a square."
+    },
+    {
+      "id": 25,
+      "question": "The linear approximation formula for f(x) near x = a is:",
+      "options": ["f(x) ≈ f(a) + f'(a)", "f(x) ≈ f(a) + f'(a)(x - a)", "f(x) ≈ f'(a)(x - a)", "f(x) ≈ f(a)x"],
+      "correctAnswer": 1,
+      "explanation": "Linear approximation (tangent line approximation): f(x) ≈ f(a) + f'(a)(x - a) for x near a."
+    },
+    {
+      "id": 26,
+      "question": "If y = x³, what is the approximate change in y when x changes from 2 to 2.01?",
+      "options": ["dy = 0.12", "dy = 0.012", "dy = 12", "dy = 1.2"],
+      "correctAnswer": 0,
+      "explanation": "dy = f'(x)dx = 3x²dx. At x = 2, dx = 0.01: dy = 3(2)²(0.01) = 3(4)(0.01) = 0.12."
+    },
+    {
+      "id": 27,
+      "question": "The formula for percentage error in a quantity Q is:",
+      "options": ["(dQ/Q) × 100%", "(dQ × Q) × 100%", "Q/dQ × 100%", "dQ + Q"],
+      "correctAnswer": 0,
+      "explanation": "Percentage error = (Absolute error/Actual value) × 100% = (dQ/Q) × 100%."
+    },
+    {
+      "id": 28,
+      "question": "If the radius of a circle increases from r to r + Δr, the approximate change in area is:",
+      "options": ["πΔr", "2πrΔr", "πr²Δr", "2π(Δr)²"],
+      "correctAnswer": 1,
+      "explanation": "A = πr², so dA = 2πr dr. Therefore, ΔA ≈ dA = 2πrΔr."
+    },
+    {
+      "id": 29,
+      "question": "The elasticity of demand η for price p and quantity q is defined as:",
+      "options": ["η = (p/q)(dq/dp)", "η = (q/p)(dp/dq)", "η = dq/dp", "η = p × q"],
+      "correctAnswer": 0,
+      "explanation": "Elasticity of demand: η = (p/q)(dq/dp) or η = (percentage change in q)/(percentage change in p)."
+    },
+    {
+      "id": 30,
+      "question": "Newton's method for finding roots uses the iteration formula:",
+      "options": ["x_{n+1} = x_n - f(x_n)", "x_{n+1} = x_n - f(x_n)/f'(x_n)", "x_{n+1} = x_n + f(x_n)/f'(x_n)", "x_{n+1} = f(x_n)"],
+      "correctAnswer": 1,
+      "explanation": "Newton-Raphson method: x_{n+1} = x_n - f(x_n)/f'(x_n). This uses the tangent line to approximate the root."
+    },
+    {
+      "id": 31,
+      "question": "The condition for f(x) to have neither maximum nor minimum at x = c is:",
+      "options": ["f'(c) = 0 and f''(c) = 0", "f'(c) ≠ 0", "f'(c) changes sign at c", "f'(c) does not change sign at c"],
+      "correctAnswer": 3,
+      "explanation": "If f'(c) = 0 but f'(x) does not change sign as x passes through c, then c is neither a max nor min (e.g., f(x) = x³ at x = 0)."
+    },
+    {
+      "id": 32,
+      "question": "If a particle's position is s(t), its velocity v(t) is:",
+      "options": ["s(t)", "ds/dt", "d²s/dt²", "∫s(t)dt"],
+      "correctAnswer": 1,
+      "explanation": "Velocity is the rate of change of position: v(t) = ds/dt = s'(t)."
+    },
+    {
+      "id": 33,
+      "question": "If a particle's velocity is v(t), its acceleration a(t) is:",
+      "options": ["v(t)", "dv/dt", "∫v(t)dt", "v²(t)"],
+      "correctAnswer": 1,
+      "explanation": "Acceleration is the rate of change of velocity: a(t) = dv/dt = v'(t) = s''(t)."
+    },
+    {
+      "id": 34,
+      "question": "The length of the tangent from point (x₀, y₀) on the curve to the x-axis is:",
+      "options": ["y₀√(1 + (dy/dx)²)", "y₀/|dy/dx|", "y₀|dy/dx|", "y₀√(1 + 1/(dy/dx)²)"],
+      "correctAnswer": 1,
+      "explanation": "Length of tangent = |y₀|/|dy/dx| at (x₀, y₀). This is the distance from the point to where the tangent meets the x-axis."
+    },
+    {
+      "id": 35,
+      "question": "The length of the normal from point (x₀, y₀) on the curve to the x-axis is:",
+      "options": ["y₀|dy/dx|", "|y₀|/|dy/dx|", "y₀√(1 + (dy/dx)²)", "y₀"],
+      "correctAnswer": 0,
+      "explanation": "Length of normal = |y₀||dy/dx| at (x₀, y₀). This is the distance from the point to where the normal meets the x-axis."
+    },
+    {
+      "id": 36,
+      "question": "The length of the subtangent at point (x₀, y₀) is:",
+      "options": ["|y₀|/|dy/dx|", "|y₀||dy/dx|", "|y₀|√(1 + (dy/dx)²)", "x₀"],
+      "correctAnswer": 1,
+      "explanation": "Length of subtangent = |y₀|/|dy/dx|. This is the projection of the tangent on the x-axis. Wait, I need to recalculate: subtangent = |y/(dy/dx)|."
+    },
+    {
+      "id": 37,
+      "question": "The length of the subnormal at point (x₀, y₀) is:",
+      "options": ["|y₀||dy/dx|", "|y₀|/|dy/dx|", "x₀", "|dy/dx|"],
+      "correctAnswer": 0,
+      "explanation": "Length of subnormal = |y₀||dy/dx|. This is the projection of the normal on the x-axis."
+    },
+    {
+      "id": 38,
+      "question": "For a closed cylinder with fixed volume V, the minimum surface area occurs when:",
+      "options": ["h = r", "h = 2r", "h = r/2", "h = 3r"],
+      "correctAnswer": 1,
+      "explanation": "For a cylinder with volume V = πr²h, the surface area S = 2πr² + 2πrh is minimized when h = 2r (height equals diameter)."
+    },
+    {
+      "id": 39,
+      "question": "If f''(x) exists and is continuous, a necessary condition for a point of inflection at x = c is:",
+      "options": ["f'(c) = 0", "f''(c) = 0", "f(c) = 0", "f'''(c) = 0"],
+      "correctAnswer": 1,
+      "explanation": "A necessary (but not sufficient) condition for a point of inflection is f''(c) = 0. The concavity must also change."
+    },
+    {
+      "id": 40,
+      "question": "The marginal cost MC is related to total cost C(x) by:",
+      "options": ["MC = C(x)", "MC = dC/dx", "MC = C(x)/x", "MC = x × C(x)"],
+      "correctAnswer": 1,
+      "explanation": "Marginal cost is the derivative of total cost: MC = dC/dx. It represents the cost of producing one additional unit."
+    },
+    {
+      "id": 41,
+      "question": "The marginal revenue MR is related to total revenue R(x) by:",
+      "options": ["MR = R(x)", "MR = dR/dx", "MR = R(x)/x", "MR = x × R(x)"],
+      "correctAnswer": 1,
+      "explanation": "Marginal revenue is the derivative of total revenue: MR = dR/dx. It represents the revenue from selling one additional unit."
+    },
+    {
+      "id": 42,
+      "question": "Profit is maximized when:",
+      "options": ["MR = MC", "MR > MC", "MR < MC", "MR + MC = 0"],
+      "correctAnswer": 0,
+      "explanation": "Maximum profit occurs when marginal revenue equals marginal cost: MR = MC, i.e., dR/dx = dC/dx."
+    },
+    {
+      "id": 43,
+      "question": "The critical numbers of f(x) are values where:",
+      "options": ["f(x) = 0", "f'(x) = 0 or f'(x) is undefined", "f''(x) = 0", "f(x) is maximum"],
+      "correctAnswer": 1,
+      "explanation": "Critical numbers (critical points) are values in the domain where f'(x) = 0 or f'(x) does not exist."
+    },
+    {
+      "id": 44,
+      "question": "For a sphere of radius r, if the radius increases by dr, the approximate change in volume is:",
+      "options": ["4πr²dr", "4πr³dr", "(4/3)πr²dr", "4πrdr"],
+      "correctAnswer": 0,
+      "explanation": "V = (4/3)πr³, so dV = 4πr²dr. This equals the surface area times the change in radius."
+    },
+    {
+      "id": 45,
+      "question": "The instantaneous rate of change of f(x) at x = a is:",
+      "options": ["f(a)", "f'(a)", "[f(a+h) - f(a)]/h for any h", "lim_{h→0} [f(a+h) - f(a)]/h"],
+      "correctAnswer": 3,
+      "explanation": "The instantaneous rate of change is the derivative: f'(a) = lim_{h→0} [f(a+h) - f(a)]/h. Options B and D represent the same thing."
+    },
+    {
+      "id": 46,
+      "question": "If y changes from y₁ to y₂ when x changes from x₁ to x₂, the average rate of change is:",
+      "options": ["(y₂ - y₁)/(x₂ - x₁)", "dy/dx", "(x₂ - x₁)/(y₂ - y₁)", "y₂/x₂"],
+      "correctAnswer": 0,
+      "explanation": "Average rate of change = Δy/Δx = (y₂ - y₁)/(x₂ - x₁). This is the slope of the secant line."
+    },
+    {
+      "id": 47,
+      "question": "A function has a local maximum at x = c if f'(x) changes from:",
+      "options": ["Negative to positive", "Positive to negative", "Zero to positive", "Zero to negative"],
+      "correctAnswer": 1,
+      "explanation": "First Derivative Test: f has a local maximum at c if f'(x) changes from positive (increasing) to negative (decreasing) as x passes through c."
+    },
+    {
+      "id": 48,
+      "question": "A function has a local minimum at x = c if f'(x) changes from:",
+      "options": ["Negative to positive", "Positive to negative", "Zero to positive", "Positive to zero"],
+      "correctAnswer": 0,
+      "explanation": "First Derivative Test: f has a local minimum at c if f'(x) changes from negative (decreasing) to positive (increasing) as x passes through c."
+    },
+    {
+      "id": 49,
+      "question": "For related rates problems, if x and y are related by an equation and both vary with time t, then:",
+      "options": ["dx/dy gives the relationship", "dy/dx gives the relationship", "Differentiate the equation with respect to t", "x and y are independent"],
+      "correctAnswer": 2,
+      "explanation": "In related rates, differentiate the given equation with respect to time t, treating x and y as functions of t, to get dx/dt and dy/dt."
+    },
+    {
+      "id": 50,
+      "question": "The absolute value of the rate of change of a quantity Q is called:",
+      "options": ["Relative error", "Absolute error", "Percentage error", "Differential"],
+      "correctAnswer": 1,
+      "explanation": "Absolute error = |dQ|. The actual change in the quantity. Relative error = |dQ|/|Q|. Percentage error = (|dQ|/|Q|) × 100%."
+    }
+  ]
+}

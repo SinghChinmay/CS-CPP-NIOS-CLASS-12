@@ -1,0 +1,356 @@
+{
+  "title": "Integration - Formulas MCQ",
+  "subtitle": "NIOS Class 12 Mathematics - Integration Formulas and Techniques",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is ∫x^n dx where n ≠ -1?",
+      "options": ["nx^(n-1) + C", "x^(n+1)/(n+1) + C", "x^n + C", "n·x^(n+1) + C"],
+      "correctAnswer": 1,
+      "explanation": "Power rule for integration: ∫x^n dx = x^(n+1)/(n+1) + C, where n ≠ -1. This is the reverse of the power rule for differentiation."
+    },
+    {
+      "id": 2,
+      "question": "What is ∫(1/x) dx?",
+      "options": ["x + C", "ln x + C", "ln|x| + C", "1/x² + C"],
+      "correctAnswer": 2,
+      "explanation": "∫(1/x) dx = ln|x| + C. The absolute value is important because the logarithm is defined for all x ≠ 0."
+    },
+    {
+      "id": 3,
+      "question": "What is ∫e^x dx?",
+      "options": ["e^x + C", "xe^x + C", "e^(x+1) + C", "e^x/x + C"],
+      "correctAnswer": 0,
+      "explanation": "∫e^x dx = e^x + C. The exponential function e^x is its own integral and derivative."
+    },
+    {
+      "id": 4,
+      "question": "What is ∫a^x dx where a > 0, a ≠ 1?",
+      "options": ["a^x + C", "a^x ln a + C", "a^x/ln a + C", "xa^(x-1) + C"],
+      "correctAnswer": 2,
+      "explanation": "∫a^x dx = a^x/ln a + C. When a = e, ln e = 1, giving ∫e^x dx = e^x + C."
+    },
+    {
+      "id": 5,
+      "question": "What is ∫sin x dx?",
+      "options": ["cos x + C", "-cos x + C", "sin x + C", "-sin x + C"],
+      "correctAnswer": 1,
+      "explanation": "∫sin x dx = -cos x + C. This is verified by differentiating: d/dx(-cos x) = sin x."
+    },
+    {
+      "id": 6,
+      "question": "What is ∫cos x dx?",
+      "options": ["-sin x + C", "sin x + C", "cos x + C", "-cos x + C"],
+      "correctAnswer": 1,
+      "explanation": "∫cos x dx = sin x + C. This is verified by differentiating: d/dx(sin x) = cos x."
+    },
+    {
+      "id": 7,
+      "question": "What is ∫sec² x dx?",
+      "options": ["sec x + C", "tan x + C", "cot x + C", "sec x tan x + C"],
+      "correctAnswer": 1,
+      "explanation": "∫sec² x dx = tan x + C. This follows from d/dx(tan x) = sec² x."
+    },
+    {
+      "id": 8,
+      "question": "What is ∫cosec² x dx?",
+      "options": ["cosec x + C", "-cot x + C", "cot x + C", "-cosec x + C"],
+      "correctAnswer": 1,
+      "explanation": "∫cosec² x dx = -cot x + C or ∫csc² x dx = -cot x + C. This follows from d/dx(-cot x) = cosec² x."
+    },
+    {
+      "id": 9,
+      "question": "What is ∫sec x tan x dx?",
+      "options": ["sec x + C", "tan x + C", "sec² x + C", "sec x tan² x + C"],
+      "correctAnswer": 0,
+      "explanation": "∫sec x tan x dx = sec x + C. This follows from d/dx(sec x) = sec x tan x."
+    },
+    {
+      "id": 10,
+      "question": "What is ∫cosec x cot x dx?",
+      "options": ["cosec x + C", "-cosec x + C", "cot x + C", "-cot x + C"],
+      "correctAnswer": 1,
+      "explanation": "∫cosec x cot x dx = -cosec x + C or ∫csc x cot x dx = -csc x + C. This follows from d/dx(-cosec x) = cosec x cot x."
+    },
+    {
+      "id": 11,
+      "question": "What is ∫tan x dx?",
+      "options": ["sec² x + C", "ln|sec x| + C", "-ln|cos x| + C", "Both B and C"],
+      "correctAnswer": 3,
+      "explanation": "∫tan x dx = ln|sec x| + C = -ln|cos x| + C. Both forms are correct since ln|sec x| = ln|1/cos x| = -ln|cos x|."
+    },
+    {
+      "id": 12,
+      "question": "What is ∫cot x dx?",
+      "options": ["ln|sin x| + C", "-ln|sin x| + C", "ln|cosec x| + C", "cosec² x + C"],
+      "correctAnswer": 0,
+      "explanation": "∫cot x dx = ln|sin x| + C. This can be derived by writing cot x = cos x/sin x and using substitution."
+    },
+    {
+      "id": 13,
+      "question": "What is ∫sec x dx?",
+      "options": ["tan x + C", "ln|sec x + tan x| + C", "ln|sec x| + C", "sec x tan x + C"],
+      "correctAnswer": 1,
+      "explanation": "∫sec x dx = ln|sec x + tan x| + C. This is a standard formula derived using a clever manipulation."
+    },
+    {
+      "id": 14,
+      "question": "What is ∫cosec x dx?",
+      "options": ["ln|cosec x - cot x| + C", "-ln|cosec x + cot x| + C", "Both A and B", "-cot x + C"],
+      "correctAnswer": 2,
+      "explanation": "∫cosec x dx = ln|cosec x - cot x| + C = -ln|cosec x + cot x| + C. Both forms are equivalent."
+    },
+    {
+      "id": 15,
+      "question": "What is ∫1/√(1-x²) dx?",
+      "options": ["sin⁻¹ x + C", "cos⁻¹ x + C", "tan⁻¹ x + C", "Both A and -B"],
+      "correctAnswer": 3,
+      "explanation": "∫1/√(1-x²) dx = sin⁻¹ x + C = -cos⁻¹ x + C₁. The two forms differ by a constant."
+    },
+    {
+      "id": 16,
+      "question": "What is ∫1/(1+x²) dx?",
+      "options": ["sin⁻¹ x + C", "tan⁻¹ x + C", "sec⁻¹ x + C", "ln(1+x²) + C"],
+      "correctAnswer": 1,
+      "explanation": "∫1/(1+x²) dx = tan⁻¹ x + C. This is one of the most important inverse trigonometric integrals."
+    },
+    {
+      "id": 17,
+      "question": "What is ∫1/(x√(x²-1)) dx for |x| > 1?",
+      "options": ["sin⁻¹ x + C", "tan⁻¹ x + C", "sec⁻¹ x + C", "sec⁻¹|x| + C"],
+      "correctAnswer": 3,
+      "explanation": "∫1/(x√(x²-1)) dx = sec⁻¹|x| + C for |x| > 1. The absolute value ensures the result is defined."
+    },
+    {
+      "id": 18,
+      "question": "What is ∫1/√(x²+a²) dx?",
+      "options": ["ln|x + √(x²+a²)| + C", "sin⁻¹(x/a) + C", "tan⁻¹(x/a) + C", "(1/a)ln|x + a| + C"],
+      "correctAnswer": 0,
+      "explanation": "∫1/√(x²+a²) dx = ln|x + √(x²+a²)| + C = sinh⁻¹(x/a) + C. This is a standard integral formula."
+    },
+    {
+      "id": 19,
+      "question": "What is ∫1/√(x²-a²) dx for x² > a²?",
+      "options": ["ln|x + √(x²-a²)| + C", "sin⁻¹(x/a) + C", "sec⁻¹(x/a) + C", "tan⁻¹(x/a) + C"],
+      "correctAnswer": 0,
+      "explanation": "∫1/√(x²-a²) dx = ln|x + √(x²-a²)| + C = cosh⁻¹(x/a) + C for x² > a²."
+    },
+    {
+      "id": 20,
+      "question": "What is ∫1/√(a²-x²) dx?",
+      "options": ["sin⁻¹(x/a) + C", "cos⁻¹(x/a) + C", "tan⁻¹(x/a) + C", "Both A and -B"],
+      "correctAnswer": 3,
+      "explanation": "∫1/√(a²-x²) dx = sin⁻¹(x/a) + C = -cos⁻¹(x/a) + C₁ for |x| < a."
+    },
+    {
+      "id": 21,
+      "question": "What is ∫1/(a²+x²) dx?",
+      "options": ["tan⁻¹(x/a) + C", "(1/a)tan⁻¹(x/a) + C", "atan⁻¹(x) + C", "(1/a²)tan⁻¹(x/a) + C"],
+      "correctAnswer": 1,
+      "explanation": "∫1/(a²+x²) dx = (1/a)tan⁻¹(x/a) + C. When a = 1, this becomes tan⁻¹ x + C."
+    },
+    {
+      "id": 22,
+      "question": "What is ∫1/(x²-a²) dx?",
+      "options": ["(1/2a)ln|(x-a)/(x+a)| + C", "(1/a)ln|(x-a)/(x+a)| + C", "ln|x-a| - ln|x+a| + C", "tan⁻¹(x/a) + C"],
+      "correctAnswer": 0,
+      "explanation": "∫1/(x²-a²) dx = (1/2a)ln|(x-a)/(x+a)| + C. This is derived using partial fractions."
+    },
+    {
+      "id": 23,
+      "question": "What is ∫1/(a²-x²) dx?",
+      "options": ["(1/2a)ln|(a+x)/(a-x)| + C", "(1/2a)ln|(a-x)/(a+x)| + C", "sin⁻¹(x/a) + C", "tan⁻¹(x/a) + C"],
+      "correctAnswer": 0,
+      "explanation": "∫1/(a²-x²) dx = (1/2a)ln|(a+x)/(a-x)| + C. This is also derived using partial fractions."
+    },
+    {
+      "id": 24,
+      "question": "What is ∫√(a²-x²) dx?",
+      "options": ["(x/2)√(a²-x²) + (a²/2)sin⁻¹(x/a) + C", "(1/2)[x√(a²-x²) + a²sin⁻¹(x/a)] + C", "Both A and B", "a²sin⁻¹(x/a) + C"],
+      "correctAnswer": 2,
+      "explanation": "∫√(a²-x²) dx = (x/2)√(a²-x²) + (a²/2)sin⁻¹(x/a) + C. Options A and B are equivalent forms."
+    },
+    {
+      "id": 25,
+      "question": "What is ∫√(x²+a²) dx?",
+      "options": ["(x/2)√(x²+a²) + (a²/2)ln|x + √(x²+a²)| + C", "(1/2)[x√(x²+a²) + a²ln|x + √(x²+a²)|] + C", "Both A and B", "ln|x + √(x²+a²)| + C"],
+      "correctAnswer": 2,
+      "explanation": "∫√(x²+a²) dx = (x/2)√(x²+a²) + (a²/2)ln|x + √(x²+a²)| + C. Options A and B are equivalent."
+    },
+    {
+      "id": 26,
+      "question": "The formula ∫u dv = uv - ∫v du is called:",
+      "options": ["Chain rule", "Product rule", "Integration by parts", "Substitution method"],
+      "correctAnswer": 2,
+      "explanation": "Integration by parts formula: ∫u dv = uv - ∫v du. This is derived from the product rule for differentiation."
+    },
+    {
+      "id": 27,
+      "question": "What is ∫e^(ax) dx where a ≠ 0?",
+      "options": ["e^(ax) + C", "(1/a)e^(ax) + C", "ae^(ax) + C", "e^(ax)/a² + C"],
+      "correctAnswer": 1,
+      "explanation": "∫e^(ax) dx = (1/a)e^(ax) + C. Using substitution u = ax, du = a dx."
+    },
+    {
+      "id": 28,
+      "question": "What is ∫sin(ax) dx where a ≠ 0?",
+      "options": ["-(1/a)cos(ax) + C", "-cos(ax) + C", "(1/a)sin(ax) + C", "a cos(ax) + C"],
+      "correctAnswer": 0,
+      "explanation": "∫sin(ax) dx = -(1/a)cos(ax) + C. Using substitution u = ax, du = a dx."
+    },
+    {
+      "id": 29,
+      "question": "What is ∫cos(ax) dx where a ≠ 0?",
+      "options": ["sin(ax) + C", "(1/a)sin(ax) + C", "a sin(ax) + C", "-(1/a)sin(ax) + C"],
+      "correctAnswer": 1,
+      "explanation": "∫cos(ax) dx = (1/a)sin(ax) + C. Using substitution u = ax, du = a dx."
+    },
+    {
+      "id": 30,
+      "question": "What is ∫sin² x dx?",
+      "options": ["x/2 - sin(2x)/4 + C", "(x - sin 2x)/2 + C", "Both A and B", "-cos² x + C"],
+      "correctAnswer": 2,
+      "explanation": "Using the identity sin² x = (1 - cos 2x)/2: ∫sin² x dx = x/2 - sin(2x)/4 + C = (x - sin 2x)/2 + C."
+    },
+    {
+      "id": 31,
+      "question": "What is ∫cos² x dx?",
+      "options": ["x/2 + sin(2x)/4 + C", "(x + sin 2x)/2 + C", "Both A and B", "sin² x + C"],
+      "correctAnswer": 2,
+      "explanation": "Using the identity cos² x = (1 + cos 2x)/2: ∫cos² x dx = x/2 + sin(2x)/4 + C = (x + sin 2x)/2 + C."
+    },
+    {
+      "id": 32,
+      "question": "What is ∫e^x sin x dx?",
+      "options": ["(e^x/2)(sin x - cos x) + C", "(e^x/2)(sin x + cos x) + C", "e^x sin x + C", "e^x cos x + C"],
+      "correctAnswer": 0,
+      "explanation": "Using integration by parts twice: ∫e^x sin x dx = (e^x/2)(sin x - cos x) + C."
+    },
+    {
+      "id": 33,
+      "question": "What is ∫e^x cos x dx?",
+      "options": ["(e^x/2)(sin x - cos x) + C", "(e^x/2)(sin x + cos x) + C", "e^x sin x + C", "e^x(cos x - sin x) + C"],
+      "correctAnswer": 1,
+      "explanation": "Using integration by parts twice: ∫e^x cos x dx = (e^x/2)(sin x + cos x) + C."
+    },
+    {
+      "id": 34,
+      "question": "What is ∫x e^x dx?",
+      "options": ["e^x(x - 1) + C", "e^x(x + 1) + C", "xe^x + C", "e^x + C"],
+      "correctAnswer": 0,
+      "explanation": "Using integration by parts with u = x, dv = e^x dx: ∫x e^x dx = xe^x - e^x = e^x(x - 1) + C."
+    },
+    {
+      "id": 35,
+      "question": "What is ∫x sin x dx?",
+      "options": ["sin x - x cos x + C", "-x cos x + sin x + C", "Both A and B", "x cos x + C"],
+      "correctAnswer": 2,
+      "explanation": "Using integration by parts with u = x, dv = sin x dx: ∫x sin x dx = -x cos x + sin x + C. Options A and B are equivalent."
+    },
+    {
+      "id": 36,
+      "question": "What is ∫x cos x dx?",
+      "options": ["x sin x + cos x + C", "x sin x - cos x + C", "cos x + x sin x + C", "Both A and C"],
+      "correctAnswer": 0,
+      "explanation": "Using integration by parts with u = x, dv = cos x dx: ∫x cos x dx = x sin x + cos x + C."
+    },
+    {
+      "id": 37,
+      "question": "What is ∫ln x dx?",
+      "options": ["x ln x - x + C", "x ln x + x + C", "ln x + C", "1/x + C"],
+      "correctAnswer": 0,
+      "explanation": "Using integration by parts with u = ln x, dv = dx: ∫ln x dx = x ln x - ∫x(1/x) dx = x ln x - x + C."
+    },
+    {
+      "id": 38,
+      "question": "What is ∫x² e^x dx?",
+      "options": ["e^x(x² - 2x + 2) + C", "e^x(x² + 2x + 2) + C", "x²e^x + C", "e^x x² + C"],
+      "correctAnswer": 0,
+      "explanation": "Using integration by parts twice: ∫x² e^x dx = e^x(x² - 2x + 2) + C."
+    },
+    {
+      "id": 39,
+      "question": "For substitution method, if ∫f(g(x))g'(x) dx is given, we substitute:",
+      "options": ["u = f(x)", "u = g(x)", "u = g'(x)", "u = f'(x)"],
+      "correctAnswer": 1,
+      "explanation": "Substitution: Let u = g(x), then du = g'(x) dx. The integral becomes ∫f(u) du."
+    },
+    {
+      "id": 40,
+      "question": "What is ∫2x(x² + 1)⁵ dx?",
+      "options": ["(x² + 1)⁶/6 + C", "(x² + 1)⁶ + C", "2(x² + 1)⁶/6 + C", "(x² + 1)⁶/12 + C"],
+      "correctAnswer": 0,
+      "explanation": "Let u = x² + 1, du = 2x dx. Then ∫2x(x² + 1)⁵ dx = ∫u⁵ du = u⁶/6 + C = (x² + 1)⁶/6 + C."
+    },
+    {
+      "id": 41,
+      "question": "What is ∫sin x cos x dx?",
+      "options": ["sin² x/2 + C", "-cos² x/2 + C", "sin(2x)/4 + C", "All of the above (with different constants)"],
+      "correctAnswer": 3,
+      "explanation": "Multiple methods work: Substitution u = sin x gives sin² x/2 + C. Or use sin x cos x = sin(2x)/2. All forms differ by constants."
+    },
+    {
+      "id": 42,
+      "question": "What is ∫tan² x dx?",
+      "options": ["tan x - x + C", "sec² x + C", "x - tan x + C", "sec² x - x + C"],
+      "correctAnswer": 0,
+      "explanation": "Using tan² x = sec² x - 1: ∫tan² x dx = ∫(sec² x - 1) dx = tan x - x + C."
+    },
+    {
+      "id": 43,
+      "question": "What is ∫cot² x dx?",
+      "options": ["-cot x - x + C", "-cot x + x + C", "cot x - x + C", "cosec² x + C"],
+      "correctAnswer": 0,
+      "explanation": "Using cot² x = cosec² x - 1: ∫cot² x dx = ∫(cosec² x - 1) dx = -cot x - x + C."
+    },
+    {
+      "id": 44,
+      "question": "What is ∫sec³ x dx?",
+      "options": ["(1/2)[sec x tan x + ln|sec x + tan x|] + C", "sec x tan x + C", "tan x + C", "sec² x + C"],
+      "correctAnswer": 0,
+      "explanation": "Using integration by parts: ∫sec³ x dx = (1/2)[sec x tan x + ln|sec x + tan x|] + C. This is a standard formula."
+    },
+    {
+      "id": 45,
+      "question": "What is ∫1/(1-x²) dx for |x| < 1?",
+      "options": ["(1/2)ln|(1+x)/(1-x)| + C", "tanh⁻¹ x + C", "Both A and B", "sin⁻¹ x + C"],
+      "correctAnswer": 2,
+      "explanation": "Using partial fractions: ∫1/(1-x²) dx = (1/2)ln|(1+x)/(1-x)| + C = tanh⁻¹ x + C for |x| < 1."
+    },
+    {
+      "id": 46,
+      "question": "What is ∫x/√(x²+1) dx?",
+      "options": ["√(x²+1) + C", "ln(x + √(x²+1)) + C", "sin⁻¹ x + C", "tan⁻¹ x + C"],
+      "correctAnswer": 0,
+      "explanation": "Let u = x² + 1, du = 2x dx. Then ∫x/√(x²+1) dx = (1/2)∫u^(-1/2) du = √u + C = √(x²+1) + C."
+    },
+    {
+      "id": 47,
+      "question": "What is ∫x/√(1-x²) dx?",
+      "options": ["-√(1-x²) + C", "√(1-x²) + C", "sin⁻¹ x + C", "-sin⁻¹ x + C"],
+      "correctAnswer": 0,
+      "explanation": "Let u = 1 - x², du = -2x dx. Then ∫x/√(1-x²) dx = -(1/2)∫u^(-1/2) du = -√u + C = -√(1-x²) + C."
+    },
+    {
+      "id": 48,
+      "question": "What is ∫e^x(1 + x)/x² dx?",
+      "options": ["-e^x/x + C", "e^x/x + C", "e^x(1/x + ln x) + C", "e^x/x² + C"],
+      "correctAnswer": 0,
+      "explanation": "Rewrite as ∫e^x(1/x² + 1/x) dx. Using integration by parts or recognizing the derivative pattern: ∫e^x(1 + x)/x² dx = -e^x/x + C."
+    },
+    {
+      "id": 49,
+      "question": "What is ∫dx/(x² + 2x + 2)?",
+      "options": ["tan⁻¹(x + 1) + C", "ln(x² + 2x + 2) + C", "1/(x + 1) + C", "sin⁻¹(x + 1) + C"],
+      "correctAnswer": 0,
+      "explanation": "Complete the square: x² + 2x + 2 = (x + 1)² + 1. Then ∫dx/[(x+1)² + 1] = tan⁻¹(x + 1) + C."
+    },
+    {
+      "id": 50,
+      "question": "The integral ∫[f(x) + g(x)] dx equals:",
+      "options": ["∫f(x) dx + ∫g(x) dx", "∫f(x) dx × ∫g(x) dx", "∫f(x)g(x) dx", "Cannot be determined"],
+      "correctAnswer": 0,
+      "explanation": "Linearity of integration: ∫[f(x) + g(x)] dx = ∫f(x) dx + ∫g(x) dx. Integrals distribute over addition."
+    }
+  ]
+}

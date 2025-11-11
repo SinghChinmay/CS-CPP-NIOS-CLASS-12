@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎨 Kawaii Painting MCQ Quiz 🎨</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(45deg, #D4756E 0%, #E8A598 20%, #F4C7B8 40%, #D4756E 60%, #E8A598 80%, #D4756E 100%);
+            background-size: 400% 400%;
+            animation: kawaiiBg 8s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        @keyframes kawaiiBg {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Kawaii floating elements animation */
+        body::before {
+            content: '🎨';
+            position: fixed;
+            top: -50px;
+            left: 10%;
+            font-size: 40px;
+            animation: floatingKawaii 6s infinite linear;
+            z-index: -1;
+            opacity: 0.6;
+        }
+
+        body::after {
+            content: '🖌️';
+            position: fixed;
+            top: -50px;
+            right: 20%;
+            font-size: 35px;
+            animation: floatingKawaii 8s infinite linear;
+            animation-delay: -3s;
+            z-index: -1;
+            opacity: 0.6;
+        }
+
+        @keyframes floatingKawaii {
+            0% {
+                transform: translateY(-100px) rotate(0deg);
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+            }
+        }
+
+        /* Additional floating kawaii elements */
+        .floating-kawaii {
+            position: fixed;
+            font-size: 25px;
+            z-index: -1;
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        .floating-kawaii:nth-child(1) {
+            top: 20%;
+            left: 5%;
+            animation: floatKawaii 6s ease-in-out infinite;
+        }
+
+        .floating-kawaii:nth-child(2) {
+            top: 60%;
+            right: 10%;
+            animation: floatKawaii 8s ease-in-out infinite;
+            animation-delay: -2s;
+        }
+
+        .floating-kawaii:nth-child(3) {
+            top: 80%;
+            left: 15%;
+            animation: floatKawaii 7s ease-in-out infinite;
+            animation-delay: -4s;
+        }
+
+        @keyframes floatKawaii {
+            0%, 100% {
+                transform: translateY(0px) scale(1);
+            }
+            50% {
+                transform: translateY(-15px) scale(1.1);
+            }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(80, 40, 30, 0.85);
+            border-radius: 30px;
+            box-shadow: 
+                0 20px 60px rgba(180, 92, 86, 0.3),
+                0 10px 30px rgba(160, 70, 65, 0.2),
+                inset 0 1px 0 rgba(232, 165, 152, 0.3);
+            backdrop-filter: blur(20px);
+            border: 3px solid rgba(232, 165, 152, 0.6);
+            overflow: hidden;
+            position: relative;
+        }
+
+        @keyframes rainbowShimmer {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 200% 50%; }
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #D4756E 0%, #E8A598 50%, #B85C56 100%);
+            background-size: 200% 200%;
+            animation: kawaiHeaderBg 4s ease infinite;
+            color: #FFF5F0;
+            padding: 50px 30px;
+            text-align: center;
+            position: relative;
+            backdrop-filter: blur(10px);
+            border-bottom: 3px solid rgba(232, 165, 152, 0.6);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        @keyframes kawaiHeaderBg {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .header::before {
+            content: '🎨 💕 🖌️ 😽 🌈 😽 ✨ 😽 🎨';
+            position: absolute;
+            top: 15px;
+            left: 0;
+            right: 0;
+            font-size: 16px;
+            opacity: 0.8;
+            animation: kawaiPulse 2s ease-in-out infinite;
+        }
+
+        .header::after {
+            content: '🎀 💖 🌟 💖 😽 💖 🎨 💖 🎀';
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            right: 0;
+            font-size: 16px;
+            opacity: 0.8;
+            animation: kawaiPulse 2s ease-in-out infinite;
+            animation-delay: 1s;
+        }
+
+        @keyframes kawaiPulse {
+            0%, 100% { 
+                opacity: 0.8; 
+                transform: scale(1);
+            }
+            50% { 
+                opacity: 1; 
+                transform: scale(1.05);
+            }
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            font-weight: 800;
+            position: relative;
+            z-index: 1;
+            background: linear-gradient(45deg, #F9E5D8, #E8A598, #F4C7B8, #D4756E, #F0D0C8);
+            background-size: 300% 300%;
+            animation: rainbowText 3s ease infinite;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @keyframes rainbowText {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .header h1::before {
+            content: '🎨';
+            margin-right: 20px;
+            animation: kawaiiBounce 2s ease-in-out infinite;
+            -webkit-text-fill-color: initial;
+        }
+
+        .header h1::after {
+            content: '🖌️';
+            margin-left: 20px;
+            animation: kawaiiBounce 2s ease-in-out infinite;
+            animation-delay: 1s;
+            -webkit-text-fill-color: initial;
+        }
+
+        @keyframes kawaiiBounce {
+            0%, 100% { 
+                transform: translateY(0) scale(1); 
+            }
+            50% { 
+                transform: translateY(-8px) scale(1.1); 
+            }
+        }
+
+        .header p {
+            font-size: 1.4rem;
+            opacity: 0.95;
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
+            color: #FFF5F0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            padding: 40px;
+            background: linear-gradient(135deg, rgba(100, 50, 40, 0.9) 0%, rgba(80, 40, 30, 0.9) 100%);
+        }
+
+        .question-card {
+            background: linear-gradient(135deg, rgba(160, 70, 65, 0.95) 0%, rgba(130, 55, 50, 0.95) 50%, rgba(100, 50, 40, 0.95) 100%);
+            border-radius: 25px;
+            padding: 40px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(20px);
+            box-shadow: 
+                0 15px 35px rgba(80, 40, 30, 0.4),
+                0 8px 20px rgba(100, 50, 40, 0.3),
+                inset 0 1px 0 rgba(232, 165, 152, 0.2);
+            border: 2px solid rgba(232, 165, 152, 0.4);
+            transition: all 0.4s ease;
+            position: relative;
+            color: #FFF5F0;
+        }
+
+        .question-card::after {
+            content: '🌟';
+            position: absolute;
+            top: 25px;
+            right: 30px;
+            font-size: 25px;
+            opacity: 0.6;
+            animation: kawaiSpin 4s linear infinite;
+        }
+
+        @keyframes kawaiSpin {
+            0% { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(180deg) scale(1.1); }
+            100% { transform: rotate(360deg) scale(1); }
+        }
+
+        .question-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 
+                0 25px 50px rgba(80, 40, 30, 0.5),
+                0 15px 30px rgba(100, 50, 40, 0.4),
+                inset 0 1px 0 rgba(232, 165, 152, 0.3);
+            border-color: rgba(232, 165, 152, 0.6);
+        }
+
+        .question-number {
+            background: linear-gradient(135deg, #E8A598 0%, #D4756E 100%);
+            color: #FFF5F0;
+            padding: 15px 25px;
+            border-radius: 20px;
+            font-weight: 800;
+            font-size: 1.1rem;
+            display: inline-block;
+            margin-bottom: 25px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(249, 229, 216, 0.5);
+            position: relative;
+            z-index: 1;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 4px 15px rgba(212, 117, 110, 0.3);
+        }
+
+        .question-number::before {
+            content: '🎀';
+            margin-right: 10px;
+            animation: kawaiWiggle 3s ease-in-out infinite;
+        }
+
+        @keyframes kawaiWiggle {
+            0%, 100% { transform: rotate(0deg) scale(1); }
+            25% { transform: rotate(5deg) scale(1.05); }
+            75% { transform: rotate(-5deg) scale(1.05); }
+        }
+
+        .question-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #FFF5F0;
+            margin-bottom: 30px;
+            line-height: 1.7;
+            position: relative;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .options-container {
+            display: grid;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .option {
+            background: linear-gradient(135deg, rgba(180, 92, 86, 0.9) 0%, rgba(160, 70, 65, 0.9) 100%);
+            border: 2px solid rgba(232, 165, 152, 0.4);
+            border-radius: 18px;
+            padding: 20px 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+            font-weight: 600;
+            position: relative;
+            display: flex;
+            align-items: center;
+            color: #FFF5F0;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(80, 40, 30, 0.3);
+        }
+
+        .option::before {
+            content: '😽';
+            position: absolute;
+            right: 25px;
+            opacity: 0;
+            transform: scale(0.5);
+            transition: all 0.3s ease;
+        }
+
+        .option:hover {
+            background: linear-gradient(135deg, rgba(212, 117, 110, 0.95) 0%, rgba(180, 92, 86, 0.95) 100%);
+            border-color: rgba(232, 165, 152, 0.6);
+            transform: translateX(8px) scale(1.02);
+            box-shadow: 0 8px 25px rgba(80, 40, 30, 0.4);
+        }
+
+        .option:hover::before {
+            opacity: 0.8;
+            transform: scale(1.1);
+        }
+
+        .option.selected {
+            background: linear-gradient(135deg, #F4C7B8 0%, #E8A598 100%);
+            border-color: #D4756E;
+            color: #5A2520;
+            box-shadow: 0 8px 25px rgba(232, 165, 152, 0.4);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .option.selected::before {
+            content: '💖';
+            opacity: 1;
+            transform: scale(1.2);
+            animation: heartBeat 1.5s ease infinite;
+        }
+
+        @keyframes heartBeat {
+            0%, 100% { transform: scale(1.2); }
+            50% { transform: scale(1.4); }
+        }
+
+        .option.correct {
+            background: linear-gradient(135deg, #F9E5D8 0%, #F0D0C8 100%);
+            border-color: #E8A598;
+            color: #5A2520;
+            font-weight: 700;
+            box-shadow: 0 8px 25px rgba(232, 165, 152, 0.5);
+        }
+
+        .option.correct::before {
+            content: '🌟';
+            opacity: 1;
+            transform: scale(1.2);
+            animation: starTwinkle 1s ease infinite;
+        }
+
+        @keyframes starTwinkle {
+            0%, 100% { transform: scale(1.2) rotate(0deg); }
+            50% { transform: scale(1.4) rotate(180deg); }
+        }
+
+        .option.incorrect {
+            background: linear-gradient(135deg, #B85C56 0%, #8B3A34 100%);
+            border-color: #6B2520;
+            color: #FFF0EE;
+            font-weight: 700;
+            box-shadow: 0 8px 25px rgba(139, 58, 52, 0.4);
+        }
+
+        .option.incorrect::before {
+            content: '🥺';
+            opacity: 1;
+            transform: scale(1.2);
+            animation: sadWiggle 1s ease infinite;
+        }
+
+        @keyframes sadWiggle {
+            0%, 100% { transform: scale(1.2) rotate(0deg); }
+            25% { transform: scale(1.3) rotate(-5deg); }
+            75% { transform: scale(1.3) rotate(5deg); }
+        }
+
+        .option-label {
+            font-weight: 800;
+            margin-right: 15px;
+            min-width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #F4C7B8 0%, #E8A598 100%);
+            color: #5A2520;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            border: 2px solid rgba(249, 229, 216, 0.6);
+            backdrop-filter: blur(10px);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px rgba(212, 117, 110, 0.3);
+        }
+
+        .option.selected .option-label {
+            background: linear-gradient(135deg, #F0D0C8 0%, #F4C7B8 100%);
+            color: #5A2520;
+            border-color: rgba(249, 229, 216, 0.9);
+            box-shadow: 0 4px 15px rgba(244, 199, 184, 0.4);
+        }
+
+        .option.correct .option-label,
+        .option.incorrect .option-label {
+            background: linear-gradient(135deg, #F9E5D8 0%, #F0D0C8 100%);
+            color: #5A2520;
+            box-shadow: 0 4px 15px rgba(249, 229, 216, 0.4);
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 25px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 18px 35px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            font-family: 'Nunito', sans-serif;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #E8A598 0%, #D4756E 100%);
+            color: #FFF5F0;
+            border: 2px solid rgba(249, 229, 216, 0.5);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 6px 20px rgba(212, 117, 110, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #D4756E 0%, #E8A598 100%);
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 10px 30px rgba(212, 117, 110, 0.4);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #F4C7B8 0%, #E8A598 100%);
+            color: #5A2520;
+            border: 2px solid rgba(249, 229, 216, 0.5);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 6px 20px rgba(244, 199, 184, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: linear-gradient(135deg, #E8A598 0%, #F4C7B8 100%);
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 10px 30px rgba(244, 199, 184, 0.4);
+        }
+
+        .btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none;
+            background: rgba(60, 40, 30, 0.5);
+            color: rgba(180, 150, 140, 0.6);
+            border-color: rgba(100, 70, 60, 0.4);
+        }
+
+        .btn:disabled:hover {
+            transform: none;
+        }
+
+        .answer-section {
+            background: linear-gradient(135deg, rgba(232, 165, 152, 0.9) 0%, rgba(244, 199, 184, 0.9) 100%);
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 25px;
+            border: 2px solid rgba(244, 199, 184, 0.5);
+            display: none;
+            position: relative;
+            backdrop-filter: blur(15px);
+            color: #5A2520;
+            box-shadow: 0 8px 25px rgba(212, 117, 110, 0.3);
+        }
+
+        .answer-section::before {
+            content: '🌟';
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 25px;
+            opacity: 0.8;
+            animation: starSparkle 2s ease infinite;
+        }
+
+        @keyframes starSparkle {
+            0%, 100% { 
+                transform: scale(1) rotate(0deg);
+                opacity: 0.8;
+            }
+            50% { 
+                transform: scale(1.2) rotate(180deg);
+                opacity: 1;
+            }
+        }
+
+        .answer-section.show {
+            display: block;
+            animation: kawaiiFadeInUp 0.6s ease;
+        }
+
+        @keyframes kawaiiFadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px) scale(0.9);
+            }
+            50% {
+                opacity: 0.8;
+                transform: translateY(-5px) scale(1.05);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        .answer-label {
+            font-weight: 800;
+            color: #5A2520;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .answer-label::before {
+            content: '🎯 ';
+            animation: targetSpin 3s linear infinite;
+        }
+
+        @keyframes targetSpin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .explanation-section {
+            background: linear-gradient(135deg, rgba(249, 229, 216, 0.9) 0%, rgba(240, 208, 200, 0.9) 100%);
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 20px;
+            border: 2px solid rgba(249, 229, 216, 0.5);
+            display: none;
+            position: relative;
+            backdrop-filter: blur(15px);
+            color: #5A2520;
+            box-shadow: 0 8px 25px rgba(240, 208, 200, 0.3);
+        }
+
+        .explanation-section::before {
+            content: '💡';
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 25px;
+            opacity: 0.8;
+            animation: lightBulbGlow 2s ease infinite;
+        }
+
+        @keyframes lightBulbGlow {
+            0%, 100% { 
+                opacity: 0.8;
+                filter: brightness(1);
+            }
+            50% { 
+                opacity: 1;
+                filter: brightness(1.3);
+            }
+        }
+
+        .explanation-section.show {
+            display: block;
+            animation: kawaiiFadeInUp 0.6s ease;
+        }
+
+        .explanation-label {
+            font-weight: 800;
+            color: #5A2520;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .explanation-label::before {
+            content: '📚 ';
+            animation: bookFlip 4s ease infinite;
+        }
+
+        @keyframes bookFlip {
+            0%, 100% { transform: rotateY(0deg); }
+            50% { transform: rotateY(180deg); }
+        }
+
+        .score-container {
+            background: linear-gradient(135deg, rgba(160, 70, 65, 0.95) 0%, rgba(130, 55, 50, 0.95) 50%, rgba(100, 50, 40, 0.95) 100%);
+            color: #FFF5F0;
+            padding: 40px;
+            border-radius: 25px;
+            text-align: center;
+            margin-bottom: 40px;
+            display: none;
+            position: relative;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(232, 165, 152, 0.4);
+            box-shadow: 0 15px 35px rgba(212, 117, 110, 0.3);
+        }
+
+        .score-container::before {
+            content: '🎉 🌟 🎨 🌟 🎉';
+            position: absolute;
+            top: 15px;
+            left: 0;
+            right: 0;
+            font-size: 20px;
+            opacity: 0.8;
+            animation: celebrationDance 2s ease infinite;
+        }
+
+        @keyframes celebrationDance {
+            0%, 100% { 
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            50% { 
+                transform: scale(1.1);
+                opacity: 1;
+            }
+        }
+
+        .score-container.show {
+            display: block;
+            animation: kawaiiFadeInUp 0.8s ease;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 80px;
+            font-size: 1.6rem;
+            color: #FFF5F0;
+            font-weight: 700;
+            background: linear-gradient(135deg, rgba(160, 70, 65, 0.9) 0%, rgba(130, 55, 50, 0.9) 100%);
+            border-radius: 25px;
+            border: 2px solid rgba(232, 165, 152, 0.4);
+        }
+
+        .loading::before {
+            content: '🎨 ';
+            animation: kawaiSpin 2s linear infinite;
+            font-size: 2rem;
+        }
+
+        @keyframes kawaiSpin {
+            0% { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(180deg) scale(1.2); }
+            100% { transform: rotate(360deg) scale(1); }
+        }
+
+        .error {
+            background: linear-gradient(135deg, rgba(139, 58, 52, 0.9) 0%, rgba(180, 92, 86, 0.9) 100%);
+            color: #FFF0EE;
+            padding: 30px;
+            border-radius: 20px;
+            margin: 30px;
+            border: 2px solid rgba(107, 37, 32, 0.4);
+            font-weight: 600;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 8px 25px rgba(107, 37, 32, 0.3);
+        }
+
+        .error::before {
+            content: '🥺 ';
+            animation: sadFace 2s ease infinite;
+        }
+
+        @keyframes sadFace {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .quiz-selector {
+            background: linear-gradient(135deg, rgba(160, 70, 65, 0.9) 0%, rgba(130, 55, 50, 0.9) 100%);
+            border-radius: 25px;
+            padding: 35px;
+            border: 2px solid rgba(232, 165, 152, 0.4);
+            backdrop-filter: blur(20px);
+            position: relative;
+            margin-bottom: 35px;
+            box-shadow: 0 8px 25px rgba(212, 117, 110, 0.3);
+        }
+
+        .quiz-selector::before {
+            content: '😽';
+            position: absolute;
+            top: 25px;
+            right: 30px;
+            font-size: 28px;
+            opacity: 0.6;
+            animation: rainbowFloat 3s ease infinite;
+        }
+
+        @keyframes rainbowFloat {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-5px) rotate(10deg); }
+        }
+
+        .quiz-selector select {
+            width: 100%; 
+            padding: 18px 25px; 
+            font-size: 1.3rem; 
+            font-weight: 600;
+            border: 2px solid rgba(232, 165, 152, 0.4); 
+            border-radius: 18px; 
+            background: linear-gradient(135deg, rgba(180, 92, 86, 0.95) 0%, rgba(160, 70, 65, 0.95) 100%);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Nunito', sans-serif;
+            color: #FFF5F0;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(80, 40, 30, 0.3);
+        }
+
+        .quiz-selector select:hover {
+            border-color: rgba(232, 165, 152, 0.6);
+            background: linear-gradient(135deg, rgba(212, 117, 110, 0.95) 0%, rgba(180, 92, 86, 0.95) 100%);
+            box-shadow: 0 6px 20px rgba(80, 40, 30, 0.4);
+        }
+
+        .quiz-selector select:focus {
+            outline: none;
+            border-color: rgba(232, 165, 152, 0.8);
+            box-shadow: 0 0 0 4px rgba(212, 117, 110, 0.2);
+        }
+
+        .quiz-selector select option {
+            background-color: #8B3A34;
+            color: #FFF5F0;
+            padding: 12px;
+            font-weight: 600;
+        }
+
+        .quiz-selector label {
+            font-size: 1.4rem; 
+            font-weight: 800; 
+            color: #FFF5F0;
+            margin-bottom: 20px; 
+            display: block;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .quiz-selector label::before {
+            content: '🎨 ';
+            animation: unicornBounce 2s ease infinite;
+        }
+
+        @keyframes unicornBounce {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(5deg); }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .question-card {
+                padding: 20px;
+            }
+            
+            .button-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating kawaii elements -->
+    <div class="floating-kawaii" style="top: 20%; left: 5%;">🎨</div>
+    <div class="floating-kawaii" style="top: 60%; right: 10%;">🖌️</div>
+    <div class="floating-kawaii" style="top: 80%; left: 15%;">😽</div>
+    <div class="floating-kawaii" style="top: 30%; right: 25%;">💖</div>
+    <div class="floating-kawaii" style="top: 70%; left: 80%;">✨</div>
+    <div class="floating-kawaii" style="top: 10%; right: 5%;">🎭</div>
+    <div class="floating-kawaii" style="top: 50%; left: 25%;">🎀</div>
+    <div class="floating-kawaii" style="top: 90%; right: 30%;">🌟</div>
+
+    <div class="container">
+        <div class="header">
+            <h1 id="quiz-title">Kawaii Painting MCQ Quiz</h1>
+            <p id="quiz-subtitle">NIOS Class 12 Painting - Indian Art History 🎨 🖌️</p>
+        </div>
+        
+        <div class="content">
+            <div class="quiz-selector">
+                <label for="quiz-dropdown">
+                    Choose Your Kawaii Painting Adventure:
+                </label>
+                <select id="quiz-dropdown" onchange="loadSelectedQuiz()">
+                    <option value="">-- Pick a fascinating painting topic! 🎨 --</option>
+                    <option value="">-- Module 1: Prehistoric Painting --</option>
+                    <option value="Prehistoric_Painting_MCQ.json">Prehistoric Painting - Mirzapur, Panchmarhi & Bhimbetka (Module 1)</option>
+                    <option value="">-- Module 2: Indus Valley Civilization --</option>
+                    <option value="Indus_Valley_Painting_MCQ.json">Indus Valley Painting - Pottery Art of Harappa & Mohenjodaro (Module 2)</option>
+                    <option value="">-- Module 3: Ajanta & Post Ajanta --</option>
+                    <option value="Ajanta_Post_Ajanta_Painting_MCQ.json">Ajanta & Post Ajanta Painting - Buddhist Art & Bagh Caves (Module 3)</option>
+                    <option value="Ajanta_Caves_History_Art_MCQ.json">Ajanta Caves - History, Discovery & Painting Techniques (Module 3)</option>
+                    <option value="Ajanta_Jataka_Stories_MCQ.json">Ajanta Jataka Stories - Buddhist Narratives & Famous Murals (Module 3)</option>
+                    <option value="Fresco_Tempera_Techniques_MCQ.json">Fresco & Tempera Techniques - Materials & Methods (Module 3)</option>
+                    <option value="">-- Module 6: Medieval Period Painting --</option>
+                    <option value="Medieval_Period_Painting_MCQ.json">Medieval Period Painting - Pala & Jain Miniature Paintings (Module 6)</option>
+                    <option value="Rajasthani_Painting_MCQ.json">Rajasthani Painting - Ragamala Series & Todi Ragini (Module 6)</option>
+                    <option value="">-- Module 8: Pahari Painting --</option>
+                    <option value="Pahari_Painting_MCQ.json">Pahari Painting - Kangra, Basohli & Chamba Styles (Module 8)</option>
+                    <option value="">-- Printing & Mural Techniques --</option>
+                    <option value="Printing_Techniques_MCQ.json">Printing Techniques - Block, Vegetable & Finger Printing</option>
+                    <option value="">-- Folk & Tribal Art --</option>
+                    <option value="Warli_Pithora_Folk_Art_MCQ.json">Warli & Pithora Folk Art - Maharashtra & Gujarat Traditions</option>
+                    <option value="Madhubani_Kalighat_Kalamkari_MCQ.json">Madhubani, Kalighat & Kalamkari - Bihar, Bengal & South Indian Art</option>
+                </select>
+            </div>
+            
+            <div id="loading" class="loading" style="display: none;">
+                Loading your kawaii painting questions... 🎨✨
+            </div>
+            
+            <div id="error" class="error" style="display: none;">
+                Oops! Our paint brushes couldn't find the questions... 😿🎨
+            </div>
+            
+            <div id="score-container" class="score-container">
+                <h2>🎉 Quiz Paw-ty Complete! 🎉</h2>
+                <p id="final-score"></p>
+            </div>
+            
+            <div id="questions-container"></div>
+        </div>
+    </div>
+
+    <script>
+        let quizData = null;
+        let userAnswers = {};
+        let totalQuestions = 0;
+
+        // Load selected quiz data
+        async function loadSelectedQuiz() {
+            const dropdown = document.getElementById('quiz-dropdown');
+            const selectedFile = dropdown.value;
+            
+            if (!selectedFile) {
+                // Clear quiz if no selection
+                document.getElementById('questions-container').innerHTML = '';
+                document.getElementById('score-container').classList.remove('show');
+                document.getElementById('error').style.display = 'none';
+                return;
+            }
+            
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('questions-container').innerHTML = '';
+            document.getElementById('score-container').classList.remove('show');
+            
+            try {
+                const response = await fetch(selectedFile);
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${selectedFile}`);
+                }
+                quizData = await response.json();
+                totalQuestions = quizData.questions.length;
+                userAnswers = {}; // Reset user answers
+                displayQuiz();
+            } catch (error) {
+                console.error('Error loading quiz data:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Aww! Our paint brushes couldn't find ${selectedFile}... 😿🎨 Please check if the file exists!`;
+            }
+        }
+
+        // Display the quiz
+        function displayQuiz() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('quiz-title').textContent = quizData.title || 'Painting MCQ Quiz';
+            document.getElementById('quiz-subtitle').textContent = quizData.subtitle || 'NIOS Class 12 Painting';
+            
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+            
+            quizData.questions.forEach(question => {
+                const questionCard = createQuestionCard(question);
+                container.appendChild(questionCard);
+            });
+        }
+
+        // Escape HTML characters to prevent rendering of tags
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Create a question card
+        function createQuestionCard(question) {
+            const card = document.createElement('div');
+            card.className = 'question-card';
+            card.innerHTML = `
+                <div class="question-number">Question ${question.id}</div>
+                <div class="question-text">${escapeHtml(question.question)}</div>
+                <div class="options-container" id="options-${question.id}">
+                    ${question.options.map((option, index) => `
+                        <div class="option" onclick="selectOption(${question.id}, ${index})" id="option-${question.id}-${index}">
+                            <span class="option-label">${String.fromCharCode(65 + index)})</span>
+                            <span>${escapeHtml(option)}</span>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="button-container">
+                    <button class="btn btn-primary" onclick="revealAnswer(${question.id})" id="reveal-btn-${question.id}" disabled>
+                        Reveal Answer
+                    </button>
+                    <button class="btn btn-secondary" onclick="showExplanation(${question.id})" id="explain-btn-${question.id}" disabled>
+                        Show Explanation
+                    </button>
+                </div>
+                <div class="answer-section" id="answer-${question.id}">
+                    <div class="answer-label">Correct Answer:</div>
+                    <div>${String.fromCharCode(65 + question.correctAnswer)}) ${escapeHtml(question.options[question.correctAnswer])}</div>
+                </div>
+                <div class="explanation-section" id="explanation-${question.id}">
+                    <div class="explanation-label">Explanation:</div>
+                    <div>${escapeHtml(question.explanation)}</div>
+                </div>
+            `;
+            return card;
+        }
+
+        // Select an option
+        function selectOption(questionId, optionIndex) {
+            // Remove previous selections
+            const options = document.querySelectorAll(`#options-${questionId} .option`);
+            options.forEach(option => {
+                option.classList.remove('selected');
+            });
+            
+            // Mark current selection
+            const selectedOption = document.getElementById(`option-${questionId}-${optionIndex}`);
+            selectedOption.classList.add('selected');
+            
+            // Store user answer
+            userAnswers[questionId] = optionIndex;
+            
+            // Enable reveal answer button
+            document.getElementById(`reveal-btn-${questionId}`).disabled = false;
+        }
+
+        // Reveal the correct answer
+        function revealAnswer(questionId) {
+            const question = quizData.questions.find(q => q.id === questionId);
+            const userAnswer = userAnswers[questionId];
+            const correctAnswer = question.correctAnswer;
+            
+            // Show answer section
+            const answerSection = document.getElementById(`answer-${questionId}`);
+            answerSection.classList.add('show');
+            
+            // Color code the options
+            const options = document.querySelectorAll(`#options-${questionId} .option`);
+            options.forEach((option, index) => {
+                option.style.pointerEvents = 'none'; // Disable further clicks
+                
+                if (index === correctAnswer) {
+                    option.classList.add('correct');
+                } else if (index === userAnswer && index !== correctAnswer) {
+                    option.classList.add('incorrect');
+                }
+            });
+            
+            // Enable explanation button
+            document.getElementById(`explain-btn-${questionId}`).disabled = false;
+            
+            // Disable reveal button
+            document.getElementById(`reveal-btn-${questionId}`).disabled = true;
+            
+            // Check if all questions are answered
+            checkQuizCompletion();
+        }
+
+        // Show explanation
+        function showExplanation(questionId) {
+            const explanationSection = document.getElementById(`explanation-${questionId}`);
+            explanationSection.classList.add('show');
+            
+            // Disable explanation button
+            document.getElementById(`explain-btn-${questionId}`).disabled = true;
+        }
+
+        // Check if quiz is complete
+        function checkQuizCompletion() {
+            const answeredQuestions = Object.keys(userAnswers).length;
+            const revealedAnswers = document.querySelectorAll('.answer-section.show').length;
+            
+            if (revealedAnswers === totalQuestions) {
+                showFinalScore();
+            }
+        }
+
+        // Show final score
+        function showFinalScore() {
+            let correctAnswers = 0;
+            
+            quizData.questions.forEach(question => {
+                const userAnswer = userAnswers[question.id];
+                if (userAnswer === question.correctAnswer) {
+                    correctAnswers++;
+                }
+            });
+            
+            const percentage = Math.round((correctAnswers / totalQuestions) * 100);
+            const scoreContainer = document.getElementById('score-container');
+            const finalScore = document.getElementById('final-score');
+            
+            finalScore.innerHTML = `
+                🐾 You scored ${correctAnswers} out of ${totalQuestions} questions correctly! 🐾<br>
+                💖 Your kawaii percentage: ${percentage}% 💖<br>
+                ${percentage >= 80 ? '🎉✨ Fantastic! You\'re a painting master! ✨🎉' : 
+                  percentage >= 60 ? '👍🌸 Great job! Your art knowledge is strong! 🌸👍' : 
+                  '📚🎨 Keep practicing, little artist! You\'ll get there! 🎨📚'}
+            `;
+            
+            scoreContainer.classList.add('show');
+            scoreContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Initialize the quiz when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Quiz selector is ready, no default loading needed
+            console.log('🎨✨ Kawaii Painting Quiz application loaded successfully! Ready for art fun! ✨🎨');
+        });
+    </script>
+</body>
+</html>

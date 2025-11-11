@@ -1,0 +1,606 @@
+{
+  "title": "Ajanta Caves: History and Art - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Painting - Ajanta Cave Paintings and Buddhist Art",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who discovered prehistoric rock paintings at Sohagihat in Mirzapur district in 1867-1868?",
+      "options": [
+        "John Smith",
+        "Archibald Carlleyle",
+        "J. Cockburn",
+        "Sir John Marshall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Archibald Carlleyle of the Archaeological Survey of India discovered rock paintings at Sohagihat in the Mirzapur district of Uttar Pradesh in 1867 and 1868, which he thought dated from the Stone Age."
+    },
+    {
+      "id": 2,
+      "question": "What did J. Cockburn discover in 1881 in the Mirzapur region?",
+      "options": [
+        "Buddha statues",
+        "Fossilised rhinoceros bones and a painting of a rhinoceros hunted by three men",
+        "Ancient temples",
+        "Gold coins"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 1881, J. Cockburn found fossilised rhinoceros bones in the valley of the Ken River in the Mirzapur region as well as a painting of a rhinoceros hunted by three men in a shelter near Roap Village."
+    },
+    {
+      "id": 3,
+      "question": "Who led the excavations in 1924 on the banks of rivers Ravi and Indus?",
+      "options": [
+        "Archibald Carlleyle",
+        "Sir John Marshall, Rai Bahadur Daya Ram Sahni, Madho Sarup Vats, Rakhal Das Banerjee, and E. J. H. MacKay",
+        "J. Cockburn",
+        "John Smith"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 1924, Sir John Marshall, Rai Bahadur Daya Ram Sahni, Madho Sarup Vats, Rakhal Das Banerjee, and E. J. H. MacKay led excavations on the banks of the river Ravi and Indus, leading to the discovery of civilization thousands of years old."
+    },
+    {
+      "id": 4,
+      "question": "Which ancient Indian cave painting sites are mentioned as dating from 1st Century BCE to 7th Century CE?",
+      "options": [
+        "Only Ajanta",
+        "Jogimara, Bagh, Badami, Sittanvasal, Armamalai and Ajanta",
+        "Only Ellora",
+        "Only Bagh and Badami"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ancient Indian cave paintings dating from the 1st Century BCE to the 7th Century CE include frescos of Jogimara, Bagh, Badami, Sittanvasal, Armamalai and Ajanta."
+    },
+    {
+      "id": 5,
+      "question": "What is the main theme of Ajanta cave paintings?",
+      "options": [
+        "Royal battles",
+        "The life of Buddha and Jataka narratives",
+        "Agricultural scenes",
+        "Mythological wars"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main theme of Ajanta cave paintings is the life of Buddha and Jataka narratives, while Badami has Brahmanical-Hinduism themes and Sittanavasal has Jaina themes."
+    },
+    {
+      "id": 6,
+      "question": "How many caves are there in the Ajanta complex?",
+      "options": [
+        "20 caves",
+        "25 caves",
+        "29 caves including an unfinished one",
+        "30 caves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Ajanta complex has 29 caves, including an unfinished one. These caves were excavated in different periods from the 2nd century B.C. to 6th century A.D."
+    },
+    {
+      "id": 7,
+      "question": "What was the purpose of Ajanta as a Buddhist site?",
+      "options": [
+        "A royal palace",
+        "A monastery where Buddhist monks lived, studied and held learned discussions",
+        "A trading center",
+        "A military fort"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ajanta was a monastery where Buddhist monks lived, studied and held learned discussions. The purpose behind painting Buddha's life was to remind monks of their ideals and his hardships on the journey towards enlightenment."
+    },
+    {
+      "id": 8,
+      "question": "What are Ajanta paintings renowned for worldwide?",
+      "options": [
+        "Use of gold",
+        "Their expressive faces, eyes and hand gestures",
+        "Large size",
+        "Abstract patterns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Portrait faces at Ajanta are renowned worldwide for their expressive faces, eyes and hand gestures."
+    },
+    {
+      "id": 9,
+      "question": "What is Shadanga in the context of Ajanta paintings?",
+      "options": [
+        "A type of pigment",
+        "Six paramount rules of art",
+        "A painting technique",
+        "A type of brush"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ajanta painters followed the Shadanga, or six paramount rules of art, yet gave free rein to their imagination."
+    },
+    {
+      "id": 10,
+      "question": "Which pigment was imported for blue color in Ajanta paintings?",
+      "options": [
+        "Indigo",
+        "Lapis lazuli",
+        "Turquoise",
+        "Cobalt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lapis lazuli was imported for blue color. Other pigments were locally sourced, including kaolin chalk for white, lamp soot for black, glauconite for green, and ochre for yellow, red and brown."
+    },
+    {
+      "id": 11,
+      "question": "What was used for white color in Ajanta paintings?",
+      "options": [
+        "Chalk powder",
+        "Kaolin chalk",
+        "Limestone",
+        "Rice flour"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kaolin chalk was used for white color in Ajanta paintings. All pigments were derived from natural water-soluble substances."
+    },
+    {
+      "id": 12,
+      "question": "What was the source of black color in Ajanta paintings?",
+      "options": [
+        "Coal",
+        "Charcoal",
+        "Lamp soot",
+        "Ink"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lamp soot (lamp black) was used for black color in Ajanta paintings."
+    },
+    {
+      "id": 13,
+      "question": "Which substance was used for green color at Ajanta?",
+      "options": [
+        "Copper oxide",
+        "Glauconite",
+        "Malachite",
+        "Plant extract"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Glauconite was used for green color. It is a naturally occurring mineral that provided the green pigment for Ajanta paintings."
+    },
+    {
+      "id": 14,
+      "question": "What was the source of yellow, red and brown colors at Ajanta?",
+      "options": [
+        "Imported minerals",
+        "Ochre and local iron-rich clay",
+        "Plant dyes",
+        "Chemical compounds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ochre was used for yellow, and red and brown came from local iron-rich clay. These were all naturally available materials."
+    },
+    {
+      "id": 15,
+      "question": "When were the pigments added during the Ajanta painting process?",
+      "options": [
+        "Before preparing the wall",
+        "While the undercoat was wet",
+        "Only after the undercoat was completely dry",
+        "Mixed with the plaster"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pigments were thickened with glue and added only after the undercoat was completely dry, which is characteristic of tempera technique."
+    },
+    {
+      "id": 16,
+      "question": "What subjects are depicted in Ajanta paintings besides Buddha's life?",
+      "options": [
+        "Only religious scenes",
+        "Apsaras, Gandharvas, Gods, royal personages, paupers, courtesans, monks, animals, birds, and flora",
+        "Only mythological beings",
+        "Only natural landscapes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ajanta paintings depict Apsaras and Gandharvas, Gods and Goddesses, royal personages and paupers, courtesans and monks, animals and birds, wild and pet animals, trees-vines-creepers-bushes, showing familiarity with contemporary life."
+    },
+    {
+      "id": 17,
+      "question": "Which famous Ajanta painting depicts a Bodhisattva holding a lotus?",
+      "options": [
+        "Mara Vijaya",
+        "Padmapani Bodhisattva",
+        "Dying Princess",
+        "Vessantara Jataka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Padmapani Bodhisattva is one of the masterpieces at Ajanta. The name means 'lotus in hand' (Padma = lotus, Pani = hand), referring to the blue lotus blossom in his right hand."
+    },
+    {
+      "id": 18,
+      "question": "Who discovered the Ajanta caves in 1819?",
+      "options": [
+        "Archibald Carlleyle",
+        "British Army officer John Smith",
+        "Sir John Marshall",
+        "J. Cockburn"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ajanta caves came to light in 1819 when a British Army officer John Smith accidentally discovered the entrance to Cave No. 10 deep within the tangled undergrowth while hunting a tiger."
+    },
+    {
+      "id": 19,
+      "question": "In what period were the Ajanta caves excavated?",
+      "options": [
+        "1st to 3rd century CE",
+        "2nd century B.C. to 6th century A.D.",
+        "5th to 10th century CE",
+        "10th to 15th century CE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ajanta caves had been excavated in different periods spanning from 2nd century B.C. to 6th century A.D. in a horse-shoe-shaped bend of rock surface."
+    },
+    {
+      "id": 20,
+      "question": "What are Chaityagrihas at Ajanta?",
+      "options": [
+        "Living quarters for monks",
+        "Prayer halls where religious discourses were conducted",
+        "Storage rooms",
+        "Dining halls"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Five caves at Ajanta (cave no. 9, 10, 19, 26, and 29) are Chaityagrihas where religious discourses were conducted. The rest are viharas or living quarters for the monks."
+    },
+    {
+      "id": 21,
+      "question": "Which Ajanta caves have discernible murals today?",
+      "options": [
+        "All 29 caves",
+        "Only caves 1, 2, 9, 11, 16 and 17",
+        "Only cave 1",
+        "Caves 5 to 15"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Though all the caves had been painted, today only caves 1, 2, 9, 11, 16 and 17 have discernible murals; the rest have been lost due to neglect and the ravages of time."
+    },
+    {
+      "id": 22,
+      "question": "What does the ceiling decoration at Ajanta invariably consist of?",
+      "options": [
+        "Only floral patterns",
+        "Only geometric patterns",
+        "Decorative patterns, geometrical as well as floral",
+        "Only Buddhist symbols"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ceiling decoration at Ajanta invariably consists of decorative patterns, geometrical as well as floral."
+    },
+    {
+      "id": 23,
+      "question": "What does the variety and detail in Ajanta paintings suggest about the monks?",
+      "options": [
+        "They were always monks",
+        "Before they renounced the world, they had known it and its processes well",
+        "They traveled extensively",
+        "They were trained artists from birth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The variety of subjects, details in paintings, dexterity in rock cutting and architectural finesse suggest that before they renounced it, the monks had known the world and its processes well."
+    },
+    {
+      "id": 24,
+      "question": "What is the size of the Padmapani Bodhisattva mural?",
+      "options": [
+        "100 cm",
+        "150 cm",
+        "174 cm (lifesize)",
+        "200 cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Padmapani Bodhisattva mural in Cave 1 at Ajanta is 174 cm, making it a lifesize mural and a marvel of Indian painting."
+    },
+    {
+      "id": 25,
+      "question": "What adorns the Padmapani Bodhisattva in the famous mural?",
+      "options": [
+        "Simple cloth only",
+        "Pearls, amethyst, lapis lazuli and other gems, with a magnificent crown",
+        "Gold armor",
+        "Flower garlands only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Padmapani Bodhisattva is adorned with classic Indian jewellry fit for a man of noble birth, including pearls, amethyst, lapis lazuli and other gems, with a magnificent crown on his head."
+    },
+    {
+      "id": 26,
+      "question": "What does the blue lotus blossom in Padmapani's hand represent?",
+      "options": [
+        "Royalty",
+        "His spiritual awakening",
+        "Divine power",
+        "Nature worship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The blue lotus blossom in Padmapani Bodhisattva's right hand represents his spiritual awakening. This is why he is named Padmapani (Padma = lotus blossom, Pani = hand)."
+    },
+    {
+      "id": 27,
+      "question": "What does the crown on Padmapani Bodhisattva signify?",
+      "options": [
+        "His wealth",
+        "His royal lineage",
+        "His divine nature",
+        "His achievement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The magnificent crown on Padmapani Bodhisattva's head signifies his royal lineage, indicating he was of noble birth before his spiritual path."
+    },
+    {
+      "id": 28,
+      "question": "How are the eyes of Padmapani Bodhisattva depicted?",
+      "options": [
+        "Wide open",
+        "Closed",
+        "Lowered in a meditative state",
+        "Looking upward"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The eyes of Padmapani Bodhisattva are lowered in a meditative state, contributing to the calm and spiritual nature of the figure."
+    },
+    {
+      "id": 29,
+      "question": "What was the first step in creating the surface for Ajanta murals?",
+      "options": [
+        "Applying paint directly",
+        "Creating an almost plane surface on the rockface with chisel and hammer",
+        "Hanging canvas",
+        "Polishing the rock"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The craftsmen first created an almost plane surface on the rockface with a chisel and hammer before preparing the layers for painting."
+    },
+    {
+      "id": 30,
+      "question": "What was used in the first rough layer applied to the rock surface at Ajanta?",
+      "options": [
+        "Pure lime",
+        "Earth mixed with rock-grit or sand, vegetable fibres, paddy husk, grass",
+        "Cement",
+        "Clay only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The surface was prepared with a rough layer of earth mixed with rock-grit or sand, vegetable fibres, paddy husk, and grass."
+    },
+    {
+      "id": 31,
+      "question": "What was applied as the second coat over the rough layer at Ajanta?",
+      "options": [
+        "Pure lime",
+        "Mud mixed with fine rock powder or sand and fine fibrous vegetable material",
+        "Paint directly",
+        "Wax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A second coat of mud mixed with fine rock powder or sand and fine fibrous vegetable material was applied over the rough first layer."
+    },
+    {
+      "id": 32,
+      "question": "What was the final finishing layer applied before painting at Ajanta?",
+      "options": [
+        "Oil coating",
+        "Varnish",
+        "A thin coat of lime wash",
+        "Gypsum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The surface was finally finished with a thin coat of lime wash, creating a smooth white surface ready for painting."
+    },
+    {
+      "id": 33,
+      "question": "What was done after the lime wash surface was prepared at Ajanta?",
+      "options": [
+        "The wall was left to age",
+        "Outlines were drawn boldly then spaces were filled with requisite colours",
+        "Colors were applied randomly",
+        "The surface was polished"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Over the lime wash surface, outlines were drawn boldly then the spaces were filled with requisite colours."
+    },
+    {
+      "id": 34,
+      "question": "What range of colors did Ajanta painters have at their disposal?",
+      "options": [
+        "Unlimited synthetic colors",
+        "A limited range from natural sources: red and yellow ochre, terra verte, lime, kaolin, gypsum, lamp black and lapis lazuli",
+        "Only black and white",
+        "Modern chemical paints"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ajanta painters had a limited range of colours: red and yellow ochre, terra verte, lime, kaolin, gypsum, lamp black and lapis lazuli. Some vegetable colours were also used."
+    },
+    {
+      "id": 35,
+      "question": "What type of colors were also used besides mineral pigments at Ajanta?",
+      "options": [
+        "Synthetic dyes",
+        "Some vegetable colours",
+        "Chemical colors",
+        "Only animal-based colors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Besides mineral pigments, some vegetable colours have also been used in Ajanta paintings."
+    },
+    {
+      "id": 36,
+      "question": "What is terra verte in the context of Ajanta pigments?",
+      "options": [
+        "A blue pigment",
+        "A green earth pigment",
+        "A red pigment",
+        "A yellow pigment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Terra verte is a green earth pigment that was among the limited range of colours available to Ajanta painters."
+    },
+    {
+      "id": 37,
+      "question": "What masterpiece paintings are mentioned from Ajanta?",
+      "options": [
+        "Only Padmapani",
+        "Padmapani Bodhisattva, Yashodhara and Rahul, Chhadantajataka, The Cruel Brahmin, Shibijataka Vessantara, Flight of Nanda",
+        "Only Buddhist deities",
+        "Only Jataka tales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Famous Ajanta masterpieces include Padmapani Bodhisattva, Yashodhara and Rahul, Chhadantajataka, The Cruel Brahmin, Shibijataka Vessantara, and the Flight of Nanda."
+    },
+    {
+      "id": 38,
+      "question": "What animals are depicted in prehistoric rock paintings in India?",
+      "options": [
+        "Only domestic animals",
+        "Animals shown as Gods, along with human figures hunting, at war, and celebrating",
+        "Only elephants",
+        "No animals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prehistoric rock paintings show human figures hunting a beast, at war, carrying clubs and projectiles, celebrating victory with dance, and animal figures in movement, often representing animals as Gods."
+    },
+    {
+      "id": 39,
+      "question": "What was found at excavation sites on the banks of Ravi and Indus in 1924?",
+      "options": [
+        "Only pottery",
+        "Seals, coins, statuettes, and terracottas with animal figures painted or carved",
+        "Only weapons",
+        "Only jewelry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The seals, coins, statuettes, and terracottas found at these sites have animal figures painted or carved, indicating an ancient civilization thousands of years old."
+    },
+    {
+      "id": 40,
+      "question": "What purpose did painting Buddha's life at Ajanta serve for the monks?",
+      "options": [
+        "Decoration only",
+        "To remind monks of their ideals and the hardships Buddha faced on his journey towards enlightenment",
+        "To attract visitors",
+        "To practice art skills"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The purpose behind painting the various lives of Buddha at Ajanta was to remind the monks of their ideals and the hardships he faced on his journey towards enlightenment."
+    },
+    {
+      "id": 41,
+      "question": "What is distinctive about the color scheme at Ajanta?",
+      "options": [
+        "It is simple and monotone",
+        "It is sophisticated with masterful lines",
+        "It uses only primary colors",
+        "It is abstract"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The colour scheme at Ajanta is sophisticated, and the lines are masterful, showing the high skill of the painters."
+    },
+    {
+      "id": 42,
+      "question": "What was discovered near Roap Village in the Mirzapur region?",
+      "options": [
+        "A temple",
+        "A painting of a rhinoceros hunted by three men",
+        "Ancient coins",
+        "A palace"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 1881, J. Cockburn found a painting of a rhinoceros hunted by three men in a shelter near Roap Village, along with fossilised rhinoceros bones in the valley of the Ken River."
+    },
+    {
+      "id": 43,
+      "question": "What shape is the rock formation where Ajanta caves are located?",
+      "options": [
+        "Circular",
+        "Straight line",
+        "Horse-shoe-shaped bend",
+        "Square"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Ajanta caves had been excavated in a horse-shoe-shaped bend of rock surface in different periods from 2nd century B.C. to 6th century A.D."
+    },
+    {
+      "id": 44,
+      "question": "How many Chaityagrihas (prayer halls) are at Ajanta?",
+      "options": [
+        "Three",
+        "Five (cave no. 9, 10, 19, 26, and 29)",
+        "Ten",
+        "Fifteen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Out of 29 caves at Ajanta, five (cave no. 9, 10, 19, 26, and 29) are Chaityagrihas where religious discourses were conducted."
+    },
+    {
+      "id": 45,
+      "question": "What are viharas at Ajanta?",
+      "options": [
+        "Prayer halls",
+        "Living quarters for the monks",
+        "Storage areas",
+        "Temples"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The majority of the Ajanta caves are viharas or living quarters for the monks, while five are Chaityagrihas (prayer halls)."
+    },
+    {
+      "id": 46,
+      "question": "Why have some Ajanta murals been lost?",
+      "options": [
+        "They were deliberately destroyed",
+        "Due to neglect and the ravages of time",
+        "They were removed to museums",
+        "They were painted over"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Though all the caves had been painted, many murals have been lost due to neglect and the ravages of time. Only caves 1, 2, 9, 11, 16 and 17 have discernible murals today."
+    },
+    {
+      "id": 47,
+      "question": "What do Bodhisattvas represent in Buddhist tradition?",
+      "options": [
+        "Common monks",
+        "Enlightened beings who delay nirvana through compassion for suffering beings",
+        "Demons",
+        "Kings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bodhisattvas are enlightened beings or persons who are able to reach nirvana but delay doing so through compassion for suffering beings."
+    },
+    {
+      "id": 48,
+      "question": "What underlines the high sophistication of Ajanta artists?",
+      "options": [
+        "Use of gold",
+        "The harmonious lines, combination of jewel and earth tones, and composition",
+        "Large size of paintings",
+        "Number of paintings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The harmonious lines, the combination of jewel and earth tones, and the composition of the murals underline the high sophistication of the Ajanta artists."
+    },
+    {
+      "id": 49,
+      "question": "What confirms the ideals of refined man in Padmapani Bodhisattva?",
+      "options": [
+        "His jewelry only",
+        "His calm fine-featured face, proportionate body, and stance",
+        "His size",
+        "His location"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The calm, fine-featured face, proportionate body, and stance of Padmapani Bodhisattva confirm the ideals of the refined man set by the ideals of the Bodhisattva."
+    },
+    {
+      "id": 50,
+      "question": "What does the term 'Padmapani' literally mean?",
+      "options": [
+        "Lotus throne",
+        "Lotus in hand (Padma = lotus, Pani = hand)",
+        "Lotus crown",
+        "Lotus eyes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Padmapani literally means 'lotus in hand' - in Sanskrit, Padma is the lotus blossom and Pani is the hand, referring to the blue lotus blossom held in the Bodhisattva's right hand."
+    }
+  ]
+}

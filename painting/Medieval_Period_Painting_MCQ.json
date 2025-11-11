@@ -1,0 +1,606 @@
+{
+  "title": "Medieval Period Painting - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Painting - Medieval Period (Pala & Jain Miniature Paintings)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "During which centuries was art productivity stagnant in India following the decline of the Gupta dynasty?",
+      "options": [
+        "9th and 10th century AD",
+        "11th and 12th century AD",
+        "13th and 14th century AD",
+        "15th and 16th century AD"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Following the decline of the Gupta dynasty, art productivity was stagnant during the 11th and 12th century AD. However, this period enriched Indian art with illustrated manuscripts."
+    },
+    {
+      "id": 2,
+      "question": "Which religious sects produced illustrated manuscripts during the medieval period?",
+      "options": [
+        "Only Buddhism",
+        "Only Jainism",
+        "Jainism, Buddhism and Hinduism",
+        "Only Hinduism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Illustrated manuscripts during the medieval period belonged to different religious sects like Jainism, Buddhism and Hinduism."
+    },
+    {
+      "id": 3,
+      "question": "Where did Buddhist manuscript illumination show its brilliance during the medieval period?",
+      "options": [
+        "Gujarat and Rajasthan",
+        "Bihar and Bengal",
+        "Punjab and Haryana",
+        "Kerala and Tamil Nadu"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Buddhist manuscript illumination showed its brilliance in the regions of Bihar and Bengal, while Jain miniature painting was patronized in Gujarat."
+    },
+    {
+      "id": 4,
+      "question": "What surface was used for medieval miniature paintings?",
+      "options": [
+        "Canvas",
+        "Paper",
+        "Palm leaves",
+        "Wood panels"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Medieval miniature paintings were done on palm leaves, which served as the surface for paintings and calligraphy."
+    },
+    {
+      "id": 5,
+      "question": "How were palm leaf manuscripts bound and preserved?",
+      "options": [
+        "Glued in books",
+        "Bound with thread and enclosed by wooden covers",
+        "Rolled into scrolls",
+        "Kept loose in boxes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The loose sheets of palm leaf were bound with thread and enclosed by wooden covers. The inner sides of these wooden covers were also beautifully painted."
+    },
+    {
+      "id": 6,
+      "question": "What is the name of the Buddhist text featured in early Pala miniature paintings?",
+      "options": [
+        "Kalpasutra",
+        "Astasahasrika-prajnaparamita",
+        "Rasamanjari",
+        "Gita Govinda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The earliest examples of Pala miniature paintings are from palm leaf manuscripts of the Buddhist text 'Astasahasrika-prajnaparamita' dated 10th CE."
+    },
+    {
+      "id": 7,
+      "question": "During whose reign were the earliest Pala miniature paintings created?",
+      "options": [
+        "Raja Sansar Chand",
+        "Raja Kirpal",
+        "Mahipala",
+        "Bhadrabahu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The earliest Pala miniature paintings are dated 10th CE, during the reign of Mahipala, a follower of the Mahayana Buddhist cult."
+    },
+    {
+      "id": 8,
+      "question": "What was the purpose of commissioning Pala miniature paintings?",
+      "options": [
+        "For commercial sale",
+        "As offerings to gain spiritual merits",
+        "For royal decoration",
+        "For educational purposes only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pala miniature paintings were usually commissioned by laymen, monks or sometimes princes. They were meant as offerings to gain spiritual merits."
+    },
+    {
+      "id": 9,
+      "question": "How were palm leaves prepared for painting?",
+      "options": [
+        "Dried immediately after cutting",
+        "Kept underwater for a month, dried, smoothened with conch shells, then cut",
+        "Boiled and pressed",
+        "Simply cleaned and cut"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Palm leaves were kept underwater for a month and later dried, then smoothened with conch shells and then cut into rectangular shapes through a long process."
+    },
+    {
+      "id": 10,
+      "question": "What were the more durable palm leaves called that replaced earlier brittle leaves?",
+      "options": [
+        "Wasli",
+        "Shritada",
+        "Kharia",
+        "Tala"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The earlier brittle leaves were replaced with durable palm leaves called Shritada."
+    },
+    {
+      "id": 11,
+      "question": "In the Pala technique, when was the background colour laid?",
+      "options": [
+        "After the final outlines",
+        "After filling with colours",
+        "Before the preliminary drawing",
+        "Only after shading"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the painting technique, a background colour was laid before the preliminary drawing. The figures were then filled with colour, shades and highlights were applied, and finally fine outlines were drawn."
+    },
+    {
+      "id": 12,
+      "question": "What colours were used for final outlines in Pala paintings?",
+      "options": [
+        "Blue or green",
+        "Black or red",
+        "Yellow or white",
+        "Gold or silver"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Finally, fine outlines were drawn in black or red colour to complete the Pala miniature paintings."
+    },
+    {
+      "id": 13,
+      "question": "From what source was black colour obtained in Pala paintings?",
+      "options": [
+        "Charcoal",
+        "Lamp soot",
+        "Kajal",
+        "Coal powder"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Black colour was obtained from lamp soot, while red came from cinder and green was made by mixing yellow and blue."
+    },
+    {
+      "id": 14,
+      "question": "What medium was used for the painting 'Pancharaksha Tara'?",
+      "options": [
+        "Oil paint",
+        "Watercolour",
+        "Tempera",
+        "Acrylic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The medium used for Pancharaksha Tara and other Pala miniature paintings was Tempera."
+    },
+    {
+      "id": 15,
+      "question": "When was the painting 'Pancharaksha Tara' created?",
+      "options": [
+        "980 CE",
+        "1080 CE",
+        "1180 CE",
+        "1280 CE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painting 'Pancharaksha Tara' dates from 1080 CE and is an example of Pala style miniature painting."
+    },
+    {
+      "id": 16,
+      "question": "In what pose is the deity seated in 'Pancharaksha Tara'?",
+      "options": [
+        "Standing pose",
+        "Padmasana pose",
+        "Dancing pose",
+        "Reclining pose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the painting 'Pancharaksha Tara', the Mahayana Buddhist deity is seated in Padmasana pose (lotus position)."
+    },
+    {
+      "id": 17,
+      "question": "What mudra is shown in one of the hands of Pancharaksha Tara?",
+      "options": [
+        "Varadamudra",
+        "Dhyanamudra",
+        "Abhayamudra",
+        "Anjali mudra"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One of the arms of Pancharaksha Tara is on her thigh and the other is in Abhayamudra (gesture of fearlessness)."
+    },
+    {
+      "id": 18,
+      "question": "What colour is used for the background in 'Pancharaksha Tara'?",
+      "options": [
+        "Blue",
+        "Red",
+        "Yellow",
+        "Green"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The red background is used to provide relief to the figure in the painting 'Pancharaksha Tara'."
+    },
+    {
+      "id": 19,
+      "question": "During which centuries did Jain palm leaf manuscript painting flourish?",
+      "options": [
+        "8th to 12th Century CE",
+        "10th to 14th Century CE",
+        "12th to 16th Century CE",
+        "14th to 18th Century CE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Jain palm leaf manuscript painting flourished in Gujarat, Rajasthan and some other regions from 10th Century CE to 14th Century CE."
+    },
+    {
+      "id": 20,
+      "question": "What is the most famous Jain sacred text illustrated in palm leaf paintings?",
+      "options": [
+        "Rasamanjari",
+        "Kalpasutra",
+        "Gita Govinda",
+        "Bhagavata Purana"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Jain palm leaf manuscript paintings are actually illustrations of Jain sacred texts, most notably the 'Kalpasutra' and others."
+    },
+    {
+      "id": 21,
+      "question": "What is a distinctive feature of Jain paintings regarding the eyes?",
+      "options": [
+        "Eyes are always closed",
+        "Eyes are small and round",
+        "Angular drawing of eyes beyond the outline of the face",
+        "Eyes are drawn straight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Jain paintings could be easily identified by typical features like an angular drawing of eyes beyond the outline of the face and bright colours."
+    },
+    {
+      "id": 22,
+      "question": "What is the style of Jain palm leaf painting characterized as?",
+      "options": [
+        "Pure perspective",
+        "Pure draughtsmanship",
+        "Pure naturalism",
+        "Pure abstraction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The style of Jain palm leaf painting is one of pure draughtsmanship, focusing on technical drawing skill."
+    },
+    {
+      "id": 23,
+      "question": "What does Kalpasutra contain?",
+      "options": [
+        "Stories of Hindu gods",
+        "Buddhist teachings",
+        "Narrative on the lives of the Jinas",
+        "Musical compositions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kalpasutra is the Svetambara Jain account comprising a narrative on the lives of the Jinas, the revered holy men in Jain religion."
+    },
+    {
+      "id": 24,
+      "question": "Who is attributed as the author of Kalpasutra?",
+      "options": [
+        "Jayadeva",
+        "Bhadrabahu",
+        "Tulsidas",
+        "Bhanudatta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Kalpasutra script is written in Ardha-Magadhiprakrit and attributed to Bhadrabahu."
+    },
+    {
+      "id": 25,
+      "question": "What is the date of the Kalpasutra (Svetambara) painting?",
+      "options": [
+        "1409 CE",
+        "1509 CE",
+        "1609 CE",
+        "1709 CE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Kalpasutra (Svetambara) painting shown as an example dates from 1509 CE."
+    },
+    {
+      "id": 26,
+      "question": "What is the size of the Kalpasutra painting panel?",
+      "options": [
+        "8cm × 22cm",
+        "10cm × 20cm",
+        "12cm × 24cm",
+        "6cm × 18cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Kalpasutra painting panel measures 8cm × 22cm, painted with tempera on palm leaf."
+    },
+    {
+      "id": 27,
+      "question": "How many segments does the Kalpasutra painting panel have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Kalpasutra panel has two segments - the right side segment shows a deity with an animal head carrying a baby, and the left shows a queen mother with her newborn baby."
+    },
+    {
+      "id": 28,
+      "question": "What story is depicted in the Kalpasutra painting?",
+      "options": [
+        "Birth of Krishna",
+        "Birth of Buddha",
+        "Birth of a Tirthankara",
+        "Birth of Mahavira only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The segments of the Kalpasutra panel tell the story of the birth of a Tirthankara, a revered spiritual teacher in Jainism."
+    },
+    {
+      "id": 29,
+      "question": "Even though faces are in profile in Jain paintings, what distinctive feature is shown?",
+      "options": [
+        "Only one eye is visible",
+        "Both eyes are shown",
+        "Eyes are closed",
+        "Eyes are looking down"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Though the faces are in profile, both eyes are shown. These long eyes are extended beyond the outline of the face in Jain paintings."
+    },
+    {
+      "id": 30,
+      "question": "How is a sense of volume achieved in Jain paintings despite flatness of colour?",
+      "options": [
+        "Through perspective",
+        "Through shading only",
+        "Use of darker tone in boundary areas",
+        "Through layering colours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In spite of general flatness of colour, the use of a darker tone in the boundary areas gives a sense of volume in Jain paintings."
+    },
+    {
+      "id": 31,
+      "question": "What creates a feeling of movement in Jain paintings?",
+      "options": [
+        "Curved backgrounds",
+        "Rhythmic linear patterns created through lines",
+        "Multiple figures",
+        "Bright colours"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The rhythmic linear patterns created through lines give the figures a feeling of movement in Jain miniature paintings."
+    },
+    {
+      "id": 32,
+      "question": "Which rulers patronized art in the eastern part of India during the medieval period?",
+      "options": [
+        "Mughals",
+        "Palas",
+        "Rajputs",
+        "Cholas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rulers like the Palas in the east, Rajputs in the west and Cholas and Chalukyas in the south patronized art and architecture during the medieval period."
+    },
+    {
+      "id": 33,
+      "question": "Which rulers patronized art in the southern part of India during the medieval period?",
+      "options": [
+        "Palas and Senas",
+        "Cholas and Chalukyas",
+        "Mughals and Rajputs",
+        "Guptas and Mauryas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Cholas and Chalukyas in the south patronized art and architecture during the medieval period."
+    },
+    {
+      "id": 34,
+      "question": "What sect of Buddhism is associated with Pala paintings?",
+      "options": [
+        "Theravada",
+        "Mahayana",
+        "Vajrayana",
+        "Zen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mahipala was a follower of the Mahayana Buddhist cult, and Pala miniature paintings featured Mahayana Buddhist deities."
+    },
+    {
+      "id": 35,
+      "question": "What sect of Jainism is associated with Kalpasutra?",
+      "options": [
+        "Digambara",
+        "Svetambara",
+        "Yapaniya",
+        "Kalugumalai"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kalpasutra is the Svetambara Jain account, and the painting is from the Svetambara tradition."
+    },
+    {
+      "id": 36,
+      "question": "What defined the features in Pala miniature paintings?",
+      "options": [
+        "Bold thick lines",
+        "Delicate outlines with sensual expressions",
+        "Abstract shapes",
+        "Geometric patterns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Pala paintings, all the features are defined by delicate outlines, with sensual expressions."
+    },
+    {
+      "id": 37,
+      "question": "How many lines of text were typically written on a palm leaf before space was left for painting?",
+      "options": [
+        "Three to four lines",
+        "Five to seven lines",
+        "Eight to ten lines",
+        "Two to three lines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Some space was left on the palm leaf for paintings after five to seven lines were written on it."
+    },
+    {
+      "id": 38,
+      "question": "What was the final step in the Pala painting technique?",
+      "options": [
+        "Applying background colour",
+        "Filling figures with colour",
+        "Drawing fine outlines in black or red",
+        "Applying shades and highlights"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The painting technique involved laying background colour, preliminary drawing, filling with colour, applying shades and highlights, and finally drawing fine outlines in black or red colour."
+    },
+    {
+      "id": 39,
+      "question": "What creates harmony in the composition of 'Pancharaksha Tara'?",
+      "options": [
+        "Multiple figures",
+        "Colour structure with fluent contour lines",
+        "Geometric patterns",
+        "Architectural elements"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is the colour structure which creates the harmony of the composition with the help of fluent contour lines in Pancharaksha Tara."
+    },
+    {
+      "id": 40,
+      "question": "What quality do the colours have in 'Pancharaksha Tara'?",
+      "options": [
+        "Matte flatness",
+        "Luminous depth",
+        "Transparent lightness",
+        "Dark heaviness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In all the colours of Pancharaksha Tara there is a quality of luminous depth, showing the artist's sensitive appreciation of the resources of the medium."
+    },
+    {
+      "id": 41,
+      "question": "What approach is used in 'Pancharaksha Tara' regarding natural form?",
+      "options": [
+        "Highly realistic",
+        "Highly stylized",
+        "Photographic",
+        "Abstract expressionist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One looks in vain for the natural form in Pancharaksha Tara because of its highly stylized approach."
+    },
+    {
+      "id": 42,
+      "question": "What is Padmasana?",
+      "options": [
+        "A dancing posture",
+        "A sitting posture with folded knees (lotus position)",
+        "A standing posture",
+        "A reclining posture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Padmasana is a sitting posture with folded knees, also known as the lotus position, commonly seen in meditation and spiritual art."
+    },
+    {
+      "id": 43,
+      "question": "What does the term 'draughtsmanship' refer to in the context of Jain paintings?",
+      "options": [
+        "Color application technique",
+        "Technical drawing skill",
+        "Perspective method",
+        "Brush handling"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Draughtsmanship refers to technical skill in drawing, and Jain painting style is characterized as one of pure draughtsmanship."
+    },
+    {
+      "id": 44,
+      "question": "What is an illuminated manuscript?",
+      "options": [
+        "A manuscript written with gold ink",
+        "A decorated handwritten manuscript",
+        "A manuscript that glows in dark",
+        "A printed book with pictures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An illuminated manuscript is a decorated handwritten manuscript, often featuring intricate paintings and calligraphy."
+    },
+    {
+      "id": 45,
+      "question": "What is calligraphy?",
+      "options": [
+        "Decorative handwriting",
+        "Painting technique",
+        "Sculpture method",
+        "Printing process"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calligraphy is decorative handwriting or handwritten lettering, which was combined with paintings on palm leaf manuscripts."
+    },
+    {
+      "id": 46,
+      "question": "What are the Jinas in Jain religion?",
+      "options": [
+        "Sacred texts",
+        "Revered holy men",
+        "Religious ceremonies",
+        "Temple structures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Jinas are the revered holy men in Jain religion, and their lives are narrated in the Kalpasutra."
+    },
+    {
+      "id": 47,
+      "question": "What language is the Kalpasutra script written in?",
+      "options": [
+        "Sanskrit",
+        "Pali",
+        "Ardha-Magadhiprakrit",
+        "Hindi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Kalpasutra script is written in Ardha-Magadhiprakrit and attributed to Bhadrabahu."
+    },
+    {
+      "id": 48,
+      "question": "What is the main contribution of medieval art in India?",
+      "options": [
+        "Temple architecture",
+        "Paintings on palm-leaf manuscripts",
+        "Bronze sculptures",
+        "Stone carvings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One of the most important contributions of medieval art of India are paintings on palm-leaf manuscripts including Buddhist and Jain religious texts."
+    },
+    {
+      "id": 49,
+      "question": "What tradition did medieval miniature painting style follow?",
+      "options": [
+        "Persian painting tradition",
+        "Chinese painting tradition",
+        "Wall paintings with local folk art styles",
+        "European painting tradition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The medieval miniature painting style followed the tradition of wall paintings but with the clear signature of local folk art styles."
+    },
+    {
+      "id": 50,
+      "question": "Where were Jain miniature paintings patronized?",
+      "options": [
+        "Bihar and Bengal",
+        "Gujarat",
+        "Punjab and Haryana",
+        "Kerala and Karnataka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Jain miniature painting was developed and was patronized in Gujarat, while Buddhist manuscript illumination flourished in Bihar and Bengal."
+    }
+  ]
+}

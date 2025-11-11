@@ -1,0 +1,1206 @@
+{
+  "title": "Pahari Painting - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Painting - Pahari Miniature Painting (Kangra, Basohli & Chamba Styles)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does the term 'Pahari painting' refer to?",
+      "options": [
+        "Paintings from coastal regions",
+        "Miniature painting tradition from hilly regions of India",
+        "Paintings from plains",
+        "Wall paintings only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pahari painting is a term used for miniature painting tradition that flourished in the hilly regions of India such as Himachal Pradesh, Jammu and Tehri-Garhwal."
+    },
+    {
+      "id": 2,
+      "question": "During which period did Pahari painting flourish?",
+      "options": [
+        "1575 to 1723 CE",
+        "1675 to 1823 CE",
+        "1775 to 1923 CE",
+        "1475 to 1623 CE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pahari painting flourished in the hilly regions between circa 1675 to 1823 CE."
+    },
+    {
+      "id": 3,
+      "question": "Who patronized Pahari painting?",
+      "options": [
+        "Mughal emperors",
+        "Local Rajas who were mainly Rajputs",
+        "British colonials",
+        "Portuguese traders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pahari painting was patronized by the local Rajas of hilly regions, who were mainly Rajputs."
+    },
+    {
+      "id": 4,
+      "question": "What style characteristic defines Pahari painting?",
+      "options": [
+        "Geometric style",
+        "Lyrical style",
+        "Abstract style",
+        "Cubist style"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pahari painting is a lyrical style of painting, known for its poetic and expressive qualities."
+    },
+    {
+      "id": 5,
+      "question": "Which religious epics were frequently painted in Pahari style?",
+      "options": [
+        "Bible and Quran",
+        "Mahabharat and Ramayana",
+        "Tripitaka",
+        "Zend Avesta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fine paintings based on religious epics like Mahabharat and Ramayana, Puranas, Gita Govinda and Rasamanjari were frequently painted in Pahari style."
+    },
+    {
+      "id": 6,
+      "question": "Which Sanskrit and Hindi classics were popular in Pahari paintings?",
+      "options": [
+        "Rasikapriya, Baramasa and Bihari Satsai",
+        "Arthashastra and Manusmriti",
+        "Vedas and Upanishads",
+        "Puranas only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sanskrit and Hindi classics such as Rasikapriya, Baramasa and Bihari Satsai were other popular texts that found representation in Pahari painting."
+    },
+    {
+      "id": 7,
+      "question": "What secular love stories were depicted in Pahari paintings?",
+      "options": [
+        "Romeo and Juliet",
+        "Hira-Ranjha, Sohani-Mahiwal and Sassi-Punno",
+        "Laila-Majnu only",
+        "Shirin-Farhad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Secular themes included love stories of Hira-Ranjha, Sohani-Mahiwal and Sassi-Punno, among others."
+    },
+    {
+      "id": 8,
+      "question": "What type of color scheme is used in Pahari paintings?",
+      "options": [
+        "Monochromatic",
+        "Bright colours in contrast",
+        "Only earth tones",
+        "Black and white"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Pahari paintings, generally bright colours were used in contrast."
+    },
+    {
+      "id": 9,
+      "question": "What is an important component of Pahari painting composition?",
+      "options": [
+        "Geometric shapes",
+        "Depiction of nature",
+        "Urban landscapes",
+        "Industrial scenes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Depiction of nature formed an important component of the composition of Pahari painting."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a school of Pahari painting?",
+      "options": [
+        "Mewar",
+        "Kangra",
+        "Pratapgarh",
+        "Malwa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kangra, Basohli, Mankot, Guler, Jammu, Mandi, Chamba, Bilaspur, Kulu and Garhwal are schools of Pahari painting."
+    },
+    {
+      "id": 11,
+      "question": "Who was the famous patron of Kangra painting?",
+      "options": [
+        "Raja Kirpal Pal",
+        "Raja Sansar Chand",
+        "Raja Ranjit Dev",
+        "Maharana Pratap"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Under the Royal Patronage of Raja Sansar Chand, Kangra painting reached a great height in beautiful portrayal of human form and nature."
+    },
+    {
+      "id": 12,
+      "question": "Who was the famous patron from Basohli?",
+      "options": [
+        "Sansar Chand",
+        "Kirpal Pal",
+        "Ranjit Dev",
+        "Pratap Singh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Among the famous patrons, Kirpal Pal from Basohli made a significant contribution to the development of Pahari painting."
+    },
+    {
+      "id": 13,
+      "question": "Who were famous Pahari painters?",
+      "options": [
+        "Raja Ravi Varma and M.F. Husain",
+        "Nainsukh, Manaku, and Pundit Seu",
+        "Amrita Sher-Gil and Jamini Roy",
+        "Tyeb Mehta and F.N. Souza"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nainsukh, Manaku, Kushan Lal, Fattu and Ram Lal, Pundit Seu and Purkhu were some of the famous Pahari painters."
+    },
+    {
+      "id": 14,
+      "question": "What inspired Kangra artists besides royal patronage?",
+      "options": [
+        "European art",
+        "The culture of Punjab and the Great Sikh Movement started by Guru Nanak",
+        "Chinese painting",
+        "Persian miniatures only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The culture of Punjab and the Great Sikh Movement started by Guru Nanak also inspired Kangra artists."
+    },
+    {
+      "id": 15,
+      "question": "Which texts were illustrated in Kangra style?",
+      "options": [
+        "Gita Govinda of Jayadeva and Ramayana of Tulsidas",
+        "Meghaduta of Kalidasa",
+        "Panchatantra",
+        "Arthashastra"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 'Gita Govinda' of Jayadeva and 'Ramayana' of Tulsidas have been illustrated in Kangra style."
+    },
+    {
+      "id": 16,
+      "question": "What did Sansar Chand commission from his childhood to old age?",
+      "options": [
+        "Temple sculptures",
+        "Many portraits of himself",
+        "Architectural monuments",
+        "Musical compositions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sansar Chand commissioned many portraits of himself from his childhood to old age."
+    },
+    {
+      "id": 17,
+      "question": "Kangra art is described as a culmination of what?",
+      "options": [
+        "Mughal influence",
+        "Spiritual and literary revival of Hinduism",
+        "European aesthetics",
+        "Islamic calligraphy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kangra art is a culmination of the spiritual and literary revival of Hinduism."
+    },
+    {
+      "id": 18,
+      "question": "What aspect do Kangra paintings disregard?",
+      "options": [
+        "Color",
+        "Perspective",
+        "Line work",
+        "Subject matter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kangra paintings disregard perspective but focus on wonderful glowing colours and delicate line work."
+    },
+    {
+      "id": 19,
+      "question": "How are faces typically drawn in Kangra paintings?",
+      "options": [
+        "Front view",
+        "Profile",
+        "Three-quarter view",
+        "From above"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Almost all faces are drawn in profile in Kangra paintings."
+    },
+    {
+      "id": 20,
+      "question": "How can Kangra paintings be easily identified?",
+      "options": [
+        "By large bold strokes",
+        "By delicacy of lines, brilliant colours and minuteness of decorative detail",
+        "By geometric patterns",
+        "By dark colors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kangra paintings can easily be identified by the delicacy of lines, brilliant colours and minuteness of decorative detail."
+    },
+    {
+      "id": 21,
+      "question": "What is a specialty of female figures in Kangra paintings?",
+      "options": [
+        "Bold angular features",
+        "Gazelle-like eyes, straight noses and beautifully chiselled faces",
+        "Round faces",
+        "Large eyes with dark circles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Females with gazelle-like eyes, straight noses and beautifully chiselled faces are speciality of Kangra paintings."
+    },
+    {
+      "id": 22,
+      "question": "What is the thick paper used for miniature painting called?",
+      "options": [
+        "Canvas",
+        "Wasli",
+        "Parchment",
+        "Vellum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thin layers of paper were joined layer by layer to make one thick paper called Wasli."
+    },
+    {
+      "id": 23,
+      "question": "What was Wasli paper coated with?",
+      "options": [
+        "Oil and wax",
+        "Glue of kikar plant mixed with white clay (Kharia Mitti) and sometimes egg white",
+        "Shellac",
+        "Gum arabic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wasli paper was coated with glue of kikar plant mixed with white clay (Kharia Mitti) and also sometimes with egg white."
+    },
+    {
+      "id": 24,
+      "question": "Why was coating applied to Wasli paper?",
+      "options": [
+        "To add color",
+        "So that pores get filled and the paper becomes smooth",
+        "To make it waterproof",
+        "To add texture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A thin coat was applied to the Wasli paper so that the pores in the paper get filled, and the paper becomes smooth."
+    },
+    {
+      "id": 25,
+      "question": "From what source was red colour obtained in Kangra paintings?",
+      "options": [
+        "Tomatoes or chili",
+        "Lahi (an insect) or beetroot",
+        "Red clay",
+        "Synthetic dye"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Red colour was obtained from Lahi (an insect) or beetroot in Kangra paintings."
+    },
+    {
+      "id": 26,
+      "question": "How was blue colour obtained in Kangra paintings?",
+      "options": [
+        "From synthetic sources",
+        "From Jamun or neel",
+        "From the sky",
+        "From imported pigments"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blue colour was obtained from Jamun or neel in traditional Kangra painting technique."
+    },
+    {
+      "id": 27,
+      "question": "What sources provided yellow colour in Kangra paintings?",
+      "options": [
+        "Turmeric, Ramraj (a stone) or Goguli (stone)",
+        "Sunflower petals",
+        "Saffron only",
+        "Yellow clay"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Yellow colour came from turmeric, Ramraj (a stone) or Goguli (stone)."
+    },
+    {
+      "id": 28,
+      "question": "From what was green colour made in Kangra paintings?",
+      "options": [
+        "Grass extract",
+        "Lapis Lazuli or boiling leaves",
+        "Green clay",
+        "Copper oxide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Green colour was obtained from lapis Lazuli or boiling leaves."
+    },
+    {
+      "id": 29,
+      "question": "How was black colour obtained?",
+      "options": [
+        "From charcoal",
+        "From Kajal (lamp black)",
+        "From ink",
+        "From coal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Black colour was obtained from Kajal (lamp black) in Kangra painting technique."
+    },
+    {
+      "id": 30,
+      "question": "From what was golden colour obtained?",
+      "options": [
+        "Gold leaf",
+        "Peel of anar (Pomegranate)",
+        "Turmeric",
+        "Yellow flowers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Golden colour was obtained from the peel of anar (Pomegranate)."
+    },
+    {
+      "id": 31,
+      "question": "What was the first step in creating a Kangra miniature painting?",
+      "options": [
+        "Applying colour",
+        "Outline was either drawn or traced on Wasli paper",
+        "Adding gold",
+        "Polishing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first step was that the outline was either drawn or traced on Wasli paper."
+    },
+    {
+      "id": 32,
+      "question": "What type of brushes were used in Kangra paintings?",
+      "options": [
+        "Synthetic brushes",
+        "Brushes made with squirrel or horse hair",
+        "Bamboo brushes",
+        "Metal brushes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Opaque colour was applied with a brush made with squirrel or horse hair."
+    },
+    {
+      "id": 33,
+      "question": "What was special about the thinnest brushes used?",
+      "options": [
+        "Made of gold wire",
+        "Made with one or two hair strands",
+        "Made of bamboo",
+        "Made of silk"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The process started with a very thin brush made of one or two hair strands."
+    },
+    {
+      "id": 34,
+      "question": "What shading method was used in Kangra paintings?",
+      "options": [
+        "Cross-hatching",
+        "Stippling method",
+        "Blending",
+        "Sfumato"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Shading was done in stippling method in Kangra painting technique."
+    },
+    {
+      "id": 35,
+      "question": "What materials were used for depicting jewellery in Kangra paintings?",
+      "options": [
+        "Colored glass beads",
+        "Gold and silver thin foils",
+        "Gemstones",
+        "Enamel paint"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gold and silver thin foils were used for jewellery in Kangra miniature paintings."
+    },
+    {
+      "id": 36,
+      "question": "What was the final step in creating a Kangra painting?",
+      "options": [
+        "Signing the artwork",
+        "Painting was polished with smooth surfaced stone",
+        "Applying varnish",
+        "Framing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Finally, the painting was polished with smooth surfaced stone."
+    },
+    {
+      "id": 37,
+      "question": "What is the title of the famous Kangra painting from 1820-30 CE?",
+      "options": [
+        "Under the Banyan Tree",
+        "Under the Kadamba Tree",
+        "Under the Mango Tree",
+        "Under the Peepal Tree"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The famous painting is titled 'Under the Kadamba Tree' and dates from 1820-30 CE."
+    },
+    {
+      "id": 38,
+      "question": "What is the central theme of Kangra painting?",
+      "options": [
+        "War and victory",
+        "Love",
+        "Religious devotion only",
+        "Nature worship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The central theme of Kangra painting is love, and its sentiments are expressed in a style full of rhythm, grace and beauty."
+    },
+    {
+      "id": 39,
+      "question": "Who is shown romancing under the Kadamba tree?",
+      "options": [
+        "Ram and Sita",
+        "Krishna and Radha",
+        "Shiva and Parvati",
+        "Vishnu and Lakshmi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Krishna is shown romancing Radha under the Kadamba tree in deep woods near the bank of Yamuna."
+    },
+    {
+      "id": 40,
+      "question": "What birds are shown inside the foliage of the Kadamba tree?",
+      "options": [
+        "Parrots and crows",
+        "Peacock and other birds",
+        "Eagles and vultures",
+        "Sparrows and pigeons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inside the thick foliage of the Kadamba tree, peacock and other birds are shown."
+    },
+    {
+      "id": 41,
+      "question": "What rasa (sentiment) does 'Under the Kadamba Tree' express?",
+      "options": [
+        "Veer Rasa",
+        "Sringara Rasa",
+        "Karuna Rasa",
+        "Hasya Rasa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This painting expresses the Sringara Rasa (romantic sentiment), where Krishna and Radha are shown embracing each other."
+    },
+    {
+      "id": 42,
+      "question": "What is the title of another famous Kangra painting from 1800 CE?",
+      "options": [
+        "The Summer",
+        "The Rains",
+        "The Winter",
+        "The Spring"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painting titled 'The Rains' is from the Kangra style and dates to 1800 CE."
+    },
+    {
+      "id": 43,
+      "question": "What is shown in 'The Rains' painting?",
+      "options": [
+        "A battle scene",
+        "An aristocratic couple on a palace roof under rain-filled sky",
+        "A forest scene",
+        "A marketplace"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An aristocratic couple has been shown on a palace roof under a rain-filled sky in 'The Rains'."
+    },
+    {
+      "id": 44,
+      "question": "What does 'Baramasa' refer to?",
+      "options": [
+        "A dance form",
+        "The twelve months of the year",
+        "A musical instrument",
+        "A religious ritual"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The twelve months of the year 'Baramasa' have delighted Hindu poets and painters."
+    },
+    {
+      "id": 45,
+      "question": "Who was the great poet that described life during different seasons?",
+      "options": [
+        "Tulsidas",
+        "Kesavadas",
+        "Kalidasa",
+        "Surdas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kesavadas, a great poet, described the life of people during these seasons, which were rendered into paintings by Kangra artists."
+    },
+    {
+      "id": 46,
+      "question": "What characteristic of Kangra painters is shown in 'The Rains'?",
+      "options": [
+        "Love of geometric patterns",
+        "Deep love with nature",
+        "Focus on architecture",
+        "Interest in warfare"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kangra painters were deeply in love with nature, as shown in paintings like 'The Rains.'"
+    },
+    {
+      "id": 47,
+      "question": "What are the salient features of Kangra paintings?",
+      "options": [
+        "Bold lines and dark colors",
+        "Delicate lines, soft and subtle colours, minute details",
+        "Abstract forms",
+        "Geometric patterns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The salient features are delicate lines with which various forms and figures are rendered, soft and subtle colours, and minute details with decorative qualities."
+    },
+    {
+      "id": 48,
+      "question": "What characterizes Basohli paintings?",
+      "options": [
+        "Delicate and subtle",
+        "Simple works full of strength and primitive vitality",
+        "Complex and ornate",
+        "Realistic and detailed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Basohli paintings are simple works full of strength and primitive vitality."
+    },
+    {
+      "id": 49,
+      "question": "What dominates the pattern in Basohli paintings?",
+      "options": [
+        "Texture and volume",
+        "Lines and colours",
+        "Light and shadow",
+        "Perspective and depth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pattern in Basohli paintings is dominated by lines and colours."
+    },
+    {
+      "id": 50,
+      "question": "How did Basohli painters work?",
+      "options": [
+        "With careful precision",
+        "With fearless passion imparting energy and power",
+        "With mathematical calculation",
+        "With slow contemplation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Basohli painters worked with fearless passion imparting energy and power to their works."
+    },
+    {
+      "id": 51,
+      "question": "What did Basohli artists achieve?",
+      "options": [
+        "Complex compositions with many elements",
+        "Maximum expression with minimum means",
+        "Photographic realism",
+        "Abstract symbolism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Basohli artists attained maximum expression with minimum means."
+    },
+    {
+      "id": 52,
+      "question": "What are special features of 17th-century Basohli paintings?",
+      "options": [
+        "Desert scenes",
+        "Lush landscapes with Love Pavilions",
+        "Battle scenes",
+        "Urban landscapes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lush landscapes are special features of 17th-century Basohli paintings, with 'Love Pavilion' frequently seen set in these landscapes."
+    },
+    {
+      "id": 53,
+      "question": "Who was the ruler that developed fondness for illustrated manuscripts in Basohli?",
+      "options": [
+        "Raja Sansar Chand",
+        "Raja Kirpal",
+        "Ranjit Dev",
+        "Maharana Pratap"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Raja Kirpal was the ruler who developed a fondness for possessing illustrated manuscripts on varieties of subjects."
+    },
+    {
+      "id": 54,
+      "question": "What manuscripts were illustrated in Basohli with prominent Krishna presence?",
+      "options": [
+        "Rasamanjari, Bhagwatpurana, and Gita Govinda",
+        "Ramayana and Mahabharata",
+        "Puranas only",
+        "Vedas and Upanishads"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rasamanjari, Bhagwatpurana, and Gita Govinda were illustrated and Krishna had a prominent presence in all these manuscripts."
+    },
+    {
+      "id": 55,
+      "question": "What text did Basohli rulers have special fondness for throughout 18th century?",
+      "options": [
+        "Gita Govinda",
+        "Rasamanjari",
+        "Bhagavata Purana",
+        "Ramayana"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Throughout the 18th century, Basohli rulers had a special fondness for 'Rasamanjari' and produced finest illustrations."
+    },
+    {
+      "id": 56,
+      "question": "Who painted the romantic text Rasamanjari in 1694-95?",
+      "options": [
+        "Nainsukh",
+        "Devidas",
+        "Manaku",
+        "Pundit Seu"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The finest illustrations of Rasamanjari, the romantic text by Bhanudatta, were painted by artist Devidas (1694-95)."
+    },
+    {
+      "id": 57,
+      "question": "What are characteristics of Basohli style?",
+      "options": [
+        "Subtle colors and delicate lines",
+        "Ethnic types, bold colour schemes, wooden architectural motifs, large staring eyes, robust figures",
+        "Realistic proportions",
+        "Minimal decoration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Basohli style is characterized by ethnic types, bold colour schemes, wooden architectural motifs, large staring eyes, and robust figures."
+    },
+    {
+      "id": 58,
+      "question": "What is the title of the celebrated Basohli painting from 1660-70 CE?",
+      "options": [
+        "Krishna with a Companion",
+        "Krishna Romancing Radha with a Lotus",
+        "Krishna Playing Flute",
+        "Krishna Dancing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The celebrated painting 'Krishna Romancing Radha with a Lotus' is from Basohli, period 1660-70 CE."
+    },
+    {
+      "id": 59,
+      "question": "How is Basohli Krishna different from Kangra Krishna?",
+      "options": [
+        "More rustic",
+        "Urban and suave, resembling nobility and royalty",
+        "More childlike",
+        "More ascetic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Unlike Kangra Krishna, Basohli Krishna is urban and suave, resembling nobility and royalty more than the pastoral cowherd."
+    },
+    {
+      "id": 60,
+      "question": "How is Radha depicted in Basohli style compared to Kangra?",
+      "options": [
+        "More shy and demure",
+        "Royal and confident, different from shy Radha of Kangra",
+        "More childlike",
+        "More ethereal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Radha is seen sitting in a royal and confident manner in Basohli, very different from the shy Radha of Kangra school."
+    },
+    {
+      "id": 61,
+      "question": "What colour is Krishna's body painted in Basohli paintings?",
+      "options": [
+        "Green",
+        "Blue",
+        "Yellow",
+        "Red"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The blue-bodied Krishna is a characteristic feature of Basohli paintings."
+    },
+    {
+      "id": 62,
+      "question": "What is Krishna holding when approaching Radha in 'Krishna Romancing Radha with a Lotus'?",
+      "options": [
+        "A flute",
+        "A lotus flower",
+        "A peacock feather",
+        "A garland"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dressed in an orange dhoti, the blue-bodied Krishna with a golden scarf is approaching Radha with a lotus flower."
+    },
+    {
+      "id": 63,
+      "question": "What background color brightens the composition in 'Krishna Romancing Radha with a Lotus'?",
+      "options": [
+        "Red",
+        "Brilliant yellow",
+        "Blue",
+        "Green"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The brilliant yellow in the background brightens the entire composition."
+    },
+    {
+      "id": 64,
+      "question": "What is the title of another Basohli painting from 1660-70 CE?",
+      "options": [
+        "Krishna Playing Flute",
+        "Krishna with a Companion",
+        "Krishna Dancing",
+        "Krishna and Gopis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Another famous Basohli painting is 'Krishna with a Companion' from the period 1660-70 CE."
+    },
+    {
+      "id": 65,
+      "question": "What is Krishna doing in 'Krishna with a Companion'?",
+      "options": [
+        "Dancing",
+        "Expressing his loneliness as Radha is away",
+        "Playing flute",
+        "Fighting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Krishna is expressing his loneliness to his companion as Radha is away in this painting."
+    },
+    {
+      "id": 66,
+      "question": "How is Radha's absence indicated in 'Krishna with a Companion'?",
+      "options": [
+        "By a closed door",
+        "By the empty bed",
+        "By wilted flowers",
+        "By a broken mirror"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The absence of Radha is indicated by the empty bed in the painting."
+    },
+    {
+      "id": 67,
+      "question": "What marks on the companion's body indicate his Vaishnavite affiliation?",
+      "options": [
+        "Tilak marks",
+        "Sandal marks",
+        "Tattoos",
+        "Jewelry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "His bare upper body has sandal marks indicating his Vaishnavite affiliation."
+    },
+    {
+      "id": 68,
+      "question": "How do Basohli paintings compare to Kangra in terms of boldness?",
+      "options": [
+        "More subtle",
+        "Bold and simple with very bright direct colours",
+        "More muted",
+        "Monochromatic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Basohli paintings are bold and simple compared to Kangra paintings, with very bright and direct colours compared to subtle tones of Kangra."
+    },
+    {
+      "id": 69,
+      "question": "What characterizes Basohli style in terms of facial features?",
+      "options": [
+        "Small eyes and front view",
+        "Large staring eyes and faces in profile",
+        "Closed eyes",
+        "Elongated faces"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Basohli style is characterised by large staring eyes, faces in profile and multiple perspective."
+    },
+    {
+      "id": 70,
+      "question": "Where did the Chamba school of painting flourish?",
+      "options": [
+        "In Gujarat",
+        "In a small hill town of Himachal Pradesh",
+        "In Rajasthan",
+        "In Punjab plains"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chamba school of painting flourished in a small hill town of Himachal Pradesh."
+    },
+    {
+      "id": 71,
+      "question": "What inspired the Chamba school of art?",
+      "options": [
+        "Islamic architecture",
+        "Krishna cult and Vaishnavism",
+        "Buddhist philosophy",
+        "Jain teachings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inspired by the Krishna cult and Vaishnavism, the Chamba school of art presented one of the finest collection of paintings."
+    },
+    {
+      "id": 72,
+      "question": "What were the main themes of Chamba paintings?",
+      "options": [
+        "Only portraits",
+        "Dasavatara Series, Vishwarupa Series, Bhagvata Purana Series, and Ramayana",
+        "Only landscapes",
+        "Only abstract art"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main themes were (1) Dasavatara Series (1725-50 CE) (2) The Vishwarupa Series (18th CE) (3) Bhagvata Purana Series (1757 CE) and (4) Ramayana (1750-75 CE)."
+    },
+    {
+      "id": 73,
+      "question": "What paper did Chamba artists use?",
+      "options": [
+        "Canvas",
+        "Wasli",
+        "Palm leaf",
+        "Silk"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Papers used by the Chamba artists were Wasli, same as other miniature painting traditions."
+    },
+    {
+      "id": 74,
+      "question": "What materials were applied to Chamba paintings and then polished?",
+      "options": [
+        "Only natural colors",
+        "Gold, silver and other materials, later polished with smooth stone from both sides",
+        "Only mineral colors",
+        "Wax and oil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gold, silver and other materials were applied to Chamba paintings, which were later polished with smooth stone from both sides."
+    },
+    {
+      "id": 75,
+      "question": "What painting tradition influenced Chamba in style and colour?",
+      "options": [
+        "European painting",
+        "Mughal miniature painting",
+        "Chinese painting",
+        "Persian painting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Chamba center was influenced by Mughal miniature painters both in style and colour, though it retained its local characteristics."
+    },
+    {
+      "id": 76,
+      "question": "What is the title of the famous Chamba painting?",
+      "options": [
+        "Dasavatara I",
+        "Vishvarupa I",
+        "Ramayana I",
+        "Krishna Lila I"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The famous Chamba painting is titled 'Vishvarupa I' from the Vishwarupa Series."
+    },
+    {
+      "id": 77,
+      "question": "What is unusual about the Vishvarupa I painting?",
+      "options": [
+        "It's monochromatic",
+        "Heads, arms, and legs painted in different colors - red, green, grey, blue, yellow, pink",
+        "It's very small",
+        "It's abstract"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is an unusual colourful Vishvarupa since the heads, arms, and legs have been painted in different colours - red, green, grey, blue, yellow, and pink."
+    },
+    {
+      "id": 78,
+      "question": "How many arms does the deity have in Vishvarupa I?",
+      "options": [
+        "Twelve",
+        "Twenty-four",
+        "Thirty-six",
+        "Forty-eight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Twenty-four arms are painted in rounded formations of different hues holding various weapons, lotuses, a conch shell, a temple bell, possibly the Vedas and a snake."
+    },
+    {
+      "id": 79,
+      "question": "How many heads are there in total in Vishvarupa I?",
+      "options": [
+        "24 heads",
+        "52 heads",
+        "108 heads",
+        "36 heads"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are four layers of heads with four central heads and 23 profile heads on each layer, making them 52 in total."
+    },
+    {
+      "id": 80,
+      "question": "What covers the torso in Vishvarupa I?",
+      "options": [
+        "Jeweled armor",
+        "Bark-like vegetation with figures of Brahma, Shiva, Sun and Moon",
+        "Plain cloth",
+        "Golden scales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The torso is covered in bark-like vegetation from which we see figures of Brahma, Shiva, Sun and Moon peeping out."
+    },
+    {
+      "id": 81,
+      "question": "Who are the two standing figures with folded hands in Vishvarupa I?",
+      "options": [
+        "Priests",
+        "Probably King and Queen",
+        "Devotees",
+        "Saints"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are two figures, one is of women the other one is a man, standing with folded hands. These figures are probably of King and Queen."
+    },
+    {
+      "id": 82,
+      "question": "What is the size of Vishvarupa I?",
+      "options": [
+        "20.2 cm × 18.8 cms",
+        "30.2 cm × 23.8 cms",
+        "40.2 cm × 33.8 cms",
+        "25.2 cm × 20.8 cms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painting Vishvarupa I measures 30.2 cm × 23.8 cms."
+    },
+    {
+      "id": 83,
+      "question": "What are the characteristic features of Chamba paintings?",
+      "options": [
+        "Realistic style",
+        "Indigenous style, inspired by Krishna cult, liberal use of bright flat colours, complicated symbolic representation",
+        "Abstract expressionism",
+        "Minimalist approach"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chamba paintings are characterized by indigenous style, inspiration from Krishna cult, liberal use of bright flat colours, and complicated symbolic representation."
+    },
+    {
+      "id": 84,
+      "question": "When was the Dasavatara Series of Chamba paintings created?",
+      "options": [
+        "1625-50 CE",
+        "1725-50 CE",
+        "1825-50 CE",
+        "1525-50 CE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Dasavatara Series was created during 1725-50 CE as one of the main themes of Chamba paintings."
+    },
+    {
+      "id": 85,
+      "question": "When was the Bhagvata Purana Series created in Chamba style?",
+      "options": [
+        "1657 CE",
+        "1757 CE",
+        "1857 CE",
+        "1557 CE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Bhagvata Purana Series was created in 1757 CE as one of the main themes of Chamba paintings."
+    },
+    {
+      "id": 86,
+      "question": "When was the Ramayana series created in Chamba style?",
+      "options": [
+        "1650-75 CE",
+        "1750-75 CE",
+        "1850-75 CE",
+        "1550-75 CE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ramayana series was created during 1750-75 CE in Chamba style."
+    },
+    {
+      "id": 87,
+      "question": "What cult symbolized spiritual experience as relation of lover and beloved?",
+      "options": [
+        "Shaiva cult",
+        "Vaishnava cult",
+        "Shakta cult",
+        "Buddhist cult"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Vaishnava cult symbolized spiritual experience in relation of lover and beloved, influencing Pahari painting themes."
+    },
+    {
+      "id": 88,
+      "question": "What period saw great writers contributing to Vaishnavism and art development?",
+      "options": [
+        "14th and 15th centuries",
+        "16th and 17th centuries",
+        "18th and 19th centuries",
+        "12th and 13th centuries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Many great writers, poets and philosophers were born during the 16th and 17th centuries who contributed to spreading Vaishnavism and development of art."
+    },
+    {
+      "id": 89,
+      "question": "What is the medium used for Pahari miniature paintings?",
+      "options": [
+        "Oil on canvas",
+        "Opaque watercolour on paper (Wasli)",
+        "Acrylic on wood",
+        "Fresco on wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The medium used for Pahari miniature paintings was opaque watercolour on specially prepared paper called Wasli."
+    },
+    {
+      "id": 90,
+      "question": "How did Jayadeva's Gita Govinda inspire Pahari artists?",
+      "options": [
+        "Through historical narratives",
+        "Through divine love of Krishna and Radha as theme",
+        "Through warfare descriptions",
+        "Through philosophical debates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Jayadeva's Gita Govinda became a favorite for love songs based on the divine love of Krishna and Radha, providing major inspiration for Pahari artists."
+    },
+    {
+      "id": 91,
+      "question": "What is stippling in painting technique?",
+      "options": [
+        "Blending colors smoothly",
+        "Creating shading through dots or small marks",
+        "Drawing straight lines",
+        "Applying thick paint"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stippling is a shading method done by creating texture or tonal gradation through dots or small marks, used in Kangra painting technique."
+    },
+    {
+      "id": 92,
+      "question": "What does 'Sringara Rasa' represent?",
+      "options": [
+        "Heroic sentiment",
+        "Romantic or erotic sentiment",
+        "Compassionate sentiment",
+        "Furious sentiment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sringara Rasa is the romantic or erotic sentiment in Indian aesthetics, prominently expressed in paintings like 'Under the Kadamba Tree.'"
+    },
+    {
+      "id": 93,
+      "question": "What does the painting under the Kadamba tree symbolize spiritually?",
+      "options": [
+        "Victory in battle",
+        "Human soul awakened by the realization of God",
+        "Material prosperity",
+        "Political power"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painting depicts awakening like the human soul awakened by the realization of God, and the coming together of two into one."
+    },
+    {
+      "id": 94,
+      "question": "What collection houses 'Under the Kadamba Tree'?",
+      "options": [
+        "National Museum",
+        "Harsh D Dehejia collection",
+        "British Museum",
+        "Louvre Museum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painting 'Under the Kadamba Tree' is in the Harsh D Dehejia collection."
+    },
+    {
+      "id": 95,
+      "question": "Where are the Basohli paintings 'Krishna Romancing Radha' and 'Krishna with Companion' housed?",
+      "options": [
+        "British Museum",
+        "Victoria Albert Museum, London",
+        "Metropolitan Museum",
+        "National Gallery"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both celebrated Basohli paintings are in the Victoria Albert Museum, London collection."
+    },
+    {
+      "id": 96,
+      "question": "What does 'Vishvarupa' literally mean?",
+      "options": [
+        "Beautiful form",
+        "Universal form or cosmic form",
+        "Divine warrior",
+        "Supreme creator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vishvarupa means universal or cosmic form, representing the divine in all its manifestations, as depicted in Chamba paintings."
+    },
+    {
+      "id": 97,
+      "question": "What is the difference between Basohli and Kangra Krishna?",
+      "options": [
+        "No difference",
+        "Basohli Krishna is urban/royal while Kangra Krishna is pastoral",
+        "Basohli Krishna is younger",
+        "Kangra Krishna is blue-bodied"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Basohli Krishna is urban and suave, resembling nobility and royalty, while Kangra Krishna is more pastoral and prankish cowherd-like."
+    },
+    {
+      "id": 98,
+      "question": "What was the driving force behind Kangra art according to the text?",
+      "options": [
+        "Royal patronage only",
+        "The cult of Bhakti",
+        "Commercial interests",
+        "Foreign influence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cult of Bhakti was the driving force behind Kangra art, combined with Vaishnava revival and spiritual-literary movements."
+    },
+    {
+      "id": 99,
+      "question": "What makes Pahari painting schools distinct from each other?",
+      "options": [
+        "They are identical",
+        "Each developed unique characteristics while sharing common themes",
+        "Only colors differ",
+        "Only size differs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "While schools like Kangra, Basohli, and Chamba share common themes from Vaishnavism, each developed unique stylistic characteristics, color palettes, and artistic approaches."
+    },
+    {
+      "id": 100,
+      "question": "What is the significance of using natural materials for colors in Pahari paintings?",
+      "options": [
+        "They were cheaper",
+        "They created luminous, lasting colors connected to traditional knowledge",
+        "They were easier to apply",
+        "They dried faster"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural materials like minerals, plants, and insects created luminous, lasting colors and represented traditional artistic knowledge passed through generations, connecting the art to its cultural and environmental context."
+    }
+  ]
+}

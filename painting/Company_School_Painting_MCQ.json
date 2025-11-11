@@ -1,0 +1,606 @@
+{
+  "title": "Company School of Painting - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Painting - Module 2: Historical Appreciation of Indian Contemporary and Miniature Art",
+  "questions": [
+    {
+      "id": 1,
+      "question": "When did the British East India Company expand its presence in South Asia?",
+      "options": [
+        "Late 17th Century",
+        "Late 18th Century",
+        "Early 19th Century",
+        "Mid 19th Century"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The British East India Company expanded its presence in South Asia during the late 18th Century, which led to the emergence of Company School of Painting."
+    },
+    {
+      "id": 2,
+      "question": "Why are these paintings called 'Company' paintings?",
+      "options": [
+        "Because they were painted by British artists",
+        "Because they were created by a company of Indian artists",
+        "Because they primarily emerged under the patronage of the British East India Company",
+        "Because they were sold by trading companies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "These paintings are known collectively as 'Company' paintings because they primarily emerged under the patronage of the British East India Company."
+    },
+    {
+      "id": 3,
+      "question": "Which centuries did Company School of Painting dominate the art scene in India?",
+      "options": [
+        "17th and 18th Centuries",
+        "18th and 19th Centuries",
+        "19th and 20th Centuries",
+        "16th and 17th Centuries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Company School of Painting dominated the art scene of India between the 18th and 19th Centuries."
+    },
+    {
+      "id": 4,
+      "question": "Company paintings blended traditional elements from which Indian painting schools?",
+      "options": [
+        "Pahari and Kangra paintings",
+        "Rajput and Mughal paintings",
+        "Bengal and Kalighat paintings",
+        "Tanjore and Mysore paintings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Company paintings blended traditional elements from Rajput and Mughal paintings with a more western treatment of perspective, volume and recession."
+    },
+    {
+      "id": 5,
+      "question": "What was the primary medium used for Company paintings?",
+      "options": [
+        "Oil paints",
+        "Tempera",
+        "Watercolour",
+        "Acrylic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "These works were done in the medium of watercolour. Paintings were mostly painted on paper but sometimes were also painted on ivory."
+    },
+    {
+      "id": 6,
+      "question": "Where were Company paintings first produced?",
+      "options": [
+        "Lucknow",
+        "Delhi",
+        "Madras Presidency",
+        "Bengal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Company paintings were first produced in Madras Presidency and soon spread to other parts of India."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following was NOT a subject matter for Company paintings?",
+      "options": [
+        "Landscapes and flora and fauna",
+        "Historical monuments and festivals",
+        "Abstract expressionism",
+        "Trades and occupations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Indian artists started fulfilling the demand for paintings of landscapes, flora and fauna, images of native rulers, court scenes, historical monuments, festivals, ceremonies, trades and occupations, and portraits. Abstract expressionism was not part of Company painting subjects."
+    },
+    {
+      "id": 8,
+      "question": "What was the nature of subject matters for western patrons in Company paintings?",
+      "options": [
+        "Imaginative and mythological",
+        "Documentary rather than imaginative",
+        "Religious and spiritual",
+        "Abstract and symbolic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "These subject matters for western patrons were often documentary rather than imaginative."
+    },
+    {
+      "id": 9,
+      "question": "Besides paper, on what other surface were Company paintings sometimes created?",
+      "options": [
+        "Canvas",
+        "Wood",
+        "Ivory",
+        "Silk"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Paintings were mostly painted on paper but sometimes were also painted on ivory."
+    },
+    {
+      "id": 10,
+      "question": "Which Mughal emperor's time was important for paintings of birds, animals and flowers?",
+      "options": [
+        "Akbar",
+        "Shah Jahan",
+        "Jahangir",
+        "Aurangzeb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Paintings of birds, animals and flowers had been an important genre in Indian art from the time of the Mughal emperor Jahangir."
+    },
+    {
+      "id": 11,
+      "question": "Who was Claude Martin?",
+      "options": [
+        "A British soldier and patron of art",
+        "A French soldier and patron of art",
+        "An Italian artist",
+        "A Dutch trader"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This painting comes from an album made for Claude Martin, the French soldier and patron of art who settled in Lucknow in the 18th century."
+    },
+    {
+      "id": 12,
+      "question": "What is the title of the famous bird painting from Claude Martin's album?",
+      "options": [
+        "A Common Indian Peacock",
+        "A Common Indian Nightjar Bird",
+        "A Common Indian Parrot",
+        "A Common Indian Eagle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painting titled 'A Common Indian Nightjar Bird' is one of the famous paintings from an album by Claude Martin."
+    },
+    {
+      "id": 13,
+      "question": "What style does the 'A Common Indian Nightjar Bird' painting belong to?",
+      "options": [
+        "Patna, Company school",
+        "Varanasi, Company school",
+        "Lucknow, Company school",
+        "Delhi, Company school"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The painting 'A Common Indian Nightjar Bird' belongs to the Lucknow, Company school style."
+    },
+    {
+      "id": 14,
+      "question": "Where is the 'A Common Indian Nightjar Bird' painting currently housed?",
+      "options": [
+        "Victoria and Albert Museum, London",
+        "National Gallery of Modern Art, New Delhi",
+        "Metropolitan Museum of Art, New York",
+        "British Museum, London"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'A Common Indian Nightjar Bird' painting is in the collection of the Metropolitan Museum of Art, New York."
+    },
+    {
+      "id": 15,
+      "question": "What colors were used to delineate the nightjar bird's body markings?",
+      "options": [
+        "Red and yellow",
+        "Blue and green",
+        "Several shades of brown and black",
+        "White and grey"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Several shades of brown and black are used to delineate the bird's body markings."
+    },
+    {
+      "id": 16,
+      "question": "What feature makes the nightjar bird's eye distinctive in the painting?",
+      "options": [
+        "It is colored blue",
+        "It has a bright ring around it",
+        "It is very large",
+        "It has multiple colors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The eye has a bright ring around it and the legs are textured with parallel line markings."
+    },
+    {
+      "id": 17,
+      "question": "Why was the landscape painted at a smaller scale than the bird in Company paintings?",
+      "options": [
+        "To show depth perception",
+        "Because of artistic choice",
+        "The main purpose was to record species new to British observers",
+        "To save painting materials"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The landscape is only sparingly indicated and is in a smaller scale than the bird. This feature is common as the main purpose of the painting was to record species new to British observers."
+    },
+    {
+      "id": 18,
+      "question": "What technique was used to capture the accuracy of the bird in the nightjar painting?",
+      "options": [
+        "Traditional Indian miniature technique",
+        "Typical western watercolour techniques with bold strokes and soft tones",
+        "Oil painting technique",
+        "Tempera technique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The artist used a typical western watercolour techniques with bold strokes and soft tones to capture the accuracy of the bird."
+    },
+    {
+      "id": 19,
+      "question": "Who painted the famous 'Market Scene' from the Patna Company School?",
+      "options": [
+        "Raja Ravi Varma",
+        "Shiv Dayal Lal",
+        "Claude Martin",
+        "Unknown artist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Artist Shiv Dayal Lal beautifully depicts the detail and accuracy in the 'Market Scene' painting."
+    },
+    {
+      "id": 20,
+      "question": "In what year was the 'Market Scene' painting created?",
+      "options": [
+        "1815",
+        "1830",
+        "1850",
+        "1870"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'Market Scene' painting was created in the period 1850."
+    },
+    {
+      "id": 21,
+      "question": "What medium was used for the 'Market Scene' painting?",
+      "options": [
+        "Watercolour on paper",
+        "Opaque watercolour on paper",
+        "Oil on canvas",
+        "Tempera on cloth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'Market Scene' painting was painted in opaque watercolour on paper."
+    },
+    {
+      "id": 22,
+      "question": "Where is the 'Market Scene' painting currently housed?",
+      "options": [
+        "Metropolitan Museum of Art, New York",
+        "National Gallery of Modern Art, New Delhi",
+        "Victoria and Albert Museum, London",
+        "British Museum, London"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'Market Scene' painting is in the collection of Victoria and Albert Museum, London."
+    },
+    {
+      "id": 23,
+      "question": "How many women are depicted in the 'Market Scene' painting?",
+      "options": [
+        "Two women",
+        "Three women",
+        "Four women",
+        "Five women"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In this painting, we see four women. Two of them are shopkeepers, and the other two are customers buying grains and fruits from them."
+    },
+    {
+      "id": 24,
+      "question": "What are the women selling in the 'Market Scene'?",
+      "options": [
+        "Only vegetables",
+        "Only fruits",
+        "Vegetables, fruits and grains",
+        "Textiles and jewelry"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This painting depicts the traditional market scene of Patna in which two women are selling vegetables, fruits and grains."
+    },
+    {
+      "id": 25,
+      "question": "What type of clothing are the women wearing in 'Market Scene'?",
+      "options": [
+        "Salwar kameez",
+        "Lehenga choli",
+        "Sarees and ornaments",
+        "Western dresses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "All four women are wearing sarees and ornaments. The depiction of the folds of the sarees is beautifully done."
+    },
+    {
+      "id": 26,
+      "question": "Why is the 'Market Scene' painting bright and colourful?",
+      "options": [
+        "Because of the use of natural dyes",
+        "Because of the opacity of watercolour",
+        "Because of the transparent watercolour",
+        "Because of oil paints"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This painting is very beautiful, bright and colourful because of the opacity of watercolour."
+    },
+    {
+      "id": 27,
+      "question": "How is the background treated in the 'Market Scene'?",
+      "options": [
+        "With detailed architectural elements",
+        "With gradual tonal gradation",
+        "Left completely white",
+        "Painted in dark colors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The background is treated very well by a gradual gradation of colour. There are clouds in the sky."
+    },
+    {
+      "id": 28,
+      "question": "What does 'Miyana' mean in the context of Company painting?",
+      "options": [
+        "A type of umbrella",
+        "A box palanquin",
+        "A turban style",
+        "A type of cloth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the painting context, 'Miyana' means a box palanquin, a carriage carried by humans."
+    },
+    {
+      "id": 29,
+      "question": "How many palanquin bearers are shown in the 'Palanquin' painting?",
+      "options": [
+        "Two bearers",
+        "Three bearers",
+        "Four bearers",
+        "Six bearers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This painting shows four palanquin bearers and a 'Miyana' box palanquin with a noble person sitting inside."
+    },
+    {
+      "id": 30,
+      "question": "During which period was the 'Palanquin' painting created?",
+      "options": [
+        "1750-1760",
+        "1800-1810",
+        "1815-1820",
+        "1850-1860"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This painting was painted during 1815-20 in Varanasi."
+    },
+    {
+      "id": 31,
+      "question": "What style does the 'Palanquin' painting belong to?",
+      "options": [
+        "Lucknow, Company School",
+        "Patna, Company School",
+        "Varanasi, Company School",
+        "Delhi, Company School"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'Palanquin' painting belongs to Varanasi, Company School style."
+    },
+    {
+      "id": 32,
+      "question": "What color kurtas are the palanquin bearers wearing?",
+      "options": [
+        "Yellow kurtas",
+        "Blue kurtas",
+        "White kurtas",
+        "Red kurtas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In this painting, there are four palanquin bearers wearing white kurtas, yellow and brown dhoti and blue turbans."
+    },
+    {
+      "id": 33,
+      "question": "What color turbans are worn by the palanquin bearers?",
+      "options": [
+        "Red turbans",
+        "White turbans",
+        "Blue turbans",
+        "Yellow turbans"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The palanquin bearers are wearing white kurtas, yellow and brown dhoti and blue turbans."
+    },
+    {
+      "id": 34,
+      "question": "What colored cloth did the bearers wrap around their waist?",
+      "options": [
+        "Yellow colored cloth",
+        "Red colored cloth",
+        "Blue colored cloth",
+        "White colored cloth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They have wrapped a red coloured cloth around their waist."
+    },
+    {
+      "id": 35,
+      "question": "The 'Palanquin' painting is part of how many paintings on modes of conveyance?",
+      "options": [
+        "Twenty-four paintings",
+        "Thirty-six paintings",
+        "Forty-two paintings",
+        "Fifty paintings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This painting is one of the artwork from the set of forty-two paintings that illustrate conveyance, occupation."
+    },
+    {
+      "id": 36,
+      "question": "What technique is reflected in the 'Palanquin' painting?",
+      "options": [
+        "Traditional Indian miniature technique",
+        "Indo-European watercolour technique",
+        "Oil painting technique",
+        "Chinese brush technique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This painting reflects the Indo-European watercolour technique on paper."
+    },
+    {
+      "id": 37,
+      "question": "What characteristic of Company painting is visible in the human figures?",
+      "options": [
+        "Abstract representation",
+        "Realistic representation of human figures",
+        "Symbolic representation",
+        "Stylized stick figures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Realistic representation of human figures and stylization of clothes are characteristics of company painting."
+    },
+    {
+      "id": 38,
+      "question": "How was the background treated in the 'Palanquin' painting?",
+      "options": [
+        "With detailed landscape",
+        "With architectural structures",
+        "Left alone with only suggestion of shadows",
+        "With bright colors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The overall emphasis was only on the bearers and palanquin, so the background was left alone with only a suggestion of shadows of the bearers and Miyana."
+    },
+    {
+      "id": 39,
+      "question": "What Western treatment did Company paintings incorporate from European art?",
+      "options": [
+        "Abstract expressionism",
+        "Perspective, volume and recession",
+        "Cubism",
+        "Impressionism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Company paintings blended traditional elements from Rajput and Mughal paintings with a more western treatment of perspective, volume and recession."
+    },
+    {
+      "id": 40,
+      "question": "What was unique about Company paintings compared to photographs and miniatures?",
+      "options": [
+        "They were painted on silk",
+        "They neither had the accuracy of a photograph nor the freedom of a miniature painting",
+        "They were larger than miniatures",
+        "They used only natural colors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Company paintings blended traditional and western elements, thus the painting neither had the accuracy of a photograph nor the freedom of a miniature painting."
+    },
+    {
+      "id": 41,
+      "question": "Which city was NOT mentioned as a center where Company paintings were produced?",
+      "options": [
+        "Murshidabad",
+        "Lucknow",
+        "Jaipur",
+        "Patna"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Company paintings were produced in Madras Presidency, Murshidabad, Patna, Banaras, Lucknow, Agra, Delhi, Punjab and other centres in Western India. Jaipur was not specifically mentioned."
+    },
+    {
+      "id": 42,
+      "question": "Why did British patrons commission local Indian artists?",
+      "options": [
+        "Because Indian artists were cheaper",
+        "Because they could depict Indian subjects more accurately being familiar with them",
+        "Because there were no British artists in India",
+        "Because it was required by law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "British patrons began to realize that their favourite Indian subjects could be depicted far more accurately by native artists who were familiar with them."
+    },
+    {
+      "id": 43,
+      "question": "What attracted British people to commission paintings in India?",
+      "options": [
+        "The low cost of materials",
+        "The diversity of India's people, monuments, landscapes, flora and fauna",
+        "The abundance of artists",
+        "Government regulations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The British people were fascinated and attracted towards the diversity of India's people, its magnificent monuments and its beautiful landscapes, flora and fauna."
+    },
+    {
+      "id": 44,
+      "question": "Why couldn't all British employees afford noted British artists?",
+      "options": [
+        "British artists refused to come to India",
+        "The works were too expensive",
+        "There were no British artists available",
+        "They preferred Indian art"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They wished to capture these images but not all of them could afford to buy the works of noted British artists. As a result, they started commissioning local Indian artists."
+    },
+    {
+      "id": 45,
+      "question": "What was the intended use for Company paintings?",
+      "options": [
+        "For temple decoration",
+        "For mementoes and souvenirs for friends and relatives in England",
+        "For royal courts",
+        "For religious purposes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They wished to capture these images and were keen to collect them as mementoes and souvenirs for their friends and relatives in England."
+    },
+    {
+      "id": 46,
+      "question": "What size were Company paintings typically made?",
+      "options": [
+        "Large wall paintings",
+        "Small, intended to keep in albums",
+        "Medium sized for framing",
+        "Miniature pocket size"
+      ],
+      "correctAnswer": 1,
+      "explanation": "These paintings were small, intended to keep in albums."
+    },
+    {
+      "id": 47,
+      "question": "How did Company paintings create depth in the background?",
+      "options": [
+        "Using dark colors",
+        "Using perspective lines",
+        "Beautiful tonal gradation",
+        "Using shading techniques"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Beautiful tonal gradation created depth in the background of Company paintings."
+    },
+    {
+      "id": 48,
+      "question": "What was emphasized in the nightjar bird painting?",
+      "options": [
+        "The landscape",
+        "Great attention to detail in each feather",
+        "The sky",
+        "The background elements"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The bird is executed with great attention to detail. Each feather has been outlined and painted with a subtle gradation of colours."
+    },
+    {
+      "id": 49,
+      "question": "What type of line markings were used for the nightjar bird's legs?",
+      "options": [
+        "Circular line markings",
+        "Diagonal line markings",
+        "Parallel line markings",
+        "Curved line markings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The eye has a bright ring around it and the legs are textured with parallel line markings."
+    },
+    {
+      "id": 50,
+      "question": "What does the painting 'Market Scene' reflect about contemporary life?",
+      "options": [
+        "Religious practices",
+        "Royal ceremonies",
+        "The contemporary life-style of that period",
+        "War scenes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Overall, the painting creates a beautiful environment and reflects the contemporary life-style of that period."
+    }
+  ]
+}

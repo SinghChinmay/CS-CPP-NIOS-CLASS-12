@@ -1,0 +1,606 @@
+{
+  "title": "Rajasthani Painting - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Painting - Rajasthani Miniature Painting Traditions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which regions hold an important place in the history of Rajasthani painting?",
+      "options": [
+        "Punjab and Haryana",
+        "Rajasthan and Gujarat",
+        "Bihar and Bengal",
+        "Kerala and Tamil Nadu"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Region of Rajasthan and Gujarat hold an important place in the history of Indian painting."
+    },
+    {
+      "id": 2,
+      "question": "When did Rajasthani painting mature?",
+      "options": [
+        "14th Century CE",
+        "15th Century CE",
+        "16th Century CE",
+        "17th Century CE"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Rajasthani painting matured during 16th Century CE."
+    },
+    {
+      "id": 3,
+      "question": "What are typical features of early Rajasthani paintings?",
+      "options": [
+        "Small eyes and traditional costumes",
+        "Protruding eyes and contemporary costumes",
+        "Closed eyes and royal costumes",
+        "Almond eyes and ancient costumes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Early Rajasthani paintings show a typical style with protruding eyes and the use of contemporary costumes."
+    },
+    {
+      "id": 4,
+      "question": "When did miniature painting influence change the Rajasthani style?",
+      "options": [
+        "Beginning of 16th CE",
+        "Middle of 16th CE",
+        "End of 16th CE",
+        "Beginning of 17th CE"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The influence of miniature painting changed the Rajasthani style towards the end of 16th Century CE."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT a center of Rajasthani painting?",
+      "options": [
+        "Mewar",
+        "Bundi",
+        "Kangra",
+        "Kota"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mewar, Bundi, Kota, Pratapgarh, Kishangarh, and Malwa were centers of Rajasthani painting. Kangra is a Pahari school."
+    },
+    {
+      "id": 6,
+      "question": "Name the famous Rajasthani painting center known for its unique style.",
+      "options": [
+        "Basohli",
+        "Chamba",
+        "Kishangarh",
+        "Guler"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kishangarh is one of the famous centers that developed during Rajasthani painting's mature period, along with Mewar, Bundi, Kota, Pratapgarh, and Malwa."
+    },
+    {
+      "id": 7,
+      "question": "What types of themes are found in Rajasthani paintings?",
+      "options": [
+        "Only religious themes",
+        "Only secular themes",
+        "Religious, royal, secular and portraiture",
+        "Only mythological themes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are great varieties of themes found in Rajasthani paintings - religious, royal, secular and portraiture."
+    },
+    {
+      "id": 8,
+      "question": "Which literary work most inspired Rajasthani painters?",
+      "options": [
+        "Ramayana by Valmiki",
+        "Geet Govinda by Jayadeva",
+        "Mahabharata by Vyasa",
+        "Meghaduta by Kalidasa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The most popular themes among Rajasthani paintings were based on the poems of 'Geet Govinda', written by Jayadeva."
+    },
+    {
+      "id": 9,
+      "question": "What is the title of the famous Rajasthani painting from Pratapgarh?",
+      "options": [
+        "Bhairavi Ragini",
+        "Todi Ragini",
+        "Malhar Ragini",
+        "Deepak Ragini"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Todi Ragini is a famous painting from the Pratapgarh style of Rajasthani painting."
+    },
+    {
+      "id": 10,
+      "question": "What is the date of the painting 'Todi Ragini'?",
+      "options": [
+        "1610 CE",
+        "1660 CE",
+        "1710 CE",
+        "1760 CE"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The painting 'Todi Ragini' dates from 1710 CE in the Pratapgarh style."
+    },
+    {
+      "id": 11,
+      "question": "What medium was used for 'Todi Ragini'?",
+      "options": [
+        "Oil on canvas",
+        "Tempera on palm leaf",
+        "Watercolour on paper",
+        "Acrylic on wood"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The medium used for Todi Ragini was Tempera on palm leaf."
+    },
+    {
+      "id": 12,
+      "question": "What is Ragamala?",
+      "options": [
+        "A religious text",
+        "A series of paintings depicting musical modes (Ragas and Raaginis)",
+        "A dance form",
+        "A type of sculpture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ragamala paintings are depictions of Ragas and Raaginis, which depict various classical musical modes of India."
+    },
+    {
+      "id": 13,
+      "question": "What is Todi Ragini shown doing in the painting?",
+      "options": [
+        "Dancing",
+        "Playing a musical instrument",
+        "Meditating",
+        "Writing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the painting, Todi Ragini is playing a musical instrument, attracting two deer who seem mesmerized by the tune."
+    },
+    {
+      "id": 14,
+      "question": "What animals are attracted by the music in 'Todi Ragini'?",
+      "options": [
+        "Two peacocks",
+        "Two deer",
+        "Two swans",
+        "Two horses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two deer are attracted by the music and seem to be mesmerized by the tune in the painting Todi Ragini."
+    },
+    {
+      "id": 15,
+      "question": "How is the composition described in 'Todi Ragini'?",
+      "options": [
+        "Asymmetrical",
+        "Well-balanced",
+        "Chaotic",
+        "Fragmented"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The composition is well-balanced in Todi Ragini, and despite the flatness of the background, a sense of depth is achieved."
+    },
+    {
+      "id": 16,
+      "question": "What atmosphere does the painter create in 'Todi Ragini'?",
+      "options": [
+        "A dramatic palace scene",
+        "A blissful natural atmosphere of a garden",
+        "A solemn temple setting",
+        "A busy marketplace"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painter has been successful in creating the blissful natural atmosphere of a garden in Todi Ragini."
+    },
+    {
+      "id": 17,
+      "question": "How is the effect heightened in 'Todi Ragini'?",
+      "options": [
+        "Through perspective",
+        "Through shading",
+        "Using colourful dots on costumes and trees",
+        "Through realistic proportions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The colours are bright, and the effect is heightened by using colourful dots, both on the costumes of the lady and the trees."
+    },
+    {
+      "id": 18,
+      "question": "What does 'Todi Ragini' represent as a classic example?",
+      "options": [
+        "Synthesis of architecture and sculpture",
+        "Synthesis of poetry and music",
+        "Synthesis of dance and drama",
+        "Synthesis of religion and philosophy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painting stands as a classic example of the synthesis of poetry and music."
+    },
+    {
+      "id": 19,
+      "question": "What quality does 'Todi Ragini' possess?",
+      "options": [
+        "Geometric abstraction",
+        "Poetic lyricism",
+        "Photographic realism",
+        "Dramatic intensity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Todi Ragini has a poetic lyricism, and the figure is expressive of mood and sentiment."
+    },
+    {
+      "id": 20,
+      "question": "What is the figure in 'Todi Ragini' expressive of?",
+      "options": [
+        "Power and strength",
+        "Mood and sentiment",
+        "Anger and fear",
+        "Victory and triumph"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The figure in Todi Ragini is expressive of mood and sentiment, conveying emotional depth."
+    },
+    {
+      "id": 21,
+      "question": "What style is 'Todi Ragini' painted in?",
+      "options": [
+        "Mewar",
+        "Pratapgarh",
+        "Bundi",
+        "Kishangarh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Todi Ragini is painted in the Pratapgarh style of Rajasthani painting."
+    },
+    {
+      "id": 22,
+      "question": "What is the relationship between Ragamala paintings and music?",
+      "options": [
+        "They illustrate musical instruments only",
+        "They depict various classical musical modes of India",
+        "They show musicians performing",
+        "They have no musical connection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ragamala paintings are depictions of Ragas and Raaginis, which depict various classical musical modes of India, creating a visual representation of music."
+    },
+    {
+      "id": 23,
+      "question": "Who wrote 'Geet Govinda' that inspired Rajasthani painters?",
+      "options": [
+        "Tulsidas",
+        "Jayadeva",
+        "Kalidasa",
+        "Bhanudatta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Geet Govinda was written by Jayadeva and became one of the most popular themes for Rajasthani paintings."
+    },
+    {
+      "id": 24,
+      "question": "What characteristic is typical of Rajasthani painting figures?",
+      "options": [
+        "Realistic proportions",
+        "Full of movement and expression",
+        "Static poses",
+        "Minimal detail"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The human and animal figures in Rajasthani paintings are full of movement and expression."
+    },
+    {
+      "id": 25,
+      "question": "Despite what limitation does 'Todi Ragini' achieve depth?",
+      "options": [
+        "Lack of color",
+        "Flatness of the background",
+        "Small size",
+        "Limited detail"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Despite the flatness of the background, a sense of depth is achieved in Todi Ragini."
+    },
+    {
+      "id": 26,
+      "question": "What type of costumes are shown in early Rajasthani paintings?",
+      "options": [
+        "Ancient costumes",
+        "Contemporary costumes",
+        "Foreign costumes",
+        "Royal costumes only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Early Rajasthani paintings show the use of contemporary costumes of that period."
+    },
+    {
+      "id": 27,
+      "question": "Which painting center is associated with Rajasthani art - Malwa?",
+      "options": [
+        "It's a Pahari center",
+        "It's a Rajasthani center",
+        "It's a Mughal center",
+        "It's a Deccan center"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Malwa is one of the centers that developed during the Rajasthani painting period, along with Mewar, Bundi, Kota, Pratapgarh, and Kishangarh."
+    },
+    {
+      "id": 28,
+      "question": "What visual technique is used in 'Todi Ragini' for decoration?",
+      "options": [
+        "Gold leaf application",
+        "Colourful dots on costumes and trees",
+        "Geometric patterns",
+        "Embossing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The effect is heightened by using colourful dots, both on the costumes of the lady and the trees in Todi Ragini."
+    },
+    {
+      "id": 29,
+      "question": "What aspect of nature is emphasized in Rajasthani paintings?",
+      "options": [
+        "Mountains",
+        "Gardens and natural atmosphere",
+        "Deserts",
+        "Rivers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painter successfully creates the blissful natural atmosphere of a garden in paintings like Todi Ragini."
+    },
+    {
+      "id": 30,
+      "question": "What are the main color characteristics in Rajasthani paintings?",
+      "options": [
+        "Muted and dull",
+        "Bright colors",
+        "Only primary colors",
+        "Black and white"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The colours are bright in Rajasthani paintings, creating vibrant and eye-catching compositions."
+    },
+    {
+      "id": 31,
+      "question": "What kind of painting tradition influenced Rajasthani style at the end of 16th CE?",
+      "options": [
+        "European painting",
+        "Chinese painting",
+        "Miniature painting",
+        "Fresco painting"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The influence of miniature painting changed the Rajasthani style towards the end of 16th Century CE."
+    },
+    {
+      "id": 32,
+      "question": "In Ragamala paintings, what do Ragas and Raaginis represent?",
+      "options": [
+        "Different seasons",
+        "Classical musical modes",
+        "Religious deities",
+        "Royal courts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ragas and Raaginis in Ragamala paintings depict various classical musical modes of India."
+    },
+    {
+      "id": 33,
+      "question": "What is emphasized in portraiture themes of Rajasthani paintings?",
+      "options": [
+        "Only royal subjects",
+        "Religious figures only",
+        "Both royal and secular subjects",
+        "Only common people"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rajasthani paintings include religious, royal, secular and portraiture themes, showing diverse subjects."
+    },
+    {
+      "id": 34,
+      "question": "What makes Mewar an important center in Rajasthani painting?",
+      "options": [
+        "It was the only center",
+        "It was one of many centers that developed unique styles",
+        "It copied other styles",
+        "It only produced religious art"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mewar was one of many centers (including Bundi, Kota, Pratapgarh, Kishangarh, Malwa) that developed during the maturation of Rajasthani painting."
+    },
+    {
+      "id": 35,
+      "question": "What literary-artistic connection is showcased in 'Todi Ragini'?",
+      "options": [
+        "Architecture and poetry",
+        "Poetry and music",
+        "Dance and sculpture",
+        "Drama and painting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Todi Ragini stands as a classic example of the synthesis of poetry and music, demonstrating this important cultural connection."
+    },
+    {
+      "id": 36,
+      "question": "What emotional quality is conveyed through 'Todi Ragini'?",
+      "options": [
+        "Anger and violence",
+        "Mood and sentiment",
+        "Fear and terror",
+        "Sadness and grief"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painting has poetic lyricism and the figure is expressive of mood and sentiment."
+    },
+    {
+      "id": 37,
+      "question": "How do animals react to the music in 'Todi Ragini'?",
+      "options": [
+        "They run away",
+        "They are mesmerized",
+        "They ignore it",
+        "They become aggressive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The two deer are attracted by the music and seem to be mesmerized by the tune in Todi Ragini."
+    },
+    {
+      "id": 38,
+      "question": "What demonstrates the balance in 'Todi Ragini's composition?",
+      "options": [
+        "Symmetrical arrangement",
+        "Well-balanced composition despite background flatness",
+        "Equal number of elements",
+        "Geometric grid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The composition is well-balanced, and despite the flatness of the background, a sense of depth is achieved."
+    },
+    {
+      "id": 39,
+      "question": "What theme category does 'Todi Ragini' belong to?",
+      "options": [
+        "Religious only",
+        "Musical/secular",
+        "Royal portraiture",
+        "Mythological"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Todi Ragini belongs to the Ragamala series, which depicts musical modes and is part of the secular themes in Rajasthani painting."
+    },
+    {
+      "id": 40,
+      "question": "What school or center is 'Todi Ragini' attributed to?",
+      "options": [
+        "Mewar",
+        "Bundi",
+        "Pratapgarh",
+        "Kishangarh"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Todi Ragini is painted in the Pratapgarh style, one of the important centers of Rajasthani painting."
+    },
+    {
+      "id": 41,
+      "question": "What decorative element enhances trees in 'Todi Ragini'?",
+      "options": [
+        "Gold detailing",
+        "Colourful dots",
+        "Floral patterns",
+        "Geometric shapes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The effect is heightened by using colourful dots on both the costumes of the lady and the trees."
+    },
+    {
+      "id": 42,
+      "question": "What aspect of 'Geet Govinda' appealed to Rajasthani painters?",
+      "options": [
+        "Its historical content",
+        "Its poetic and devotional themes",
+        "Its scientific knowledge",
+        "Its political commentary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Geet Govinda by Jayadeva was popular for its poetic and devotional content, making it one of the most painted themes in Rajasthani art."
+    },
+    {
+      "id": 43,
+      "question": "What creates depth in 'Todi Ragini' despite technical limitations?",
+      "options": [
+        "Linear perspective",
+        "Atmospheric perspective",
+        "Compositional arrangement and color",
+        "Geometric construction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Despite the flatness of the background, a sense of depth is achieved through successful compositional arrangement in Todi Ragini."
+    },
+    {
+      "id": 44,
+      "question": "What is the primary artistic quality of 'Todi Ragini'?",
+      "options": [
+        "Photographic realism",
+        "Poetic lyricism",
+        "Geometric abstraction",
+        "Dramatic naturalism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Todi Ragini has a poetic lyricism and is expressive of mood and sentiment."
+    },
+    {
+      "id": 45,
+      "question": "What variety of themes distinguishes Rajasthani paintings?",
+      "options": [
+        "Only religious",
+        "Only secular",
+        "Religious, royal, secular and portraiture",
+        "Only mythological"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Great varieties of themes are found in Rajasthani paintings - religious, royal, secular and portraiture."
+    },
+    {
+      "id": 46,
+      "question": "When did various Rajasthani painting centers develop?",
+      "options": [
+        "After 16th CE maturation period",
+        "Before 16th CE",
+        "Only in 18th CE",
+        "Only in 19th CE"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many centres developed during the maturation of Rajasthani painting in 16th CE, such as Mewar, Bundi, Kota, Pratapgarh, Kishangarh, and Malwa."
+    },
+    {
+      "id": 47,
+      "question": "What artistic synthesis does Rajasthani Ragamala painting represent?",
+      "options": [
+        "Religion and philosophy",
+        "Poetry and music",
+        "Dance and drama",
+        "Architecture and sculpture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rajasthani Ragamala paintings like Todi Ragini stand as classic examples of the synthesis of poetry and music."
+    },
+    {
+      "id": 48,
+      "question": "What is the relationship between Ragas/Raaginis and visual art?",
+      "options": [
+        "No relationship",
+        "Musical modes are depicted visually in paintings",
+        "Only instruments are shown",
+        "Only musicians are portrayed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ragamala paintings are visual depictions of Ragas and Raaginis, which represent various classical musical modes of India."
+    },
+    {
+      "id": 49,
+      "question": "What characterizes figures in Rajasthani paintings?",
+      "options": [
+        "Static and rigid",
+        "Full of movement and expression",
+        "Abstract and symbolic",
+        "Minimal and simplified"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The human and animal figures in Rajasthani paintings are full of movement and expression."
+    },
+    {
+      "id": 50,
+      "question": "What natural setting is typical in paintings like 'Todi Ragini'?",
+      "options": [
+        "Desert landscape",
+        "Mountain scene",
+        "Blissful garden atmosphere",
+        "Coastal view"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The painter has been successful in creating the blissful natural atmosphere of a garden in Todi Ragini."
+    }
+  ]
+}

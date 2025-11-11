@@ -1,0 +1,606 @@
+{
+  "title": "Ajanta and Post Ajanta Painting - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Painting - Module 3: Buddhist Art & Bagh Cave Paintings",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which dynasty carried forward the tradition of sculpture and painting in northern India?",
+      "options": [
+        "Maurya dynasty",
+        "Gupta rule",
+        "Mughal empire",
+        "Chola dynasty"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Gupta rule in northern India carried forward the tradition of sculpture and painting further."
+    },
+    {
+      "id": 2,
+      "question": "Who did Chandra Gupta-I marry?",
+      "options": [
+        "Kumaradevi, a Princess of the Lichhavi tribe",
+        "A Mauryan princess",
+        "A foreign queen",
+        "A common woman"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chandra Gupta-I married Kumaradevi, a Princess of the Lichhavi tribe."
+    },
+    {
+      "id": 3,
+      "question": "When did Chandra Gupta-I ascend the throne?",
+      "options": [
+        "About 300 A.D.",
+        "About 320 A.D.",
+        "About 350 A.D.",
+        "About 400 A.D."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chandra Gupta-I ascended the throne about 320 A.D."
+    },
+    {
+      "id": 4,
+      "question": "Who was Chandra Gupta-I's son and successor?",
+      "options": [
+        "Chandra Gupta-II",
+        "Ashoka",
+        "Samudra Gupta",
+        "Harsha"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Gupta power was sustained by his son and successor Samudra Gupta (335-375)."
+    },
+    {
+      "id": 5,
+      "question": "Who was known by the title Vikramaditya?",
+      "options": [
+        "Chandra Gupta-I",
+        "Samudra Gupta",
+        "Chandra Gupta-II (375-415)",
+        "Ashoka"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chandra Gupta-II (375-415) was known by the title of Vikramaditya."
+    },
+    {
+      "id": 6,
+      "question": "In which period were most of the Ajanta paintings done?",
+      "options": [
+        "Maurya period",
+        "Gupta and Vakataka period",
+        "Mughal period",
+        "British period"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Most of the Ajanta paintings were done in the Gupta and Vakataka period."
+    },
+    {
+      "id": 7,
+      "question": "What do Ajanta paintings completely cover?",
+      "options": [
+        "Only the walls",
+        "Only the ceiling",
+        "The walls, pillars and ceiling of the caves",
+        "Only the floors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Ajanta paintings completely cover the walls, pillars and ceiling of the caves."
+    },
+    {
+      "id": 8,
+      "question": "What do Ajanta paintings illustrate?",
+      "options": [
+        "Only daily life scenes",
+        "Scenes from the life of Lord Buddha and his previous lives (Jatakas), floral and animal motifs",
+        "Only geometric patterns",
+        "Only royal portraits"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They constitute a great gallery of Buddhist art illustrating scenes from the life of Lord Buddha and his previous lives comprise the Jatakas, floral and animal motifs, and stories."
+    },
+    {
+      "id": 9,
+      "question": "Where are the Bagh Caves located?",
+      "options": [
+        "In Maharashtra",
+        "In Uttar Pradesh",
+        "50 km west of Mandu in Madhya Pradesh",
+        "In Rajasthan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bagh Caves of Madhya Pradesh are located 50 km west of Mandu, on a perpendicular rockface of a hill."
+    },
+    {
+      "id": 10,
+      "question": "Where are the Ajanta caves situated?",
+      "options": [
+        "Near Delhi",
+        "Over the winding bed of the Waghora River, sixty miles northeast of Aurangabad district in Maharashtra",
+        "Near Mumbai",
+        "In Madhya Pradesh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ajanta caves are situated over the winding bed of the Waghora River, a small tributary of the Tapti river, sixty miles northeast of Aurangabad district in Maharashtra state."
+    },
+    {
+      "id": 11,
+      "question": "After what nearby village are the Ajanta caves named?",
+      "options": [
+        "Aurangabad",
+        "Ajintha",
+        "Waghora",
+        "Tapti"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The caves are named after the nearby village Ajintha."
+    },
+    {
+      "id": 12,
+      "question": "How high is the rocky hill of Ajanta caves?",
+      "options": [
+        "About 150 feet",
+        "About 260 feet",
+        "About 400 feet",
+        "About 500 feet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ajanta Caves extends a rocky hill some 260 feet high and cut out of its sides along a stretch of 540 yards."
+    },
+    {
+      "id": 13,
+      "question": "How many caves are there at Ajanta?",
+      "options": [
+        "Twenty caves",
+        "Twenty-five caves",
+        "Thirty caves, including an unfinished one",
+        "Forty caves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are thirty caves, including an unfinished one."
+    },
+    {
+      "id": 14,
+      "question": "Which caves at Ajanta are Chaitya halls?",
+      "options": [
+        "Caves 1, 2, 3, 4 and 5",
+        "Caves 9, 10, 19, 26 and 29",
+        "Caves 15, 16, 17, 18 and 20",
+        "All caves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Caves 9, 10, 19, 26 and 29 are Chaitya halls (worshipping places)."
+    },
+    {
+      "id": 15,
+      "question": "What is a Chaitya hall?",
+      "options": [
+        "Living quarters",
+        "Worshipping place",
+        "Storage area",
+        "Kitchen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chaitya halls are worshipping places where Buddhist monks pray."
+    },
+    {
+      "id": 16,
+      "question": "What is a Vihara?",
+      "options": [
+        "Temple",
+        "Monastery where the monks lived",
+        "Palace",
+        "Market place"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Viharas are Monasteries where the monks lived."
+    },
+    {
+      "id": 17,
+      "question": "When were the Ajanta caves discovered?",
+      "options": [
+        "In 1719",
+        "In 1819",
+        "In 1919",
+        "In 1750"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ajanta caves were discovered in 1819 by some of the officers of the Madras regiment."
+    },
+    {
+      "id": 18,
+      "question": "Who was one of the officers who discovered Ajanta caves?",
+      "options": [
+        "Captain Cook",
+        "Major John Smith",
+        "Colonel Thompson",
+        "General Harris"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One of them is Major John Smith who discovered the Ajanta caves."
+    },
+    {
+      "id": 19,
+      "question": "Who sent the first report on Ajanta caves to the Royal Asiatic Society?",
+      "options": [
+        "Major John Smith",
+        "Lt. J.E. Alexandra in 1824",
+        "Captain Brown",
+        "Colonel Wilson"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first report on the Ajanta caves was sent to the Royal Asiatic Society by Lt. J.E. Alexandra in 1824."
+    },
+    {
+      "id": 20,
+      "question": "Which cave contains the Bodhisattva Avalokitesvara painting?",
+      "options": [
+        "Cave No. 1",
+        "Cave No. 2",
+        "Cave No. 10",
+        "Cave No. 17"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bodhisattva Avalokitesvara painting is painted on the back wall of the hall in cave no 1."
+    },
+    {
+      "id": 21,
+      "question": "Who is Bodhisattva Avalokitesvara?",
+      "options": [
+        "A king",
+        "A Bodhisattva of compassion who refuses to go to Nibbana till everyone gets emancipated",
+        "A warrior",
+        "A priest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bodhisattva Avalokitesvara is a Bodhisattva of compassion who refuses to go to Nibbana till everyone gets emancipated into the Dhamma."
+    },
+    {
+      "id": 22,
+      "question": "What is considered as Triratna in Buddhism?",
+      "options": [
+        "Three kings",
+        "Buddha, Dharma and Sangha",
+        "Three temples",
+        "Three rituals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Buddha, Dharma and Sangha is considered as Triratna."
+    },
+    {
+      "id": 23,
+      "question": "What is Bodhisattva Avalokitesvara wearing on his head?",
+      "options": [
+        "A simple cloth",
+        "A beautiful crown with beads",
+        "Nothing",
+        "A turban"
+      ],
+      "correctAnswer": 1,
+      "explanation": "He is wearing a beautiful crown with beads on his head."
+    },
+    {
+      "id": 24,
+      "question": "What type of earrings is Bodhisattva wearing?",
+      "options": [
+        "Simple studs",
+        "Golden Kundala",
+        "Silver hoops",
+        "No earrings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In his ear, he is wearing a golden Kundala."
+    },
+    {
+      "id": 25,
+      "question": "What is a Kundala?",
+      "options": [
+        "A necklace",
+        "A big bangle type earring",
+        "A bracelet",
+        "A crown"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kundala is a big bangle type earring."
+    },
+    {
+      "id": 26,
+      "question": "Are Ajanta paintings full-fledged frescos?",
+      "options": [
+        "Yes, they are true frescos",
+        "No, the mode of painting is tempera or 'dry fresco'",
+        "They are oil paintings",
+        "They are watercolors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The paintings of Ajanta are not full fledged frescos. The mode of paintings at Ajanta is the tempera, 'dry fresco'."
+    },
+    {
+      "id": 27,
+      "question": "What is the difference between fresco and tempera?",
+      "options": [
+        "No difference",
+        "Fresco is done while plaster is wet, tempera is dry fresco",
+        "Fresco uses oil, tempera uses water",
+        "Tempera is done on canvas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In fresco painting, painting is done while the surface layer of plaster is still wet. But the mode of paintings at Ajanta is the tempera, 'dry fresco'."
+    },
+    {
+      "id": 28,
+      "question": "What are the five colours usually found in Ajanta paintings according to Shilpa Sutra text?",
+      "options": [
+        "Blue, green, yellow, red, white",
+        "Red Ochre (geru), Yellow Ochre (Pilimitti), black (Kajal), Lapis lazuli (Blue) and White (Lime or Khadia)",
+        "Only primary colors",
+        "Black, brown, orange, purple, pink"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The five colours usually described in the Shilpa Sutra text are: Red Ochre (geru), Yellow Ochre (Pilimitti), black (Kajal), Lapis lazuli (Blue) and White (Lime or Khadia)."
+    },
+    {
+      "id": 29,
+      "question": "In which cave is the 'Apsara' painting found?",
+      "options": [
+        "Cave No. 1",
+        "Cave No. 2",
+        "Cave No. 17",
+        "Cave No. 19"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Apsara painting is from Cave No. 17."
+    },
+    {
+      "id": 30,
+      "question": "What is an Apsara?",
+      "options": [
+        "A goddess",
+        "A celestial dancing girl or nymph",
+        "A queen",
+        "A warrior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Apsara means celestial dancing girl or nymph."
+    },
+    {
+      "id": 31,
+      "question": "What are the six limbs of painting (Shadanga)?",
+      "options": [
+        "Six colors",
+        "Rupabheda, Pramana, Bhava, Lavanyayojanam, Sadrisyam, Varnikabhangam",
+        "Six techniques",
+        "Six brushes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Shadanga or the six limbs of painting are composed of Rupabheda (Variety of form), Pramana (proper proportion), Bhava (depiction of emotion), Lavanyayojanam (Infusion of grace), Sadrisyam (likeness), and Varnikabhangam (mixing of colours)."
+    },
+    {
+      "id": 32,
+      "question": "What is the skin color of the Flying Apsara?",
+      "options": [
+        "Light brown",
+        "Dark brown",
+        "Golden",
+        "White"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Her body colour is dark brown."
+    },
+    {
+      "id": 33,
+      "question": "What musical instrument is the Apsara holding?",
+      "options": [
+        "Flute",
+        "Veena",
+        "Cymbal (Khartal)",
+        "Drum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "She is holding a musical instrument cymbal (Khartal) in her hand."
+    },
+    {
+      "id": 34,
+      "question": "What is Khartal?",
+      "options": [
+        "A string instrument",
+        "A wind instrument",
+        "Cymbal - a percussion instrument",
+        "A drum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Khartal is a cymbal, which is a percussion instrument."
+    },
+    {
+      "id": 35,
+      "question": "In which cave is the 'Decoration on the Ceiling' found?",
+      "options": [
+        "Cave No. 1",
+        "Cave No. 2",
+        "Cave No. 10",
+        "Cave No. 17"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is a beautiful example of a ceiling decoration from cave no 2."
+    },
+    {
+      "id": 36,
+      "question": "What was the first coating on the cave wall before painting?",
+      "options": [
+        "Pure lime",
+        "Clay mixed with rice husk, cattle dung and gum",
+        "Sand and water",
+        "Oil and wax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first coating on the wall was of clay mixed with rice husk, cattle dunk and gum."
+    },
+    {
+      "id": 37,
+      "question": "In what color was the outline drawing made on Ajanta walls?",
+      "options": [
+        "Red or yellow",
+        "Dark brown or black",
+        "White or blue",
+        "Green or purple"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The outline drawing was in dark brown or black and subsequently, colours and tones were added."
+    },
+    {
+      "id": 38,
+      "question": "What motifs are painted on the long panels and borders of cave ceilings?",
+      "options": [
+        "Only geometric patterns",
+        "Swans, birds, Vidyadhara couples, auspicious conches, lotuses and buds",
+        "Only animals",
+        "Only human figures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The long panels and borders from the ceiling of caves are painted with swans, birds, Vidyadhara couples, auspicious conches, lotuses and buds, as well as sinuous rhizomes and stalks."
+    },
+    {
+      "id": 39,
+      "question": "What does 'auspicious' mean?",
+      "options": [
+        "Dangerous",
+        "Sacred or bringing good fortune",
+        "Colorful",
+        "Ancient"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Auspicious means sacred or bringing good fortune."
+    },
+    {
+      "id": 40,
+      "question": "What are rhizomes?",
+      "options": [
+        "Flower petals",
+        "Horizontal underground plant stems producing both roots and shoots",
+        "Tree branches",
+        "Leaves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rhizomes are horizontal underground plant stems producing both roots and shoots."
+    },
+    {
+      "id": 41,
+      "question": "Which cave at Bagh has the dancing panel painting?",
+      "options": [
+        "Cave No. 1",
+        "Cave No. 2",
+        "Cave No. 4",
+        "Cave No. 9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The painting of a dance panel is in cave no. 4 at Bagh."
+    },
+    {
+      "id": 42,
+      "question": "How far is Bagh village from the Bagh caves?",
+      "options": [
+        "5 km north",
+        "7 km north",
+        "10 km north",
+        "15 km north"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Bagh caves are situated 7 km north away from Bagh village."
+    },
+    {
+      "id": 43,
+      "question": "How do Bagh paintings compare to Ajanta paintings in terms of maturity?",
+      "options": [
+        "Less mature",
+        "Same level",
+        "More mature with perfectly modelled human figures",
+        "Completely different style"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Bagh paintings are more mature with perfectly modelled human figures."
+    },
+    {
+      "id": 44,
+      "question": "What does the dancing panel at Bagh depict?",
+      "options": [
+        "Religious ceremony",
+        "The performance of court dancers",
+        "Battle scene",
+        "Hunting scene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The painting depicts the performance of court dancers."
+    },
+    {
+      "id": 45,
+      "question": "How are the dancers at Bagh dressed?",
+      "options": [
+        "Fully covered",
+        "Scantily dressed and decked with heavy jewellery",
+        "In simple clothes",
+        "In armor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The beautiful young dancers are scantily dressed out and decked with heavy jewellery."
+    },
+    {
+      "id": 46,
+      "question": "What instruments are mentioned in the Bagh dancing panel?",
+      "options": [
+        "Flutes and sitars",
+        "Drums and cymbals",
+        "Veenas and tablas",
+        "Only vocals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The dancers are using their rhythmic footsteps to match the percussion beat of the drums and cymbals."
+    },
+    {
+      "id": 47,
+      "question": "What enhances the beauty of the Bagh dancers?",
+      "options": [
+        "Simple white costumes",
+        "Colorful costumes with flower motifs",
+        "Gold ornaments only",
+        "Lack of decoration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The colourful costumes of the flower motifs enhance the beauty of these dancers."
+    },
+    {
+      "id": 48,
+      "question": "How many dancers are shown on the left side of the Bagh composition?",
+      "options": [
+        "Five dancers",
+        "Six dancers",
+        "Seven dancers",
+        "Eight dancers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are seven dancers in the left side of the composition."
+    },
+    {
+      "id": 49,
+      "question": "What instrument is one lady playing that dangles from her neck?",
+      "options": [
+        "A flute",
+        "A veena",
+        "A drum",
+        "Cymbals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One of the ladies is playing a drum which is dangling from her neck covering her naked body."
+    },
+    {
+      "id": 50,
+      "question": "How many of the nine Bagh caves survive with classical paintings?",
+      "options": [
+        "All nine caves",
+        "Seven caves",
+        "Only five of the nine caves",
+        "Three caves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unfortunately, only five of the nine caves survive with these classical paintings."
+    }
+  ]
+}

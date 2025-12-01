@@ -1,0 +1,906 @@
+{
+  "title": "Physics Exam Paper April 2024 (Set-A) - Multiple Choice Questions",
+  "subtitle": "NIOS Class 12 Physics (312) - TUS Exam 24-04-2024",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Pressure due to a liquid column does not depend on:",
+      "options": [
+        "Its density",
+        "Its viscosity",
+        "Its height",
+        "Acceleration due to gravity at the place"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pressure due to a liquid column is given by P = ρgh, where ρ is density, g is acceleration due to gravity, and h is height. Viscosity does not affect the hydrostatic pressure of a liquid column."
+    },
+    {
+      "id": 2,
+      "question": "In the sky after rains, rainbow is formed due to the phenomenon of:",
+      "options": [
+        "Interference",
+        "Diffraction",
+        "Polarization",
+        "Dispersion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rainbow is formed due to dispersion of white light by water droplets in the atmosphere. When sunlight enters a water droplet, it undergoes refraction and dispersion, splitting into its component colors."
+    },
+    {
+      "id": 3,
+      "question": "When a constant net external force acts on a body, which of the following physical quantities may not change?",
+      "options": [
+        "Position",
+        "Speed",
+        "Velocity",
+        "Acceleration"
+      ],
+      "correctAnswer": 3,
+      "explanation": "When a constant net external force acts on a body, the acceleration remains constant (F = ma). Position changes with motion, speed may change (unless motion is circular), and velocity changes direction or magnitude. But acceleration remains constant for a constant force on a given mass."
+    },
+    {
+      "id": 4,
+      "question": "A force F acts on a body of mass m for t seconds. The change in its linear momentum will be:",
+      "options": [
+        "Ft",
+        "Fm",
+        "F/t",
+        "F/m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to the impulse-momentum theorem, Impulse = Change in momentum. Impulse = F × t, so change in linear momentum = Ft."
+    },
+    {
+      "id": 5,
+      "question": "A body of mass m is thrown vertically upwards in air with an initial velocity v. Its kinetic energy at a height h will be:",
+      "options": [
+        "Equal to ½mv²",
+        "More than ½mv²",
+        "Less than ½mv²",
+        "mgh – ½mv²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As the body rises, its kinetic energy converts to potential energy. At height h, some kinetic energy has been converted to potential energy (mgh), so the remaining kinetic energy is less than the initial ½mv²."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following phenomena is not exhibited by sound waves?",
+      "options": [
+        "Refraction",
+        "Diffraction",
+        "Interference",
+        "Polarization"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sound waves are longitudinal waves. Polarization is a phenomenon that occurs only in transverse waves. Sound waves can undergo refraction, diffraction, and interference, but not polarization."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following harmonics of its fundamental note is missing from the sounds produced by a closed pipe?",
+      "options": [
+        "Second harmonic",
+        "Third harmonic",
+        "Fifth harmonic",
+        "Seventh harmonic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A closed pipe (closed at one end) produces only odd harmonics (1st, 3rd, 5th, 7th, etc.). Even harmonics (2nd, 4th, 6th, etc.) are missing because the closed end must always be a node."
+    },
+    {
+      "id": 8,
+      "question": "An electric field E holds an oil drop (in air) having charge ne and mass m. The magnitude of E is:",
+      "options": [
+        "ne/(mg)",
+        "mg/(ne)",
+        "nge/m",
+        "nmg/e"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For the oil drop to be held stationary, the electric force must balance the gravitational force. neE = mg, therefore E = mg/(ne). This is the principle behind Millikan's oil drop experiment."
+    },
+    {
+      "id": 9,
+      "question": "The SI unit of electric field is:",
+      "options": [
+        "A m⁻¹",
+        "C² m⁻²",
+        "V m⁻¹",
+        "C m⁻²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electric field E = V/d (voltage per unit distance), so its SI unit is volt per meter (V m⁻¹). It can also be expressed as N/C (newton per coulomb)."
+    },
+    {
+      "id": 10,
+      "question": "Two concentric spherical surfaces of radii r and 2r have a point charge q at their centre. The electric flux through these surfaces will be in the ratio:",
+      "options": [
+        "1 : 1",
+        "1 : 2",
+        "2 : 1",
+        "1 : 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to Gauss's law, the electric flux through a closed surface depends only on the enclosed charge, not on the size or shape of the surface. Since both surfaces enclose the same charge q, the flux through both is q/ε₀, giving a ratio of 1:1."
+    },
+    {
+      "id": 11,
+      "question": "To obtain the maximum resistance, three resistors r₁, r₂ and r₃ should be connected:",
+      "options": [
+        "All in series",
+        "All in parallel",
+        "r₁ in series with parallel combination of r₂ and r₃",
+        "r₃ in series with parallel combination of r₁ and r₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Maximum resistance is obtained when resistors are connected in series. In series, Rtotal = r₁ + r₂ + r₃. In parallel, the equivalent resistance is always less than the smallest individual resistance."
+    },
+    {
+      "id": 12,
+      "question": "A wire of length L and diameter D will have the minimum resistance when its length and diameter are:",
+      "options": [
+        "L and D",
+        "2L and D/2",
+        "L/2 and 2D",
+        "L and D/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Resistance R = ρL/A = ρL/(πD²/4). For minimum resistance, we need minimum length and maximum diameter. With L/2 length and 2D diameter, R = ρ(L/2)/(π(2D)²/4) = ρL/(8πD²/4) = R₀/8, which is the minimum."
+    },
+    {
+      "id": 13,
+      "question": "The light waves from two coherent sources of intensity I interfere. In interference pattern, if the intensity of light at minima is zero, the intensity of light at maxima is:",
+      "options": [
+        "I²",
+        "I",
+        "2I",
+        "4I"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For two coherent sources of equal intensity I, at maxima the amplitudes add up: Imax = (√I + √I)² = 4I. At minima, amplitudes cancel: Imin = (√I - √I)² = 0."
+    },
+    {
+      "id": 14,
+      "question": "A single-slit diffraction pattern is obtained using a beam of red light. When red light is replaced by blue light:",
+      "options": [
+        "The diffraction pattern disappears",
+        "There is no change in the diffraction pattern",
+        "The diffraction fringes become narrower and get crowded together",
+        "The diffraction fringes become broader and move further apart"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The angular width of diffraction fringes is proportional to wavelength (θ ∝ λ/a). Blue light has shorter wavelength than red light, so the fringes become narrower and more closely spaced."
+    },
+    {
+      "id": 15,
+      "question": "Hydrogen atoms are excited from ground state to a state with quantum number 4. The maximum number of spectral lines emitted will be:",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The maximum number of spectral lines from an excited state n is given by n(n-1)/2. For n = 4: 4(4-1)/2 = 6 lines. The possible transitions are: 4→3, 4→2, 4→1, 3→2, 3→1, 2→1."
+    },
+    {
+      "id": 16,
+      "question": "Two solid spheres of the same metal having masses M and 8M fall simultaneously in a viscous liquid. If their terminal velocities are v and nv, then the value of n is:",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Terminal velocity v ∝ r². Since mass M ∝ r³, we have r ∝ M^(1/3). For mass 8M, r' = 2r. So v' ∝ (2r)² = 4r². Therefore n = 4."
+    },
+    {
+      "id": 17,
+      "question": "Two spherical drops of the same liquid have their volumes in the ratio 1:8. The ratio of the excess pressures over the atmospheric pressure inside them will be:",
+      "options": [
+        "8 : 1",
+        "2 : 1",
+        "1 : 1",
+        "1 : 2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Excess pressure inside a drop P = 2T/r. Since V ∝ r³, if V₁:V₂ = 1:8, then r₁:r₂ = 1:2. Therefore P₁:P₂ = r₂:r₁ = 2:1."
+    },
+    {
+      "id": 18,
+      "question": "10 capacitors, each of capacitance 5 μF, are connected first in parallel and then in series. The ratio of the maximum and minimum capacitance so obtained in the two combinations is:",
+      "options": [
+        "100 : 1",
+        "50 : 1",
+        "10 : 1",
+        "5 : 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In parallel: Cmax = 10 × 5 = 50 μF. In series: 1/Cmin = 10/5, so Cmin = 0.5 μF. Ratio = 50/0.5 = 100:1."
+    },
+    {
+      "id": 19,
+      "question": "If a very thin metal foil is introduced between the plates of a parallel-plate capacitor of capacitance C, at its centre, its new capacitance will be:",
+      "options": [
+        "Zero",
+        "2C",
+        "C",
+        "C/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When a very thin (negligible thickness) conducting foil is introduced, it divides the capacitor into two capacitors in series. Since the foil is infinitesimally thin, the effective separation remains the same, and the capacitance remains C."
+    },
+    {
+      "id": 20,
+      "question": "The order of magnitude of best suited frequency of electromagnetic radiations to be used to observe a particle of radius 3 × 10⁻⁴ cm will be:",
+      "options": [
+        "10¹²",
+        "10¹³",
+        "10¹⁴",
+        "10¹⁵"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To observe a particle, the wavelength should be of the order of the particle size. r = 3 × 10⁻⁴ cm = 3 × 10⁻⁶ m. Using λ ≈ r and f = c/λ = (3 × 10⁸)/(3 × 10⁻⁶) = 10¹⁴ Hz."
+    },
+    {
+      "id": 21,
+      "question": "If the angle of maximum polarization on the surface of a medium is P, the velocity of light v in the medium is given by (c is speed of light in vacuum):",
+      "options": [
+        "v = c tan P",
+        "v = c cot P",
+        "v = c sec P",
+        "v = c cosec P"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Brewster's law, tan P = μ = c/v. Therefore v = c/tan P = c cot P."
+    },
+    {
+      "id": 22,
+      "question": "In terms of Bohr radius aₙ, the radius of the third orbit of hydrogen atom will be:",
+      "options": [
+        "3aₙ",
+        "9aₙ",
+        "√3aₙ",
+        "aₙ/3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Bohr's model, the radius of nth orbit is rₙ = n²a₀, where a₀ is the Bohr radius. For n = 3, r₃ = 9a₀ = 9aₙ."
+    },
+    {
+      "id": 23,
+      "question": "The ionization energy of hydrogen atom is 13.6 eV. The ionization energy of helium atom is:",
+      "options": [
+        "54.4 eV",
+        "27.2 eV",
+        "13.6 eV",
+        "6.8 eV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ionization energy E ∝ Z². For hydrogen (Z=1): E = 13.6 eV. For helium ion He⁺ (Z=2): E = 13.6 × 2² = 54.4 eV. This is the energy to remove one electron from He⁺."
+    },
+    {
+      "id": 24,
+      "question": "Which of the following devices has its I-V characteristics in the fourth quadrant of Cartesian coordinate system?",
+      "options": [
+        "Zener diode",
+        "Photodiode",
+        "LED",
+        "Solar cell"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A solar cell generates current when light falls on it, producing positive current even with negative voltage applied. This places its operating point in the fourth quadrant (positive current, negative voltage) where it delivers power."
+    },
+    {
+      "id": 25,
+      "question": "In a Carnot cycle, which of the following is correct?",
+      "options": [
+        "An isothermal expansion stroke is followed by an adiabatic expansion stroke",
+        "An isothermal compression stroke is followed by an isothermal expansion stroke",
+        "An isothermal expansion stroke is followed by an adiabatic compression stroke",
+        "An isothermal expansion stroke is followed by an isothermal compression stroke"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a Carnot cycle, the sequence is: (1) Isothermal expansion at high temperature T₁, (2) Adiabatic expansion, (3) Isothermal compression at low temperature T₂, (4) Adiabatic compression back to initial state."
+    },
+    {
+      "id": 26,
+      "question": "In a Carnot engine, heat is:",
+      "options": [
+        "Absorbed during isothermal expansion and released during isothermal compression",
+        "Absorbed during isothermal expansion and released during adiabatic compression",
+        "Absorbed during adiabatic expansion and released during isothermal compression",
+        "Absorbed during adiabatic compression and released during isothermal expansion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a Carnot engine, heat Q₁ is absorbed from the hot reservoir during isothermal expansion (at temperature T₁), and heat Q₂ is released to the cold reservoir during isothermal compression (at temperature T₂). During adiabatic processes, no heat exchange occurs."
+    },
+    {
+      "id": 27,
+      "question": "The amount of heat converted into work in each cycle of a heat engine is equal to:",
+      "options": [
+        "Heat absorbed",
+        "Heat released",
+        "Heat absorbed – Heat released",
+        "Heat absorbed + Heat released"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By the first law of thermodynamics, the work done by a heat engine in each cycle equals the difference between heat absorbed from the hot reservoir (Q₁) and heat released to the cold reservoir (Q₂). W = Q₁ - Q₂."
+    },
+    {
+      "id": 28,
+      "question": "Working substance for a heat engine can be:",
+      "options": [
+        "Necessarily steam",
+        "Necessarily petrol",
+        "Necessarily a perfect gas",
+        "Any gas"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The working substance in a heat engine can be any gas. The efficiency of an ideal Carnot engine depends only on the temperatures of the reservoirs and not on the nature of the working substance."
+    },
+    {
+      "id": 29,
+      "question": "In chemical reactions, which of the following is not affected?",
+      "options": [
+        "Electron",
+        "Nucleus",
+        "Neutron",
+        "Proton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In chemical reactions, only the electrons in the outer shells participate in bonding. The nucleus of an atom remains unaffected during chemical reactions. Nuclear changes occur only in nuclear reactions."
+    },
+    {
+      "id": 30,
+      "question": "The best projectile for triggering a nuclear reaction is:",
+      "options": [
+        "Electron",
+        "Proton",
+        "Neutron",
+        "α-particle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Neutrons are the best projectiles for nuclear reactions because they are electrically neutral. They are not repelled by the positive nucleus and can easily penetrate it, even at low energies."
+    },
+    {
+      "id": 31,
+      "question": "When ²³⁸U nucleus is bombarded with a neutron, along with the nucleus of ²³⁹Np, some energy and what particle is released?",
+      "options": [
+        "Proton",
+        "Electron",
+        "Neutron",
+        "α-particle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When ²³⁸U captures a neutron, it becomes ²³⁹U, which undergoes beta decay to form ²³⁹Np. In beta decay, an electron (β⁻ particle) is emitted: ²³⁸U + n → ²³⁹U → ²³⁹Np + e⁻ + energy."
+    },
+    {
+      "id": 32,
+      "question": "When nitrogen gas was bombarded with high energy α-particles, nitrogen gas got transformed into:",
+      "options": [
+        "Carbon",
+        "Helium",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This was Rutherford's first artificial transmutation experiment (1919). When nitrogen-14 is bombarded with α-particles, it transforms into oxygen-17 and a proton: ¹⁴N + ⁴He → ¹⁷O + ¹H."
+    },
+    {
+      "id": 33,
+      "question": "While calculating the resultant force acting on a body, why do we not take into account the interaction forces between its molecules?",
+      "options": [
+        "They are too small to measure",
+        "They add up to zero according to Newton's third law",
+        "They only cause deformation",
+        "They act in random directions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Newton's third law, internal forces between molecules occur in equal and opposite pairs. When we sum all internal forces, they cancel each other out and add to zero. Only external forces contribute to the net force on the body."
+    },
+    {
+      "id": 34,
+      "question": "A body stays in equilibrium under two forces when:",
+      "options": [
+        "The forces are equal in magnitude",
+        "The forces are perpendicular to each other",
+        "The forces are equal in magnitude and opposite in direction",
+        "The forces make an angle of 60° with each other"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a body to be in equilibrium under two forces, the forces must be equal in magnitude, opposite in direction, and act along the same line. This ensures both translational and rotational equilibrium."
+    },
+    {
+      "id": 35,
+      "question": "A body stays in equilibrium under three forces when:",
+      "options": [
+        "All three forces are equal",
+        "The three forces are concurrent and their vector sum is zero",
+        "The three forces are parallel",
+        "Any two forces are equal to the third"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For equilibrium under three forces: (1) The vector sum of the three forces must be zero (ΣF = 0), and (2) The forces must be either concurrent (meeting at a point) or parallel. This ensures both translational and rotational equilibrium."
+    },
+    {
+      "id": 36,
+      "question": "A book is placed on a table. The forces acting on the book are:",
+      "options": [
+        "Only gravitational force",
+        "Gravitational force and normal reaction",
+        "Gravitational force, normal reaction, and friction",
+        "Only normal reaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two forces act on the book: (1) Gravitational force (weight) acting downward due to Earth's attraction, and (2) Normal reaction force from the table acting upward. These two forces are equal and opposite, keeping the book in equilibrium."
+    },
+    {
+      "id": 37,
+      "question": "The SI unit of energy is:",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Pascal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SI unit of energy is the joule (J). One joule is the work done when a force of one newton moves an object through a distance of one meter in the direction of the force: 1 J = 1 N·m = 1 kg·m²/s²."
+    },
+    {
+      "id": 38,
+      "question": "The other name for joule per second is:",
+      "options": [
+        "Newton",
+        "Watt",
+        "Pascal",
+        "Hertz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Watt is the SI unit of power, defined as one joule per second (1 W = 1 J/s). Power is the rate of doing work or the rate of energy transfer."
+    },
+    {
+      "id": 39,
+      "question": "1 kWh is the unit of:",
+      "options": [
+        "Power",
+        "Force",
+        "Energy",
+        "Time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kilowatt-hour (kWh) is a unit of energy. It represents the energy consumed when a power of 1 kilowatt is used for 1 hour. 1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J."
+    },
+    {
+      "id": 40,
+      "question": "1 horsepower is equal to:",
+      "options": [
+        "746 watt",
+        "1000 watt",
+        "500 watt",
+        "100 watt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One horsepower (hp) is equal to 746 watts. This is the mechanical horsepower, defined based on the power a horse can deliver continuously."
+    },
+    {
+      "id": 41,
+      "question": "Kerosene oil rises in the wick of a lantern due to:",
+      "options": [
+        "Viscosity",
+        "Surface tension",
+        "Atmospheric pressure",
+        "Gravity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kerosene rises in the wick due to capillary action, which is caused by surface tension. The adhesive force between kerosene and wick material is greater than the cohesive force within kerosene, causing it to rise against gravity."
+    },
+    {
+      "id": 42,
+      "question": "A raindrop falls on the earth's surface with:",
+      "options": [
+        "Constant acceleration",
+        "Increasing velocity",
+        "Terminal velocity",
+        "Zero velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As a raindrop falls, it initially accelerates due to gravity. However, air resistance increases with velocity. Eventually, when drag force equals weight, the drop reaches a constant terminal velocity and falls at this steady speed."
+    },
+    {
+      "id": 43,
+      "question": "The time in which a body falling freely in air attains terminal velocity depends on:",
+      "options": [
+        "Only the mass of the body",
+        "Only the size of the body",
+        "The density of air",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The time to reach terminal velocity depends on the mass, size, and shape of the body, as well as the density and viscosity of the medium (air). A denser medium provides more resistance, allowing terminal velocity to be reached sooner."
+    },
+    {
+      "id": 44,
+      "question": "The excess pressure inside a soap bubble of radius r is equal to (where T is surface tension of soap solution):",
+      "options": [
+        "T/r",
+        "2T/r",
+        "4T/r",
+        "T/2r"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A soap bubble has two surfaces (inner and outer), so the excess pressure is P = 4T/r (double that of a liquid drop which has only one surface). For a liquid drop, excess pressure is 2T/r."
+    },
+    {
+      "id": 45,
+      "question": "When two waves of frequency ν and (ν + Δν) superpose, the number of beats produced per second will be:",
+      "options": [
+        "ν",
+        "ν + Δν",
+        "Δν",
+        "(ν + Δν)/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The beat frequency equals the difference between the two frequencies. When waves of frequency ν and (ν + Δν) superpose, the number of beats per second = (ν + Δν) - ν = Δν."
+    },
+    {
+      "id": 46,
+      "question": "The intensity ratio of two waves is 1:16. Their amplitude ratio will be:",
+      "options": [
+        "1:16",
+        "1:4",
+        "1:2",
+        "1:256"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Intensity is proportional to the square of amplitude: I ∝ A². If I₁:I₂ = 1:16, then A₁²:A₂² = 1:16, so A₁:A₂ = 1:4."
+    },
+    {
+      "id": 47,
+      "question": "A sonometer produces which type of waves?",
+      "options": [
+        "Electromagnetic waves",
+        "Longitudinal stationary waves",
+        "Transverse progressive waves",
+        "Transverse stationary waves"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A sonometer consists of a stretched wire that vibrates to produce transverse stationary waves. The fixed ends act as nodes, and antinodes form between them."
+    },
+    {
+      "id": 48,
+      "question": "A resonance column produces which type of waves?",
+      "options": [
+        "Electromagnetic waves",
+        "Longitudinal stationary waves",
+        "Transverse progressive waves",
+        "Transverse stationary waves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A resonance column contains an air column that vibrates to produce longitudinal stationary waves. Sound waves (which are longitudinal) reflect at the closed end and interfere with incoming waves to form standing waves."
+    },
+    {
+      "id": 49,
+      "question": "Angular dispersion for any two colours is independent of:",
+      "options": [
+        "The angle of prism",
+        "The refractive indices of the colors",
+        "The wavelength of light",
+        "The material of the prism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This statement is FALSE. Angular dispersion δ = (μv - μr)A, where A is the angle of prism. So angular dispersion depends on the angle of prism. It is the dispersive power (angular dispersion/mean deviation) that is independent of the prism angle."
+    },
+    {
+      "id": 50,
+      "question": "The angular width of primary rainbow compared to secondary rainbow is:",
+      "options": [
+        "Greater",
+        "Less",
+        "Equal",
+        "Cannot be compared"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angular width of the primary rainbow (about 2°) is less than that of the secondary rainbow (about 3.5°). The secondary rainbow is wider but fainter because light undergoes two internal reflections."
+    },
+    {
+      "id": 51,
+      "question": "A barometer works on the principle of:",
+      "options": [
+        "Upthrust = Weight of displaced fluid",
+        "P = hdg",
+        "F₁/A₁ = F₂/A₂",
+        "F = 6πηrv"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A barometer measures atmospheric pressure using the principle P = hdg, where h is the height of the mercury column, d is the density of mercury, and g is acceleration due to gravity. At sea level, atmospheric pressure supports about 76 cm of mercury."
+    },
+    {
+      "id": 52,
+      "question": "A hydraulic brake works on the principle of:",
+      "options": [
+        "Upthrust = Weight of displaced fluid",
+        "P = hdg",
+        "F₁/A₁ = F₂/A₂",
+        "F = 6πηrv"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hydraulic brakes work on Pascal's principle: pressure applied to a confined fluid is transmitted equally in all directions. The principle F₁/A₁ = F₂/A₂ allows a small force on a small piston to produce a large force on a large piston."
+    },
+    {
+      "id": 53,
+      "question": "The efficiency of a heat engine working between temperatures T₁ and T₂ (where T₁ > T₂) will always be less than:",
+      "options": [
+        "100%",
+        "(T₁ - T₂)/T₁",
+        "T₂/T₁",
+        "(T₁ + T₂)/T₁"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The maximum efficiency of any heat engine is the Carnot efficiency: η = (T₁ - T₂)/T₁ = 1 - T₂/T₁. No real engine can achieve 100% efficiency, and practical engines have efficiency less than even the Carnot limit."
+    },
+    {
+      "id": 54,
+      "question": "In a thermodynamic PV diagram, the work done in a process from state A to state B is given by:",
+      "options": [
+        "The slope of the curve",
+        "The area under the curve",
+        "The length of the curve",
+        "The pressure at point B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a PV diagram, the work done by a gas is represented by the area under the curve between the initial and final states. Work W = ∫P dV, which geometrically represents the area under the P-V curve."
+    },
+    {
+      "id": 55,
+      "question": "7460 watt is equal to:",
+      "options": [
+        "1 hp",
+        "5 hp",
+        "10 hp",
+        "100 hp"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since 1 hp = 746 W, we have 7460 W = 7460/746 = 10 hp."
+    },
+    {
+      "id": 56,
+      "question": "360 kJ is equal to:",
+      "options": [
+        "0.1 kWh",
+        "1 kWh",
+        "10 kWh",
+        "100 kWh"
+      ],
+      "correctAnswer": 0,
+      "explanation": "1 kWh = 3.6 × 10⁶ J = 3600 kJ. Therefore, 360 kJ = 360/3600 = 0.1 kWh."
+    },
+    {
+      "id": 57,
+      "question": "A boy throws a ball vertically upwards with velocity v₀ and catches it when it returns. The change in linear momentum of the ball is:",
+      "options": [
+        "Zero",
+        "mv₀",
+        "2mv₀",
+        "-mv₀"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Initial momentum = mv₀ (upward). Final momentum = -mv₀ (downward, same speed but opposite direction). Change in momentum = -mv₀ - mv₀ = -2mv₀. The magnitude is 2mv₀."
+    },
+    {
+      "id": 58,
+      "question": "Which phenomenon explains why the sky appears blue?",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Scattering of light",
+        "Dispersion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The blue color of the sky is due to Rayleigh scattering. Shorter wavelengths (blue) are scattered more than longer wavelengths (red) by air molecules. This scattered blue light reaches our eyes from all directions, making the sky appear blue."
+    },
+    {
+      "id": 59,
+      "question": "The Raman effect involves:",
+      "options": [
+        "Elastic scattering of light",
+        "Inelastic scattering of light",
+        "Reflection of light",
+        "Refraction of light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Raman effect is inelastic scattering of light where the scattered photon has a different energy (and hence wavelength) from the incident photon. Energy is exchanged with the scattering molecule, providing information about molecular vibrations."
+    },
+    {
+      "id": 60,
+      "question": "In Young's double-slit experiment, a dark fringe is produced on the screen when:",
+      "options": [
+        "The path difference is an integral multiple of wavelength",
+        "The path difference is an odd multiple of half wavelength",
+        "The two waves have equal intensity",
+        "The two waves have the same phase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dark fringes (destructive interference) occur when the path difference between waves from the two slits is an odd multiple of half wavelength: Δx = (2n+1)λ/2, where n = 0, 1, 2, ... At these points, the waves are out of phase and cancel each other."
+    },
+    {
+      "id": 61,
+      "question": "In a single-slit diffraction pattern, the central bright fringe is:",
+      "options": [
+        "Narrower than other bright fringes",
+        "Same width as other bright fringes",
+        "Twice as wide as other bright fringes",
+        "Half as wide as other bright fringes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In single-slit diffraction, the angular width of the central maximum is 2λ/a (from -λ/a to +λ/a), while secondary maxima have angular width λ/a each. So the central bright fringe is twice as wide as other bright fringes."
+    },
+    {
+      "id": 62,
+      "question": "Out of X-rays and microwaves, which radiation is more likely to produce photo-emission from a given material?",
+      "options": [
+        "Microwaves, because they have higher frequency",
+        "X-rays, because they have higher frequency",
+        "Both are equally likely",
+        "Neither can produce photo-emission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "X-rays have much higher frequency (and hence higher photon energy) than microwaves. For photo-emission, the photon energy must exceed the work function of the material. X-ray photon energy E = hν is typically much greater than the work function, while microwave photon energy is too low."
+    },
+    {
+      "id": 63,
+      "question": "The relationship between current gain in common-emitter configuration (β) and common-base configuration (α) is:",
+      "options": [
+        "β = α/(1-α)",
+        "β = α/(1+α)",
+        "β = (1-α)/α",
+        "β = 1/α"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The relationship is β = α/(1-α). As α approaches 1, the denominator (1-α) approaches 0, so β approaches infinity. This is why even a small base current can control a large collector current in common-emitter configuration."
+    },
+    {
+      "id": 64,
+      "question": "The magnetic field at a point 10 cm away from a long straight wire carrying 3 A current is (μ₀ = 4π × 10⁻⁷ T·m/A):",
+      "options": [
+        "6 × 10⁻⁶ T",
+        "6 × 10⁻⁵ T",
+        "6 × 10⁻⁷ T",
+        "6 × 10⁻⁴ T"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Ampere's law, B = μ₀I/(2πr) = (4π × 10⁻⁷ × 3)/(2π × 0.1) = (12π × 10⁻⁷)/(0.2π) = 6 × 10⁻⁶ T."
+    },
+    {
+      "id": 65,
+      "question": "To reduce the transmitted light intensity to half when using two polaroids initially set for maximum transmission, the angle of rotation should be:",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Malus's law, I = I₀cos²θ. For I = I₀/2, we need cos²θ = 1/2, so cosθ = 1/√2, which gives θ = 45°."
+    },
+    {
+      "id": 66,
+      "question": "To reduce the transmitted light intensity to zero when using two polaroids initially set for maximum transmission, the angle of rotation should be:",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "According to Malus's law, I = I₀cos²θ. For I = 0, we need cos²θ = 0, so cosθ = 0, which gives θ = 90°. When polaroids are crossed (perpendicular), no light passes through."
+    },
+    {
+      "id": 67,
+      "question": "A radioactive substance decays to 1/32 of its activity in 25 days. Its half-life is:",
+      "options": [
+        "5 days",
+        "10 days",
+        "15 days",
+        "20 days"
+      ],
+      "correctAnswer": 0,
+      "explanation": "1/32 = (1/2)⁵, so 5 half-lives have elapsed. If 5T₁/₂ = 25 days, then T₁/₂ = 5 days."
+    },
+    {
+      "id": 68,
+      "question": "The EMF induced in a metallic rod of length l rotating with frequency ν in a uniform magnetic field B perpendicular to the plane of rotation is:",
+      "options": [
+        "Blν",
+        "Bl²ν",
+        "πBl²ν",
+        "2πBl²ν"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When a rod of length l rotates about one end with angular frequency ω = 2πν in a magnetic field B, the induced EMF is ε = (1/2)Bωl² = (1/2)B(2πν)l² = πBl²ν."
+    },
+    {
+      "id": 69,
+      "question": "If the current through a device X is I = I₀sin(ωt - π/2) when voltage V = V₀sinωt is applied, the device X is:",
+      "options": [
+        "Resistor",
+        "Capacitor",
+        "Inductor",
+        "Diode"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The current lags behind voltage by π/2 (90°). This is characteristic of an inductor. In an inductor, the induced EMF opposes the change in current, causing the current to lag behind the applied voltage by 90°."
+    },
+    {
+      "id": 70,
+      "question": "The reactance of an inductor of inductance L at angular frequency ω is:",
+      "options": [
+        "L/ω",
+        "ωL",
+        "1/(ωL)",
+        "ω/L"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The inductive reactance XL = ωL = 2πfL. It represents the opposition to current flow in an AC circuit due to inductance and increases with frequency."
+    },
+    {
+      "id": 71,
+      "question": "A rectifier is a device that converts:",
+      "options": [
+        "DC to AC",
+        "AC to DC",
+        "Low voltage to high voltage",
+        "High voltage to low voltage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A rectifier converts alternating current (AC) to direct current (DC). It uses the unidirectional conduction property of diodes to allow current flow in only one direction."
+    },
+    {
+      "id": 72,
+      "question": "The characteristic of a p-n junction that makes it suitable for use as a rectifier is:",
+      "options": [
+        "It has high resistance",
+        "It has low resistance",
+        "It conducts current in only one direction",
+        "It can amplify signals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A p-n junction diode conducts current only when forward biased and blocks current when reverse biased. This unidirectional conduction makes it ideal for rectification, converting AC (which flows in both directions) to DC (which flows in one direction)."
+    },
+    {
+      "id": 73,
+      "question": "To remove fluctuations from the output of a rectifier, we use:",
+      "options": [
+        "Resistor",
+        "Capacitor filter",
+        "Transistor",
+        "Transformer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A capacitor filter is used to smooth the pulsating DC output of a rectifier. The capacitor charges during peaks and discharges during troughs, reducing the ripple and producing a more constant DC output."
+    },
+    {
+      "id": 74,
+      "question": "The Boolean expression for NOT gate is:",
+      "options": [
+        "Y = A·B",
+        "Y = A + B",
+        "Y = Ā",
+        "Y = A ⊕ B"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The NOT gate (inverter) gives an output that is the complement of the input. If input is A, output Y = Ā (A bar or NOT A). When A = 0, Y = 1; when A = 1, Y = 0."
+    },
+    {
+      "id": 75,
+      "question": "The truth table of NOT gate shows that:",
+      "options": [
+        "Output is same as input",
+        "Output is complement of input",
+        "Output is always 1",
+        "Output is always 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The NOT gate inverts the input. Truth table: When input A = 0, output Y = 1; when input A = 1, output Y = 0. The output is always the complement (opposite) of the input."
+    }
+  ]
+}
